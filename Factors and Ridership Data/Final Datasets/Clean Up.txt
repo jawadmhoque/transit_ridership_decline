@@ -1,0 +1,34 @@
+High priority clean up
+
+1. Plot TOT_EMP_MSA instead of Tot_Emp_TSD.  
+
+2. Plot AVG_SPEED instead of Tot_Pop_TSD. 
+
+3. Check places where Population/Census data stops/goes to zero.  Pascagoula, MS for example. 
+
+4. Add title to charts. 
+
+5. Why is Chicago-Joliet-Naperville missing Census data for most years? 
+
+6. .fillna(0) for dockCt, docklessCt, scooterCt.  
+
+7. TNC flag is missing in Chicago.  Why is this? Others missing or strange:
+
+    - Check biggest cites
+    - Interpolate smaller cities based on what we did today. 
+    
+8. Income percentages always go to zero in 2018. 
+
+9. Total population goes to zero in 2018.  Check or extrapolate. 
+
+10. Check Springfield IL.  
+
+
+Lower priority clean-up
+
+1. Drop temporary and unused field.  UPT_ADJ, etc. Total_Pop_Poverty
+
+2. Standardize names:  SHARE or PCT
+
+3. Check zero data in poverty measures 
+

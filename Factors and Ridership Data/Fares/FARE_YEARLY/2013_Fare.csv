@@ -1,0 +1,1823 @@
+NTD_ID,Agency,SSW,Mode,TOS,2013
+1,King County Department of Transportation - Metro Transit Division,N,CB,PT,14583312.00
+1,King County Department of Transportation - Metro Transit Division,N,DR,PT,750659.00
+1,King County Department of Transportation - Metro Transit Division,N,DT,PT,509850.00
+1,King County Department of Transportation - Metro Transit Division,N,LR,PT,14845952.00
+1,King County Department of Transportation - Metro Transit Division,N,MB,DO,122535567.00
+1,King County Department of Transportation - Metro Transit Division,N,MB,PT,277338.00
+1,King County Department of Transportation - Metro Transit Division,N,SR,DO,761610.00
+1,King County Department of Transportation - Metro Transit Division,N,TB,DO,23166653.00
+1,King County Department of Transportation - Metro Transit Division,N,VP,DO,11487561.00
+2,Spokane Transit Authority,N,DR,DO,444397.00
+2,Spokane Transit Authority,N,DR,PT,190595.00
+2,Spokane Transit Authority,N,MB,DO,9019785.00
+2,Spokane Transit Authority,N,VP,DO,709604.00
+3,Pierce County Transportation Benefit Area Authority,N,CB,PT,9514733.00
+3,Pierce County Transportation Benefit Area Authority,N,DR,DO,95710.00
+3,Pierce County Transportation Benefit Area Authority,N,DR,PT,169952.00
+3,Pierce County Transportation Benefit Area Authority,N,MB,DO,8952627.00
+3,Pierce County Transportation Benefit Area Authority,N,VP,DO,3047890.00
+5,Everett Transit,N,DR,DO,106263.00
+5,Everett Transit,N,MB,DO,1507463.00
+6,Yakima Transit,N,DR,PT,118499.00
+6,Yakima Transit,N,MB,DO,873269.00
+6,Yakima Transit,N,VP,DO,255610.00
+7,Lane Transit District,N,DR,PT,288504.00
+7,Lane Transit District,N,DT,PT,0.00
+7,Lane Transit District,N,MB,DO,5254293.00
+7,Lane Transit District,N,MB,PT,38594.00
+7,Lane Transit District,N,RB,DO,1660015.00
+7,Lane Transit District,N,VP,PT,127274.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,DR,PT,3708623.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,DT,PT,431486.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,LR,DO,46442818.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,MB,DO,63818606.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,SR,PT,363170.00
+8,Tri-County Metropolitan Transportation District of Oregon,N,YR,PT,467838.00
+11,Valley Regional Transit,N,DR,DO,86154.00
+11,Valley Regional Transit,N,MB,DO,906723.00
+12,Municipality of Anchorage - Public Transportation Department,N,DR,PT,1237847.00
+12,Municipality of Anchorage - Public Transportation Department,N,MB,DO,4265961.00
+12,Municipality of Anchorage - Public Transportation Department,N,VP,PT,643117.00
+16,RiverCities Transit,N,DR,PT,20288.00
+16,RiverCities Transit,N,MB,DO,123942.00
+18,Ben Franklin Transit,N,DR,DO,261144.00
+18,Ben Franklin Transit,N,DR,PT,31275.00
+18,Ben Franklin Transit,N,DT,PT,99954.00
+18,Ben Franklin Transit,N,MB,DO,1277604.00
+18,Ben Franklin Transit,N,VP,DO,2156253.00
+19,Intercity Transit,N,CB,DO,387089.00
+19,Intercity Transit,N,CB,PT,13027.00
+19,Intercity Transit,N,DR,DO,210126.00
+19,Intercity Transit,N,MB,DO,2463042.00
+19,Intercity Transit,N,VP,DO,1845933.00
+20,Kitsap Transit,N,DR,DO,298168.00
+20,Kitsap Transit,N,DT,PT,248.00
+20,Kitsap Transit,N,FB,PT,779834.00
+20,Kitsap Transit,N,MB,DO,5145340.00
+20,Kitsap Transit,N,VP,DO,589039.00
+21,Whatcom Transportation Authority,N,DR,DO,76441.00
+21,Whatcom Transportation Authority,N,DT,PT,137.00
+21,Whatcom Transportation Authority,N,MB,DO,1859314.00
+21,Whatcom Transportation Authority,N,VP,DO,216962.00
+22,City of Pocatello - Pocatello Regional Transit,Y,DR,DO,47470.00
+22,City of Pocatello - Pocatello Regional Transit,Y,MB,DO,90075.00
+23,City of Seattle - Seattle Center Monorail Transit,N,MG,PT,3991266.00
+24,Clark County Public Transportation Benefit Area Authority,N,CB,DO,3473078.00
+24,Clark County Public Transportation Benefit Area Authority,N,DR,DO,378198.00
+24,Clark County Public Transportation Benefit Area Authority,N,MB,DO,3920025.00
+24,Clark County Public Transportation Benefit Area Authority,N,VP,DO,199799.00
+25,Salem Area Mass Transit District,N,DR,PT,198154.00
+25,Salem Area Mass Transit District,N,MB,DO,2358925.00
+25,Salem Area Mass Transit District,N,VP,PT,182063.00
+28,Pierce County Ferry Operations,N,FB,PT,2000989.00
+29,Snohomish County Public Transportation Benefit Area Corporation,N,CB,DO,3476786.00
+29,Snohomish County Public Transportation Benefit Area Corporation,N,CB,PT,13818603.00
+29,Snohomish County Public Transportation Benefit Area Corporation,N,DR,PT,318984.00
+29,Snohomish County Public Transportation Benefit Area Corporation,N,MB,DO,7467102.00
+29,Snohomish County Public Transportation Benefit Area Corporation,N,VP,DO,2752805.00
+34,Rogue Valley Transportation District,N,DR,PT,123970.00
+34,Rogue Valley Transportation District,N,MB,DO,1326362.00
+35,Washington State Ferries,N,FB,DO,37615750.00
+40,Central Puget Sound Regional Transit Authority,N,CB,DO,24111072.00
+40,Central Puget Sound Regional Transit Authority,N,CB,PT,8503041.00
+40,Central Puget Sound Regional Transit Authority,N,CR,PT,9484285.00
+40,Central Puget Sound Regional Transit Authority,N,LR,DO,14845952.00
+40,Central Puget Sound Regional Transit Authority,N,SR,DO,0.00
+41,Alaska Railroad Corporation,N,AR,DO,15470981.00
+42,Targhee Regional Public Transit Authority,Y,DR,DO,55962.00
+42,Targhee Regional Public Transit Authority,Y,MB,DO,19332.00
+43,Link Transit,N,DR,DO,42568.00
+43,Link Transit,N,DR,PT,1712.00
+43,Link Transit,N,MB,DO,668616.00
+44,Skagit Transit,N,CB,DO,152964.00
+44,Skagit Transit,N,DR,DO,7478.00
+44,Skagit Transit,N,MB,DO,318008.00
+44,Skagit Transit,N,VP,DO,492806.00
+45,Fairbanks North Star Borough Transit,Y,DR,DO,36351.00
+45,Fairbanks North Star Borough Transit,Y,MB,DO,253234.00
+46,South Metro Area Regional Transit,Y,DR,DO,6459.00
+46,South Metro Area Regional Transit,Y,MB,DO,217472.00
+47,City of Corvallis,N,DR,PT,0.00
+47,City of Corvallis,N,MB,PT,0.00
+48,Lewiston Transit System,Y,DR,DO,12229.00
+48,Lewiston Transit System,Y,MB,DO,27674.00
+49,"vRide, Inc. - Anchorage",N,VP,DO,643117.00
+51,Asotin County PTBA,Y,DR,DO,7144.00
+51,Asotin County PTBA,Y,MB,DO,30058.00
+51,Asotin County PTBA,Y,VP,DO,73817.00
+53,Coeur d'Alene Tribe dba Citylink Transit,Y,DR,DO,0.00
+53,Coeur d'Alene Tribe dba Citylink Transit,Y,MB,DO,0.00
+54,King County Ferry District,N,FB,DO,1625208.00
+55,Kootenai County,Y,DR,PT,0.00
+55,Kootenai County,Y,MB,PT,0.00
+57,Central Oregon Intergovernmental Council,N,CB,DO,162135.00
+57,Central Oregon Intergovernmental Council,N,DR,DO,77995.00
+57,Central Oregon Intergovernmental Council,N,DR,PT,63506.00
+57,Central Oregon Intergovernmental Council,N,MB,PT,213357.00
+58,City of Portland,N,SR,PT,363170.00
+58,City of Portland,N,TR,PT,415880.00
+59,Josephine County,Y,CB,DO,35587.00
+59,Josephine County,Y,DR,DO,31626.00
+59,Josephine County,Y,MB,DO,80710.00
+60,The Tulalip Tribes of Washington,Y,MB,DO,0.00
+61,City of Albany,Y,DR,DO,24764.00
+61,City of Albany,Y,MB,DO,53178.00
+63,City of Milton-Freewater,Y,DT,PT,7541.00
+63,City of Milton-Freewater,Y,MB,PT,7343.00
+64,Valley Transit,Y,DR,DO,25673.00
+64,Valley Transit,Y,MB,DO,219008.00
+64,Valley Transit,Y,VP,DO,36583.00
+65,Benton County,Y,CB,PT,39997.00
+65,Benton County,Y,DR,PT,33523.00
+1001,Rhode Island Public Transit Authority,N,DR,DO,772852.00
+1001,Rhode Island Public Transit Authority,N,DR,PT,58708.00
+1001,Rhode Island Public Transit Authority,N,DT,PT,85234.00
+1001,Rhode Island Public Transit Authority,N,MB,DO,21547853.00
+1002,Manchester Transit Authority,Y,DR,DO,37737.00
+1002,Manchester Transit Authority,Y,MB,DO,566814.00
+1003,Massachusetts Bay Transportation Authority,N,CR,PT,168961201.00
+1003,Massachusetts Bay Transportation Authority,N,DR,PT,7318243.00
+1003,Massachusetts Bay Transportation Authority,N,FB,PT,6386225.00
+1003,Massachusetts Bay Transportation Authority,N,HR,DO,191852484.00
+1003,Massachusetts Bay Transportation Authority,N,LR,DO,89940323.00
+1003,Massachusetts Bay Transportation Authority,N,MB,DO,96676230.00
+1003,Massachusetts Bay Transportation Authority,N,MB,PT,454784.00
+1003,Massachusetts Bay Transportation Authority,N,TB,DO,3355979.00
+1004,Brockton Area Transit Authority,N,DR,PT,1113745.00
+1004,Brockton Area Transit Authority,N,MB,PT,2628197.00
+1005,Lowell Regional Transit Authority,N,DR,DO,49322.00
+1005,Lowell Regional Transit Authority,N,DR,PT,68531.00
+1005,Lowell Regional Transit Authority,N,MB,PT,1152693.00
+1006,Southeastern Regional Transit Authority,N,DR,PT,140451.00
+1006,Southeastern Regional Transit Authority,N,MB,PT,1982337.00
+1007,Berkshire Regional Transit Authority,N,DR,PT,128460.00
+1007,Berkshire Regional Transit Authority,N,MB,PT,792765.00
+1008,Pioneer Valley Transit Authority,N,DR,PT,668227.00
+1008,Pioneer Valley Transit Authority,N,MB,PT,6738204.00
+1013,Merrimack Valley Regional Transit Authority,N,CB,PT,212457.00
+1013,Merrimack Valley Regional Transit Authority,N,DR,PT,154329.00
+1013,Merrimack Valley Regional Transit Authority,N,MB,PT,1329779.00
+1014,Worcester Regional Transit Authority,N,DR,DO,75813.00
+1014,Worcester Regional Transit Authority,N,DR,PT,134987.00
+1014,Worcester Regional Transit Authority,N,DT,PT,103259.00
+1014,Worcester Regional Transit Authority,N,MB,DO,3353939.00
+1015,Lewiston-Auburn Transit Committee,Y,DR,PT,31872.00
+1015,Lewiston-Auburn Transit Committee,Y,MB,PT,196603.00
+1016,Greater Portland Transit District,N,MB,DO,1809031.00
+1017,Greater Hartford Transit District,N,DR,PT,395032.00
+1040,Southeast Area Transit,N,DR,PT,11367.00
+1040,Southeast Area Transit,N,MB,DO,1227066.00
+1042,Valley Transit District,N,DR,DO,62114.00
+1045,Connecticut Department of Transportation - CTTransit New Britain -Dattco.,N,CB,PT,542618.00
+1045,Connecticut Department of Transportation - CTTransit New Britain -Dattco.,N,MB,PT,145911.00
+1048,Connecticut Department of Transportation - CTTRANSIT - Hartford Division,N,MB,DO,13196107.00
+1049,The Greater New Haven Transit District,N,DR,DO,195745.00
+1049,The Greater New Haven Transit District,N,MB,DO,3779.00
+1050,Greater Bridgeport Transit Authority,N,DR,PT,279759.00
+1050,Greater Bridgeport Transit Authority,N,MB,DO,5805440.00
+1051,Housatonic Area Regional Transit ,N,DR,DO,75344.00
+1051,Housatonic Area Regional Transit ,N,MB,DO,781884.00
+1053,Cape Ann Transportation Authority,N,DR,PT,32151.00
+1053,Cape Ann Transportation Authority,N,MB,PT,153824.00
+1055,Connecticut Department of Transportation - CTTRANSIT New Haven Division,N,MB,DO,8840516.00
+1056,Connecticut Department of Transportation - CTTRANSIT Stamford Division,N,MB,DO,4178213.00
+1057,Norwalk Transit District,N,DR,DO,133170.00
+1057,Norwalk Transit District,N,DR,PT,145960.00
+1057,Norwalk Transit District,N,MB,DO,1779407.00
+1057,Norwalk Transit District,N,MB,PT,64031.00
+1061,Montachusett Regional Transit Authority,N,DR,PT,1979342.00
+1061,Montachusett Regional Transit Authority,N,DT,PT,9307.00
+1061,Montachusett Regional Transit Authority,N,MB,PT,603462.00
+1063,Middletown Transit District,N,DR,DO,34861.00
+1063,Middletown Transit District,N,MB,DO,287383.00
+1064,Greater Attleboro-Taunton Regional Transit Authority,N,CB,PT,700363.00
+1064,Greater Attleboro-Taunton Regional Transit Authority,N,DR,PT,272094.00
+1064,Greater Attleboro-Taunton Regional Transit Authority,N,MB,PT,715190.00
+1066,Chittenden County Transportation Authority,N,CB,DO,592664.00
+1066,Chittenden County Transportation Authority,N,DR,PT,131258.00
+1066,Chittenden County Transportation Authority,N,MB,DO,1998496.00
+1069,"Regional Transportation Program, Inc.",N,DR,DO,1731127.00
+1086,Cooperative Alliance for Seacoast Transportation,Y,DR,DO,35626.00
+1086,Cooperative Alliance for Seacoast Transportation,Y,MB,DO,538526.00
+1087,Nashua Transit System,N,DR,PT,34519.00
+1087,Nashua Transit System,N,MB,PT,382606.00
+1088,Casco Bay Island Transit District,N,FB,DO,2306271.00
+1096,City of Bangor - BAT Community Connector,Y,MB,DO,852377.00
+1098,"Western Maine Transportation Services, Inc.",Y,DR,DO,51202.00
+1098,"Western Maine Transportation Services, Inc.",Y,MB,DO,0.00
+1099,York County Community Action Corporation,Y,DR,DO,72346.00
+1102,Connecticut Department of Transportation,N,CB,PT,825041.00
+1102,Connecticut Department of Transportation,N,CR,PT,2219842.00
+1105,Cape Cod Regional Transit Authority,N,CB,PT,419402.00
+1105,Cape Cod Regional Transit Authority,N,DR,PT,4271467.00
+1105,Cape Cod Regional Transit Authority,N,DT,PT,2974888.00
+1105,Cape Cod Regional Transit Authority,N,MB,PT,955852.00
+1107,Milford Transit District,N,DR,DO,369281.00
+1107,Milford Transit District,N,MB,DO,239895.00
+1108,Greater Hartford Ridesharing Corporation - The Rideshare Company,N,VP,DO,3792736.00
+1112,South Portland Bus Service,Y,MB,DO,307331.00
+1114,Biddeford-Saco-Old Orchard Beach Transit Committee Shuttle Bus,Y,MB,DO,396484.00
+1115,Northern New England Passenger Rail Authority,N,CR,PT,8117252.00
+1117,Plymouth & Brockton Street Railway Company,N,CB,DO,6403628.00
+1118,MetroWest Regional Transit Authority,N,DR,PT,194355.00
+1118,MetroWest Regional Transit Authority,N,MB,PT,450975.00
+1119,University Of New Hampshire - University Transportation Services,N,MB,DO,1497722.00
+1122,"Jalbert Leasing, Inc. dba C&J",Y,CB,DO,9854932.00
+1123,Greater Derry Salem Cooperative Alliance for Regional Transportation,Y,DR,PT,28426.00
+1123,Greater Derry Salem Cooperative Alliance for Regional Transportation,Y,MB,PT,0.00
+1125,Berkshire Regional Transit Authority Council on Aging,Y,DR,PT,188276.00
+1126,Worcester Regional Transit Authority COA,N,DR,PT,52886.00
+1128,Connecticut Department of Transportation- CTTransit Waterbury- NET,N,DR,PT,207324.00
+1128,Connecticut Department of Transportation- CTTransit Waterbury- NET,N,MB,PT,1991799.00
+1130,Connecticut Department of Transportation -CTTRANSIT New Britain ,N,MB,PT,603754.00
+1132,State of Connecticut - CTTransit - Nason - Torrington-Winsted,Y,CB,PT,68669.00
+1133,"Boston Express Bus, Inc.",Y,CB,DO,5570922.00
+2002,Capital District Transportation Authority,N,CB,PT,711466.00
+2002,Capital District Transportation Authority,N,DR,DO,471796.00
+2002,Capital District Transportation Authority,N,DT,PT,479253.00
+2002,Capital District Transportation Authority,N,MB,DO,15073710.00
+2002,Capital District Transportation Authority,N,VP,PT,112659.00
+2003,Broome County Department of Public Transportation,N,DR,DO,252608.00
+2003,Broome County Department of Public Transportation,N,DR,PT,187550.00
+2003,Broome County Department of Public Transportation,N,MB,DO,2463068.00
+2004,Niagara Frontier Transportation Authority,N,DR,DO,596788.00
+2004,Niagara Frontier Transportation Authority,N,LR,DO,5425359.00
+2004,Niagara Frontier Transportation Authority,N,MB,DO,30466540.00
+2005,C-TRAN,Y,DR,PT,266975.00
+2005,C-TRAN,Y,MB,PT,705715.00
+2006,City of Long Beach,N,DR,DO,7200.00
+2006,City of Long Beach,N,MB,DO,428919.00
+2008,MTA New York City Transit,N,CB,DO,75755534.00
+2008,MTA New York City Transit,N,DR,PT,11554081.00
+2008,MTA New York City Transit,N,HR,DO,3030746003.00
+2008,MTA New York City Transit,N,MB,DO,849967678.00
+2008,MTA New York City Transit,N,RB,DO,15339319.00
+2009,City of Poughkeepsie,N,MB,DO,417713.00
+2010,Dutchess County Division of Mass Transportation,N,DR,DO,42059.00
+2010,Dutchess County Division of Mass Transportation,N,MB,DO,700470.00
+2018,"CNY Centro, Inc. ",N,DR,DO,247432.00
+2018,"CNY Centro, Inc. ",N,DR,PT,173305.00
+2018,"CNY Centro, Inc. ",N,DT,PT,29374.00
+2018,"CNY Centro, Inc. ",N,MB,DO,12930443.00
+2071,Huntington Area Rapid Transit,N,DR,DO,87560.00
+2071,Huntington Area Rapid Transit,N,MB,DO,153151.00
+2072,Suffolk County Department of Public Works - Transportation Division,N,DR,PT,1792098.00
+2072,Suffolk County Department of Public Works - Transportation Division,N,MB,PT,8349877.00
+2075,Port Authority Transit Corporation,N,HR,DO,26024064.00
+2076,Westchester County Bee-Line System,N,DR,PT,902900.00
+2076,Westchester County Bee-Line System,N,MB,PT,48572092.00
+2078,"Metro-North Commuter Railroad Company, dba: MTA Metro-North Railroad",N,CR,DO,618811587.00
+2078,"Metro-North Commuter Railroad Company, dba: MTA Metro-North Railroad",N,FB,PT,236523.00
+2078,"Metro-North Commuter Railroad Company, dba: MTA Metro-North Railroad",N,MB,PT,429712.00
+2080,New Jersey Transit Corporation,N,CR,DO,491448121.00
+2080,New Jersey Transit Corporation,N,DR,PT,2251051.00
+2080,New Jersey Transit Corporation,N,LR,DO,4593879.00
+2080,New Jersey Transit Corporation,N,LR,PT,14890529.00
+2080,New Jersey Transit Corporation,N,MB,DO,349614720.00
+2080,New Jersey Transit Corporation,N,MB,PT,12473841.00
+2080,New Jersey Transit Corporation,N,VP,PT,2508332.00
+2080,New Jersey Transit Corporation,N,YR,PT,2399152.00
+2082,New York City Department of Transportation,N,FB,DO,0.00
+2082,New York City Department of Transportation,N,MB,PT,3036546.00
+2084,Transport of Rockland,N,MB,PT,4021208.00
+2085,Clarkstown Mini-Trans,Y,MB,DO,67193.00
+2086,Transportation Resources Intra-County for Physically Handicapped and Senior Citizens,Y,DR,DO,99828.00
+2089,Village of Spring Valley Bus,Y,MB,DO,6859.00
+2096,Putnam County Transit,N,DR,PT,65088.00
+2096,Putnam County Transit,N,MB,PT,227935.00
+2098,Port Authority Trans-Hudson Corporation,N,FB,PT,7832665.00
+2098,Port Authority Trans-Hudson Corporation,N,HR,DO,141335701.00
+2099,"Staten Island Rapid Transit Operating Authority, dba: MTA Staten Island Railway",N,HR,DO,7263031.00
+2100,MTA Long Island Rail Road,N,CR,DO,632186606.00
+2113,"Regional Transit Service, Inc. and Lift Line, Inc.",N,DR,DO,312022.00
+2113,"Regional Transit Service, Inc. and Lift Line, Inc.",N,MB,DO,23797687.00
+2116,"Centro of Cayuga, Inc.",N,MB,DO,434916.00
+2120,Greater Glens Falls Transit System,Y,DR,DO,6548.00
+2120,Greater Glens Falls Transit System,Y,MB,DO,280395.00
+2122,"Academy Lines, Inc.",N,CB,DO,39836215.00
+2126,"Hudson Transit Lines, Inc.",N,CB,DO,49704867.00
+2128,Suburban Transit Corporation,N,CB,DO,27244479.00
+2132,New Jersey Transit Corporation-45,N,MB,DO,10034922.00
+2135,Monsey New Square Trails Corporation,N,CB,DO,3551845.00
+2137,Monroe Bus Corporation,N,CB,DO,2472584.00
+2143,Town of Newburgh,Y,DR,DO,2723.00
+2145,Tompkins Consolidated Area Transit,N,DR,PT,74178.00
+2145,Tompkins Consolidated Area Transit,N,MB,DO,4165832.00
+2145,Tompkins Consolidated Area Transit,N,VP,PT,27360.00
+2148,Newburgh Beacon Bus Corporation,Y,DR,DO,22035.00
+2148,Newburgh Beacon Bus Corporation,Y,MB,DO,161395.00
+2149,"Rockland Coaches, Inc.",N,CB,DO,17106577.00
+2158,Tioga County,Y,DR,PT,20817.00
+2158,Tioga County,Y,MB,PT,117967.00
+2160,"Community Transit, Inc. ",N,CB,DO,4366777.00
+2161,DeCamp Bus Lines,N,CB,DO,13271229.00
+2163,"Lakeland Bus Lines, Inc.",N,CB,DO,16143583.00
+2165,"Olympia Trails Bus Company, Inc.",N,CB,DO,8436750.00
+2166,"Orange-Newark-Elizabeth, Inc.",N,MB,DO,16883604.00
+2169,"Trans-Bridge Lines, Inc. ",N,CB,DO,22100700.00
+2172,"Centro of Oswego, Inc.",N,MB,DO,518388.00
+2175,Private Transportation Corporation,N,MB,PT,1045937.00
+2176,Kaser Bus Service,Y,MB,PT,278401.00
+2177,"Adirondack Transit Lines, Inc,",N,CB,DO,10160553.00
+2178,Ulster County Area Transit,N,DR,DO,30397.00
+2178,Ulster County Area Transit,N,MB,DO,451037.00
+2179,"Hendrick Hudson Bus Lines, Inc.",Y,CB,DO,224479.00
+2182,Town of Highlands Dial-A-Bus,Y,DR,DO,2154.00
+2183,Town of Monroe Dial-A-Bus,Y,DR,DO,16410.00
+2185,"Centro of Oneida, Inc.",N,DR,DO,57269.00
+2185,"Centro of Oneida, Inc.",N,MB,DO,1111053.00
+2187,Village of Kiryas Joel,Y,MB,DO,95828.00
+2188,MTA Bus Company,N,MB,DO,199186670.00
+2189,"BillyBey Ferry Company, LLC",N,FB,DO,8645200.00
+2190,Port Imperial Ferry Corporation dba NY Waterway,N,FB,DO,38099146.00
+2190,Port Imperial Ferry Corporation dba NY Waterway,N,MB,DO,1028677.00
+2191,City of Kingston Citibus,Y,DR,DO,12848.00
+2191,City of Kingston Citibus,Y,MB,DO,81520.00
+2192,Bergen County Community Transportation,N,DR,DO,0.00
+2192,Bergen County Community Transportation,N,MB,DO,0.00
+2193,Cumberland Area Transit System,N,DR,DO,0.00
+2194,East Windsor Township,Y,DR,DO,974.00
+2194,East Windsor Township,Y,MB,PT,9443.00
+2195,Gloucester County Division of Transportation Services ,Y,DR,DO,0.00
+2195,Gloucester County Division of Transportation Services ,Y,DT,PT,0.00
+2195,Gloucester County Division of Transportation Services ,Y,MB,DO,0.00
+2196,Middlesex County Area Transit,N,DR,DO,157908.00
+2196,Middlesex County Area Transit,N,DT,PT,0.00
+2196,Middlesex County Area Transit,N,MB,DO,104464.00
+2197,"Meadowlands Transportation Brokerage Corporation, dba Meadowlink",Y,DR,DO,53137.00
+2197,"Meadowlands Transportation Brokerage Corporation, dba Meadowlink",Y,MB,DO,738048.00
+2198,"TransOptions, Inc. ",Y,MB,PT,3047.00
+2199,County of Atlantic,N,DR,DO,0.00
+2200,South Jersey Transportation Authority,Y,DR,DO,0.00
+2200,South Jersey Transportation Authority,Y,MB,DO,0.00
+2201,County of Cumberland,Y,MB,DO,0.00
+2202,Essex County Division of Training and Employment,Y,DR,PT,0.00
+2203,Cape May County Fare Free Transportation,N,DR,DO,0.00
+2204,"Senior Citizens United Community Services of Camden County, Inc.",Y,DR,DO,16148.00
+2206,Nassau Inter County Express,N,DR,PT,1103507.00
+2206,Nassau Inter County Express,N,MB,PT,44105826.00
+2207,Hudson Transportation Management Association,Y,MB,PT,47784.00
+2208,County of Burlington,Y,MB,PT,141036.00
+2209,Somerset County Transportation,N,DR,DO,930400.00
+2209,Somerset County Transportation,N,MB,DO,245448.00
+2210,County of Morris,Y,DR,DO,0.00
+2211,County of Mercer,Y,MB,DO,0.00
+2212,County of Hunterdon,N,DR,PT,311380.00
+2212,County of Hunterdon,N,MB,PT,13513.00
+2213,City of Mechanicville,Y,MB,DO,543.00
+2214,Town of Warwick Dial A Bus,Y,DR,DO,41075.00
+2215,Watertown CitiBus,Y,DR,PT,24104.00
+2215,Watertown CitiBus,Y,MB,DO,134510.00
+3001,Kanawha Valley Regional Transportation Authority,N,DR,DO,49447.00
+3001,Kanawha Valley Regional Transportation Authority,N,MB,DO,2036117.00
+3002,The Tri-State Transit Authority,N,DR,DO,104074.00
+3002,The Tri-State Transit Authority,N,MB,DO,750000.00
+3003,Mid-Ohio Valley Transit Authority,Y,DR,DO,848.00
+3003,Mid-Ohio Valley Transit Authority,Y,MB,DO,170453.00
+3006,Greater Richmond Transit Company,N,DR,PT,641325.00
+3006,Greater Richmond Transit Company,N,MB,DO,9637643.00
+3006,Greater Richmond Transit Company,N,VP,PT,1829916.00
+3007,Greater Roanoke Transit Company,N,CB,DO,27708.00
+3007,Greater Roanoke Transit Company,N,DR,PT,167319.00
+3007,Greater Roanoke Transit Company,N,MB,DO,2033978.00
+3008,Greater Lynchburg Transit Company,N,DR,DO,88804.00
+3008,Greater Lynchburg Transit Company,N,MB,DO,994655.00
+3009,Petersburg Area Transit,Y,DR,DO,9377.00
+3009,Petersburg Area Transit,Y,MB,DO,509894.00
+3010,Lehigh and Northampton Transportation Authority,N,DR,PT,829161.00
+3010,Lehigh and Northampton Transportation Authority,N,MB,DO,4345632.00
+3011,Altoona Metro Transit,N,DR,DO,860.00
+3011,Altoona Metro Transit,N,DR,PT,36966.00
+3011,Altoona Metro Transit,N,MB,DO,748315.00
+3012,Cambria County Transit Authority,N,DR,DO,649209.00
+3012,Cambria County Transit Authority,N,DR,PT,0.00
+3012,Cambria County Transit Authority,N,IP,DO,130011.00
+3012,Cambria County Transit Authority,N,MB,DO,782080.00
+3013,Erie Metropolitan Transit Authority,N,DR,DO,3970537.00
+3013,Erie Metropolitan Transit Authority,N,MB,DO,2616276.00
+3014,Cumberland Dauphin-Harrisburg Transit Authority - (DBA Capital Area Transit),N,DR,DO,1057519.00
+3014,Cumberland Dauphin-Harrisburg Transit Authority - (DBA Capital Area Transit),N,DR,PT,64085.00
+3014,Cumberland Dauphin-Harrisburg Transit Authority - (DBA Capital Area Transit),N,MB,DO,3225900.00
+3014,Cumberland Dauphin-Harrisburg Transit Authority - (DBA Capital Area Transit),N,MB,PT,119585.00
+3015,Luzerne County Transportation Authority,N,DR,DO,173203.00
+3015,Luzerne County Transportation Authority,N,DR,PT,0.00
+3015,Luzerne County Transportation Authority,N,MB,DO,1088483.00
+3018,Red Rose Transit Authority,N,DR,PT,268127.00
+3018,Red Rose Transit Authority,N,MB,DO,2682688.00
+3019,Southeastern Pennsylvania Transportation Authority,N,CR,DO,137432299.00
+3019,Southeastern Pennsylvania Transportation Authority,N,DR,PT,5919444.00
+3019,Southeastern Pennsylvania Transportation Authority,N,HR,DO,95724944.00
+3019,Southeastern Pennsylvania Transportation Authority,N,MB,DO,172205416.00
+3019,Southeastern Pennsylvania Transportation Authority,N,SR,DO,30589805.00
+3019,Southeastern Pennsylvania Transportation Authority,N,TB,DO,5608233.00
+3022,Port Authority of Allegheny County,N,DR,PT,11084156.00
+3022,Port Authority of Allegheny County,N,IP,DO,892269.00
+3022,Port Authority of Allegheny County,N,LR,DO,9786533.00
+3022,Port Authority of Allegheny County,N,MB,DO,78769406.00
+3023,Beaver County Transit Authority,N,DR,DO,844893.00
+3023,Beaver County Transit Authority,N,MB,DO,1429714.00
+3024,Berks Area Reading Transportation Authority,N,DR,DO,451114.00
+3024,Berks Area Reading Transportation Authority,N,DR,PT,174225.00
+3024,Berks Area Reading Transportation Authority,N,MB,DO,2810217.00
+3025,County of Lackawanna Transit System,N,DR,DO,37918.00
+3025,County of Lackawanna Transit System,N,DR,PT,630.00
+3025,County of Lackawanna Transit System,N,MB,DO,1141234.00
+3025,County of Lackawanna Transit System,N,MB,PT,17225.00
+3026,Williamsport Bureau of Transportation,N,DR,DO,788.00
+3026,Williamsport Bureau of Transportation,N,DR,PT,2988.00
+3026,Williamsport Bureau of Transportation,N,MB,DO,843507.00
+3027,York County Transportation Authority,N,CB,DO,118883.00
+3027,York County Transportation Authority,N,CB,PT,253588.00
+3027,York County Transportation Authority,N,DR,DO,5075592.00
+3027,York County Transportation Authority,N,DR,PT,7627.00
+3027,York County Transportation Authority,N,DT,PT,7819.00
+3027,York County Transportation Authority,N,MB,DO,1467270.00
+3030,Washington Metropolitan Area Transit Authority,N,DR,PT,8014194.00
+3030,Washington Metropolitan Area Transit Authority,N,DT,PT,265805.00
+3030,Washington Metropolitan Area Transit Authority,N,HR,DO,605538195.00
+3030,Washington Metropolitan Area Transit Authority,N,MB,DO,138734157.00
+3030,Washington Metropolitan Area Transit Authority,N,MB,PT,3743298.00
+3034,Maryland Transit Administration,N,CB,PT,15744927.00
+3034,Maryland Transit Administration,N,CR,PT,42927037.00
+3034,Maryland Transit Administration,N,DR,DO,228939.00
+3034,Maryland Transit Administration,N,DR,PT,2390006.00
+3034,Maryland Transit Administration,N,DT,PT,224193.00
+3034,Maryland Transit Administration,N,HR,DO,12912287.00
+3034,Maryland Transit Administration,N,LR,DO,7341806.00
+3034,Maryland Transit Administration,N,MB,DO,57906253.00
+3035,Ohio Valley Regional Transportation Authority,N,DR,DO,13003.00
+3035,Ohio Valley Regional Transportation Authority,N,MB,DO,420165.00
+3036,Charlottesville Area Transit,Y,MB,DO,756570.00
+3040,Annapolis Department of Transportation,Y,DR,DO,5493.00
+3040,Annapolis Department of Transportation,Y,MB,DO,754785.00
+3041,Allegany County Transit,Y,DR,DO,40209.00
+3041,Allegany County Transit,Y,MB,DO,249803.00
+3042,Washington County Transit,Y,DR,DO,18119.00
+3042,Washington County Transit,Y,MB,DO,341379.00
+3044,Westmoreland County Transit Authority,N,DT,PT,66452.00
+3044,Westmoreland County Transit Authority,N,MB,PT,1226732.00
+3045,"JAUNT, Inc.",N,DR,DO,1072588.00
+3048,Howard Transit,N,DR,PT,180296.00
+3048,Howard Transit,N,MB,PT,886435.00
+3051,Ride-On Montgomery County Transit,N,MB,DO,21934919.00
+3053,Bristol Virginia Transit,Y,DR,DO,2320.00
+3053,Bristol Virginia Transit,Y,MB,DO,25594.00
+3054,Centre Area Transportation Authority,N,DR,PT,106295.00
+3054,Centre Area Transportation Authority,N,MB,DO,5841552.00
+3054,Centre Area Transportation Authority,N,VP,DO,351913.00
+3055,Shenango Valley Shuttle Service,N,DR,DO,111270.00
+3055,Shenango Valley Shuttle Service,N,MB,DO,47544.00
+3057,Pennsylvania Department of Transportation,N,CR,PT,10376663.00
+3058,City of Fairfax CUE Bus,N,MB,DO,1324232.00
+3061,Mid Mon Valley Transit Authority,N,DR,PT,3588.00
+3061,Mid Mon Valley Transit Authority,N,MB,PT,629524.00
+3066,Weirton Transit Corporation,Y,MB,DO,59155.00
+3068,Fairfax Connector Bus System,N,MB,PT,12766563.00
+3069,City of Danville Mass Transit System,Y,DR,DO,118683.00
+3069,City of Danville Mass Transit System,Y,MB,DO,224824.00
+3070,Potomac and Rappahannock Transportation Commission,N,CB,PT,8754345.00
+3070,Potomac and Rappahannock Transportation Commission,N,MB,PT,1770827.00
+3071,City of Alexandria ,N,DT,PT,154221.00
+3071,City of Alexandria ,N,MB,DO,3481784.00
+3072,Transit Services of Frederick County,N,DR,DO,372897.00
+3072,Transit Services of Frederick County,N,MB,DO,631445.00
+3073,Virginia Railway Express,N,CR,PT,34733106.00
+3074,Harford Transit,N,DR,DO,65182.00
+3074,Harford Transit,N,MB,DO,243076.00
+3075,Delaware Transit Corporation,N,CR,PT,4107967.00
+3075,Delaware Transit Corporation,N,DR,DO,1662576.00
+3075,Delaware Transit Corporation,N,DR,PT,13237.00
+3075,Delaware Transit Corporation,N,MB,DO,6747776.00
+3075,Delaware Transit Corporation,N,MB,PT,267064.00
+3076,Williamsburg Area Transit Authority,N,DR,DO,5064.00
+3076,Williamsburg Area Transit Authority,N,MB,DO,525075.00
+3076,Williamsburg Area Transit Authority,N,MB,PT,36985.00
+3077,Borough of Pottstown - Pottstown Area Rapid Transit,N,DR,PT,13055.00
+3077,Borough of Pottstown - Pottstown Area Rapid Transit,N,MB,PT,263847.00
+3078,Southwestern Pennsylvania Commission,N,VP,PT,879217.00
+3079,Fredericksburg Regional Transit,Y,MB,DO,344624.00
+3080,Arlington Transit - Arlington County,N,DR,PT,164779.00
+3080,Arlington Transit - Arlington County,N,DT,PT,328864.00
+3080,Arlington Transit - Arlington County,N,MB,PT,2708967.00
+3081,Loudoun County Commuter Bus Service - Office of Transportation Services,N,CB,PT,7652415.00
+3083,"Transportation District Commission of Hampton Roads, dba: Hampton Roads Transit",N,DR,PT,797763.00
+3083,"Transportation District Commission of Hampton Roads, dba: Hampton Roads Transit",N,FB,PT,313134.00
+3083,"Transportation District Commission of Hampton Roads, dba: Hampton Roads Transit",N,LR,DO,687892.00
+3083,"Transportation District Commission of Hampton Roads, dba: Hampton Roads Transit",N,MB,DO,13260332.00
+3083,"Transportation District Commission of Hampton Roads, dba: Hampton Roads Transit",N,VP,DO,1023780.00
+3085,Prince George's County Transit,N,DR,DO,12861.00
+3085,Prince George's County Transit,N,MB,PT,2175576.00
+3087,Fayette Area Coordinated Transportation,N,DR,DO,25104.00
+3087,Fayette Area Coordinated Transportation,N,DR,PT,28269.00
+3087,Fayette Area Coordinated Transportation,N,MB,DO,165930.00
+3087,Fayette Area Coordinated Transportation,N,MB,PT,32085.00
+3088,"County Commissioners of Charles County, MD",N,DR,PT,10003.00
+3088,"County Commissioners of Charles County, MD",N,MB,PT,335471.00
+3089,Monongalia County Urban Mass Transit Authority,Y,DR,DO,144657.00
+3089,Monongalia County Urban Mass Transit Authority,Y,MB,DO,1471087.00
+3090,Eastern Panhandle Transit Authority,Y,DR,DO,4694.00
+3090,Eastern Panhandle Transit Authority,Y,MB,DO,120096.00
+3091,Blacksburg Transit,N,DR,DO,24204.00
+3091,Blacksburg Transit,N,MB,DO,3167733.00
+3092,Carroll County Department of Citizen Services,Y,DR,PT,223863.00
+3092,Carroll County Department of Citizen Services,Y,MB,PT,20747.00
+3093,City of Hazleton -- Hazleton Public Transit,Y,DR,PT,33501.00
+3093,City of Hazleton -- Hazleton Public Transit,Y,MB,PT,157700.00
+3094,City of Harrisonburg Department of Public Transportation,N,DR,DO,99408.00
+3094,City of Harrisonburg Department of Public Transportation,N,MB,DO,1552174.00
+3095,County of Lebanon Transit Authority,N,CB,DO,27845.00
+3095,County of Lebanon Transit Authority,N,DR,DO,908409.00
+3095,County of Lebanon Transit Authority,N,MB,DO,320214.00
+3096,The Tri--County Council for the Lower Eastern Shore of Maryland,N,DR,DO,87261.00
+3096,The Tri--County Council for the Lower Eastern Shore of Maryland,N,DT,PT,0.00
+3096,The Tri--County Council for the Lower Eastern Shore of Maryland,N,MB,DO,860293.00
+3098,Washington County Commissioners,Y,DR,PT,1036.00
+3098,Washington County Commissioners,Y,MB,PT,10469.00
+3099,City of Winchester,Y,DR,DO,7272.00
+3099,City of Winchester,Y,MB,DO,81538.00
+3101,City of Washington,N,DR,PT,16695.00
+3101,City of Washington,N,MB,PT,91932.00
+3102,Martz Trailways,N,CB,DO,20214450.00
+3103,"Martz Group, National Coach Works of Virginia",N,CB,DO,2604832.00
+3106,National Capital Region Transportation Planning Board,Y,VP,PT,28046.00
+3107,West Virginia University - Morgantown Personal Rapid Transit,N,MG,DO,5148530.00
+3108,Cecil County Government - SSCT,Y,DR,DO,37806.00
+3108,Cecil County Government - SSCT,Y,MB,DO,76706.00
+3109,St. Mary's Transit System -Dept. of Public Works and Transit,Y,DR,DO,46406.00
+3109,St. Mary's Transit System -Dept. of Public Works and Transit,Y,MB,DO,288315.00
+4001,Chattanooga Area Regional Transportation Authority,N,DR,DO,125433.00
+4001,Chattanooga Area Regional Transportation Authority,N,DR,PT,33984.00
+4001,Chattanooga Area Regional Transportation Authority,N,IP,DO,2268608.00
+4001,Chattanooga Area Regional Transportation Authority,N,MB,DO,1977559.00
+4002,Knoxville Area Transit,N,DR,DO,157219.00
+4002,Knoxville Area Transit,N,MB,DO,1657005.00
+4003,Memphis Area Transit Authority,N,DR,DO,550541.00
+4003,Memphis Area Transit Authority,N,MB,DO,9100958.00
+4003,Memphis Area Transit Authority,N,SR,DO,846992.00
+4004,Metropolitan Transit Authority,N,DR,DO,812303.00
+4004,Metropolitan Transit Authority,N,DT,PT,669827.00
+4004,Metropolitan Transit Authority,N,MB,DO,10453080.00
+4005,ART (Asheville Redefines Transit),N,DR,PT,50558.00
+4005,ART (Asheville Redefines Transit),N,MB,DO,800146.00
+4006,Cape Fear Public Transportation Authority,N,DR,DO,585564.00
+4006,Cape Fear Public Transportation Authority,N,MB,PT,3432683.00
+4006,Cape Fear Public Transportation Authority,N,VP,DO,15367.00
+4007,Capital Area Transit,N,DT,PT,652489.00
+4007,Capital Area Transit,N,MB,DO,3044730.00
+4007,Capital Area Transit,N,MB,PT,65575.00
+4008,Charlotte Area Transit System,N,DR,DO,681636.00
+4008,Charlotte Area Transit System,N,LR,DO,4358896.00
+4008,Charlotte Area Transit System,N,MB,DO,21568146.00
+4008,Charlotte Area Transit System,N,VP,DO,656498.00
+4009,Fayetteville Area System of Transit,N,DR,DO,72865.00
+4009,Fayetteville Area System of Transit,N,MB,DO,1031083.00
+4010,Gastonia Transit,Y,DR,DO,15514.00
+4010,Gastonia Transit,Y,MB,DO,187905.00
+4011,High Point Transit,Y,DR,DO,60796.00
+4011,High Point Transit,Y,MB,DO,501749.00
+4012,Winston-Salem Transit Authority - Trans-Aid of Forsyth County,N,DR,DO,861761.00
+4012,Winston-Salem Transit Authority - Trans-Aid of Forsyth County,N,MB,DO,1816749.00
+4014,Coast Transit Authority,N,DR,DO,42470.00
+4014,Coast Transit Authority,N,MB,DO,765203.00
+4014,Coast Transit Authority,N,VP,PT,473951.00
+4015,City of Jackson Transit System ,N,DR,DO,71482.00
+4015,City of Jackson Transit System ,N,MB,DO,529954.00
+4016,Ashland Bus System,Y,DR,DO,19640.00
+4016,Ashland Bus System,Y,MB,DO,58955.00
+4017,Lexington Transit Authority,N,DR,PT,280864.00
+4017,Lexington Transit Authority,N,MB,DO,2546411.00
+4017,Lexington Transit Authority,N,VP,PT,5981.00
+4018,Transit Authority of River City,N,DR,DO,23358.00
+4018,Transit Authority of River City,N,DR,PT,801875.00
+4018,Transit Authority of River City,N,DT,PT,324085.00
+4018,Transit Authority of River City,N,MB,DO,11293781.00
+4018,Transit Authority of River City,N,MB,PT,2429.00
+4019,Transit Authority of Northern Kentucky,N,DR,DO,206264.00
+4019,Transit Authority of Northern Kentucky,N,MB,DO,4121009.00
+4020,Owensboro Transit System,Y,DR,PT,0.00
+4020,Owensboro Transit System,Y,MB,DO,110066.00
+4021,Albany Transit System,N,DR,DO,34021.00
+4021,Albany Transit System,N,MB,DO,525669.00
+4022,Metropolitan Atlanta Rapid Transit Authority,N,DR,DO,1599295.00
+4022,Metropolitan Atlanta Rapid Transit Authority,N,HR,DO,75606822.00
+4022,Metropolitan Atlanta Rapid Transit Authority,N,MB,DO,61368929.00
+4023,Augusta Richmond County Transit Department,N,DR,PT,47269.00
+4023,Augusta Richmond County Transit Department,N,MB,PT,619363.00
+4024,"Metra Transit System (Columbus, GA)",Y,DR,DO,64026.00
+4024,"Metra Transit System (Columbus, GA)",Y,MB,DO,976833.00
+4025,Chatham Area Transit Authority,N,DR,DO,15643.00
+4025,Chatham Area Transit Authority,N,DR,PT,109497.00
+4025,Chatham Area Transit Authority,N,FB,DO,0.00
+4025,Chatham Area Transit Authority,N,FB,PT,0.00
+4025,Chatham Area Transit Authority,N,MB,DO,415778.00
+4025,Chatham Area Transit Authority,N,MB,PT,2926447.00
+4026,Manatee County Area Transit,N,DR,DO,227210.00
+4026,Manatee County Area Transit,N,MB,DO,914061.00
+4027,Pinellas Suncoast Transit Authority,N,CB,DO,226603.00
+4027,Pinellas Suncoast Transit Authority,N,DR,PT,463352.00
+4027,Pinellas Suncoast Transit Authority,N,DT,PT,574724.00
+4027,Pinellas Suncoast Transit Authority,N,MB,DO,13613000.00
+4027,Pinellas Suncoast Transit Authority,N,MB,PT,326789.00
+4028,Lee County Transit,N,DR,DO,352580.00
+4028,Lee County Transit,N,MB,DO,2974360.00
+4028,Lee County Transit,N,VP,PT,117011.00
+4029,Broward County Transit Division,N,DR,PT,1169506.00
+4029,Broward County Transit Division,N,MB,DO,33695176.00
+4029,Broward County Transit Division,N,MB,PT,90058.00
+4030,Gainesville Regional Transit System,N,DR,PT,151230.00
+4030,Gainesville Regional Transit System,N,MB,DO,13509645.00
+4031,Lakeland Area Mass Transit District ,N,DR,DO,167256.00
+4031,Lakeland Area Mass Transit District ,N,MB,DO,1736665.00
+4032,"County of Volusia, dba: VOTRAN",N,DR,DO,514529.00
+4032,"County of Volusia, dba: VOTRAN",N,DR,PT,244430.00
+4032,"County of Volusia, dba: VOTRAN",N,DT,PT,11167.00
+4032,"County of Volusia, dba: VOTRAN",N,MB,DO,2585454.00
+4032,"County of Volusia, dba: VOTRAN",N,VP,DO,36779.00
+4034,Miami-Dade Transit,N,DR,PT,4696661.00
+4034,Miami-Dade Transit,N,HR,DO,22845276.00
+4034,Miami-Dade Transit,N,MB,DO,86505094.00
+4034,Miami-Dade Transit,N,MB,PT,577733.00
+4034,Miami-Dade Transit,N,MG,DO,0.00
+4035,Central Florida Regional Transportation Authority,N,DR,PT,1721478.00
+4035,Central Florida Regional Transportation Authority,N,MB,DO,27714068.00
+4035,Central Florida Regional Transportation Authority,N,MB,PT,107764.00
+4035,Central Florida Regional Transportation Authority,N,RB,DO,0.00
+4035,Central Florida Regional Transportation Authority,N,VP,PT,410720.00
+4036,City of Tallahassee,N,DR,DO,185777.00
+4036,City of Tallahassee,N,MB,DO,4388041.00
+4037,"Board of County Commissioners, Palm Beach County, PalmTran, Inc.",N,DR,PT,1604240.00
+4037,"Board of County Commissioners, Palm Beach County, PalmTran, Inc.",N,DT,PT,702359.00
+4037,"Board of County Commissioners, Palm Beach County, PalmTran, Inc.",N,MB,DO,9279417.00
+4038,Escambia County Area Transit,N,DR,PT,158435.00
+4038,Escambia County Area Transit,N,MB,PT,1841812.00
+4040,Jacksonville Transportation Authority,N,DR,PT,785786.00
+4040,Jacksonville Transportation Authority,N,MB,DO,11403953.00
+4040,Jacksonville Transportation Authority,N,MG,DO,0.00
+4041,Hillsborough Area Regional Transit Authority,N,DR,DO,530893.00
+4041,Hillsborough Area Regional Transit Authority,N,MB,DO,14517591.00
+4041,Hillsborough Area Regional Transit Authority,N,SR,DO,487588.00
+4042,Birmingham-Jefferson County Transit Authority,N,DR,DO,155564.00
+4042,Birmingham-Jefferson County Transit Authority,N,MB,DO,2797212.00
+4043,The Wave Transit System,N,DR,DO,208688.00
+4043,The Wave Transit System,N,MB,DO,834380.00
+4044,City of Montgomery-Montgomery Area Transit System,N,DR,DO,106170.00
+4044,City of Montgomery-Montgomery Area Transit System,N,MB,DO,918803.00
+4045,Tuscaloosa County Parking and Transit Authority,Y,DR,DO,42721.00
+4045,Tuscaloosa County Parking and Transit Authority,Y,MB,DO,151386.00
+4046,Sarasota County Area Transit,N,CB,DO,83439.00
+4046,Sarasota County Area Transit,N,DR,DO,382370.00
+4046,Sarasota County Area Transit,N,DR,PT,153033.00
+4046,Sarasota County Area Transit,N,MB,DO,1804146.00
+4047,Athens Transit System,N,DR,DO,26922.00
+4047,Athens Transit System,N,MB,DO,1878216.00
+4049,Gadsden Transportation Services - City of Gadsden,Y,DR,DO,50295.00
+4049,Gadsden Transportation Services - City of Gadsden,Y,MB,DO,28945.00
+4051,Chapel Hill Transit,N,DR,DO,0.00
+4051,Chapel Hill Transit,N,MB,DO,8719496.00
+4051,Chapel Hill Transit,N,MB,PT,15325.00
+4053,Greenville Transit Authority,N,DR,DO,28771.00
+4053,Greenville Transit Authority,N,MB,DO,871764.00
+4054,Johnson City Transit System,Y,DR,DO,90007.00
+4054,Johnson City Transit System,Y,MB,DO,161491.00
+4055,Bristol Tennessee Transit System,Y,DR,DO,2058.00
+4055,Bristol Tennessee Transit System,Y,MB,DO,27546.00
+4056,Pee Dee Regional Transportation Authority,N,DR,DO,2015902.00
+4056,Pee Dee Regional Transportation Authority,N,MB,DO,342385.00
+4057,Jackson Transit Authority,N,DR,DO,259940.00
+4057,Jackson Transit Authority,N,MB,DO,396674.00
+4058,City of Rome Transit Department,N,DR,DO,55184.00
+4058,City of Rome Transit Department,N,MB,DO,520862.00
+4060,Hub City Transit,Y,DR,DO,10022.00
+4060,Hub City Transit,Y,MB,DO,31526.00
+4063,Space Coast Area Transit,N,DR,DO,149493.00
+4063,Space Coast Area Transit,N,DR,PT,389470.00
+4063,Space Coast Area Transit,N,MB,DO,969883.00
+4063,Space Coast Area Transit,N,VP,PT,282030.00
+4064,East Alabama Regional Planning and Development Commission,Y,DR,PT,131011.00
+4064,East Alabama Regional Planning and Development Commission,Y,MB,PT,66613.00
+4068,Northwest Alabama Council of Local Governments,N,DR,DO,70708.00
+4071,"City of Huntsville, Alabama - Public Transportation Division",N,DR,DO,199676.00
+4071,"City of Huntsville, Alabama - Public Transportation Division",N,MB,DO,246903.00
+4073,Lee-Russell Council of Governments,Y,DR,DO,88834.00
+4074,Pasco County Public Transportation,N,DR,DO,19903.00
+4074,Pasco County Public Transportation,N,DT,PT,28822.00
+4074,Pasco County Public Transportation,N,MB,DO,1079224.00
+4077,South Florida Regional Transportation Authority,N,CR,PT,12043242.00
+4077,South Florida Regional Transportation Authority,N,MB,PT,0.00
+4078,Cobb County Department of Transportation Authority,N,CB,PT,1161157.00
+4078,Cobb County Department of Transportation Authority,N,DR,PT,178741.00
+4078,Cobb County Department of Transportation Authority,N,MB,PT,4534858.00
+4080,Kingsport Area Transit System,Y,DR,DO,24587.00
+4080,Kingsport Area Transit System,Y,MB,DO,53918.00
+4081,Anderson Transit Authority,Y,MB,DO,79059.00
+4082,Douglas County Rideshare,N,VP,DO,432451.00
+4086,Metropolitan Bus Authority,N,DR,DO,99851.00
+4086,Metropolitan Bus Authority,N,MB,DO,4790058.00
+4087,Durham Area Transit Authority,N,DR,PT,223527.00
+4087,Durham Area Transit Authority,N,MB,PT,2789301.00
+4088,Spartanburg County Transportation Services,N,DR,PT,423560.00
+4089,Phenix City Express,Y,DR,DO,13034.00
+4089,Phenix City Express,Y,MB,DO,25455.00
+4092,Clarksville Transit System,N,DR,DO,70601.00
+4092,Clarksville Transit System,N,MB,DO,687049.00
+4093,Greensboro Transit Authority,N,DR,PT,240966.00
+4093,Greensboro Transit Authority,N,MB,PT,3613261.00
+4094,Alternativa de Transporte Integrado -ATI,N,HR,PT,8041930.00
+4094,Alternativa de Transporte Integrado -ATI,N,MB,PT,880775.00
+4095,Greenville Area Transit,Y,DR,PT,27600.00
+4095,Greenville Area Transit,Y,MB,DO,303126.00
+4096,Tar River Transit,Y,DR,PT,86015.00
+4096,Tar River Transit,Y,MB,PT,189409.00
+4097,"Council on Aging of St. Lucie, Inc.",N,DR,DO,58921.00
+4097,"Council on Aging of St. Lucie, Inc.",N,MB,DO,208365.00
+4100,Santee Wateree Regional Transportation Authority,N,CB,DO,94201.00
+4100,Santee Wateree Regional Transportation Authority,N,DR,DO,691675.00
+4100,Santee Wateree Regional Transportation Authority,N,MB,DO,392071.00
+4101,Spartanburg Transit System,Y,MB,DO,234260.00
+4102,Waccamaw Regional Transportation Authority,N,DR,DO,88258.00
+4102,Waccamaw Regional Transportation Authority,N,MB,DO,1081863.00
+4103,Wiregrass Transit Authority,N,DR,DO,79788.00
+4103,Wiregrass Transit Authority,N,DR,PT,0.00
+4103,Wiregrass Transit Authority,N,DT,PT,0.00
+4104,"Senior Resource Association, Inc.",N,DR,DO,42278.00
+4104,"Senior Resource Association, Inc.",N,MB,DO,0.00
+4105,Puerto Rico Highway and Transportation Authority PRHTA,N,PB,PT,38030208.00
+4108,Research Triangle Regional Public Transportation Authority,N,DR,DO,38891.00
+4108,Research Triangle Regional Public Transportation Authority,N,MB,DO,1959638.00
+4108,Research Triangle Regional Public Transportation Authority,N,VP,DO,722752.00
+4110,Charleston Area Regional Transportation Authority,N,DR,PT,256470.00
+4110,Charleston Area Regional Transportation Authority,N,MB,PT,3985376.00
+4111,Morgan County Area Transportation System,Y,DR,DO,326227.00
+4112,City of San Juan,Y,MB,DO,0.00
+4114,Municipality of Aguada,Y,DR,DO,0.00
+4114,Municipality of Aguada,Y,MB,DO,0.00
+4115,Municipality of Caguas Mobility Office,Y,DR,DO,0.00
+4115,Municipality of Caguas Mobility Office,Y,MB,DO,0.00
+4117,Municipality of Vega Baja,Y,DR,DO,0.00
+4117,Municipality of Vega Baja,Y,MB,DO,0.00
+4120,"City of Ocala, Florida",N,DR,PT,34510.00
+4120,"City of Ocala, Florida",N,MB,PT,331242.00
+4121,Municipality of Hormigueros,Y,DR,DO,0.00
+4121,Municipality of Hormigueros,Y,MB,DO,0.00
+4122,Municipality of Cayey,Y,DR,DO,0.00
+4122,Municipality of Cayey,Y,MB,DO,0.00
+4123,Federal Programs Municipality of Gurabo,Y,DR,DO,0.00
+4123,Federal Programs Municipality of Gurabo,Y,MB,DO,0.00
+4124,Municipality of Cidra,Y,DR,DO,0.00
+4124,Municipality of Cidra,Y,MB,DO,0.00
+4125,Municipality of Carolina,Y,DR,DO,0.00
+4125,Municipality of Carolina,Y,MB,DO,0.00
+4126,Municipality of Humacao,Y,DR,DO,0.00
+4126,Municipality of Humacao,Y,MB,DO,0.00
+4127,Polk County Transit Services Division - Polk County Board of County Commissioners,N,DR,DO,53433.00
+4127,Polk County Transit Services Division - Polk County Board of County Commissioners,N,DR,PT,34016.00
+4127,Polk County Transit Services Division - Polk County Board of County Commissioners,N,MB,DO,245977.00
+4128,Okaloosa County Board of County Commissioners,N,DR,PT,422914.00
+4128,Okaloosa County Board of County Commissioners,N,MB,PT,124017.00
+4129,Charlotte County Transit Division,N,DR,PT,245290.00
+4129,Charlotte County Transit Division,N,DT,PT,3166.00
+4129,Charlotte County Transit Division,N,VP,DO,0.00
+4130,Macon-Bibb County Transit Authority,Y,DR,DO,55312.00
+4130,Macon-Bibb County Transit Authority,Y,MB,DO,1043327.00
+4131,Davidson County Transportation,Y,DR,DO,2958.00
+4131,Davidson County Transportation,Y,DR,PT,0.00
+4131,Davidson County Transportation,Y,MB,DO,0.00
+4132,Goldsboro-Wayne Transportation Authority,Y,DR,DO,1163723.00
+4132,Goldsboro-Wayne Transportation Authority,Y,MB,DO,179121.00
+4133,Guilford County Transportation,Y,DR,DO,42023.00
+4135,Georgia Regional Transportation Authority,N,CB,PT,6932824.00
+4135,Georgia Regional Transportation Authority,N,VP,PT,3266465.00
+4137,Municipality of Bayamon,Y,DR,DO,0.00
+4137,Municipality of Bayamon,Y,MB,DO,0.00
+4138,Gwinnett County Board of Commissioners,N,CB,PT,4213310.00
+4138,Gwinnett County Board of Commissioners,N,DR,PT,78748.00
+4138,Gwinnett County Board of Commissioners,N,MB,PT,809916.00
+4140,Collier Area Transit,N,DR,PT,240476.00
+4140,Collier Area Transit,N,MB,PT,1193107.00
+4141,Central Midlands Transit,N,DR,PT,162929.00
+4141,Central Midlands Transit,N,MB,PT,1466365.00
+4143,Town of Cary,Y,DR,PT,131028.00
+4143,Town of Cary,Y,MB,PT,152722.00
+4144,Hall Area Transit,N,DR,DO,25801.00
+4144,Hall Area Transit,N,MB,DO,107152.00
+4145,Municipality of Manati,Y,DR,DO,0.00
+4145,Municipality of Manati,Y,MB,DO,0.00
+4146,Hernando County Board of County Commissioners,Y,DR,PT,34197.00
+4146,Hernando County Board of County Commissioners,Y,MB,PT,59337.00
+4147,North Carolina State University Transportation Department,Y,MB,PT,4135219.00
+4148,"Tri-County Community Council, Inc.",N,DR,DO,54250.00
+4150,Municipality of Barceloneta,Y,DR,DO,0.00
+4150,Municipality of Barceloneta,Y,MB,DO,0.00
+4151,Municipality of Hatillo,Y,DR,DO,0.00
+4151,Municipality of Hatillo,Y,MB,DO,0.00
+4152,"Miami Lakes - vRide, Inc.",N,VP,DO,1497497.00
+4153,"vRide, Inc. - Atlanta",N,VP,DO,3739904.00
+4155,"St Johns County, Florida,  Board of County Commissioners",Y,DR,PT,149528.00
+4155,"St Johns County, Florida,  Board of County Commissioners",Y,MB,PT,100327.00
+4156,Lower Savannah COG,Y,DR,PT,10485.00
+4156,Lower Savannah COG,Y,MB,PT,30422.00
+4158,Lake County Board of County Commissioners,N,DR,PT,106317.00
+4158,Lake County Board of County Commissioners,N,MB,PT,152511.00
+4159,Regional Transportation Authority,N,CB,PT,456578.00
+4159,Regional Transportation Authority,N,CR,PT,756329.00
+4159,Regional Transportation Authority,N,MB,PT,334059.00
+4159,Regional Transportation Authority,N,VP,PT,580814.00
+4160,Municipality of Camuy,Y,DR,DO,0.00
+4160,Municipality of Camuy,Y,MB,DO,0.00
+4161,Cherokee County Board of Commissioners,Y,DR,DO,28449.00
+4161,Cherokee County Board of Commissioners,Y,MB,DO,19387.00
+4162,Franklin Transit Authority,Y,DR,PT,52299.00
+4162,Franklin Transit Authority,Y,MB,PT,19460.00
+4164,Municipality of Fajardo,Y,DR,DO,0.00
+4164,Municipality of Fajardo,Y,MB,DO,0.00
+4165,Municipality of Juncos,Y,DR,DO,0.00
+4165,Municipality of Juncos,Y,MB,DO,0.00
+4166,City of Jacksonville,Y,DR,PT,9550.00
+4166,City of Jacksonville,Y,MB,PT,134775.00
+4167,Concord Kannapolis Area Transit,Y,MB,PT,254383.00
+4169,Regional Planning Commission of Greater Birmingham,N,VP,PT,347780.00
+4170,Southeast Tennessee Human Resource Agency -Cleveland Urban Area Transit System Division,Y,DR,DO,15497.00
+4170,Southeast Tennessee Human Resource Agency -Cleveland Urban Area Transit System Division,Y,MB,DO,37770.00
+4171,Knoxville-Knox County Community Action Committee,N,DR,DO,2389314.00
+4172,Western Piedmont Regional Transit Authority dba: Greenway Public Transportation,N,DR,DO,96585.00
+4172,Western Piedmont Regional Transit Authority dba: Greenway Public Transportation,N,DR,PT,0.00
+4172,Western Piedmont Regional Transit Authority dba: Greenway Public Transportation,N,MB,DO,106298.00
+4173,Piedmont Authority for Regional Transportation,N,MB,PT,544590.00
+4173,Piedmont Authority for Regional Transportation,N,VP,DO,684459.00
+4174,Municipality of Yauco,Y,DR,DO,0.00
+4174,Municipality of Yauco,Y,MB,DO,35216.00
+4175,Puerto Rico Maritime Transport Authority ,N,FB,DO,2070888.00
+4177,Buckhead Community Improvement District,N,MB,PT,0.00
+4178,The Transportation Management Association Group,N,VP,DO,268438.00
+4179,Broward County Community Bus Service,N,MB,DO,17966.00
+4179,Broward County Community Bus Service,N,MB,PT,150447.00
+4180,University of Georgia Transit System,N,DR,DO,13194.00
+4180,University of Georgia Transit System,N,MB,DO,6281720.00
+4181,Henry County Transit,Y,DR,DO,78293.00
+4182,Municipality of Toa Baja,Y,DR,DO,0.00
+4182,Municipality of Toa Baja,Y,MB,DO,0.00
+4183,Municipality of San Sebastian,Y,DR,DO,0.00
+4183,Municipality of San Sebastian,Y,MB,DO,0.00
+4184,The City of Bowling Green/Community Action of Southern Kentucky,Y,DR,DO,32453.00
+4184,The City of Bowling Green/Community Action of Southern Kentucky,Y,MB,DO,55257.00
+4185,Bay County Transportation Planning Organization,N,DR,PT,0.00
+4185,Bay County Transportation Planning Organization,N,MB,PT,562733.00
+4186,City of Murfreesboro,Y,MB,DO,128432.00
+4187,York County Council on Aging,Y,DR,DO,70225.00
+4188,Virgin Islands Department of Public Works,Y,DR,DO,0.00
+4188,Virgin Islands Department of Public Works,Y,MB,DO,0.00
+4190,"East Tennessee Human Resource Agency, Inc.",N,DR,DO,3508503.00
+4191,Transit Authority of Central Kentucky,N,DR,DO,42774.00
+4191,Transit Authority of Central Kentucky,N,MB,DO,0.00
+4191,Transit Authority of Central Kentucky,N,VP,DO,0.00
+4192,Martin County,N,DR,PT,24474.00
+4192,Martin County,N,MB,PT,14370.00
+4193,Liberty Transit,Y,MB,PT,12863.00
+4194,Municipality of Mayaguez,Y,DR,DO,0.00
+4194,Municipality of Mayaguez,Y,MB,DO,0.00
+4195,Municipality of San Lorenzo,Y,DR,DO,0.00
+4195,Municipality of San Lorenzo,Y,MB,DO,0.00
+4196,Kentuckiana Regional Planning and Development Agency,N,VP,DO,742308.00
+4197,Municipality of Lares,Y,MB,DO,0.00
+4198,Municipality of Dorado,Y,DR,DO,0.00
+4198,Municipality of Dorado,Y,MB,DO,0.00
+4199,Autonomous Municipality of Vega Alta,Y,MB,DO,0.00
+4200,Tampa Bay Area Regional Transportation Authority,N,VP,PT,474203.00
+4201,Municipality of Guaynabo,Y,DR,DO,0.00
+4201,Municipality of Guaynabo,Y,MB,DO,0.00
+4203,Enterprise Rideshare,N,VP,DO,1270429.00
+4204,Mid-Cumberland Human Resource Agency,Y,DR,DO,247170.00
+4204,Mid-Cumberland Human Resource Agency,Y,DR,PT,0.00
+4205,Iredell County Area Transportation Services,Y,DR,DO,58636.00
+4205,Iredell County Area Transportation Services,Y,MB,DO,1857.00
+4206,Berkeley Charleston Dorchester RTMA,Y,CB,DO,188639.00
+4206,Berkeley Charleston Dorchester RTMA,Y,MB,DO,0.00
+4208,City of Clemson/ Clemson Area Transit,Y,MB,DO,0.00
+4209,Hoke County,Y,DR,DO,63018.00
+4210,Craven County,Y,DR,DO,64481.00
+4212,"HDB Service Group, Inc.",Y,MB,DO,3379.00
+4213,Autauga County Commission,Y,DR,DO,27381.00
+4214,Cabarrus County Transportation Services,Y,DR,DO,10025.00
+4215,Union County Transportation ,Y,DR,DO,460233.00
+4215,Union County Transportation ,Y,DR,PT,0.00
+4217,Rowan Transit System,Y,DR,PT,3090.00
+4217,Rowan Transit System,Y,MB,PT,17108.00
+4220,Pitt Area Transit System,Y,DR,DO,549937.00
+4221,Gaston County,Y,DR,DO,0.00
+4221,Gaston County,Y,MB,DO,10394.00
+4223,Cumberland County,Y,DR,PT,0.00
+4224,Buncombe County,N,DR,PT,76241.00
+4224,Buncombe County,N,MB,PT,16051.00
+4225,Alamance County Transportation Authority,Y,DR,DO,415598.00
+4226,"Mountain Projects, Inc.",Y,DR,DO,339081.00
+4227,Onslow United Transit System,Y,DR,DO,741927.00
+4228,Mecklenburg County DSS,N,DR,DO,16245.00
+4228,Mecklenburg County DSS,N,DT,PT,64134.00
+4229,Henderson County/ Apple Country Public Transit,Y,DR,PT,6699.00
+4229,Henderson County/ Apple Country Public Transit,Y,MB,PT,38139.00
+4231,Orange Public Transportation,Y,DR,DO,142868.00
+4231,Orange Public Transportation,Y,MB,DO,2360.00
+4233,City of Salisbury - Salisbury,Y,MB,DO,103742.00
+4234,Autonomous Municipality of Ponce,Y,MB,DO,0.00
+5001,City of Appleton - Valley Transit,N,DR,PT,607893.00
+5001,City of Appleton - Valley Transit,N,MB,DO,864964.00
+5001,City of Appleton - Valley Transit,N,MB,PT,0.00
+5002,Green Bay Metro,N,DR,PT,186518.00
+5002,Green Bay Metro,N,MB,DO,914788.00
+5003,Kenosha Transit,N,DR,PT,71724.00
+5003,Kenosha Transit,N,MB,DO,756118.00
+5003,Kenosha Transit,N,SR,DO,18421.00
+5004,LaCrosse Municipal Transit Utility,N,DR,PT,588836.00
+5004,LaCrosse Municipal Transit Utility,N,MB,DO,646955.00
+5005,Metro Transit System,N,DR,DO,92006.00
+5005,Metro Transit System,N,DR,PT,211061.00
+5005,Metro Transit System,N,MB,DO,12596966.00
+5006,Belle Urban System - Racine,N,CB,PT,275109.00
+5006,Belle Urban System - Racine,N,DR,DO,83174.00
+5006,Belle Urban System - Racine,N,MB,DO,1118502.00
+5008,Milwaukee County Transit System,N,CB,PT,274255.00
+5008,Milwaukee County Transit System,N,DR,PT,1767492.00
+5008,Milwaukee County Transit System,N,MB,DO,40398652.00
+5008,Milwaukee County Transit System,N,MB,PT,367982.00
+5009,GO Transit,N,DT,PT,442481.00
+5009,GO Transit,N,MB,DO,472667.00
+5009,GO Transit,N,MB,PT,16610.00
+5010,METRO Regional Transit Authority ,N,CB,DO,211026.00
+5010,METRO Regional Transit Authority ,N,DR,DO,778354.00
+5010,METRO Regional Transit Authority ,N,MB,DO,4009495.00
+5011,Stark Area Regional Transit Authority,N,DR,DO,271478.00
+5011,Stark Area Regional Transit Authority,N,MB,DO,1524304.00
+5012,Southwest Ohio Regional Transit Authority,N,DR,PT,727869.00
+5012,Southwest Ohio Regional Transit Authority,N,MB,DO,29908841.00
+5015,The Greater Cleveland Regional Transit Authority,N,DR,DO,413066.00
+5015,The Greater Cleveland Regional Transit Authority,N,DR,PT,305796.00
+5015,The Greater Cleveland Regional Transit Authority,N,HR,DO,6682696.00
+5015,The Greater Cleveland Regional Transit Authority,N,LR,DO,3014938.00
+5015,The Greater Cleveland Regional Transit Authority,N,MB,DO,35711802.00
+5015,The Greater Cleveland Regional Transit Authority,N,RB,DO,5050510.00
+5016,Central Ohio Transit Authority,N,DR,PT,883691.00
+5016,Central Ohio Transit Authority,N,MB,DO,19547666.00
+5017,Greater Dayton Regional Transit Authority,N,DR,DO,705671.00
+5017,Greater Dayton Regional Transit Authority,N,MB,DO,8000460.00
+5017,Greater Dayton Regional Transit Authority,N,TB,DO,1376868.00
+5019,City of Middletown - Middletown Transit System,Y,DR,DO,8820.00
+5019,City of Middletown - Middletown Transit System,Y,MB,DO,117388.00
+5020,Springfield City Area Transit,Y,DR,PT,39656.00
+5020,Springfield City Area Transit,Y,MB,PT,145985.00
+5021,Portage Area Regional Transportation Authority,N,DR,DO,530131.00
+5021,Portage Area Regional Transportation Authority,N,MB,DO,2484412.00
+5022,Toledo Area Regional Transit Authority,N,DR,DO,1263797.00
+5022,Toledo Area Regional Transit Authority,N,MB,DO,3553292.00
+5024,Western Reserve Transit Authority,N,DR,DO,98838.00
+5024,Western Reserve Transit Authority,N,MB,DO,929391.00
+5025,Duluth Transit Authority,N,DR,PT,51648.00
+5025,Duluth Transit Authority,N,MB,DO,2456584.00
+5026,"City of Moorhead, DBA: Metropolitan Area Transit",N,DR,PT,53824.00
+5026,"City of Moorhead, DBA: Metropolitan Area Transit",N,MB,PT,294500.00
+5027,Metro Transit ,N,CR,PT,2602172.00
+5027,Metro Transit ,N,LR,DO,9808579.00
+5027,Metro Transit ,N,MB,DO,79159044.00
+5028,St. Cloud Metropolitan Transit Commission,N,CB,DO,108455.00
+5028,St. Cloud Metropolitan Transit Commission,N,DR,DO,316968.00
+5028,St. Cloud Metropolitan Transit Commission,N,MB,DO,1337021.00
+5029,Bay Metropolitan Transit Authority,N,DR,DO,78370.00
+5029,Bay Metropolitan Transit Authority,N,MB,DO,765736.00
+5030,Battle Creek Transit,Y,DR,DO,43370.00
+5030,Battle Creek Transit,Y,MB,DO,337071.00
+5031,Suburban Mobility Authority for Regional Transportation,N,DR,DO,578076.00
+5031,Suburban Mobility Authority for Regional Transportation,N,DR,PT,380245.00
+5031,Suburban Mobility Authority for Regional Transportation,N,MB,DO,12353155.00
+5031,Suburban Mobility Authority for Regional Transportation,N,MB,PT,131031.00
+5032,Mass Transportation Authority ,N,DR,DO,612039.00
+5032,Mass Transportation Authority ,N,DR,PT,4090.00
+5032,Mass Transportation Authority ,N,MB,DO,4891319.00
+5033,Interurban Transit Partnership,N,DR,PT,845336.00
+5033,Interurban Transit Partnership,N,MB,DO,5854338.00
+5033,Interurban Transit Partnership,N,VP,DO,188135.00
+5034,City of Jackson Transportation Authority,N,DR,DO,87833.00
+5034,City of Jackson Transportation Authority,N,DT,PT,5669.00
+5034,City of Jackson Transportation Authority,N,MB,DO,359190.00
+5035,Kalamazoo Metro Transit System,N,DR,PT,540507.00
+5035,Kalamazoo Metro Transit System,N,MB,DO,2417646.00
+5035,Kalamazoo Metro Transit System,N,VP,DO,0.00
+5036,Capital Area Transportation Authority,N,DR,DO,372477.00
+5036,Capital Area Transportation Authority,N,DR,PT,672894.00
+5036,Capital Area Transportation Authority,N,MB,DO,6453019.00
+5037,Muskegon Area Transit System,Y,DR,DO,74625.00
+5037,Muskegon Area Transit System,Y,MB,DO,478573.00
+5038,Niles Dial-A-Ride,Y,DR,DO,0.00
+5039,Saginaw Transit Authority Regional Service,N,DR,DO,91939.00
+5039,Saginaw Transit Authority Regional Service,N,MB,DO,576470.00
+5040,Ann Arbor Transportation Authority,N,CB,DO,136973.00
+5040,Ann Arbor Transportation Authority,N,CB,PT,740799.00
+5040,Ann Arbor Transportation Authority,N,DR,PT,217763.00
+5040,Ann Arbor Transportation Authority,N,DT,PT,574882.00
+5040,Ann Arbor Transportation Authority,N,MB,DO,4312055.00
+5040,Ann Arbor Transportation Authority,N,VP,PT,193600.00
+5041,City of Anderson Transportation System,Y,DR,DO,47255.00
+5041,City of Anderson Transportation System,Y,MB,DO,124627.00
+5042,East Chicago Transit,N,DR,DO,0.00
+5042,East Chicago Transit,N,MB,DO,0.00
+5043,Metropolitan Evansville Transit System,N,DR,DO,276096.00
+5043,Metropolitan Evansville Transit System,N,MB,DO,1464324.00
+5044,Fort Wayne Public Transportation Corporation,N,DR,DO,129833.00
+5044,Fort Wayne Public Transportation Corporation,N,MB,DO,1688416.00
+5045,Gary Public Transportation Corporation,N,DR,DO,38375.00
+5045,Gary Public Transportation Corporation,N,MB,DO,733980.00
+5047,Bloomington-Normal Public Transit System,N,DR,DO,108070.00
+5047,Bloomington-Normal Public Transit System,N,MB,DO,1248514.00
+5050,Indianapolis and Marion County Public Transportation,N,DR,PT,964675.00
+5050,Indianapolis and Marion County Public Transportation,N,MB,DO,10389901.00
+5051,Greater Lafayette Public Transportation Corporation,N,DR,DO,72907.00
+5051,Greater Lafayette Public Transportation Corporation,N,MB,DO,2753612.00
+5052,South Bend Public Transportation Corporation,N,DR,DO,111574.00
+5052,South Bend Public Transportation Corporation,N,MB,DO,1320662.00
+5053,Terre Haute Transit Utility,N,DR,DO,44000.00
+5053,Terre Haute Transit Utility,N,MB,DO,156000.00
+5054,Muncie Indiana Transit System,N,DR,DO,41222.00
+5054,Muncie Indiana Transit System,N,MB,DO,187617.00
+5056,Greater Peoria Mass Transit District,N,DR,PT,334770.00
+5056,Greater Peoria Mass Transit District,N,MB,DO,2390253.00
+5057,Rock Island County Metropolitan Mass Transit District,N,DR,DO,223816.00
+5057,Rock Island County Metropolitan Mass Transit District,N,DR,PT,29097.00
+5057,Rock Island County Metropolitan Mass Transit District,N,FB,PT,99236.00
+5057,Rock Island County Metropolitan Mass Transit District,N,MB,DO,1002451.00
+5058,Rockford Mass Transit District,N,DR,DO,206867.00
+5058,Rockford Mass Transit District,N,DR,PT,18449.00
+5058,Rockford Mass Transit District,N,MB,DO,1273497.00
+5059,Springfield Mass Transit District,N,DR,DO,144008.00
+5059,Springfield Mass Transit District,N,MB,DO,993325.00
+5060,Champaign-Urbana Mass Transit District,N,DR,DO,117569.00
+5060,Champaign-Urbana Mass Transit District,N,DR,PT,127862.00
+5060,Champaign-Urbana Mass Transit District,N,MB,DO,6469045.00
+5061,Decatur Public Transit System,N,DR,DO,37181.00
+5061,Decatur Public Transit System,N,DT,PT,22392.00
+5061,Decatur Public Transit System,N,MB,DO,484639.00
+5066,Chicago Transit Authority,N,HR,DO,278183527.00
+5066,Chicago Transit Authority,N,MB,DO,298824494.00
+5088,Shoreline Metro,N,DR,DO,332455.00
+5088,Shoreline Metro,N,MB,DO,425240.00
+5090,Richland County Transit,Y,DR,PT,90429.00
+5090,Richland County Transit,Y,MB,PT,192349.00
+5091,Wausau Area Transit System,N,DR,DO,7625.00
+5091,Wausau Area Transit System,N,MB,DO,447653.00
+5092,City of Rochester Public Transportation,N,DR,PT,138264.00
+5092,City of Rochester Public Transportation,N,MB,PT,1966224.00
+5093,Lima Allen County Regional Transit Authority,Y,DR,DO,146372.00
+5093,Lima Allen County Regional Transit Authority,Y,DR,PT,0.00
+5093,Lima Allen County Regional Transit Authority,Y,MB,DO,1358.00
+5095,Lorain County Transit,Y,DR,PT,22184.00
+5095,Lorain County Transit,Y,MB,PT,112393.00
+5096,City of Waukesha Transit Commission,N,CB,PT,518291.00
+5096,City of Waukesha Transit Commission,N,DR,DO,45850.00
+5096,City of Waukesha Transit Commission,N,DR,PT,41510.00
+5096,City of Waukesha Transit Commission,N,MB,DO,991233.00
+5098,Michigan City Transit,Y,DR,DO,7734.00
+5098,Michigan City Transit,Y,MB,DO,87565.00
+5099,Eau Claire Transit,N,DR,PT,217056.00
+5099,Eau Claire Transit,N,MB,DO,709843.00
+5103,North Township of Lake County Dial-A-Ride,N,DR,DO,0.00
+5103,North Township of Lake County Dial-A-Ride,N,DT,PT,0.00
+5104,Northern Indiana Commuter Transportation District,N,CR,DO,19341085.00
+5107,Henderson Area Rapid Transit,Y,DR,DO,10983.00
+5107,Henderson Area Rapid Transit,Y,MB,DO,21960.00
+5108,Janesville Transit System,Y,DR,PT,14112.00
+5108,Janesville Transit System,Y,MB,DO,595367.00
+5109,City of Beloit Transit System,Y,DR,PT,13369.00
+5109,City of Beloit Transit System,Y,MB,DO,204153.00
+5110,Bloomington Public Transportation Corporation,N,DR,DO,53284.00
+5110,Bloomington Public Transportation Corporation,N,MB,DO,1545187.00
+5113,Pace - Suburban Bus Division,N,DR,DO,57530.00
+5113,Pace - Suburban Bus Division,N,DR,PT,1395037.00
+5113,Pace - Suburban Bus Division,N,DT,PT,388804.00
+5113,Pace - Suburban Bus Division,N,MB,DO,27872792.00
+5113,Pace - Suburban Bus Division,N,MB,PT,2417287.00
+5113,Pace - Suburban Bus Division,N,VP,DO,4158845.00
+5117,Laketran,N,CB,DO,626001.00
+5117,Laketran,N,DR,DO,446646.00
+5117,Laketran,N,DR,PT,3000.00
+5117,Laketran,N,MB,DO,276973.00
+5118,Northeast Illinois Regional Commuter Railroad Corporation dba: Metra Rail,N,CR,DO,309448078.00
+5119,City of Detroit Department of Transportation,N,DR,PT,16945.00
+5119,City of Detroit Department of Transportation,N,DT,PT,606684.00
+5119,City of Detroit Department of Transportation,N,MB,DO,21341905.00
+5131,"Opportunity Enterprises, Inc.",N,DR,DO,29166.00
+5132,Twin Cities Area Transportation Authority,Y,DR,DO,293632.00
+5132,Twin Cities Area Transportation Authority,Y,MB,DO,30554.00
+5133,Chippewa Falls General Public Shared-Ride Taxi System,Y,DR,PT,175079.00
+5141,Detroit Transportation Corporation,N,MG,DO,1556301.00
+5142,Steel Valley Regional Transit Authority,Y,DR,DO,2327.00
+5142,Steel Valley Regional Transit Authority,Y,MB,DO,40590.00
+5143,Brunswick Transit Alternative,N,MB,DO,10032.00
+5145,City of Kokomo,N,DR,DO,4186.00
+5145,City of Kokomo,N,DT,PT,316465.00
+5145,City of Kokomo,N,MB,DO,0.00
+5146,Madison County Transit District,N,DR,PT,166518.00
+5146,Madison County Transit District,N,MB,PT,2194373.00
+5146,Madison County Transit District,N,VP,DO,414859.00
+5148,Blue Water Area Transportation Commission,N,CB,DO,11731.00
+5148,Blue Water Area Transportation Commission,N,DR,DO,1532297.00
+5148,Blue Water Area Transportation Commission,N,DR,PT,1515786.00
+5148,Blue Water Area Transportation Commission,N,MB,DO,115936.00
+5149,Michiana Area Council of Governments,N,DR,PT,6003.00
+5149,Michiana Area Council of Governments,N,DT,PT,114126.00
+5149,Michiana Area Council of Governments,N,MB,PT,286884.00
+5152,Onalaska Shared Ride Taxi City of Onalaska,Y,DR,PT,238091.00
+5154,Metropolitan Council,N,DR,PT,1133062.00
+5154,Metropolitan Council,N,MB,PT,10435192.00
+5154,Metropolitan Council,N,VP,PT,741672.00
+5155,Metro Mobility,N,DR,PT,6335538.00
+5157,Butler County Regional Transit Authority,N,CB,DO,21889.00
+5157,Butler County Regional Transit Authority,N,DR,DO,564204.00
+5157,Butler County Regional Transit Authority,N,MB,DO,4489.00
+5157,Butler County Regional Transit Authority,N,MB,PT,407250.00
+5158,University of Michigan Parking and Transportation Services,N,MB,DO,1975777.00
+5159,River Valley Metro Mass Transit District,N,DR,PT,14788.00
+5159,River Valley Metro Mass Transit District,N,MB,PT,394372.00
+5160,Washington County Transit,N,CB,PT,386423.00
+5160,Washington County Transit,N,DR,PT,380302.00
+5161,Ozaukee County Transit Services,N,CB,DO,274443.00
+5161,Ozaukee County Transit Services,N,DR,PT,438678.00
+5162,TransPorte,Y,DR,DO,101948.00
+5163,Licking County Transit Board,N,DR,PT,1818580.00
+5165,Greene County Transit Board,N,DR,PT,1926851.00
+5166,Clermont Transportation Connection,N,DR,DO,55323.00
+5166,Clermont Transportation Connection,N,DR,PT,0.00
+5166,Clermont Transportation Connection,N,MB,DO,222021.00
+5166,Clermont Transportation Connection,N,MB,PT,136451.00
+5167,"South Lake County Community Services, Inc.",N,DR,DO,72288.00
+5169,Miami County Public Transit,N,DR,PT,253869.00
+5171,Fond du Lac Area Transit,Y,DR,PT,342194.00
+5171,Fond du Lac Area Transit,Y,DT,PT,39116.00
+5171,Fond du Lac Area Transit,Y,MB,DO,125538.00
+5171,Fond du Lac Area Transit,Y,MB,PT,7250.00
+5174,City of Danville/Danville Mass Transit,Y,DR,PT,29740.00
+5174,City of Danville/Danville Mass Transit,Y,MB,DO,322868.00
+5176,City of DeKalb,N,DR,PT,52183.00
+5177,ColumBUS Transit,Y,DR,DO,9189.00
+5177,ColumBUS Transit,Y,MB,DO,24594.00
+5179,"Porter County Aging and Community Services, Inc.",N,DR,DO,12355.00
+5180,Livingston Essential Transportation Service,Y,DR,DO,324654.00
+5182,"Pace-Suburban Bus Division, ADA Paratransit Services",N,DR,PT,9653545.00
+5182,"Pace-Suburban Bus Division, ADA Paratransit Services",N,DT,PT,76843.00
+5183,City of Valparaiso,N,CB,PT,396029.00
+5183,City of Valparaiso,N,MB,PT,179484.00
+5184,Macatawa Area Express Transportation Authority,N,DR,DO,195589.00
+5184,Macatawa Area Express Transportation Authority,N,MB,DO,122992.00
+5186,Lawrence County Port Authority,Y,DR,PT,6854.00
+5186,Lawrence County Port Authority,Y,MB,PT,20561.00
+5191,Mid-Ohio Regional Planning Commision,N,VP,PT,479262.00
+5193,"VRide, Inc. - Michigan",N,VP,DO,3078759.00
+5194,Boone County Council on Aging,Y,DR,DO,24655.00
+5195,City of Shelby,Y,DR,DO,440.00
+5196,Harbor Transit Multi-Modal Transportation System,Y,DR,DO,150132.00
+5197,Trumbull County Transit Board,N,DR,PT,79935.00
+5198,Medina County Public Transit,N,DR,DO,65896.00
+5198,Medina County Public Transit,N,DT,PT,0.00
+5198,Medina County Public Transit,N,MB,DO,23736.00
+5198,Medina County Public Transit,N,MB,PT,0.00
+5199,Delaware County Transit Board,N,DR,DO,74822.00
+5199,Delaware County Transit Board,N,MB,DO,34466.00
+5200,Warren County Transit Services,Y,DR,PT,85681.00
+5201,Hancock Area Rural Transit ,Y,DR,DO,41318.00
+5202,City of West Bend,Y,DT,PT,395418.00
+5204,Jackson County Mass Transit District,Y,DR,DO,37075.00
+5205,Greater Mankato Transit System,Y,DR,DO,27042.00
+5205,Greater Mankato Transit System,Y,MB,DO,93070.00
+5207,Midland Dial-A-Ride,Y,DR,DO,96260.00
+5208,Midland County Board of Commissioners,Y,DR,DO,202122.00
+5209,Central Indiana Regional Transportation Authority ,Y,MB,PT,17348.00
+5209,Central Indiana Regional Transportation Authority ,Y,VP,PT,291731.00
+5210,City of Hartford,Y,DR,DO,72073.00
+5211,Rides Mass Transit District,N,MB,DO,340563.00
+5212,Stateline Mass Transit District,N,DR,PT,16844.00
+5214,DeKalb County,N,DR,PT,13686.00
+5215,Voluntary Action Center,Y,DR,DO,65869.00
+5216,Miller Transportation,Y,CB,DO,303886.00
+6001,Amarillo City Transit,N,DR,DO,58029.00
+6001,Amarillo City Transit,N,MB,DO,149462.00
+6006,Mass Transit Department - City of El Paso,N,DR,DO,91875.00
+6006,Mass Transit Department - City of El Paso,N,DR,PT,428962.00
+6006,Mass Transit Department - City of El Paso,N,DT,PT,15905.00
+6006,Mass Transit Department - City of El Paso,N,MB,DO,9148195.00
+6007,Fort Worth Transportation Authority,N,CR,PT,2257458.00
+6007,Fort Worth Transportation Authority,N,DR,DO,369435.00
+6007,Fort Worth Transportation Authority,N,DR,PT,660748.00
+6007,Fort Worth Transportation Authority,N,MB,DO,4527304.00
+6007,Fort Worth Transportation Authority,N,MB,PT,0.00
+6007,Fort Worth Transportation Authority,N,VP,PT,1602387.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,CB,DO,23006184.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,CB,PT,5878857.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,DR,PT,1345185.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,DT,PT,249925.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,LR,DO,4483444.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,MB,DO,27365418.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,MB,PT,6750764.00
+6008,"Metropolitan Transit Authority of Harris County, Texas ",N,VP,PT,7495747.00
+6009,"Laredo Transit Management, Inc.",N,DR,DO,41644.00
+6009,"Laredo Transit Management, Inc.",N,MB,DO,3367797.00
+6010,"City Transit Management Company, Inc.",N,DR,DO,241362.00
+6010,"City Transit Management Company, Inc.",N,MB,DO,4270790.00
+6011,VIA Metropolitan Transit,N,DR,DO,831720.00
+6011,VIA Metropolitan Transit,N,DR,PT,895311.00
+6011,VIA Metropolitan Transit,N,MB,DO,23363166.00
+6011,VIA Metropolitan Transit,N,VP,PT,2111524.00
+6012,"Waco Transit System, Inc.",N,DR,DO,95982.00
+6012,"Waco Transit System, Inc.",N,MB,DO,1087676.00
+6013,Port Arthur Transit,Y,DR,DO,47863.00
+6013,Port Arthur Transit,Y,MB,DO,94563.00
+6014,City of Brownsville - Brownsville Metro,N,DR,DO,29466.00
+6014,City of Brownsville - Brownsville Metro,N,MB,DO,1126521.00
+6015,Island Transit,Y,CB,DO,196066.00
+6015,Island Transit,Y,DR,DO,15814.00
+6015,Island Transit,Y,MB,DO,282947.00
+6016,Beaumont Municipal Transit System,N,DR,PT,53260.00
+6016,Beaumont Municipal Transit System,N,MB,PT,470042.00
+6017,Central Oklahoma Transportation and Parking Authority,N,DR,DO,120408.00
+6017,Central Oklahoma Transportation and Parking Authority,N,DT,PT,78983.00
+6017,Central Oklahoma Transportation and Parking Authority,N,FB,PT,36178.00
+6017,Central Oklahoma Transportation and Parking Authority,N,MB,DO,2404063.00
+6017,Central Oklahoma Transportation and Parking Authority,N,MB,PT,9120.00
+6018,Metropolitan Tulsa Transit Authority,N,DR,PT,434370.00
+6018,Metropolitan Tulsa Transit Authority,N,MB,DO,2493769.00
+6018,Metropolitan Tulsa Transit Authority,N,MB,PT,33721.00
+6019,City of Albuquerque Transit Department,N,DR,DO,339712.00
+6019,City of Albuquerque Transit Department,N,MB,DO,4187945.00
+6020,Louisiana Department of Transportation & Development,N,FB,DO,0.00
+6022,Capital Area Transit System,N,DR,PT,127744.00
+6022,Capital Area Transit System,N,MB,DO,1832474.00
+6023,Lake Charles Transit System,Y,DR,DO,5994.00
+6023,Lake Charles Transit System,Y,MB,DO,104716.00
+6024,Shreveport Area Transit System,N,DR,DO,110836.00
+6024,Shreveport Area Transit System,N,MB,DO,2496920.00
+6025,City of Alexandria,Y,DR,DO,10021.00
+6025,City of Alexandria,Y,MB,DO,434767.00
+6026,City of Monroe Transit System,Y,DR,DO,16852.00
+6026,City of Monroe Transit System,Y,MB,DO,858545.00
+6032,New Orleans Regional Transit Authority,N,DR,PT,399602.00
+6032,New Orleans Regional Transit Authority,N,MB,PT,10627857.00
+6032,New Orleans Regional Transit Authority,N,SR,PT,6859287.00
+6033,Central Arkansas Transit Authority,N,DR,DO,186870.00
+6033,Central Arkansas Transit Authority,N,MB,DO,1998662.00
+6033,Central Arkansas Transit Authority,N,SR,DO,76057.00
+6034,Pine Bluff Transit,Y,DR,DO,7076.00
+6034,Pine Bluff Transit,Y,MB,DO,51979.00
+6035,Wichita Falls Transit System,Y,MB,DO,276470.00
+6038,Lafayette Transit System,N,DR,PT,18663.00
+6038,Lafayette Transit System,N,MB,DO,493073.00
+6038,Lafayette Transit System,N,MB,PT,35362.00
+6040,CityLink Transit,Y,DR,DO,323930.00
+6040,CityLink Transit,Y,MB,DO,390511.00
+6041,Handitran Special Transit Division - City of Arlington,N,DR,DO,89546.00
+6041,Handitran Special Transit Division - City of Arlington,N,DT,PT,128859.00
+6048,Capital Metropolitan Transportation Authority,N,CB,PT,677343.00
+6048,Capital Metropolitan Transportation Authority,N,DR,PT,586347.00
+6048,Capital Metropolitan Transportation Authority,N,DT,PT,45796.00
+6048,Capital Metropolitan Transportation Authority,N,MB,PT,16681175.00
+6048,Capital Metropolitan Transportation Authority,N,VP,DO,510162.00
+6048,Capital Metropolitan Transportation Authority,N,YR,PT,3358278.00
+6049,Las Cruces Area Transit,Y,DR,DO,22000.00
+6049,Las Cruces Area Transit,Y,MB,DO,579183.00
+6051,Corpus Christi Regional Transportation Authority,N,DR,DO,1196.00
+6051,Corpus Christi Regional Transportation Authority,N,DR,PT,178981.00
+6051,Corpus Christi Regional Transportation Authority,N,FB,PT,96515.00
+6051,Corpus Christi Regional Transportation Authority,N,MB,DO,1243826.00
+6051,Corpus Christi Regional Transportation Authority,N,MB,PT,190073.00
+6056,Dallas Area Rapid Transit,N,CR,PT,8822554.00
+6056,Dallas Area Rapid Transit,N,DR,PT,1338776.00
+6056,Dallas Area Rapid Transit,N,DT,PT,815247.00
+6056,Dallas Area Rapid Transit,N,LR,DO,20435200.00
+6056,Dallas Area Rapid Transit,N,MB,DO,37133424.00
+6056,Dallas Area Rapid Transit,N,VP,DO,967038.00
+6058,St. Bernard Urban Rapid Transit,Y,MB,DO,21752.00
+6059,Brazos Transit District,N,CB,PT,3776612.00
+6059,Brazos Transit District,N,DR,DO,234974.00
+6059,Brazos Transit District,N,MB,DO,264970.00
+6062,"University of Arkansas, Fayetteville",Y,DR,DO,9684.00
+6062,"University of Arkansas, Fayetteville",Y,MB,DO,1405317.00
+6068,City of Grand Prairie Transportation Services Department,Y,DR,DO,1847.00
+6070,City of Mesquite,Y,DR,DO,15364.00
+6072,Ozark Regional Transit,N,DR,DO,34348.00
+6072,Ozark Regional Transit,N,MB,DO,77067.00
+6077,Santa Fe Trails - City of Santa Fe,N,DR,DO,70497.00
+6077,Santa Fe Trails - City of Santa Fe,N,MB,DO,350857.00
+6080,Terrebonne Parish Consolidated Government,Y,DR,DO,2889.00
+6080,Terrebonne Parish Consolidated Government,Y,MB,DO,120673.00
+6081,Longview Transit,Y,DR,DO,22046.00
+6081,Longview Transit,Y,MB,DO,182842.00
+6082,The Gulf Coast Center,N,CB,PT,196066.00
+6082,The Gulf Coast Center,N,DR,DO,21500.00
+6082,The Gulf Coast Center,N,DT,PT,0.00
+6082,The Gulf Coast Center,N,MB,DO,128771.00
+6084,"Dallas - vRide, Inc.",N,VP,DO,2254837.00
+6086,Fort Smith Transit,Y,DR,DO,40693.00
+6086,Fort Smith Transit,Y,MB,DO,129460.00
+6088,Jefferson Parish Department of Transit Administration,N,DR,PT,206676.00
+6088,Jefferson Parish Department of Transit Administration,N,MB,PT,3291581.00
+6089,City of Tyler,Y,DT,PT,47711.00
+6089,City of Tyler,Y,MB,DO,109725.00
+6090,Lower Rio Grande Valley Development Council,Y,CB,DO,42051.00
+6090,Lower Rio Grande Valley Development Council,Y,DR,DO,34.00
+6090,Lower Rio Grande Valley Development Council,Y,MB,DO,149923.00
+6091,Hill Country Transit District,N,DR,DO,190840.00
+6091,Hill Country Transit District,N,MB,DO,371526.00
+6093,Texarkana Urban Transit District,Y,MB,DO,126824.00
+6094,The Lawton Area Transit System,Y,DR,DO,50875.00
+6094,The Lawton Area Transit System,Y,MB,DO,301237.00
+6095,Golden Crescent Regional Planning Commission,N,DR,DO,113883.00
+6095,Golden Crescent Regional Planning Commission,N,MB,DO,124684.00
+6096,Cleveland Area Rapid Transit,Y,DR,DO,92835.00
+6096,Cleveland Area Rapid Transit,Y,MB,DO,67225.00
+6097,Midland-Odessa Urban Transit District,Y,CB,PT,10726.00
+6097,Midland-Odessa Urban Transit District,Y,DR,DO,94077.00
+6097,Midland-Odessa Urban Transit District,Y,MB,DO,254357.00
+6099,City of McAllen - McAllen Express Transit,Y,DR,DO,6055.00
+6099,City of McAllen - McAllen Express Transit,Y,MB,DO,406910.00
+6100,City of Farmington dba: Red Apple Transit,Y,DR,PT,16562.00
+6100,City of Farmington dba: Red Apple Transit,Y,MB,PT,74482.00
+6101,Denton County Transportation Authority,N,DR,DO,87626.00
+6101,Denton County Transportation Authority,N,MB,DO,3429469.00
+6101,Denton County Transportation Authority,N,VP,PT,127136.00
+6101,Denton County Transportation Authority,N,YR,PT,729394.00
+6102,Concho Valley Transit District,N,DR,DO,67363.00
+6102,Concho Valley Transit District,N,MB,DO,110902.00
+6103,Fort Bend County Public Transportation,N,CB,PT,507493.00
+6103,Fort Bend County Public Transportation,N,DR,PT,82005.00
+6103,Fort Bend County Public Transportation,N,MB,PT,7422.00
+6104,Jonesboro Economical Transportation System,Y,DR,DO,12982.00
+6104,Jonesboro Economical Transportation System,Y,MB,DO,42463.00
+6105,Intracity Transit,Y,DR,DO,7920.00
+6105,Intracity Transit,Y,MB,DO,72098.00
+6107,"Texoma Area Paratransit System, Inc",N,CB,DO,72845.00
+6107,"Texoma Area Paratransit System, Inc",N,CB,PT,39036.00
+6107,"Texoma Area Paratransit System, Inc",N,DR,DO,446727.00
+6107,"Texoma Area Paratransit System, Inc",N,MB,DO,18543.00
+6108,"Harris County Community Services Department, Office of Transit Services",Y,CB,PT,81314.00
+6108,"Harris County Community Services Department, Office of Transit Services",Y,DT,PT,256181.00
+6108,"Harris County Community Services Department, Office of Transit Services",Y,MB,PT,64550.00
+6109,St. Tammany Parish Government,Y,DR,PT,43977.00
+6110,Collin County Committee on Aging,Y,DR,DO,0.00
+6110,Collin County Committee on Aging,Y,MB,DO,0.00
+6111,Rio Metro Regional Transit District,N,CB,DO,2108.00
+6111,Rio Metro Regional Transit District,N,CB,PT,30871.00
+6111,Rio Metro Regional Transit District,N,CR,PT,3002928.00
+6111,Rio Metro Regional Transit District,N,DR,DO,53922.00
+6111,Rio Metro Regional Transit District,N,DT,PT,0.00
+6111,Rio Metro Regional Transit District,N,MB,DO,1686.00
+6112,River Parishes Transit Authority,Y,DR,PT,33365.00
+6113,City of Cleburne,Y,CB,DO,1671.00
+6113,City of Cleburne,Y,DR,DO,78863.00
+6114,STAR Transit,N,DR,DO,95152.00
+6114,STAR Transit,N,MB,DO,982.00
+6115,Public Transit Services,Y,CB,DO,47380.00
+6115,Public Transit Services,Y,DR,DO,81628.00
+6115,Public Transit Services,Y,DR,PT,0.00
+6116,Special Programs for Aging Needs,Y,DR,DO,75922.00
+6118,City of Edmond,Y,CB,PT,0.00
+6118,City of Edmond,Y,DR,PT,0.00
+6118,City of Edmond,Y,MB,PT,0.00
+6124,"vRide, Inc. - El Paso",N,VP,DO,368984.00
+6125,City of Round Rock,Y,DR,PT,17026.00
+6127,Plaquemines Parish Government,N,FB,DO,112695.00
+6129,City of Conroe,N,DR,PT,1468.00
+6131,San Marcos Urban Transit District,Y,DR,DO,14496.00
+6131,San Marcos Urban Transit District,Y,MB,DO,29431.00
+6132,"St. Martin, Iberia, Lafayette Community Action Age",Y,DR,DO,22168.00
+6133,McKinney Avenue Transit Authority,N,SR,DO,0.00
+7001,StarTran,N,DR,DO,60004.00
+7001,StarTran,N,DT,PT,90584.00
+7001,StarTran,N,MB,DO,1627802.00
+7002,Transit Authority of Omaha,N,DR,DO,268848.00
+7002,Transit Authority of Omaha,N,MB,DO,4396349.00
+7003,City Utilities of Springfield ,N,DR,DO,35734.00
+7003,City Utilities of Springfield ,N,MB,DO,1013846.00
+7005,Kansas City Area Transportation Authority,N,DR,DO,71827.00
+7005,Kansas City Area Transportation Authority,N,DR,PT,695453.00
+7005,Kansas City Area Transportation Authority,N,DT,PT,19385.00
+7005,Kansas City Area Transportation Authority,N,MB,DO,10618269.00
+7005,Kansas City Area Transportation Authority,N,RB,DO,689792.00
+7005,Kansas City Area Transportation Authority,N,VP,DO,287571.00
+7006,"Bi-State Development Agency of the Missouri-Illinois Metropolitan District, d.b.a.(St. Louis) Metro",N,DR,DO,2478903.00
+7006,"Bi-State Development Agency of the Missouri-Illinois Metropolitan District, d.b.a.(St. Louis) Metro",N,LR,DO,18608919.00
+7006,"Bi-State Development Agency of the Missouri-Illinois Metropolitan District, d.b.a.(St. Louis) Metro",N,MB,DO,31694954.00
+7007,Bettendorf Transit System,Y,DR,PT,8471.00
+7007,Bettendorf Transit System,Y,MB,DO,117881.00
+7007,Bettendorf Transit System,Y,MB,PT,3640.00
+7008,Cedar Rapids Transit,N,DR,PT,189325.00
+7008,Cedar Rapids Transit,N,MB,DO,806915.00
+7009,Davenport Public Transit,Y,MB,DO,413902.00
+7010,Des Moines Area Regional Transit Authority,N,DR,DO,2051354.00
+7010,Des Moines Area Regional Transit Authority,N,DT,PT,3546.00
+7010,Des Moines Area Regional Transit Authority,N,MB,DO,4240102.00
+7010,Des Moines Area Regional Transit Authority,N,VP,DO,953768.00
+7011,City of Dubuque,Y,DR,DO,56905.00
+7011,City of Dubuque,Y,MB,DO,117897.00
+7012,Sioux City Transit System,N,DR,PT,99936.00
+7012,Sioux City Transit System,N,MB,DO,744037.00
+7013,Metropolitan Transit Authority of Black Hawk County,N,DR,DO,381270.00
+7013,Metropolitan Transit Authority of Black Hawk County,N,MB,DO,571538.00
+7014,Topeka Metropolitan Transit Authority,N,DR,DO,145341.00
+7014,Topeka Metropolitan Transit Authority,N,DT,PT,53059.00
+7014,Topeka Metropolitan Transit Authority,N,MB,DO,1392921.00
+7015,Wichita Transit,N,DR,DO,214926.00
+7015,Wichita Transit,N,DR,PT,770724.00
+7015,Wichita Transit,N,MB,DO,1735372.00
+7016,Columbia Transit,N,DR,DO,173276.00
+7016,Columbia Transit,N,MB,DO,1734557.00
+7018,Iowa City Transit,N,DR,PT,113304.00
+7018,Iowa City Transit,N,MB,DO,1303197.00
+7019,University of Iowa,N,DR,DO,1493465.00
+7019,University of Iowa,N,MB,DO,0.00
+7030,Coralville Transit System,N,DR,PT,23238.00
+7030,Coralville Transit System,N,MB,DO,434647.00
+7032,St. Joseph Transit,Y,MB,DO,284650.00
+7035,"Johnson County Kansas, aka: Johnson County Transit",N,CB,PT,306799.00
+7035,"Johnson County Kansas, aka: Johnson County Transit",N,DR,PT,410962.00
+7035,"Johnson County Kansas, aka: Johnson County Transit",N,DT,PT,17127.00
+7035,"Johnson County Kansas, aka: Johnson County Transit",N,MB,PT,1001173.00
+7040,City of Joplin Metro Area Public,Y,DR,DO,109183.00
+7040,City of Joplin Metro Area Public,Y,MB,DO,60752.00
+7041,Ames Transit Agency dba CyRide,N,DR,DO,4185.00
+7041,Ames Transit Agency dba CyRide,N,MB,DO,4019718.00
+7041,Ames Transit Agency dba CyRide,N,MB,PT,0.00
+7043,City of Jefferson,Y,DR,DO,56816.00
+7043,City of Jefferson,Y,MB,DO,142182.00
+7045,Johnson County SEATS,N,DR,DO,163616.00
+7046,City of Independence,Y,DR,PT,22234.00
+7046,City of Independence,Y,MB,PT,105172.00
+7047,Unified Government Transit Department,Y,DR,DO,36542.00
+7047,Unified Government Transit Department,Y,MB,DO,83089.00
+7048,City of Lawrence,N,DR,PT,97163.00
+7048,City of Lawrence,N,MB,PT,3097878.00
+7049,River Bend Transit,N,DR,DO,464625.00
+7049,River Bend Transit,N,DR,PT,59635.00
+7049,River Bend Transit,N,MB,PT,6301.00
+7050,Southeast Missouri State University,Y,MB,DO,0.00
+7051,Cape Girardeau County Transit Authority,Y,DR,DO,548790.00
+7051,Cape Girardeau County Transit Authority,Y,MB,DO,27758.00
+7051,Cape Girardeau County Transit Authority,Y,VP,DO,0.00
+7052,Senior Citzen Industries,Y,DR,DO,125347.00
+7053,Flint Hills Area Transportation ,Y,DR,DO,111770.00
+7053,Flint Hills Area Transportation ,Y,MB,DO,0.00
+7054,Sedgwick County Transportation - Dept. on Aging,Y,DR,DO,5496.00
+7054,Sedgwick County Transportation - Dept. on Aging,Y,DR,PT,50379.00
+7054,Sedgwick County Transportation - Dept. on Aging,Y,DT,PT,14769.00
+7055,City of Derby,Y,DR,DO,18715.00
+7056,Butler County Department on Aging,Y,DR,DO,7929.00
+8001,Utah Transit Authority,N,CB,DO,1060035.00
+8001,Utah Transit Authority,N,CR,DO,6608054.00
+8001,Utah Transit Authority,N,DR,DO,1404196.00
+8001,Utah Transit Authority,N,DR,PT,71686.00
+8001,Utah Transit Authority,N,LR,DO,19004819.00
+8001,Utah Transit Authority,N,MB,DO,19840341.00
+8001,Utah Transit Authority,N,MB,PT,15425.00
+8001,Utah Transit Authority,N,VP,DO,4736552.00
+8002,Su Tran LLC dba: Sioux Area Metro,N,DR,DO,264956.00
+8002,Su Tran LLC dba: Sioux Area Metro,N,MB,DO,579216.00
+8003,"City of Fargo, DBA:  Metropolitan Area Transit",N,DR,PT,164919.00
+8003,"City of Fargo, DBA:  Metropolitan Area Transit",N,MB,PT,676374.00
+8004,Billings Metropolitan Transit,N,DR,DO,197768.00
+8004,Billings Metropolitan Transit,N,MB,DO,322383.00
+8005,Mountain Metropolitan Transit,N,DR,PT,520118.00
+8005,Mountain Metropolitan Transit,N,MB,PT,2390730.00
+8005,Mountain Metropolitan Transit,N,VP,DO,282313.00
+8006,Denver Regional Transportation District,N,DR,DO,68505.00
+8006,Denver Regional Transportation District,N,DR,PT,2415790.00
+8006,Denver Regional Transportation District,N,LR,DO,49408379.00
+8006,Denver Regional Transportation District,N,MB,DO,33230809.00
+8006,Denver Regional Transportation District,N,MB,PT,32955156.00
+8007,Pueblo Transit System,N,DR,PT,101564.00
+8007,Pueblo Transit System,N,MB,DO,503781.00
+8008,Cities Area Transit,N,DR,PT,153813.00
+8008,Cities Area Transit,N,MB,DO,242717.00
+8009,Missoula Urban Transportation District,N,DR,DO,197882.00
+8009,Missoula Urban Transportation District,N,MB,DO,276959.00
+8010,City of Greeley - Transit Services,Y,DR,DO,42642.00
+8010,City of Greeley - Transit Services,Y,MB,DO,517730.00
+8011,Transfort ,N,DT,PT,107382.00
+8011,Transfort ,N,MB,DO,1025882.00
+8011,Transfort ,N,MB,PT,22084.00
+8012,Great Falls Transit District,N,DR,DO,64359.00
+8012,Great Falls Transit District,N,MB,DO,239480.00
+8013,City of Casper,Y,DR,PT,82351.00
+8013,City of Casper,Y,MB,PT,283995.00
+8014,Rapid Transit System,Y,DR,DO,187160.00
+8014,Rapid Transit System,Y,MB,DO,239430.00
+8016,Mesa County,N,DR,PT,29829.00
+8016,Mesa County,N,MB,PT,443667.00
+8019,Bis-Man Transit Board,Y,DR,PT,371660.00
+8019,Bis-Man Transit Board,Y,MB,PT,80305.00
+8020,The City of Cheyenne Transit Program,Y,DR,DO,54275.00
+8020,The City of Cheyenne Transit Program,Y,MB,DO,105356.00
+8025,City of Loveland Transit,N,DR,DO,12840.00
+8025,City of Loveland Transit,N,MB,DO,69368.00
+8026,City of St. George,Y,DR,DO,13194.00
+8026,City of St. George,Y,MB,DO,163598.00
+8027,Berthoud Area Transportation Service,Y,DR,DO,8103.00
+8028,Cache Valley Transit District,N,DR,DO,0.00
+8028,Cache Valley Transit District,N,MB,DO,0.00
+8106,North Front Range Metropolitan Planning Organization,N,VP,DO,808473.00
+8107,The University of Montana - ASUM Transportation,N,MB,DO,601851.00
+8109,"vRide, Inc. - Denver",N,VP,DO,616095.00
+8110,Fargo Park District/ Valley Senior Services dba Valley Senior Services,Y,DR,DO,123823.00
+9001,Regional Transportation Commission of Washoe County,N,CB,PT,78744.00
+9001,Regional Transportation Commission of Washoe County,N,DR,PT,654188.00
+9001,Regional Transportation Commission of Washoe County,N,DT,PT,39234.00
+9001,Regional Transportation Commission of Washoe County,N,MB,PT,5880392.00
+9001,Regional Transportation Commission of Washoe County,N,VP,PT,394462.00
+9002,City and County of Honolulu Department of Transportation Services,N,DR,PT,1622821.00
+9002,City and County of Honolulu Department of Transportation Services,N,DT,PT,287320.00
+9002,City and County of Honolulu Department of Transportation Services,N,MB,PT,55038042.00
+9003,San Francisco Bay Area Rapid Transit District,N,DR,PT,834048.00
+9003,San Francisco Bay Area Rapid Transit District,N,HR,DO,406055540.00
+9004,Golden Empire Transit District,N,DR,DO,126693.00
+9004,Golden Empire Transit District,N,MB,DO,4816882.00
+9006,Santa Cruz Metropolitan Transit District,N,CB,DO,1471122.00
+9006,Santa Cruz Metropolitan Transit District,N,DR,DO,289592.00
+9006,Santa Cruz Metropolitan Transit District,N,DT,PT,14944.00
+9006,Santa Cruz Metropolitan Transit District,N,MB,DO,7098139.00
+9007,Modesto Area Express,N,DR,PT,259738.00
+9007,Modesto Area Express,N,MB,PT,2499176.00
+9008,Santa Monica's Big Blue Bus,N,DR,PT,0.00
+9008,Santa Monica's Big Blue Bus,N,MB,DO,14091097.00
+9009,San Mateo County Transit District,N,DR,PT,709660.00
+9009,San Mateo County Transit District,N,DT,PT,132292.00
+9009,San Mateo County Transit District,N,MB,DO,12859407.00
+9009,San Mateo County Transit District,N,MB,PT,5726387.00
+9010,Torrance Transit System,N,DT,PT,223545.00
+9010,Torrance Transit System,N,MB,DO,2963696.00
+9010,Torrance Transit System,N,MB,PT,155906.00
+9012,San Joaquin Regional Transit District,N,CB,PT,891515.00
+9012,San Joaquin Regional Transit District,N,DR,PT,438.00
+9012,San Joaquin Regional Transit District,N,DT,PT,135331.00
+9012,San Joaquin Regional Transit District,N,MB,DO,2962974.00
+9012,San Joaquin Regional Transit District,N,MB,PT,342339.00
+9013,Santa Clara Valley Transportation Authority,N,DR,PT,2989905.00
+9013,Santa Clara Valley Transportation Authority,N,LR,DO,9537182.00
+9013,Santa Clara Valley Transportation Authority,N,MB,DO,28793974.00
+9013,Santa Clara Valley Transportation Authority,N,MB,PT,0.00
+9014, Alameda-Contra Costa Transit District,N,DR,PT,2690478.00
+9014, Alameda-Contra Costa Transit District,N,MB,DO,58234014.00
+9014, Alameda-Contra Costa Transit District,N,MB,PT,575399.00
+9015,San Francisco Municipal Railway,N,CC,DO,26697764.00
+9015,San Francisco Municipal Railway,N,DR,PT,834321.00
+9015,San Francisco Municipal Railway,N,DT,PT,319952.00
+9015,San Francisco Municipal Railway,N,LR,DO,40336412.00
+9015,San Francisco Municipal Railway,N,MB,DO,86420407.00
+9015,San Francisco Municipal Railway,N,SR,DO,7461314.00
+9015,San Francisco Municipal Railway,N,TB,DO,58023023.00
+9016,"Golden Gate Bridge, Highway and Transportation District",N,DR,PT,312579.00
+9016,"Golden Gate Bridge, Highway and Transportation District",N,FB,DO,15226480.00
+9016,"Golden Gate Bridge, Highway and Transportation District",N,MB,DO,16487250.00
+9016,"Golden Gate Bridge, Highway and Transportation District",N,MB,PT,103028.00
+9017,City of Santa Rosa,N,DR,PT,130516.00
+9017,City of Santa Rosa,N,MB,DO,1899976.00
+9017,City of Santa Rosa,N,MB,PT,128117.00
+9019,Sacramento Regional Transit District,N,DR,DO,4335.00
+9019,Sacramento Regional Transit District,N,DR,PT,976206.00
+9019,Sacramento Regional Transit District,N,LR,DO,14729637.00
+9019,Sacramento Regional Transit District,N,MB,DO,15024707.00
+9020,Santa Barbara Metropolitan Transit District,N,CB,DO,174827.00
+9020,Santa Barbara Metropolitan Transit District,N,DR,PT,169690.00
+9020,Santa Barbara Metropolitan Transit District,N,MB,DO,7907405.00
+9022,Norwalk Transit System,N,DR,PT,13261.00
+9022,Norwalk Transit System,N,DT,PT,2360.00
+9022,Norwalk Transit System,N,MB,DO,1366717.00
+9023,Long Beach Transit,N,DT,PT,88946.00
+9023,Long Beach Transit,N,MB,DO,17760480.00
+9024,City of La Mirada Transit,N,DR,PT,32897.00
+9026,San Diego Metropolitan Transit System,N,CB,PT,1270230.00
+9026,San Diego Metropolitan Transit System,N,DR,PT,2007302.00
+9026,San Diego Metropolitan Transit System,N,LR,DO,35553838.00
+9026,San Diego Metropolitan Transit System,N,MB,DO,28621363.00
+9026,San Diego Metropolitan Transit System,N,MB,PT,23198889.00
+9027,Fresno Area Express,N,DR,PT,271059.00
+9027,Fresno Area Express,N,MB,DO,9590617.00
+9029,Omnitrans,N,DR,PT,1468653.00
+9029,Omnitrans,N,MB,DO,12803889.00
+9029,Omnitrans,N,MB,PT,121661.00
+9030,North County Transit District,N,CR,PT,7222779.00
+9030,North County Transit District,N,DR,PT,43771.00
+9030,North County Transit District,N,DT,PT,554330.00
+9030,North County Transit District,N,MB,PT,8809782.00
+9030,North County Transit District,N,YR,PT,2280064.00
+9031,Riverside Transit Agency,N,CB,DO,708927.00
+9031,Riverside Transit Agency,N,CB,PT,288423.00
+9031,Riverside Transit Agency,N,DR,PT,1449989.00
+9031,Riverside Transit Agency,N,DT,PT,34551.00
+9031,Riverside Transit Agency,N,MB,DO,6323425.00
+9031,Riverside Transit Agency,N,MB,PT,1821174.00
+9032,City of Phoenix Public Transit Department dba Valley Metro,N,DR,DO,18017.00
+9032,City of Phoenix Public Transit Department dba Valley Metro,N,DR,PT,919002.00
+9032,City of Phoenix Public Transit Department dba Valley Metro,N,MB,PT,33632564.00
+9033,City of Tucson,N,DR,DO,749812.00
+9033,City of Tucson,N,MB,DO,12709343.00
+9034,City of Glendale Transit,N,DR,DO,100504.00
+9034,City of Glendale Transit,N,MB,DO,27036.00
+9035,Gold Coast Transit,N,DR,PT,170054.00
+9035,Gold Coast Transit,N,MB,DO,2708046.00
+9036,Orange County Transportation Authority,N,CB,DO,226794.00
+9036,Orange County Transportation Authority,N,CB,PT,546174.00
+9036,Orange County Transportation Authority,N,DR,PT,5071564.00
+9036,Orange County Transportation Authority,N,DT,PT,161121.00
+9036,Orange County Transportation Authority,N,MB,DO,42132187.00
+9036,Orange County Transportation Authority,N,MB,PT,5833538.00
+9036,Orange County Transportation Authority,N,VP,PT,5066974.00
+9039,Culver City Municipal Bus Lines,N,DR,DO,4891.00
+9039,Culver City Municipal Bus Lines,N,DT,PT,6989.00
+9039,Culver City Municipal Bus Lines,N,MB,DO,4011320.00
+9041,Montebello Bus Lines,N,CB,DO,77883.00
+9041,Montebello Bus Lines,N,DT,PT,25677.00
+9041,Montebello Bus Lines,N,MB,DO,5831813.00
+9041,Montebello Bus Lines,N,MB,PT,101281.00
+9042,City of Gardena Transportation Department,N,DR,DO,14419.00
+9042,City of Gardena Transportation Department,N,MB,DO,2913692.00
+9043,City of Commerce Municipal Buslines,N,DR,DO,0.00
+9043,City of Commerce Municipal Buslines,N,MB,DO,0.00
+9044,City of Arcadia Transit,N,DR,PT,86208.00
+9045,Regional Transportation Commission of Southern Nevada,N,DR,PT,3315913.00
+9045,Regional Transportation Commission of Southern Nevada,N,MB,PT,63674273.00
+9045,Regional Transportation Commission of Southern Nevada,N,RB,PT,2689900.00
+9050,Simi Valley Transit,Y,DR,DO,81524.00
+9050,Simi Valley Transit,Y,MB,DO,318317.00
+9052,City of Corona,Y,DR,PT,175885.00
+9052,City of Corona,Y,MB,PT,164178.00
+9061,Yuba-Sutter Transit Authority,N,CB,PT,681794.00
+9061,Yuba-Sutter Transit Authority,N,DR,PT,135870.00
+9061,Yuba-Sutter Transit Authority,N,MB,PT,577883.00
+9062,Monterey-Salinas Transit,N,DR,PT,184728.00
+9062,Monterey-Salinas Transit,N,MB,DO,6921260.00
+9062,Monterey-Salinas Transit,N,MB,PT,184727.00
+9078,Central Contra Costa Transit Authority,N,DR,PT,478120.00
+9078,Central Contra Costa Transit Authority,N,MB,DO,4641248.00
+9079,SunLine Transit Agency,N,DR,DO,293343.00
+9079,SunLine Transit Agency,N,MB,DO,3026995.00
+9086,City of Riverside Special Transportation,N,DR,DO,344258.00
+9087,Santa Maria Area Transit,N,DR,PT,18227.00
+9087,Santa Maria Area Transit,N,MB,PT,1193619.00
+9088,Napa County Transportation Planning Agency,N,CB,PT,135240.00
+9088,Napa County Transportation Planning Agency,N,DR,PT,196899.00
+9088,Napa County Transportation Planning Agency,N,MB,PT,594522.00
+9089,Sonoma County Transit,N,DR,PT,147050.00
+9089,Sonoma County Transit,N,MB,DO,36744.00
+9089,Sonoma County Transit,N,MB,PT,2009691.00
+9090,Yolo County Transportation District,N,DR,PT,72827.00
+9090,Yolo County Transportation District,N,MB,PT,2518758.00
+9091,City of Visalia - Visalia City Coach,N,DR,PT,140037.00
+9091,City of Visalia - Visalia City Coach,N,MB,PT,1260329.00
+9092,City of Fairfield - Fairfield and Suisun Transit,N,DR,PT,85653.00
+9092,City of Fairfield - Fairfield and Suisun Transit,N,MB,PT,2095877.00
+9093,Redding Area Bus Authority,N,DR,PT,179594.00
+9093,Redding Area Bus Authority,N,MB,PT,709502.00
+9095,San Diego Association of Governments,N,VP,PT,9558945.00
+9119,Laguna Beach Municipal Transit,N,MB,DO,166429.00
+9121,Antelope Valley Transit Authority,N,CB,PT,2493800.00
+9121,Antelope Valley Transit Authority,N,DT,PT,89743.00
+9121,Antelope Valley Transit Authority,N,MB,PT,2249257.00
+9131,City of Scottsdale - Scottsdale Trolley,N,MB,PT,0.00
+9134,Peninsula Corridor Joint Powers Board dba: Caltrain,N,CR,PT,62351542.00
+9134,Peninsula Corridor Joint Powers Board dba: Caltrain,N,MB,PT,1864933.00
+9136,"Regional Public Transportation Authority, dba: Valley Metro",N,DT,PT,978163.00
+9136,"Regional Public Transportation Authority, dba: Valley Metro",N,MB,PT,9719944.00
+9136,"Regional Public Transportation Authority, dba: Valley Metro",N,VP,PT,2366316.00
+9137,Surprise Dial-A-Ride Transit System,Y,DR,DO,5396.00
+9140,Peoria Transit,N,DR,DO,25748.00
+9142,Unitrans - City of Davis/ASUCD,N,MB,DO,2136424.00
+9144,Livermore / Amador Valley Transit Authority,N,DR,PT,173817.00
+9144,Livermore / Amador Valley Transit Authority,N,MB,PT,2309008.00
+9146,Foothill Transit,N,MB,PT,18441434.00
+9147,City of Los Angeles Department of Transportation,N,CB,PT,3906464.00
+9147,City of Los Angeles Department of Transportation,N,DR,PT,176443.00
+9147,City of Los Angeles Department of Transportation,N,DT,PT,298922.00
+9147,City of Los Angeles Department of Transportation,N,MB,PT,8984639.00
+9148,Victor Valley Transit Authority,N,CB,PT,423736.00
+9148,Victor Valley Transit Authority,N,DR,PT,415362.00
+9148,Victor Valley Transit Authority,N,MB,PT,1699212.00
+9148,Victor Valley Transit Authority,N,VP,PT,1132646.00
+9149,City of Lompoc - Lompoc Transit,N,CB,PT,667646.00
+9149,City of Lompoc - Lompoc Transit,N,DR,PT,52487.00
+9149,City of Lompoc - Lompoc Transit,N,MB,PT,159227.00
+9151,Southern California Regional Rail Authority dba: Metrolink,N,CR,PT,84360308.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,HR,DO,34753486.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,LR,DO,44564735.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,MB,DO,245891476.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,MB,PT,8529519.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,RB,DO,6270909.00
+9154,Los Angeles County Metropolitan Transportation Authority dba: Metro,N,VP,PT,16319368.00
+9155,City of Vacaville,Y,DR,PT,27070.00
+9155,City of Vacaville,Y,MB,PT,353654.00
+9156,City of San Luis Obispo,N,MB,PT,654900.00
+9157,Access Services  ,N,DR,PT,6773034.00
+9159,Western Contra Costa Transit Authority,N,CB,PT,826918.00
+9159,Western Contra Costa Transit Authority,N,DR,PT,56686.00
+9159,Western Contra Costa Transit Authority,N,MB,PT,1150676.00
+9161,City of Union City Transit Division,Y,DR,PT,49383.00
+9161,City of Union City Transit Division,Y,MB,PT,435030.00
+9162,The Eastern Contra Costa Transit Authority,N,DR,PT,482204.00
+9162,The Eastern Contra Costa Transit Authority,N,MB,PT,2957521.00
+9163,Camarillo Area Transit,Y,DR,PT,98178.00
+9163,Camarillo Area Transit,Y,MB,PT,21084.00
+9164,Ventura Intercity Service Transit Authority,N,CB,PT,1217361.00
+9164,Ventura Intercity Service Transit Authority,N,DR,PT,185068.00
+9165,Thousand Oaks Transit,Y,DR,PT,193140.00
+9165,Thousand Oaks Transit,Y,MB,PT,140632.00
+9166,LACMTA - Small Operators,N,DR,PT,480950.00
+9166,LACMTA - Small Operators,N,DT,PT,499690.00
+9166,LACMTA - Small Operators,N,MB,PT,4176753.00
+9167,Davis Community Transit,Y,DR,DO,31105.00
+9168,Roseville Transit,Y,CB,PT,570001.00
+9168,Roseville Transit,Y,DR,PT,83461.00
+9168,Roseville Transit,Y,MB,PT,227475.00
+9169,"vRide, Inc. - Valley Metro",N,VP,DO,2162364.00
+9171,Santa Clarita Transit,N,CB,PT,1512954.00
+9171,Santa Clarita Transit,N,DR,PT,99435.00
+9171,Santa Clarita Transit,N,MB,PT,2475606.00
+9172,City of Tempe Transit Division - dba Valley Metro,N,MB,PT,5844754.00
+9173,Merced County Transit,N,DR,PT,543353.00
+9173,Merced County Transit,N,DT,PT,6248.00
+9173,Merced County Transit,N,MB,PT,1248352.00
+9175,City of Lodi - Transit Division,N,DR,PT,57912.00
+9175,City of Lodi - Transit Division,N,MB,PT,126814.00
+9182,Altamont Corridor Express,N,CR,PT,5753406.00
+9191,Town of Oro Valley - Transit Services Division,Y,DR,DO,66558.00
+9193,Chula Vista Transit,N,MB,PT,2841619.00
+9194,City of Atascadero,Y,DR,PT,53778.00
+9194,City of Atascadero,Y,MB,PT,39682.00
+9195,Paso Robles Transit Services,Y,DR,PT,11105.00
+9195,Paso Robles Transit Services,Y,MB,PT,188694.00
+9196,Placer County Department of Public Works,N,CB,DO,8200.00
+9196,Placer County Department of Public Works,N,CB,PT,411048.00
+9196,Placer County Department of Public Works,N,DR,PT,26179.00
+9196,Placer County Department of Public Works,N,DT,PT,1193.00
+9196,Placer County Department of Public Works,N,MB,DO,680392.00
+9196,Placer County Department of Public Works,N,MB,PT,8023.00
+9196,Placer County Department of Public Works,N,VP,PT,73327.00
+9197,City of Tracy,Y,DR,PT,25545.00
+9197,City of Tracy,Y,MB,PT,55875.00
+9198,City of Porterville,Y,DR,PT,33590.00
+9198,City of Porterville,Y,MB,PT,512384.00
+9199,City of Madera,Y,DR,PT,44331.00
+9199,City of Madera,Y,MB,PT,124861.00
+9200,Kings County Area Public Transit Agency,N,DR,PT,45098.00
+9200,Kings County Area Public Transit Agency,N,MB,PT,612264.00
+9201,City of Turlock,N,DR,PT,40654.00
+9201,City of Turlock,N,MB,PT,110639.00
+9205,City of Elk Grove,N,CB,PT,714740.00
+9205,City of Elk Grove,N,DR,PT,44724.00
+9205,City of Elk Grove,N,MB,PT,809970.00
+9206,San Luis Obispo Regional Transit Authority,N,CB,DO,156323.00
+9206,San Luis Obispo Regional Transit Authority,N,DR,DO,123096.00
+9206,San Luis Obispo Regional Transit Authority,N,MB,DO,1400704.00
+9208,Butte County Association of Governments,N,DR,PT,328348.00
+9208,Butte County Association of Governments,N,MB,PT,1300616.00
+9209,"Valley Metro Rail, Inc.",N,LR,PT,12791801.00
+9211,Anaheim Transportation Network,N,MB,PT,4909466.00
+9213,City of Petaluma,N,DR,PT,44757.00
+9213,City of Petaluma,N,MB,PT,195914.00
+9214,City of Redondo Beach - Beach Cities Transit,N,DR,PT,13635.00
+9214,City of Redondo Beach - Beach Cities Transit,N,MB,PT,314097.00
+9215,Carson Area Metropolitan Planning Organization,Y,DR,PT,35032.00
+9215,Carson Area Metropolitan Planning Organization,Y,MB,PT,64541.00
+9217,City of Manteca,Y,DR,PT,28473.00
+9217,City of Manteca,Y,MB,PT,28630.00
+9219,Northern Arizona Intergovernmental Public Transportation Authority,N,DR,DO,67889.00
+9219,Northern Arizona Intergovernmental Public Transportation Authority,N,MB,DO,1354377.00
+9220,City of Folsom,Y,DR,DO,39459.00
+9220,City of Folsom,Y,MB,DO,92330.00
+9222,Pima Association of Governments,N,VP,PT,197813.00
+9223,"Paratransit, Inc.",N,DR,DO,1183218.00
+9223,"Paratransit, Inc.",N,DT,PT,130030.00
+9224,"Paratransit, Inc. CTSA",N,DR,DO,0.00
+9225,San Francisco Bay Area Water Emergency Transportation Authority,N,CB,PT,488823.00
+9225,San Francisco Bay Area Water Emergency Transportation Authority,N,FB,PT,10013166.00
+9226,Imperial County Transportation Commission,N,DR,PT,49184.00
+9226,Imperial County Transportation Commission,N,MB,PT,506374.00
+9227,City of Moorpark,Y,MB,PT,57263.00
+9228,"vRide, Inc. - Tucson",N,VP,DO,276286.00
+9229,El Dorado County Transit Authority,Y,CB,DO,714755.00
+9229,El Dorado County Transit Authority,Y,DR,DO,95715.00
+9229,El Dorado County Transit Authority,Y,MB,DO,198261.00
+9230,California Vanpool Authority,N,VP,DO,6432286.00
+9231,City of Irvine,Y,MB,PT,99160.00
+9232,Solano County Transit,N,CB,PT,2565779.00
+9232,Solano County Transit,N,DR,PT,94948.00
+9232,Solano County Transit,N,MB,PT,1284858.00
+9233,Yuma County Intergovernmental Public Transportation Authority,N,DR,PT,11848.00
+9233,Yuma County Intergovernmental Public Transportation Authority,N,MB,PT,350864.00
+9235,City of Lincoln,Y,DR,DO,17464.00
+9235,City of Lincoln,Y,MB,DO,34800.00
+9236,Stanislaus County Public Works - Transit,Y,DR,PT,70787.00
+9236,Stanislaus County Public Works - Transit,Y,MB,PT,425741.00
+9238,City of Delano,Y,DR,DO,28292.00
+9238,City of Delano,Y,MB,DO,61255.00
+9239,City of Sierra Vista,Y,DR,DO,7747.00
+9239,City of Sierra Vista,Y,MB,DO,102918.00
+9240,City of Lake Havasu,Y,DR,DO,21214.00
+9240,City of Lake Havasu,Y,MB,DO,68298.00
+9241,County of Maui - Dept. of Transportation,N,CB,PT,220904.00
+9241,County of Maui - Dept. of Transportation,N,DR,PT,55743.00
+9241,County of Maui - Dept. of Transportation,N,MB,PT,2527331.00
+9242,Las Vegas Monorail Company,N,MG,PT,18364242.00
+9244,City of Tulare,N,DR,PT,36923.00
+9244,City of Tulare,N,MB,PT,271355.00

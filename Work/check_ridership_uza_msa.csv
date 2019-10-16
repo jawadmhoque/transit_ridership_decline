@@ -1,0 +1,253 @@
+,UZA Name,RailBus,UZA,Year,UPT,VRM,VRH,FARE_TOTAL,FARE_per_UPT,UZA_Clean,UA,UANAME,UZA_NAME,CBSA,MNAME,MEMI,POPPT,HUPT,AREAPT,AREALANDPT,UAPOP,UAHU,UAAREA,UAAREALAND,MPOP,MHU,MAREA,MAREALAND,UAPOPPCT,UAHUPCT,UAAREAPCT,UAAREALANDPCT,MPOPPCT,MHUPCT,MAREAPCT,MAREALANDPCT,_merge
+2954,"Danville, IL-IN",Bus,492,2005,0.0,0.0,0.0,130275.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2955,"Danville, IL-IN",Bus,492,2006,433767.0,395458.0,20575.0,149525.0,0.3447127144296362,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2956,"Danville, IL-IN",Bus,492,2007,455351.0,442868.0,22529.0,202003.0,0.4436204158989439,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2957,"Danville, IL-IN",Bus,492,2008,521972.0,463182.0,25137.0,225781.0,0.4325538534634042,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2958,"Danville, IL-IN",Bus,492,2009,518106.0,517017.0,28125.0,263957.0,0.5094652445638538,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2959,"Danville, IL-IN",Bus,492,2010,552558.0,544904.0,29441.0,257170.0,0.46541720507168477,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2960,"Danville, IL-IN",Bus,492,2011,618987.0,555264.0,29781.0,288541.0,0.46615033918321386,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2961,"Danville, IL-IN",Bus,492,2012,639121.0,549724.0,26749.0,359704.0,0.5628104850255272,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2962,"Danville, IL-IN",Bus,492,2013,308358.0,273912.0,12104.0,322868.0,1.0470556950038592,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2963,"Danville, IL-IN",Bus,492,2014,0.0,0.0,0.0,316651.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2964,"Danville, IL-IN",Bus,492,2015,0.0,0.0,0.0,330439.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2965,"Danville, IL-IN",Bus,492,2016,0.0,0.0,0.0,332903.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2966,"Danville, IL-IN",Bus,492,2017,0.0,0.0,0.0,312806.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2967,"Danville, IL-IN",Bus,492,2018,0.0,0.0,0.0,298349.25,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2968,"Danville, IL-IN",DemandResponse,492,2005,0.0,0.0,0.0,9057.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2969,"Danville, IL-IN",DemandResponse,492,2006,7609.0,23669.0,1688.0,6450.0,0.8476803784991458,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2970,"Danville, IL-IN",DemandResponse,492,2007,7418.0,24535.0,1803.0,9980.0,1.3453761121596117,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2971,"Danville, IL-IN",DemandResponse,492,2008,8418.0,26567.0,1762.0,8904.0,1.0577334283677833,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2972,"Danville, IL-IN",DemandResponse,492,2009,9195.0,26767.0,1853.0,16135.0,1.754758020663404,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2973,"Danville, IL-IN",DemandResponse,492,2010,12070.0,31802.0,2234.0,16849.0,1.395940347970174,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2974,"Danville, IL-IN",DemandResponse,492,2011,11980.0,36266.0,2386.0,19618.0,1.6375626043405676,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2975,"Danville, IL-IN",DemandResponse,492,2012,12147.0,39355.0,2561.0,19221.0,1.582366016300321,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2976,"Danville, IL-IN",DemandResponse,492,2013,7236.0,24612.0,1613.0,29740.0,4.110005527915976,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2977,"Danville, IL-IN",DemandResponse,492,2014,0.0,0.0,0.0,30140.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2978,"Danville, IL-IN",DemandResponse,492,2015,0.0,0.0,0.0,23812.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2979,"Danville, IL-IN",DemandResponse,492,2016,0.0,0.0,0.0,22952.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2980,"Danville, IL-IN",DemandResponse,492,2017,0.0,0.0,0.0,20848.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+2981,"Danville, IL-IN",DemandResponse,492,2018,0.0,0.0,0.0,19055.0,inf,DanvilleILIN,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3542,"El Centro, CA",Bus,440,2005,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3543,"El Centro, CA",Bus,440,2006,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3544,"El Centro, CA",Bus,440,2007,0.0,0.0,0.0,333175.0,inf,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3545,"El Centro, CA",Bus,440,2008,524028.0,632639.0,30954.0,406619.0,0.7759489950918653,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3546,"El Centro, CA",Bus,440,2009,564829.0,654686.0,32302.0,481058.0,0.8516878559705681,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3547,"El Centro, CA",Bus,440,2010,610905.0,679039.0,32642.0,547709.0,0.896553473944394,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3548,"El Centro, CA",Bus,440,2011,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3549,"El Centro, CA",Bus,440,2012,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3550,"El Centro, CA",Bus,440,2013,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3551,"El Centro, CA",Bus,440,2014,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3552,"El Centro, CA",Bus,440,2015,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3553,"El Centro, CA",Bus,440,2016,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3554,"El Centro, CA",Bus,440,2017,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3555,"El Centro, CA",Bus,440,2018,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3556,"El Centro, CA",DemandResponse,440,2005,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3557,"El Centro, CA",DemandResponse,440,2006,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3558,"El Centro, CA",DemandResponse,440,2007,0.0,0.0,0.0,68189.0,inf,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3559,"El Centro, CA",DemandResponse,440,2008,36884.0,207773.0,12050.0,72860.0,1.9753822795792213,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3560,"El Centro, CA",DemandResponse,440,2009,35431.0,206930.0,12240.0,81059.0,2.287798820242161,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3561,"El Centro, CA",DemandResponse,440,2010,39596.0,219275.0,11889.0,81361.0,2.0547782604303464,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3562,"El Centro, CA",DemandResponse,440,2011,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3563,"El Centro, CA",DemandResponse,440,2012,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3564,"El Centro, CA",DemandResponse,440,2013,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3565,"El Centro, CA",DemandResponse,440,2014,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3566,"El Centro, CA",DemandResponse,440,2015,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3567,"El Centro, CA",DemandResponse,440,2016,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3568,"El Centro, CA",DemandResponse,440,2017,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+3569,"El Centro, CA",DemandResponse,440,2018,0.0,0.0,0.0,0.0,,ElCentroCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6132,"Lake Tahoe, CA-NV",Bus,601,2005,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6133,"Lake Tahoe, CA-NV",Bus,601,2006,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6134,"Lake Tahoe, CA-NV",Bus,601,2007,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6135,"Lake Tahoe, CA-NV",Bus,601,2008,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6136,"Lake Tahoe, CA-NV",Bus,601,2009,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6137,"Lake Tahoe, CA-NV",Bus,601,2010,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6138,"Lake Tahoe, CA-NV",Bus,601,2011,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6139,"Lake Tahoe, CA-NV",Bus,601,2012,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6140,"Lake Tahoe, CA-NV",Bus,601,2013,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6141,"Lake Tahoe, CA-NV",Bus,601,2014,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6142,"Lake Tahoe, CA-NV",Bus,601,2015,340148.0,342528.0,21635.0,0.0,0.0,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6143,"Lake Tahoe, CA-NV",Bus,601,2016,769229.0,683298.0,45466.0,556764.0,0.7237948647281889,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6144,"Lake Tahoe, CA-NV",Bus,601,2017,793628.0,632691.0,43365.0,506765.0,0.6385422389331021,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6145,"Lake Tahoe, CA-NV",Bus,601,2018,539533.0,588288.0,37909.0,608456.75,1.1277470516168613,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6146,"Lake Tahoe, CA-NV",DemandResponse,601,2005,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6147,"Lake Tahoe, CA-NV",DemandResponse,601,2006,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6148,"Lake Tahoe, CA-NV",DemandResponse,601,2007,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6149,"Lake Tahoe, CA-NV",DemandResponse,601,2008,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6150,"Lake Tahoe, CA-NV",DemandResponse,601,2009,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6151,"Lake Tahoe, CA-NV",DemandResponse,601,2010,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6152,"Lake Tahoe, CA-NV",DemandResponse,601,2011,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6153,"Lake Tahoe, CA-NV",DemandResponse,601,2012,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6154,"Lake Tahoe, CA-NV",DemandResponse,601,2013,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6155,"Lake Tahoe, CA-NV",DemandResponse,601,2014,0.0,0.0,0.0,0.0,,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6156,"Lake Tahoe, CA-NV",DemandResponse,601,2015,7973.0,44195.0,3434.0,0.0,0.0,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6157,"Lake Tahoe, CA-NV",DemandResponse,601,2016,17442.0,91843.0,6828.0,67327.0,3.86005045292971,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6158,"Lake Tahoe, CA-NV",DemandResponse,601,2017,17924.0,97301.0,7362.0,71283.0,3.9769582682436955,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6159,"Lake Tahoe, CA-NV",DemandResponse,601,2018,17683.0,88975.0,6829.0,91081.75,5.150808686308884,LakeTahoeCANV,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6888,"Los Angeles, CA",Bus,2,2005,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6889,"Los Angeles, CA",Bus,2,2006,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6890,"Los Angeles, CA",Bus,2,2007,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6891,"Los Angeles, CA",Bus,2,2008,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6892,"Los Angeles, CA",Bus,2,2009,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6893,"Los Angeles, CA",Bus,2,2010,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6894,"Los Angeles, CA",Bus,2,2011,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6895,"Los Angeles, CA",Bus,2,2012,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6896,"Los Angeles, CA",Bus,2,2013,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6897,"Los Angeles, CA",Bus,2,2014,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6898,"Los Angeles, CA",Bus,2,2015,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6899,"Los Angeles, CA",Bus,2,2016,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6900,"Los Angeles, CA",Bus,2,2017,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+6901,"Los Angeles, CA",Bus,2,2018,0.0,0.0,0.0,,,LosAngelesCA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8162,"New York City, Newark, NY-NJ",DemandResponse,1,2005,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8163,"New York City, Newark, NY-NJ",DemandResponse,1,2006,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8164,"New York City, Newark, NY-NJ",DemandResponse,1,2007,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8165,"New York City, Newark, NY-NJ",DemandResponse,1,2008,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8166,"New York City, Newark, NY-NJ",DemandResponse,1,2009,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8167,"New York City, Newark, NY-NJ",DemandResponse,1,2010,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8168,"New York City, Newark, NY-NJ",DemandResponse,1,2011,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8169,"New York City, Newark, NY-NJ",DemandResponse,1,2012,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8170,"New York City, Newark, NY-NJ",DemandResponse,1,2013,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8171,"New York City, Newark, NY-NJ",DemandResponse,1,2014,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8172,"New York City, Newark, NY-NJ",DemandResponse,1,2015,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8173,"New York City, Newark, NY-NJ",DemandResponse,1,2016,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8174,"New York City, Newark, NY-NJ",DemandResponse,1,2017,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8175,"New York City, Newark, NY-NJ",DemandResponse,1,2018,0.0,0.0,0.0,,,NewYorkCityNewarkNYNJ,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8260,Non-UZA,Bus,0,2005,103063.0,152636.0,10720.0,188882.0,1.8326848626568215,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8261,Non-UZA,Bus,0,2006,205382.0,264021.0,19426.0,206740.0,1.0066120692173608,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8262,Non-UZA,Bus,0,2007,198022.0,264069.0,17994.0,172596.0,0.8716001252386099,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8263,Non-UZA,Bus,0,2008,196127.0,224690.0,15391.0,267429.0,1.3635501486281847,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8264,Non-UZA,Bus,0,2009,229501.0,542073.0,25510.0,174474.0,0.7602319815599932,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8265,Non-UZA,Bus,0,2010,229719.0,274821.0,17609.0,197176.0,0.8583356187341926,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8266,Non-UZA,Bus,0,2011,245645.0,275268.0,17354.0,272027.0,1.1073988886401107,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8267,Non-UZA,Bus,0,2012,259495.0,278039.0,17894.0,215279.0,0.8296075068883794,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8268,Non-UZA,Bus,0,2013,126631.0,138977.0,9014.0,224824.0,1.7754262384408241,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8269,Non-UZA,Bus,0,2014,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8270,Non-UZA,Bus,0,2015,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8271,Non-UZA,Bus,0,2016,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8272,Non-UZA,Bus,0,2017,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8273,Non-UZA,Bus,0,2018,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8274,Non-UZA,DemandResponse,0,2005,98745.0,277945.0,21113.0,166090.0,1.682009215656489,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8275,Non-UZA,DemandResponse,0,2006,77157.0,270729.0,18804.0,192350.0,2.49296888163096,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8276,Non-UZA,DemandResponse,0,2007,104547.0,404506.0,27885.0,172465.0,1.6496408313964055,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8277,Non-UZA,DemandResponse,0,2008,92978.0,375962.0,27581.0,239500.0,2.57587816472714,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8278,Non-UZA,DemandResponse,0,2009,129409.0,484404.0,35622.0,168939.0,1.305465616765449,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8279,Non-UZA,DemandResponse,0,2010,125841.0,352994.0,31680.0,514592.0,4.089223702926709,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8280,Non-UZA,DemandResponse,0,2011,172948.0,507857.0,40052.0,261790.0,1.5136919767791475,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8281,Non-UZA,DemandResponse,0,2012,28635.0,196133.0,11088.0,90495.0,3.1602933473022525,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8282,Non-UZA,DemandResponse,0,2013,19503.0,120847.0,7239.0,118683.0,6.085371481310568,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8283,Non-UZA,DemandResponse,0,2014,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8284,Non-UZA,DemandResponse,0,2015,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8285,Non-UZA,DemandResponse,0,2016,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8286,Non-UZA,DemandResponse,0,2017,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+8287,Non-UZA,DemandResponse,0,2018,0.0,0.0,0.0,0.0,,NonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11788,Texas Non-UZA,Bus,0,2005,38921.0,20412.0,2074.0,197257.0,5.06813802317515,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11789,Texas Non-UZA,Bus,0,2006,989951.0,591685.0,83940.0,229775.0,0.232107447742363,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11790,Texas Non-UZA,Bus,0,2007,1149389.0,554094.0,47652.0,260606.0,0.2267343780043136,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11791,Texas Non-UZA,Bus,0,2008,986715.0,476925.0,41130.0,0.0,0.0,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11792,Texas Non-UZA,Bus,0,2009,494237.0,383320.0,34565.0,201151.0,0.4069930013333684,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11793,Texas Non-UZA,Bus,0,2010,610522.0,537403.0,41351.0,236360.0,0.38714411601875115,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11794,Texas Non-UZA,Bus,0,2011,632266.0,532596.0,42071.0,263301.0,0.4164402324338174,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11795,Texas Non-UZA,Bus,0,2012,0.0,672794.0,46001.0,320261.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11796,Texas Non-UZA,Bus,0,2013,0.0,0.0,0.0,479013.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11797,Texas Non-UZA,Bus,0,2014,0.0,0.0,0.0,462933.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11798,Texas Non-UZA,Bus,0,2015,0.0,0.0,0.0,494460.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11799,Texas Non-UZA,Bus,0,2016,0.0,0.0,0.0,424379.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11800,Texas Non-UZA,Bus,0,2017,0.0,0.0,0.0,214761.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11801,Texas Non-UZA,Bus,0,2018,0.0,0.0,0.0,40027.25,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11802,Texas Non-UZA,DemandResponse,0,2005,921.0,3619.0,406.0,11657.0,12.656894679695982,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11803,Texas Non-UZA,DemandResponse,0,2006,27199.0,100224.0,10246.0,40798.0,1.4999816169712121,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11804,Texas Non-UZA,DemandResponse,0,2007,27571.0,96230.0,9591.0,44470.0,1.6129266258024737,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11805,Texas Non-UZA,DemandResponse,0,2008,22692.0,77381.0,7430.0,0.0,0.0,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11806,Texas Non-UZA,DemandResponse,0,2009,13782.0,57203.0,5972.0,7575.0,0.5496299521114497,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11807,Texas Non-UZA,DemandResponse,0,2010,20491.0,73988.0,7197.0,11866.0,0.5790835000732029,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11808,Texas Non-UZA,DemandResponse,0,2011,23372.0,80584.0,7629.0,11979.0,0.5125363683039534,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11809,Texas Non-UZA,DemandResponse,0,2012,0.0,98588.0,10651.0,15222.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11810,Texas Non-UZA,DemandResponse,0,2013,0.0,0.0,0.0,15814.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11811,Texas Non-UZA,DemandResponse,0,2014,0.0,0.0,0.0,15561.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11812,Texas Non-UZA,DemandResponse,0,2015,0.0,0.0,0.0,19974.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11813,Texas Non-UZA,DemandResponse,0,2016,0.0,0.0,0.0,21487.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11814,Texas Non-UZA,DemandResponse,0,2017,0.0,0.0,0.0,38848.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11815,Texas Non-UZA,DemandResponse,0,2018,0.0,0.0,0.0,52247.0,inf,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11816,Texas Non-UZA,Rail,0,2005,1671.0,1215.0,225.0,20899.0,12.50688210652304,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11817,Texas Non-UZA,Rail,0,2006,38830.0,23930.0,5659.0,9225.0,0.237574040690188,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11818,Texas Non-UZA,Rail,0,2007,31257.0,27451.0,5263.0,15342.0,0.49083405317208945,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11819,Texas Non-UZA,Rail,0,2008,15739.0,21145.0,3653.0,0.0,0.0,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11820,Texas Non-UZA,Rail,0,2009,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11821,Texas Non-UZA,Rail,0,2010,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11822,Texas Non-UZA,Rail,0,2011,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11823,Texas Non-UZA,Rail,0,2012,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11824,Texas Non-UZA,Rail,0,2013,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11825,Texas Non-UZA,Rail,0,2014,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11826,Texas Non-UZA,Rail,0,2015,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11827,Texas Non-UZA,Rail,0,2016,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11828,Texas Non-UZA,Rail,0,2017,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+11829,Texas Non-UZA,Rail,0,2018,0.0,0.0,0.0,0.0,,TexasNonUZA,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12124,"Urban Honolulu, HI",Bus,54,2005,64209353.0,18393894.0,1372004.0,39925419.0,0.6218006744282254,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12125,"Urban Honolulu, HI",Bus,54,2006,67125854.0,17955060.0,1344480.0,41531437.0,0.618709998088069,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12126,"Urban Honolulu, HI",Bus,54,2007,67956063.0,17890723.0,1352143.0,41742352.0,0.6142550076804774,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12127,"Urban Honolulu, HI",Bus,54,2008,70275667.0,18578704.0,1401765.0,41984132.0,0.5974206121729161,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12128,"Urban Honolulu, HI",Bus,54,2009,70023292.0,18404552.0,1389717.0,42454923.0,0.6062971589510531,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12129,"Urban Honolulu, HI",Bus,54,2010,70617601.0,18330560.0,1380155.0,45874670.0,0.6496209068331279,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12130,"Urban Honolulu, HI",Bus,54,2011,70600758.0,18333181.0,1374728.0,51721436.0,0.7325903781372999,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12131,"Urban Honolulu, HI",Bus,54,2012,71421824.0,17622123.0,1336353.0,54774006.0,0.7669085292473068,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12132,"Urban Honolulu, HI",Bus,54,2013,68864257.0,17290292.0,1315344.0,55038042.0,0.7992250900202118,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12133,"Urban Honolulu, HI",Bus,54,2014,67873890.0,17600299.0,1349560.0,54976149.0,0.8099749255567936,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12134,"Urban Honolulu, HI",Bus,54,2015,68587549.0,17848398.0,1371576.0,55064804.0,0.802839652427294,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12135,"Urban Honolulu, HI",Bus,54,2016,66727528.0,17735758.0,1377609.0,53216236.0,0.7975154721751418,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12136,"Urban Honolulu, HI",Bus,54,2017,64620019.0,17935840.0,1393683.0,51441589.0,0.7960627340576919,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12137,"Urban Honolulu, HI",Bus,54,2018,62709430.0,18075853.0,1413766.0,49648461.75,0.7917224211733387,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12138,"Urban Honolulu, HI",DemandResponse,54,2005,1140647.0,6358154.0,383296.0,2691217.0,2.359377616387892,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12139,"Urban Honolulu, HI",DemandResponse,54,2006,1454756.0,7278027.0,445260.0,2784277.0,1.913913398535562,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12140,"Urban Honolulu, HI",DemandResponse,54,2007,1416426.0,7588439.0,447174.0,3036577.0,2.143830316585547,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12141,"Urban Honolulu, HI",DemandResponse,54,2008,1621461.0,8698809.0,508785.0,3526504.0,2.1748928898074023,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12142,"Urban Honolulu, HI",DemandResponse,54,2009,1540785.0,9001792.0,465062.0,3547383.0,2.3023218683982516,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12143,"Urban Honolulu, HI",DemandResponse,54,2010,1660272.0,9907154.0,498797.0,4141255.0,2.4943232193279172,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12144,"Urban Honolulu, HI",DemandResponse,54,2011,1635044.0,9693563.0,496756.0,3066871.0,1.875711601644971,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12145,"Urban Honolulu, HI",DemandResponse,54,2012,1048821.0,6219356.0,418623.0,1875616.0,1.788308967879171,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12146,"Urban Honolulu, HI",DemandResponse,54,2013,1082168.0,6110633.0,426837.0,1910141.0,1.7651057876411056,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12147,"Urban Honolulu, HI",DemandResponse,54,2014,1168590.0,6386251.0,433449.0,1867595.0,1.5981610316706458,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12148,"Urban Honolulu, HI",DemandResponse,54,2015,1195451.0,7456640.0,487976.0,1840214.0,1.5393470748696516,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12149,"Urban Honolulu, HI",DemandResponse,54,2016,1267848.0,8081682.0,527360.0,1952421.0,1.5399487951237056,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12150,"Urban Honolulu, HI",DemandResponse,54,2017,1338491.0,8223566.0,541644.0,2063925.0,1.5419789897728113,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12151,"Urban Honolulu, HI",DemandResponse,54,2018,1448402.0,8652709.0,570306.0,2175604.75,1.502072456403678,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12152,"Urban Honolulu, HI",Other,54,2005,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12153,"Urban Honolulu, HI",Other,54,2006,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12154,"Urban Honolulu, HI",Other,54,2007,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12155,"Urban Honolulu, HI",Other,54,2008,0.0,0.0,0.0,16849.0,inf,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12156,"Urban Honolulu, HI",Other,54,2009,36966.0,33386.0,1528.0,29561.0,0.7996807877509062,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12157,"Urban Honolulu, HI",Other,54,2010,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12158,"Urban Honolulu, HI",Other,54,2011,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12159,"Urban Honolulu, HI",Other,54,2012,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12160,"Urban Honolulu, HI",Other,54,2013,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12161,"Urban Honolulu, HI",Other,54,2014,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12162,"Urban Honolulu, HI",Other,54,2015,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12163,"Urban Honolulu, HI",Other,54,2016,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12164,"Urban Honolulu, HI",Other,54,2017,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12165,"Urban Honolulu, HI",Other,54,2018,0.0,0.0,0.0,0.0,,UrbanHonoluluHI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12432,"Virgin Islands, VI",Bus,600,2005,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12433,"Virgin Islands, VI",Bus,600,2006,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12434,"Virgin Islands, VI",Bus,600,2007,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12435,"Virgin Islands, VI",Bus,600,2008,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12436,"Virgin Islands, VI",Bus,600,2009,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12437,"Virgin Islands, VI",Bus,600,2010,0.0,0.0,0.0,260521.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12438,"Virgin Islands, VI",Bus,600,2011,212213.0,423815.0,52900.0,123699.0,0.5829001993280336,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12439,"Virgin Islands, VI",Bus,600,2012,0.0,219960.0,24770.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12440,"Virgin Islands, VI",Bus,600,2013,19946.0,35516.0,4235.0,0.0,0.0,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12441,"Virgin Islands, VI",Bus,600,2014,0.0,0.0,0.0,373678.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12442,"Virgin Islands, VI",Bus,600,2015,0.0,0.0,0.0,127859.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12443,"Virgin Islands, VI",Bus,600,2016,0.0,0.0,0.0,336749.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12444,"Virgin Islands, VI",Bus,600,2017,0.0,0.0,0.0,328687.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12445,"Virgin Islands, VI",Bus,600,2018,0.0,0.0,0.0,374863.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12446,"Virgin Islands, VI",DemandResponse,600,2005,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12447,"Virgin Islands, VI",DemandResponse,600,2006,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12448,"Virgin Islands, VI",DemandResponse,600,2007,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12449,"Virgin Islands, VI",DemandResponse,600,2008,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12450,"Virgin Islands, VI",DemandResponse,600,2009,0.0,0.0,0.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12451,"Virgin Islands, VI",DemandResponse,600,2010,0.0,0.0,0.0,24929.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12452,"Virgin Islands, VI",DemandResponse,600,2011,42888.0,276686.0,33173.0,63061.0,1.4703646707703786,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12453,"Virgin Islands, VI",DemandResponse,600,2012,0.0,229300.0,25848.0,0.0,,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12454,"Virgin Islands, VI",DemandResponse,600,2013,6525.0,40325.0,4165.0,0.0,0.0,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12455,"Virgin Islands, VI",DemandResponse,600,2014,0.0,0.0,0.0,160148.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12456,"Virgin Islands, VI",DemandResponse,600,2015,0.0,0.0,0.0,60639.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12457,"Virgin Islands, VI",DemandResponse,600,2016,0.0,0.0,0.0,66375.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12458,"Virgin Islands, VI",DemandResponse,600,2017,0.0,0.0,0.0,76564.0,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only
+12459,"Virgin Islands, VI",DemandResponse,600,2018,0.0,0.0,0.0,85639.75,inf,VirginIslandsVI,,,,,,,,,,,,,,,,,,,,,,,,,,,left_only

@@ -1,0 +1,943 @@
+CBSA_ID,cbsa_name,year,month,popestimate
+10020,"Abbeville, LA",2010,6.5,58098
+10100,"Aberdeen, SD",2010,6.5,40717
+10140,"Aberdeen, WA",2010,6.5,72843
+10180,"Abilene, TX",2010,6.5,165583
+10220,"Ada, OK",2010,6.5,37599
+10300,"Adrian, MI",2010,6.5,99635
+10420,"Akron, OH",2010,6.5,703035
+10460,"Alamogordo, NM",2010,6.5,64399
+10500,"Albany, GA",2010,6.5,157589
+10540,"Albany-Lebanon, OR",2010,6.5,116887
+10580,"Albany-Schenectady-Troy, NY",2010,6.5,871080
+10620,"Albemarle, NC",2010,6.5,60576
+10660,"Albert Lea, MN",2010,6.5,31204
+10700,"Albertville, AL",2010,6.5,93124
+10740,"Albuquerque, NM",2010,6.5,889574
+10760,"Alexander City, AL",2010,6.5,53258
+10780,"Alexandria, LA",2010,6.5,154092
+10820,"Alexandria, MN",2010,6.5,35987
+10860,"Alice, TX",2010,6.5,40885
+10880,"Allegan, MI",2010,6.5,111528
+10900,"Allentown-Bethlehem-Easton, PA-NJ",2010,6.5,821914
+10940,"Alma, MI",2010,6.5,42431
+10980,"Alpena, MI",2010,6.5,29517
+11020,"Altoona, PA",2010,6.5,127043
+11060,"Altus, OK",2010,6.5,26483
+11100,"Amarillo, TX",2010,6.5,250627
+11140,"Americus, GA",2010,6.5,37700
+11180,"Ames, IA",2010,6.5,89654
+11220,"Amsterdam, NY",2010,6.5,50300
+11260,"Anchorage, AK",2010,6.5,383045
+11300,"Anderson, IN",2010,6.5,131619
+11340,"Anderson, SC",2010,6.5,187109
+11380,"Andrews, TX",2010,6.5,14849
+11420,"Angola, IN",2010,6.5,34136
+11460,"Ann Arbor, MI",2010,6.5,345658
+11500,"Anniston-Oxford, AL",2010,6.5,118477
+11540,"Appleton, WI",2010,6.5,225944
+11580,"Arcadia, FL",2010,6.5,34933
+11620,"Ardmore, OK",2010,6.5,57220
+11660,"Arkadelphia, AR",2010,6.5,22927
+11700,"Asheville, NC",2010,6.5,425338
+11740,"Ashland, OH",2010,6.5,53323
+11780,"Ashtabula, OH",2010,6.5,101402
+11820,"Astoria, OR",2010,6.5,37086
+11860,"Atchison, KS",2010,6.5,16857
+11900,"Athens, OH",2010,6.5,65175
+11940,"Athens, TN",2010,6.5,52169
+11980,"Athens, TX",2010,6.5,78622
+12020,"Athens-Clarke County, GA",2010,6.5,193435
+12060,"Atlanta-Sandy Springs-Marietta, GA",2010,6.5,5284809
+12100,"Atlantic City-Hammonton, NJ",2010,6.5,274649
+12140,"Auburn, IN",2010,6.5,42309
+12180,"Auburn, NY",2010,6.5,79901
+12220,"Auburn-Opelika, AL",2010,6.5,140806
+12260,"Augusta-Richmond County, GA-SC",2010,6.5,558522
+12300,"Augusta-Waterville, ME",2010,6.5,122076
+12380,"Austin, MN",2010,6.5,39206
+12420,"Austin-Round Rock-San Marcos, TX",2010,6.5,1727528
+12460,"Bainbridge, GA",2010,6.5,27814
+12540,"Bakersfield-Delano, CA",2010,6.5,841072
+12580,"Baltimore-Towson, MD",2010,6.5,2715726
+12620,"Bangor, ME",2010,6.5,153860
+12660,"Baraboo, WI",2010,6.5,62061
+12700,"Barnstable Town, MA",2010,6.5,215893
+12740,"Barre, VT",2010,6.5,59569
+12780,"Bartlesville, OK",2010,6.5,51065
+12820,"Bastrop, LA",2010,6.5,27872
+12860,"Batavia, NY",2010,6.5,59940
+12900,"Batesville, AR",2010,6.5,36810
+12940,"Baton Rouge, LA",2010,6.5,804298
+12980,"Battle Creek, MI",2010,6.5,135952
+13020,"Bay City, MI",2010,6.5,107681
+13060,"Bay City, TX",2010,6.5,36708
+13100,"Beatrice, NE",2010,6.5,22269
+13140,"Beaumont-Port Arthur, TX",2010,6.5,389259
+13180,"Beaver Dam, WI",2010,6.5,88738
+13220,"Beckley, WV",2010,6.5,78916
+13260,"Bedford, IN",2010,6.5,46102
+13300,"Beeville, TX",2010,6.5,31863
+13340,"Bellefontaine, OH",2010,6.5,45746
+13380,"Bellingham, WA",2010,6.5,201547
+13420,"Bemidji, MN",2010,6.5,44572
+13460,"Bend, OR",2010,6.5,157743
+13500,"Bennettsville, SC",2010,6.5,28917
+13540,"Bennington, VT",2010,6.5,37083
+13620,"Berlin, NH-VT",2010,6.5,39287
+13660,"Big Rapids, MI",2010,6.5,42852
+13700,"Big Spring, TX",2010,6.5,34992
+13740,"Billings, MT",2010,6.5,158451
+13780,"Binghamton, NY",2010,6.5,251489
+13820,"Birmingham-Hoover, AL",2010,6.5,1128714
+13860,"Bishop, CA",2010,6.5,18512
+13900,"Bismarck, ND",2010,6.5,109270
+13940,"Blackfoot, ID",2010,6.5,45767
+13980,"Blacksburg-Christiansburg-Radford, VA",2010,6.5,163135
+14020,"Bloomington, IN",2010,6.5,193335
+14060,"Bloomington-Normal, IL",2010,6.5,169810
+14100,"Bloomsburg-Berwick, PA",2010,6.5,85662
+14140,"Bluefield, WV-VA",2010,6.5,107464
+14180,"Blytheville, AR",2010,6.5,46394
+14220,"Bogalusa, LA",2010,6.5,47088
+14260,"Boise City-Nampa, ID",2010,6.5,617869
+14300,"Bonham, TX",2010,6.5,33919
+14340,"Boone, IA",2010,6.5,26274
+14380,"Boone, NC",2010,6.5,50967
+14420,"Borger, TX",2010,6.5,22212
+14460,"Boston-Cambridge-Quincy, MA-NH",2010,6.5,4566449
+14500,"Boulder, CO",2010,6.5,295774
+14540,"Bowling Green, KY",2010,6.5,126553
+14580,"Bozeman, MT",2010,6.5,89651
+14620,"Bradford, PA",2010,6.5,43343
+14660,"Brainerd, MN",2010,6.5,91262
+14700,"Branson, MO",2010,6.5,84148
+14740,"Bremerton-Silverdale, WA",2010,6.5,251676
+14780,"Brenham, TX",2010,6.5,33703
+14820,"Brevard, NC",2010,6.5,33087
+14860,"Bridgeport-Stamford-Norwalk, CT",2010,6.5,919330
+14940,"Brigham City, UT",2010,6.5,50170
+15020,"Brookhaven, MS",2010,6.5,34901
+15060,"Brookings, OR",2010,6.5,22378
+15100,"Brookings, SD",2010,6.5,31995
+15140,"Brownsville, TN",2010,6.5,18812
+15180,"Brownsville-Harlingen, TX",2010,6.5,407654
+15220,"Brownwood, TX",2010,6.5,38078
+15260,"Brunswick, GA",2010,6.5,112516
+15340,"Bucyrus, OH",2010,6.5,43754
+15380,"Buffalo-Niagara Falls, NY",2010,6.5,1135622
+15420,"Burley, ID",2010,6.5,43162
+15460,"Burlington, IA-IL",2010,6.5,47584
+15500,"Burlington, NC",2010,6.5,151440
+15540,"Burlington-South Burlington, VT",2010,6.5,211534
+15580,"Butte-Silver Bow, MT",2010,6.5,34233
+15620,"Cadillac, MI",2010,6.5,47557
+15660,"Calhoun, GA",2010,6.5,55222
+15700,"Cambridge, MD",2010,6.5,32688
+15740,"Cambridge, OH",2010,6.5,40142
+15780,"Camden, AR",2010,6.5,31409
+15820,"Campbellsville, KY",2010,6.5,24664
+15860,"Cañon City, CO",2010,6.5,46835
+15900,"Canton, IL",2010,6.5,37074
+15940,"Canton-Massillon, OH",2010,6.5,404212
+15980,"Cape Coral-Fort Myers, FL",2010,6.5,620454
+16020,"Cape Girardeau-Jackson, MO-IL",2010,6.5,96449
+16060,"Carbondale, IL",2010,6.5,60376
+16100,"Carlsbad-Artesia, NM",2010,6.5,53901
+16180,"Carson City, NV",2010,6.5,54986
+16220,"Casper, WY",2010,6.5,75469
+16260,"Cedar City, UT",2010,6.5,46263
+16300,"Cedar Rapids, IA",2010,6.5,258432
+16340,"Cedartown, GA",2010,6.5,41530
+16380,"Celina, OH",2010,6.5,40786
+16420,"Central City, KY",2010,6.5,31658
+16460,"Centralia, IL",2010,6.5,39419
+16500,"Centralia, WA",2010,6.5,75505
+16540,"Chambersburg, PA",2010,6.5,149915
+16580,"Champaign-Urbana, IL",2010,6.5,232331
+16620,"Charleston, WV",2010,6.5,304190
+16660,"Charleston-Mattoon, IL",2010,6.5,64921
+16700,"Charleston-North Charleston-Summerville, SC",2010,6.5,667440
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC",2010,6.5,1763725
+16820,"Charlottesville, VA",2010,6.5,201887
+16860,"Chattanooga, TN-GA",2010,6.5,529154
+16900,"Chester, SC",2010,6.5,33153
+16940,"Cheyenne, WY",2010,6.5,92235
+16980,"Chicago-Joliet-Naperville, IL-IN-WI",2010,6.5,9470880
+17020,"Chico, CA",2010,6.5,219945
+17060,"Chillicothe, OH",2010,6.5,78102
+17140,"Cincinnati-Middletown, OH-KY-IN",2010,6.5,2133198
+17200,"Claremont, NH",2010,6.5,43760
+17220,"Clarksburg, WV",2010,6.5,94346
+17260,"Clarksdale, MS",2010,6.5,26106
+17300,"Clarksville, TN-KY",2010,6.5,274958
+17340,"Clearlake, CA",2010,6.5,64735
+17380,"Cleveland, MS",2010,6.5,34105
+17420,"Cleveland, TN",2010,6.5,115901
+17460,"Cleveland-Elyria-Mentor, OH",2010,6.5,2075481
+17500,"Clewiston, FL",2010,6.5,39013
+17540,"Clinton, IA",2010,6.5,49097
+17580,"Clovis, NM",2010,6.5,48963
+17660,"Coeur d'Alene, ID",2010,6.5,138852
+17700,"Coffeyville, KS",2010,6.5,35353
+17740,"Coldwater, MI",2010,6.5,45180
+17780,"College Station-Bryan, TX",2010,6.5,229453
+17820,"Colorado Springs, CO",2010,6.5,650373
+17860,"Columbia, MO",2010,6.5,173338
+17900,"Columbia, SC",2010,6.5,769647
+17940,"Columbia, TN",2010,6.5,81171
+17980,"Columbus, GA-AL",2010,6.5,296495
+18020,"Columbus, IN",2010,6.5,76820
+18060,"Columbus, MS",2010,6.5,59796
+18100,"Columbus, NE",2010,6.5,32305
+18140,"Columbus, OH",2010,6.5,1840840
+18180,"Concord, NH",2010,6.5,146394
+18220,"Connersville, IN",2010,6.5,24326
+18260,"Cookeville, TN",2010,6.5,106270
+18300,"Coos Bay, OR",2010,6.5,63011
+18340,"Corbin, KY",2010,6.5,35718
+18380,"Cordele, GA",2010,6.5,23429
+18420,"Corinth, MS",2010,6.5,37106
+18460,"Cornelia, GA",2010,6.5,43064
+18500,"Corning, NY",2010,6.5,99012
+18580,"Corpus Christi, TX",2010,6.5,427864
+18620,"Corsicana, TX",2010,6.5,47872
+18660,"Cortland, NY",2010,6.5,49283
+18700,"Corvallis, OR",2010,6.5,85574
+18740,"Coshocton, OH",2010,6.5,36936
+18820,"Crawfordsville, IN",2010,6.5,38097
+18860,"Crescent City, CA",2010,6.5,28568
+18880,"Crestview-Fort Walton Beach-Destin, FL",2010,6.5,180715
+18900,"Crossville, TN",2010,6.5,56197
+18940,"Crowley, LA",2010,6.5,61875
+18980,"Cullman, AL",2010,6.5,80454
+19020,"Culpeper, VA",2010,6.5,46839
+19060,"Cumberland, MD-WV",2010,6.5,103145
+19100,"Dallas-Fort Worth-Arlington, TX",2010,6.5,6397500
+19140,"Dalton, GA",2010,6.5,142274
+19180,"Danville, IL",2010,6.5,81639
+19220,"Danville, KY",2010,6.5,53389
+19260,"Danville, VA",2010,6.5,106513
+19300,"Daphne-Fairhope-Foley, AL",2010,6.5,183111
+19340,"Davenport-Moline-Rock Island, IA-IL",2010,6.5,379753
+19380,"Dayton, OH",2010,6.5,841837
+19460,"Decatur, AL",2010,6.5,153948
+19500,"Decatur, IL",2010,6.5,110784
+19540,"Decatur, IN",2010,6.5,34451
+19580,"Defiance, OH",2010,6.5,39086
+19620,"Del Rio, TX",2010,6.5,48980
+19660,"Deltona-Daytona Beach-Ormond Beach, FL",2010,6.5,494445
+19700,"Deming, NM",2010,6.5,25082
+19740,"Denver-Aurora-Broomfield, CO",2010,6.5,2554816
+19760,"DeRidder, LA",2010,6.5,35834
+19780,"Des Moines-West Des Moines, IA",2010,6.5,572125
+19820,"Detroit-Warren-Livonia, MI",2010,6.5,4291593
+19860,"Dickinson, ND",2010,6.5,25143
+19900,"Dillon, SC",2010,6.5,32077
+19940,"Dixon, IL",2010,6.5,35976
+19980,"Dodge City, KS",2010,6.5,34009
+20020,"Dothan, AL",2010,6.5,145870
+20060,"Douglas, GA",2010,6.5,51101
+20100,"Dover, DE",2010,6.5,162955
+20140,"Dublin, GA",2010,6.5,58383
+20180,"DuBois, PA",2010,6.5,81553
+20220,"Dubuque, IA",2010,6.5,93927
+20260,"Duluth, MN-WI",2010,6.5,279690
+20300,"Dumas, TX",2010,6.5,22007
+20340,"Duncan, OK",2010,6.5,45103
+20380,"Dunn, NC",2010,6.5,115742
+20420,"Durango, CO",2010,6.5,51343
+20460,"Durant, OK",2010,6.5,42583
+20500,"Durham-Chapel Hill, NC",2010,6.5,508593
+20540,"Dyersburg, TN",2010,6.5,38316
+20580,"Eagle Pass, TX",2010,6.5,54448
+20620,"East Liverpool-Salem, OH",2010,6.5,107891
+20660,"Easton, MD",2010,6.5,37874
+20700,"East Stroudsburg, PA",2010,6.5,169843
+20740,"Eau Claire, WI",2010,6.5,161654
+20780,"Edwards, CO",2010,6.5,59368
+20820,"Effingham, IL",2010,6.5,34223
+20900,"El Campo, TX",2010,6.5,41281
+20940,"El Centro, CA",2010,6.5,174730
+20980,"El Dorado, AR",2010,6.5,41573
+21020,"Elizabeth City, NC",2010,6.5,64119
+21060,"Elizabethtown, KY",2010,6.5,121133
+21120,"Elk City, OK",2010,6.5,22060
+21140,"Elkhart-Goshen, IN",2010,6.5,197444
+21220,"Elko, NV",2010,6.5,51075
+21260,"Ellensburg, WA",2010,6.5,40989
+21300,"Elmira, NY",2010,6.5,88898
+21340,"El Paso, TX",2010,6.5,803655
+21380,"Emporia, KS",2010,6.5,36432
+21420,"Enid, OK",2010,6.5,60736
+21460,"Enterprise-Ozark, AL",2010,6.5,100595
+21500,"Erie, PA",2010,6.5,280797
+21540,"Escanaba, MI",2010,6.5,37049
+21580,"Espanola, NM",2010,6.5,40289
+21640,"Eufaula, AL-GA",2010,6.5,29843
+21660,"Eugene-Springfield, OR",2010,6.5,351923
+21700,"Eureka-Arcata-Fortuna, CA",2010,6.5,135000
+21740,"Evanston, WY",2010,6.5,21089
+21780,"Evansville, IN-KY",2010,6.5,358926
+21820,"Fairbanks, AK",2010,6.5,98260
+21860,"Fairmont, MN",2010,6.5,20804
+21900,"Fairmont, WV",2010,6.5,56533
+21980,"Fallon, NV",2010,6.5,24819
+22020,"Fargo, ND-MN",2010,6.5,209450
+22060,"Faribault-Northfield, MN",2010,6.5,64242
+22100,"Farmington, MO",2010,6.5,65529
+22140,"Farmington, NM",2010,6.5,130202
+22180,"Fayetteville, NC",2010,6.5,374691
+22220,"Fayetteville-Springdale-Rogers, AR-MO",2010,6.5,465374
+22260,"Fergus Falls, MN",2010,6.5,57294
+22280,"Fernley, NV",2010,6.5,52043
+22300,"Findlay, OH",2010,6.5,74690
+22340,"Fitzgerald, GA",2010,6.5,27217
+22380,"Flagstaff, AZ",2010,6.5,134618
+22420,"Flint, MI",2010,6.5,424951
+22500,"Florence, SC",2010,6.5,205661
+22520,"Florence-Muscle Shoals, AL",2010,6.5,147261
+22540,"Fond du Lac, WI",2010,6.5,101581
+22580,"Forest City, NC",2010,6.5,67737
+22620,"Forrest City, AR",2010,6.5,28195
+22660,"Fort Collins-Loveland, CO",2010,6.5,300450
+22700,"Fort Dodge, IA",2010,6.5,37884
+22780,"Fort Leonard Wood, MO",2010,6.5,52850
+22800,"Fort Madison-Keokuk, IA-MO",2010,6.5,42984
+22820,"Fort Morgan, CO",2010,6.5,28243
+22840,"Fort Payne, AL",2010,6.5,71159
+22860,"Fort Polk South, LA",2010,6.5,52714
+22900,"Fort Smith, AR-OK",2010,6.5,298833
+22980,"Fort Valley, GA",2010,6.5,27738
+23060,"Fort Wayne, IN",2010,6.5,416976
+23140,"Frankfort, IN",2010,6.5,33221
+23180,"Frankfort, KY",2010,6.5,70723
+23240,"Fredericksburg, TX",2010,6.5,24887
+23300,"Freeport, IL",2010,6.5,47607
+23340,"Fremont, NE",2010,6.5,36672
+23380,"Fremont, OH",2010,6.5,60886
+23420,"Fresno, CA",2010,6.5,932063
+23460,"Gadsden, AL",2010,6.5,104455
+23500,"Gaffney, SC",2010,6.5,55535
+23540,"Gainesville, FL",2010,6.5,264612
+23580,"Gainesville, GA",2010,6.5,180040
+23620,"Gainesville, TX",2010,6.5,38474
+23660,"Galesburg, IL",2010,6.5,70632
+23700,"Gallup, NM",2010,6.5,71672
+23780,"Garden City, KS",2010,6.5,36953
+23820,"Gardnerville Ranchos, NV",2010,6.5,47034
+23860,"Georgetown, SC",2010,6.5,60347
+23900,"Gettysburg, PA",2010,6.5,101473
+23940,"Gillette, WY",2010,6.5,46245
+23980,"Glasgow, KY",2010,6.5,52260
+24020,"Glens Falls, NY",2010,6.5,129013
+24100,"Gloversville, NY",2010,6.5,55462
+24140,"Goldsboro, NC",2010,6.5,122900
+24180,"Granbury, TX",2010,6.5,59769
+24220,"Grand Forks, ND-MN",2010,6.5,98631
+24260,"Grand Island, NE",2010,6.5,72927
+24300,"Grand Junction, CO",2010,6.5,146361
+24340,"Grand Rapids-Wyoming, MI",2010,6.5,774295
+24380,"Grants, NM",2010,6.5,27320
+24420,"Grants Pass, OR",2010,6.5,82875
+24460,"Great Bend, KS",2010,6.5,27674
+24500,"Great Falls, MT",2010,6.5,81501
+24540,"Greeley, CO",2010,6.5,254198
+24580,"Green Bay, WI",2010,6.5,306758
+24620,"Greeneville, TN",2010,6.5,68833
+24660,"Greensboro-High Point, NC",2010,6.5,725233
+24700,"Greensburg, IN",2010,6.5,25798
+24740,"Greenville, MS",2010,6.5,51096
+24780,"Greenville, NC",2010,6.5,190112
+24820,"Greenville, OH",2010,6.5,52965
+24860,"Greenville-Mauldin-Easley, SC",2010,6.5,638520
+24900,"Greenwood, MS",2010,6.5,43020
+24940,"Greenwood, SC",2010,6.5,69788
+24980,"Grenada, MS",2010,6.5,21841
+25060,"Gulfport-Biloxi, MS",2010,6.5,249836
+25100,"Guymon, OK",2010,6.5,20813
+25180,"Hagerstown-Martinsburg, MD-WV",2010,6.5,269831
+25220,"Hammond, LA",2010,6.5,121482
+25260,"Hanford-Corcoran, CA",2010,6.5,152381
+25300,"Hannibal, MO",2010,6.5,38970
+25340,"Harriman, TN",2010,6.5,54160
+25380,"Harrisburg, IL",2010,6.5,24901
+25420,"Harrisburg-Carlisle, PA",2010,6.5,550102
+25460,"Harrison, AR",2010,6.5,45198
+25500,"Harrisonburg, VA",2010,6.5,125398
+25540,"Hartford-West Hartford-East Hartford, CT",2010,6.5,1214064
+25580,"Hastings, NE",2010,6.5,37864
+25620,"Hattiesburg, MS",2010,6.5,143283
+25660,"Havre, MT",2010,6.5,16153
+25700,"Hays, KS",2010,6.5,28424
+25720,"Heber, UT",2010,6.5,23644
+25740,"Helena, MT",2010,6.5,74983
+25760,"Helena-West Helena, AR",2010,6.5,21676
+25780,"Henderson, NC",2010,6.5,45301
+25820,"Hereford, TX",2010,6.5,19465
+25860,"Hickory-Lenoir-Morganton, NC",2010,6.5,365597
+25900,"Hilo, HI",2010,6.5,185358
+25940,"Hilton Head Island-Beaufort, SC",2010,6.5,187777
+25980,"Hinesville-Fort Stewart, GA",2010,6.5,77324
+26020,"Hobbs, NM",2010,6.5,64599
+26100,"Holland-Grand Haven, MI",2010,6.5,264123
+26140,"Homosassa Springs, FL",2010,6.5,141171
+26180,"Honolulu, HI",2010,6.5,956296
+26220,"Hood River, OR",2010,6.5,22445
+26260,"Hope, AR",2010,6.5,31595
+26300,"Hot Springs, AR",2010,6.5,96069
+26340,"Houghton, MI",2010,6.5,38899
+26380,"Houma-Bayou Cane-Thibodaux, LA",2010,6.5,208246
+26420,"Houston-Sugar Land-Baytown, TX",2010,6.5,5973883
+26460,"Hudson, NY",2010,6.5,63026
+26480,"Humboldt, TN",2010,6.5,49730
+26500,"Huntingdon, PA",2010,6.5,46003
+26540,"Huntington, IN",2010,6.5,37117
+26580,"Huntington-Ashland, WV-KY-OH",2010,6.5,287686
+26620,"Huntsville, AL",2010,6.5,419266
+26660,"Huntsville, TX",2010,6.5,68243
+26700,"Huron, SD",2010,6.5,17406
+26740,"Hutchinson, KS",2010,6.5,64548
+26780,"Hutchinson, MN",2010,6.5,36590
+26820,"Idaho Falls, ID",2010,6.5,130893
+26860,"Indiana, PA",2010,6.5,88865
+26900,"Indianapolis-Carmel, IN",2010,6.5,1761028
+26940,"Indianola, MS",2010,6.5,28981
+26980,"Iowa City, IA",2010,6.5,153030
+27020,"Iron Mountain, MI-WI",2010,6.5,30556
+27060,"Ithaca, NY",2010,6.5,101725
+27100,"Jackson, MI",2010,6.5,160125
+27140,"Jackson, MS",2010,6.5,540735
+27180,"Jackson, TN",2010,6.5,115444
+27220,"Jackson, WY-ID",2010,6.5,31448
+27260,"Jacksonville, FL",2010,6.5,1348889
+27300,"Jacksonville, IL",2010,6.5,40832
+27340,"Jacksonville, NC",2010,6.5,186889
+27380,"Jacksonville, TX",2010,6.5,50944
+27420,"Jamestown, ND",2010,6.5,21137
+27460,"Jamestown-Dunkirk-Fredonia, NY",2010,6.5,134725
+27500,"Janesville, WI",2010,6.5,160272
+27540,"Jasper, IN",2010,6.5,54635
+27620,"Jefferson City, MO",2010,6.5,149964
+27660,"Jennings, LA",2010,6.5,31633
+27700,"Jesup, GA",2010,6.5,30075
+27740,"Johnson City, TN",2010,6.5,199008
+27780,"Johnstown, PA",2010,6.5,143450
+27860,"Jonesboro, AR",2010,6.5,121258
+27900,"Joplin, MO",2010,6.5,175835
+27940,"Juneau, AK",2010,6.5,31386
+27980,"Kahului-Wailuku, HI",2010,6.5,155006
+28020,"Kalamazoo-Portage, MI",2010,6.5,326893
+28060,"Kalispell, MT",2010,6.5,90867
+28100,"Kankakee-Bradley, IL",2010,6.5,113419
+28140,"Kansas City, MO-KS",2010,6.5,2039357
+28180,"Kapaa, HI",2010,6.5,67213
+28260,"Kearney, NE",2010,6.5,52651
+28300,"Keene, NH",2010,6.5,77057
+28340,"Kendallville, IN",2010,6.5,47455
+28380,"Kennett, MO",2010,6.5,31945
+28420,"Kennewick-Pasco-Richland, WA",2010,6.5,255548
+28500,"Kerrville, TX",2010,6.5,49622
+28540,"Ketchikan, AK",2010,6.5,13566
+28580,"Key West, FL",2010,6.5,73220
+28620,"Kill Devil Hills, NC",2010,6.5,33982
+28660,"Killeen-Temple-Fort Hood, TX",2010,6.5,408276
+28700,"Kingsport-Bristol-Bristol, TN-VA",2010,6.5,309483
+28740,"Kingston, NY",2010,6.5,182409
+28780,"Kingsville, TX",2010,6.5,32451
+28820,"Kinston, NC",2010,6.5,59492
+28860,"Kirksville, MO",2010,6.5,30064
+28900,"Klamath Falls, OR",2010,6.5,66318
+28940,"Knoxville, TN",2010,6.5,699067
+28980,"Kodiak, AK",2010,6.5,13650
+29020,"Kokomo, IN",2010,6.5,98633
+29060,"Laconia, NH",2010,6.5,60098
+29100,"La Crosse, WI-MN",2010,6.5,133902
+29140,"Lafayette, IN",2010,6.5,202159
+29180,"Lafayette, LA",2010,6.5,274525
+29220,"La Follette, TN",2010,6.5,40735
+29260,"La Grande, OR",2010,6.5,25732
+29300,"LaGrange, GA",2010,6.5,67052
+29340,"Lake Charles, LA",2010,6.5,199943
+29380,"Lake City, FL",2010,6.5,67553
+29420,"Lake Havasu City-Kingman, AZ",2010,6.5,200315
+29460,"Lakeland-Winter Haven, FL",2010,6.5,603128
+29500,"Lamesa, TX",2010,6.5,13827
+29540,"Lancaster, PA",2010,6.5,520322
+29580,"Lancaster, SC",2010,6.5,76972
+29620,"Lansing-East Lansing, MI",2010,6.5,464272
+29660,"Laramie, WY",2010,6.5,36465
+29700,"Laredo, TX",2010,6.5,251391
+29740,"Las Cruces, NM",2010,6.5,210097
+29780,"Las Vegas, NM",2010,6.5,29398
+29820,"Las Vegas-Paradise, NV",2010,6.5,1952644
+29860,"Laurel, MS",2010,6.5,84814
+29900,"Laurinburg, NC",2010,6.5,36063
+29940,"Lawrence, KS",2010,6.5,111195
+29980,"Lawrenceburg, TN",2010,6.5,41964
+30020,"Lawton, OK",2010,6.5,125399
+30060,"Lebanon, MO",2010,6.5,35676
+30100,"Lebanon, NH-VT",2010,6.5,174677
+30140,"Lebanon, PA",2010,6.5,133643
+30220,"Levelland, TX",2010,6.5,22852
+30260,"Lewisburg, PA",2010,6.5,45000
+30280,"Lewisburg, TN",2010,6.5,30683
+30300,"Lewiston, ID-WA",2010,6.5,61040
+30340,"Lewiston-Auburn, ME",2010,6.5,107707
+30380,"Lewistown, PA",2010,6.5,46639
+30420,"Lexington, NE",2010,6.5,26354
+30460,"Lexington-Fayette, KY",2010,6.5,473415
+30500,"Lexington Park, MD",2010,6.5,105762
+30580,"Liberal, KS",2010,6.5,22974
+30620,"Lima, OH",2010,6.5,106359
+30660,"Lincoln, IL",2010,6.5,30284
+30700,"Lincoln, NE",2010,6.5,302958
+30740,"Lincolnton, NC",2010,6.5,78104
+30780,"Little Rock-North Little Rock-Conway, AR",2010,6.5,702307
+30820,"Lock Haven, PA",2010,6.5,39250
+30860,"Logan, UT-ID",2010,6.5,126167
+30900,"Logansport, IN",2010,6.5,38980
+30940,"London, KY",2010,6.5,58996
+30980,"Longview, TX",2010,6.5,214727
+31020,"Longview, WA",2010,6.5,102357
+31060,"Los Alamos, NM",2010,6.5,17994
+31100,"Los Angeles-Long Beach-Santa Ana, CA",2010,6.5,12838992
+31140,"Louisville/Jefferson County, KY-IN",2010,6.5,1285816
+31180,"Lubbock, TX",2010,6.5,286330
+31260,"Lufkin, TX",2010,6.5,86905
+31300,"Lumberton, NC",2010,6.5,134496
+31340,"Lynchburg, VA",2010,6.5,252981
+31380,"Macomb, IL",2010,6.5,32628
+31420,"Macon, GA",2010,6.5,232227
+31460,"Madera-Chowchilla, CA",2010,6.5,151006
+31500,"Madison, IN",2010,6.5,32401
+31540,"Madison, WI",2010,6.5,569742
+31580,"Madisonville, KY",2010,6.5,46840
+31620,"Magnolia, AR",2010,6.5,24725
+31660,"Malone, NY",2010,6.5,51652
+31700,"Manchester-Nashua, NH",2010,6.5,401049
+31740,"Manhattan, KS",2010,6.5,128521
+31820,"Manitowoc, WI",2010,6.5,81329
+31860,"Mankato-North Mankato, MN",2010,6.5,96845
+31900,"Mansfield, OH",2010,6.5,124159
+31920,"Marble Falls, TX",2010,6.5,42755
+31940,"Marinette, WI-MI",2010,6.5,65630
+31980,"Marion, IN",2010,6.5,69906
+32020,"Marion, OH",2010,6.5,66455
+32060,"Marion-Herrin, IL",2010,6.5,66432
+32100,"Marquette, MI",2010,6.5,67078
+32140,"Marshall, MN",2010,6.5,25848
+32180,"Marshall, MO",2010,6.5,23420
+32220,"Marshall, TX",2010,6.5,65769
+32260,"Marshalltown, IA",2010,6.5,40722
+32270,"Marshfield-Wisconsin Rapids, WI",2010,6.5,74814
+32280,"Martin, TN",2010,6.5,35042
+32300,"Martinsville, VA",2010,6.5,67892
+32340,"Maryville, MO",2010,6.5,23398
+32380,"Mason City, IA",2010,6.5,51679
+32460,"Mayfield, KY",2010,6.5,37240
+32500,"Maysville, KY",2010,6.5,31341
+32540,"McAlester, OK",2010,6.5,45783
+32580,"McAllen-Edinburg-Mission, TX",2010,6.5,779213
+32620,"McComb, MS",2010,6.5,53578
+32660,"McMinnville, TN",2010,6.5,39860
+32700,"McPherson, KS",2010,6.5,29126
+32740,"Meadville, PA",2010,6.5,88613
+32780,"Medford, OR",2010,6.5,203343
+32820,"Memphis, TN-MS-AR",2010,6.5,1317494
+32860,"Menomonie, WI",2010,6.5,43887
+32900,"Merced, CA",2010,6.5,256732
+32940,"Meridian, MS",2010,6.5,107577
+32980,"Merrill, WI",2010,6.5,28777
+33020,"Mexico, MO",2010,6.5,25451
+33060,"Miami, OK",2010,6.5,31856
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL",2010,6.5,5583547
+33140,"Michigan City-La Porte, IN",2010,6.5,111455
+33180,"Middlesborough, KY",2010,6.5,28709
+33220,"Midland, MI",2010,6.5,83658
+33260,"Midland, TX",2010,6.5,136985
+33300,"Milledgeville, GA",2010,6.5,55135
+33340,"Milwaukee-Waukesha-West Allis, WI",2010,6.5,1556684
+33380,"Minden, LA",2010,6.5,41196
+33420,"Mineral Wells, TX",2010,6.5,28084
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI",2010,6.5,3286212
+33500,"Minot, ND",2010,6.5,70005
+33540,"Missoula, MT",2010,6.5,109466
+33580,"Mitchell, SD",2010,6.5,22813
+33620,"Moberly, MO",2010,6.5,25454
+33660,"Mobile, AL",2010,6.5,413319
+33700,"Modesto, CA",2010,6.5,515165
+33740,"Monroe, LA",2010,6.5,176799
+33780,"Monroe, MI",2010,6.5,151931
+33820,"Monroe, WI",2010,6.5,36861
+33860,"Montgomery, AL",2010,6.5,375130
+33940,"Montrose, CO",2010,6.5,41186
+33980,"Morehead City, NC",2010,6.5,66698
+34020,"Morgan City, LA",2010,6.5,54557
+34060,"Morgantown, WV",2010,6.5,130313
+34100,"Morristown, TN",2010,6.5,136942
+34140,"Moscow, ID",2010,6.5,37254
+34180,"Moses Lake, WA",2010,6.5,89569
+34220,"Moultrie, GA",2010,6.5,45638
+34260,"Mountain Home, AR",2010,6.5,41511
+34300,"Mountain Home, ID",2010,6.5,27120
+34340,"Mount Airy, NC",2010,6.5,73769
+34380,"Mount Pleasant, MI",2010,6.5,70293
+34420,"Mount Pleasant, TX",2010,6.5,32421
+34460,"Mount Sterling, KY",2010,6.5,44533
+34500,"Mount Vernon, IL",2010,6.5,47205
+34540,"Mount Vernon, OH",2010,6.5,61095
+34580,"Mount Vernon-Anacortes, WA",2010,6.5,116954
+34620,"Muncie, IN",2010,6.5,117652
+34660,"Murray, KY",2010,6.5,37347
+34700,"Muscatine, IA",2010,6.5,54131
+34740,"Muskegon-Norton Shores, MI",2010,6.5,171911
+34780,"Muskogee, OK",2010,6.5,71118
+34820,"Myrtle Beach-North Myrtle Beach-Conway, SC",2010,6.5,270257
+34860,"Nacogdoches, TX",2010,6.5,64686
+34900,"Napa, CA",2010,6.5,136808
+34940,"Naples-Marco Island, FL",2010,6.5,322595
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",2010,6.5,1594304
+35020,"Natchez, MS-LA",2010,6.5,53416
+35060,"Natchitoches, LA",2010,6.5,39527
+35100,"New Bern, NC",2010,6.5,127429
+35140,"Newberry, SC",2010,6.5,37610
+35220,"New Castle, IN",2010,6.5,49530
+35260,"New Castle, PA",2010,6.5,91003
+35300,"New Haven-Milford, CT",2010,6.5,863382
+35340,"New Iberia, LA",2010,6.5,73122
+35380,"New Orleans-Metairie-Kenner, LA",2010,6.5,1173272
+35420,"New Philadelphia-Dover, OH",2010,6.5,92551
+35460,"Newport, TN",2010,6.5,35639
+35500,"Newton, IA",2010,6.5,36813
+35580,"New Ulm, MN",2010,6.5,25843
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA",2010,6.5,18923793
+35660,"Niles-Benton Harbor, MI",2010,6.5,156742
+35700,"Nogales, AZ",2010,6.5,47420
+35740,"Norfolk, NE",2010,6.5,48365
+35820,"North Platte, NE",2010,6.5,37562
+35840,"North Port-Bradenton-Sarasota, FL",2010,6.5,703364
+35860,"North Vernon, IN",2010,6.5,28482
+35900,"North Wilkesboro, NC",2010,6.5,69270
+35940,"Norwalk, OH",2010,6.5,59561
+35980,"Norwich-New London, CT",2010,6.5,273998
+36020,"Oak Harbor, WA",2010,6.5,78690
+36060,"Oak Hill, WV",2010,6.5,46033
+36100,"Ocala, FL",2010,6.5,331340
+36140,"Ocean City, NJ",2010,6.5,97221
+36180,"Ocean Pines, MD",2010,6.5,51501
+36220,"Odessa, TX",2010,6.5,137083
+36260,"Ogden-Clearfield, UT",2010,6.5,549567
+36300,"Ogdensburg-Massena, NY",2010,6.5,111811
+36340,"Oil City, PA",2010,6.5,54976
+36380,"Okeechobee, FL",2010,6.5,40028
+36420,"Oklahoma City, OK",2010,6.5,1257797
+36460,"Olean, NY",2010,6.5,80230
+36500,"Olympia, WA",2010,6.5,252996
+36540,"Omaha-Council Bluffs, NE-IA",2010,6.5,867673
+36580,"Oneonta, NY",2010,6.5,62258
+36620,"Ontario, OR-ID",2010,6.5,53987
+36660,"Opelousas-Eunice, LA",2010,6.5,83489
+36700,"Orangeburg, SC",2010,6.5,92320
+36740,"Orlando-Kissimmee-Sanford, FL",2010,6.5,2139199
+36780,"Oshkosh-Neenah, WI",2010,6.5,167069
+36820,"Oskaloosa, IA",2010,6.5,22408
+36860,"Ottawa-Streator, IL",2010,6.5,154787
+36900,"Ottumwa, IA",2010,6.5,35682
+36940,"Owatonna, MN",2010,6.5,36496
+36980,"Owensboro, KY",2010,6.5,114772
+37020,"Owosso, MI",2010,6.5,70628
+37060,"Oxford, MS",2010,6.5,47567
+37100,"Oxnard-Thousand Oaks-Ventura, CA",2010,6.5,825130
+37140,"Paducah, KY-IL",2010,6.5,98700
+37220,"Pahrump, NV",2010,6.5,43844
+37260,"Palatka, FL",2010,6.5,74207
+37300,"Palestine, TX",2010,6.5,58497
+37340,"Palm Bay-Melbourne-Titusville, FL",2010,6.5,543972
+37380,"Palm Coast, FL",2010,6.5,96077
+37420,"Pampa, TX",2010,6.5,23393
+37460,"Panama City-Lynn Haven-Panama City Beach, FL",2010,6.5,169205
+37500,"Paragould, AR",2010,6.5,42200
+37540,"Paris, TN",2010,6.5,32396
+37580,"Paris, TX",2010,6.5,49819
+37620,"Parkersburg-Marietta-Vienna, WV-OH",2010,6.5,161977
+37660,"Parsons, KS",2010,6.5,21534
+37700,"Pascagoula, MS",2010,6.5,162116
+37740,"Payson, AZ",2010,6.5,53571
+37780,"Pecos, TX",2010,6.5,13836
+37800,"Pella, IA",2010,6.5,33224
+37820,"Pendleton-Hermiston, OR",2010,6.5,87306
+37860,"Pensacola-Ferry Pass-Brent, FL",2010,6.5,450947
+37900,"Peoria, IL",2010,6.5,378976
+37940,"Peru, IN",2010,6.5,36810
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2010,6.5,5970948
+38020,"Phoenix Lake-Cedar Ridge, CA",2010,6.5,55191
+38060,"Phoenix-Mesa-Glendale, AZ",2010,6.5,4204738
+38100,"Picayune, MS",2010,6.5,55705
+38180,"Pierre, SD",2010,6.5,20043
+38200,"Pierre Part, LA",2010,6.5,23333
+38220,"Pine Bluff, AR",2010,6.5,100107
+38260,"Pittsburg, KS",2010,6.5,39172
+38300,"Pittsburgh, PA",2010,6.5,2357086
+38340,"Pittsfield, MA",2010,6.5,131319
+38380,"Plainview, TX",2010,6.5,36270
+38420,"Platteville, WI",2010,6.5,51233
+38460,"Plattsburgh, NY",2010,6.5,82095
+38500,"Plymouth, IN",2010,6.5,46999
+38540,"Pocatello, ID",2010,6.5,90891
+38580,"Point Pleasant, WV-OH",2010,6.5,58441
+38620,"Ponca City, OK",2010,6.5,46433
+38700,"Pontiac, IL",2010,6.5,38856
+38740,"Poplar Bluff, MO",2010,6.5,42788
+38780,"Portales, NM",2010,6.5,20022
+38820,"Port Angeles, WA",2010,6.5,71509
+38860,"Portland-South Portland-Biddeford, ME",2010,6.5,513904
+38900,"Portland-Vancouver-Hillsboro, OR-WA",2010,6.5,2232205
+38940,"Port St. Lucie, FL",2010,6.5,425186
+39020,"Portsmouth, OH",2010,6.5,79502
+39060,"Pottsville, PA",2010,6.5,148285
+39100,"Poughkeepsie-Newburgh-Middletown, NY",2010,6.5,671184
+39140,"Prescott, AZ",2010,6.5,210983
+39220,"Price, UT",2010,6.5,21403
+39260,"Prineville, OR",2010,6.5,20885
+39300,"Providence-New Bedford-Fall River, RI-MA",2010,6.5,1603115
+39340,"Provo-Orem, UT",2010,6.5,530257
+39380,"Pueblo, CO",2010,6.5,159466
+39420,"Pullman, WA",2010,6.5,44794
+39460,"Punta Gorda, FL",2010,6.5,159867
+39500,"Quincy, IL-MO",2010,6.5,77369
+39540,"Racine, WI",2010,6.5,195405
+39580,"Raleigh-Cary, NC",2010,6.5,1137381
+39660,"Rapid City, SD",2010,6.5,126726
+39700,"Raymondville, TX",2010,6.5,22227
+39740,"Reading, PA",2010,6.5,412025
+39780,"Red Bluff, CA",2010,6.5,63565
+39820,"Redding, CA",2010,6.5,177277
+39860,"Red Wing, MN",2010,6.5,46214
+39900,"Reno-Sparks, NV",2010,6.5,425956
+39940,"Rexburg, ID",2010,6.5,50818
+39980,"Richmond, IN",2010,6.5,68890
+40060,"Richmond, VA",2010,6.5,1260211
+40080,"Richmond-Berea, KY",2010,6.5,100550
+40100,"Rio Grande City-Roma, TX",2010,6.5,61147
+40140,"Riverside-San Bernardino-Ontario, CA",2010,6.5,4242562
+40180,"Riverton, WY",2010,6.5,40200
+40220,"Roanoke, VA",2010,6.5,308593
+40260,"Roanoke Rapids, NC",2010,6.5,76513
+40300,"Rochelle, IL",2010,6.5,53423
+40340,"Rochester, MN",2010,6.5,186352
+40380,"Rochester, NY",2010,6.5,1054591
+40420,"Rockford, IL",2010,6.5,349191
+40460,"Rockingham, NC",2010,6.5,46633
+40500,"Rockland, ME",2010,6.5,39731
+40540,"Rock Springs, WY",2010,6.5,43574
+40580,"Rocky Mount, NC",2010,6.5,152415
+40620,"Rolla, MO",2010,6.5,45327
+40660,"Rome, GA",2010,6.5,96423
+40700,"Roseburg, OR",2010,6.5,107634
+40740,"Roswell, NM",2010,6.5,65727
+40760,"Ruidoso, NM",2010,6.5,20453
+40780,"Russellville, AR",2010,6.5,84258
+40820,"Ruston, LA",2010,6.5,63156
+40860,"Rutland, VT",2010,6.5,61578
+40900,"Sacramento--Arden-Arcade--Roseville, CA",2010,6.5,2153656
+40940,"Safford, AZ",2010,6.5,45491
+40980,"Saginaw-Saginaw Township North, MI",2010,6.5,199862
+41060,"St. Cloud, MN",2010,6.5,189218
+41100,"St. George, UT",2010,6.5,138392
+41140,"St. Joseph, MO-KS",2010,6.5,127281
+41180,"St. Louis, MO-IL",2010,6.5,2839788
+41220,"St. Marys, GA",2010,6.5,50660
+41260,"St. Marys, PA",2010,6.5,31861
+41420,"Salem, OR",2010,6.5,391496
+41460,"Salina, KS",2010,6.5,61879
+41500,"Salinas, CA",2010,6.5,416396
+41540,"Salisbury, MD",2010,6.5,125435
+41580,"Salisbury, NC",2010,6.5,138368
+41620,"Salt Lake City, UT",2010,6.5,1127980
+41660,"San Angelo, TX",2010,6.5,112285
+41700,"San Antonio-New Braunfels, TX",2010,6.5,2153038
+41740,"San Diego-Carlsbad-San Marcos, CA",2010,6.5,3103306
+41780,"Sandusky, OH",2010,6.5,76985
+41820,"Sanford, NC",2010,6.5,57886
+41860,"San Francisco-Oakland-Fremont, CA",2010,6.5,4343782
+41940,"San Jose-Sunnyvale-Santa Clara, CA",2010,6.5,1841596
+42020,"San Luis Obispo-Paso Robles, CA",2010,6.5,269805
+42060,"Santa Barbara-Santa Maria-Goleta, CA",2010,6.5,424235
+42100,"Santa Cruz-Watsonville, CA",2010,6.5,263167
+42140,"Santa Fe, NM",2010,6.5,144528
+42220,"Santa Rosa-Petaluma, CA",2010,6.5,484776
+42300,"Sault Ste. Marie, MI",2010,6.5,38611
+42340,"Savannah, GA",2010,6.5,348635
+42380,"Sayre, PA",2010,6.5,62736
+42420,"Scottsbluff, NE",2010,6.5,37748
+42460,"Scottsboro, AL",2010,6.5,53183
+42500,"Scottsburg, IN",2010,6.5,24164
+42540,"Scranton--Wilkes-Barre, PA",2010,6.5,563757
+42580,"Seaford, DE",2010,6.5,197890
+42620,"Searcy, AR",2010,6.5,77348
+42660,"Seattle-Tacoma-Bellevue, WA",2010,6.5,3449275
+42680,"Sebastian-Vero Beach, FL",2010,6.5,138272
+42700,"Sebring, FL",2010,6.5,98634
+42740,"Sedalia, MO",2010,6.5,42263
+42780,"Selinsgrove, PA",2010,6.5,39707
+42820,"Selma, AL",2010,6.5,43860
+42860,"Seneca, SC",2010,6.5,74341
+42900,"Seneca Falls, NY",2010,6.5,35261
+42940,"Sevierville, TN",2010,6.5,89921
+42980,"Seymour, IN",2010,6.5,42586
+43060,"Shawnee, OK",2010,6.5,69633
+43100,"Sheboygan, WI",2010,6.5,115521
+43140,"Shelby, NC",2010,6.5,97919
+43180,"Shelbyville, TN",2010,6.5,45077
+43220,"Shelton, WA",2010,6.5,60735
+43260,"Sheridan, WY",2010,6.5,29144
+43300,"Sherman-Denison, TX",2010,6.5,121030
+43320,"Show Low, AZ",2010,6.5,107696
+43340,"Shreveport-Bossier City, LA",2010,6.5,399937
+43380,"Sidney, OH",2010,6.5,49312
+43420,"Sierra Vista-Douglas, AZ",2010,6.5,131822
+43460,"Sikeston, MO",2010,6.5,39249
+43500,"Silver City, NM",2010,6.5,29381
+43540,"Silverthorne, CO",2010,6.5,28077
+43580,"Sioux City, IA-NE-SD",2010,6.5,143899
+43620,"Sioux Falls, SD",2010,6.5,229098
+43660,"Snyder, TX",2010,6.5,16929
+43700,"Somerset, KY",2010,6.5,63190
+43740,"Somerset, PA",2010,6.5,77763
+43780,"South Bend-Mishawaka, IN-MI",2010,6.5,319054
+43860,"Southern Pines-Pinehurst, NC",2010,6.5,88587
+43900,"Spartanburg, SC",2010,6.5,284748
+43940,"Spearfish, SD",2010,6.5,24205
+43980,"Spencer, IA",2010,6.5,16635
+44020,"Spirit Lake, IA",2010,6.5,16670
+44060,"Spokane, WA",2010,6.5,472089
+44100,"Springfield, IL",2010,6.5,210463
+44140,"Springfield, MA",2010,6.5,694942
+44180,"Springfield, MO",2010,6.5,437297
+44220,"Springfield, OH",2010,6.5,138274
+44260,"Starkville, MS",2010,6.5,47737
+44300,"State College, PA",2010,6.5,154218
+44340,"Statesboro, GA",2010,6.5,70562
+44380,"Statesville-Mooresville, NC",2010,6.5,159768
+44420,"Staunton-Waynesboro, VA",2010,6.5,118311
+44500,"Stephenville, TX",2010,6.5,37917
+44540,"Sterling, CO",2010,6.5,22033
+44580,"Sterling, IL",2010,6.5,58478
+44600,"Steubenville-Weirton, OH-WV",2010,6.5,124324
+44620,"Stevens Point, WI",2010,6.5,70025
+44660,"Stillwater, OK",2010,6.5,77399
+44700,"Stockton, CA",2010,6.5,687156
+44740,"Storm Lake, IA",2010,6.5,20355
+44780,"Sturgis, MI",2010,6.5,61283
+44860,"Sulphur Springs, TX",2010,6.5,35206
+44900,"Summerville, GA",2010,6.5,25952
+44940,"Sumter, SC",2010,6.5,107612
+44980,"Sunbury, PA",2010,6.5,94301
+45000,"Susanville, CA",2010,6.5,34832
+45020,"Sweetwater, TX",2010,6.5,15247
+45060,"Syracuse, NY",2010,6.5,663108
+45140,"Tahlequah, OK",2010,6.5,47106
+45180,"Talladega-Sylacauga, AL",2010,6.5,82100
+45220,"Tallahassee, FL",2010,6.5,369341
+45260,"Tallulah, LA",2010,6.5,12105
+45300,"Tampa-St. Petersburg-Clearwater, FL",2010,6.5,2788367
+45340,"Taos, NM",2010,6.5,32896
+45380,"Taylorville, IL",2010,6.5,34764
+45460,"Terre Haute, IN",2010,6.5,172239
+45500,"Texarkana, TX-Texarkana, AR",2010,6.5,136197
+45520,"The Dalles, OR",2010,6.5,25285
+45540,"The Villages, FL",2010,6.5,94278
+45580,"Thomaston, GA",2010,6.5,27056
+45620,"Thomasville, GA",2010,6.5,44750
+45640,"Thomasville-Lexington, NC",2010,6.5,162861
+45660,"Tiffin, OH",2010,6.5,56619
+45700,"Tifton, GA",2010,6.5,40247
+45740,"Toccoa, GA",2010,6.5,26135
+45780,"Toledo, OH",2010,6.5,651377
+45820,"Topeka, KS",2010,6.5,234274
+45860,"Torrington, CT",2010,6.5,189806
+45900,"Traverse City, MI",2010,6.5,143343
+45940,"Trenton-Ewing, NJ",2010,6.5,367744
+45980,"Troy, AL",2010,6.5,32963
+46020,"Truckee-Grass Valley, CA",2010,6.5,98785
+46060,"Tucson, AZ",2010,6.5,981653
+46100,"Tullahoma, TN",2010,6.5,100062
+46140,"Tulsa, OK",2010,6.5,939822
+46180,"Tupelo, MS",2010,6.5,136355
+46220,"Tuscaloosa, AL",2010,6.5,219736
+46260,"Tuskegee, AL",2010,6.5,21505
+46300,"Twin Falls, ID",2010,6.5,99989
+46340,"Tyler, TX",2010,6.5,210408
+46380,"Ukiah, CA",2010,6.5,87800
+46420,"Union, SC",2010,6.5,28929
+46460,"Union City, TN-KY",2010,6.5,38626
+46500,"Urbana, OH",2010,6.5,40077
+46540,"Utica-Rome, NY",2010,6.5,299224
+46620,"Uvalde, TX",2010,6.5,26443
+46660,"Valdosta, GA",2010,6.5,140055
+46700,"Vallejo-Fairfield, CA",2010,6.5,413944
+46740,"Valley, AL",2010,6.5,34122
+46780,"Van Wert, OH",2010,6.5,28677
+46820,"Vermillion, SD",2010,6.5,13828
+46860,"Vernal, UT",2010,6.5,32469
+46900,"Vernon, TX",2010,6.5,13511
+46980,"Vicksburg, MS",2010,6.5,48834
+47020,"Victoria, TX",2010,6.5,115408
+47080,"Vidalia, GA",2010,6.5,36395
+47180,"Vincennes, IN",2010,6.5,38393
+47220,"Vineland-Millville-Bridgeton, NJ",2010,6.5,156704
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC",2010,6.5,1674674
+47300,"Visalia-Porterville, CA",2010,6.5,442994
+47340,"Wabash, IN",2010,6.5,32848
+47380,"Waco, TX",2010,6.5,235917
+47420,"Wahpeton, ND-MN",2010,6.5,22917
+47460,"Walla Walla, WA",2010,6.5,58920
+47500,"Walterboro, SC",2010,6.5,38896
+47540,"Wapakoneta, OH",2010,6.5,45930
+47580,"Warner Robins, GA",2010,6.5,140745
+47620,"Warren, PA",2010,6.5,41771
+47660,"Warrensburg, MO",2010,6.5,52716
+47700,"Warsaw, IN",2010,6.5,77341
+47780,"Washington, IN",2010,6.5,31720
+47820,"Washington, NC",2010,6.5,47807
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2010,6.5,5610725
+47920,"Washington Court House, OH",2010,6.5,29017
+47940,"Waterloo-Cedar Falls, IA",2010,6.5,167925
+47980,"Watertown, SD",2010,6.5,33137
+48020,"Watertown-Fort Atkinson, WI",2010,6.5,83719
+48060,"Watertown-Fort Drum, NY",2010,6.5,116594
+48100,"Wauchula, FL",2010,6.5,27724
+48140,"Wausau, WI",2010,6.5,134049
+48180,"Waycross, GA",2010,6.5,55131
+48220,"Weatherford, OK",2010,6.5,27478
+48300,"Wenatchee-East Wenatchee, WA",2010,6.5,111271
+48460,"West Plains, MO",2010,6.5,40564
+48500,"West Point, MS",2010,6.5,20547
+48540,"Wheeling, WV-OH",2010,6.5,147907
+48580,"Whitewater, WI",2010,6.5,102198
+48620,"Wichita, KS",2010,6.5,623889
+48660,"Wichita Falls, TX",2010,6.5,151649
+48700,"Williamsport, PA",2010,6.5,116234
+48740,"Willimantic, CT",2010,6.5,118545
+48780,"Williston, ND",2010,6.5,22588
+48820,"Willmar, MN",2010,6.5,42237
+48900,"Wilmington, NC",2010,6.5,363767
+48940,"Wilmington, OH",2010,6.5,41911
+48980,"Wilson, NC",2010,6.5,81285
+49020,"Winchester, VA-WV",2010,6.5,128675
+49060,"Winfield, KS",2010,6.5,36312
+49100,"Winona, MN",2010,6.5,51434
+49180,"Winston-Salem, NC",2010,6.5,478431
+49260,"Woodward, OK",2010,6.5,19995
+49300,"Wooster, OH",2010,6.5,114391
+49340,"Worcester, MA",2010,6.5,800401
+49380,"Worthington, MN",2010,6.5,21426
+49420,"Yakima, WA",2010,6.5,244269
+49460,"Yankton, SD",2010,6.5,22435
+49540,"Yazoo City, MS",2010,6.5,28134
+49620,"York-Hanover, PA",2010,6.5,435403
+49660,"Youngstown-Warren-Boardman, OH-PA",2010,6.5,564828
+49700,"Yuba City, CA",2010,6.5,167103
+49740,"Yuma, AZ",2010,6.5,197138
+49780,"Zanesville, OH",2010,6.5,86213

@@ -1,0 +1,367 @@
+,Id2,Geography,Tot_Pop,MSA_NAME_CLUSTERS,CBSA_NAME,CBSA_ID,cbsa_name,State,Month,Link,TNC_ARRIVAL
+0,10180,"Abilene, TX Metro Area",164941,,,,,,,,2016.0
+1,10420,"Akron, OH Metro Area",702951,Akron,"Akron, OH",10420.0,"Akron, OH",OH,Aug,http://www.crainscleveland.com/article/20140828/FREE/140829750/uber-launches-service-in-akron,2014.0
+2,10500,"Albany, GA Metro Area",162659,Albany,"Albany, GA",10500.0,"Albany, GA",GA,Mar,https://www.walb.com/story/35150573/uber-drivers/,2017.0
+3,10580,"Albany-Schenectady-Troy, NY Metro Area",870832,Albany-Schenectady-Troy,"Albany-Schenectady-Troy, NY",10580.0,"Albany-Schenectady-Troy, NY",NY,June,https://www.democratandchronicle.com/story/news/politics/albany/2017/06/27/uber-lyft-launch-thursday/103237788/,2017.0
+4,10740,"Albuquerque, NM Metro Area",892014,Albuquerque,"Albuquerque, NM",10740.0,"Albuquerque, NM",NM,Apr,http://www.bizjournals.com/albuquerque/news/2014/04/30/uber-follows-lyft-to-albuquerque.html,2014.0
+5,10780,"Alexandria, LA Metro Area",154120,,,,,,,,2016.0
+6,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",822141,Allentown-Bethlehem-Easton,"Allentown-Bethlehem-Easton, PA-NJ",10900.0,"Allentown-Bethlehem-Easton, PA-NJ",PA-NJ,Jan,https://www.mcall.com/business/mc-pa-uber-lehigh-valley-20150130-10-story.html,2015.0
+7,11020,"Altoona, PA Metro Area",127031,Altoona,"Altoona, PA",11020.0,"Altoona, PA",PA,Aug,https://www.pennlive.com/news/2016/08/uber_expands_ride-hailing_serv.html,2016.0
+8,11100,"Amarillo, TX Metro Area",251915,,,,,,,,2016.0
+9,11180,"Ames, IA Metro Area",89575,Ames,"Ames, IA",11180.0,"Ames, IA",IA,Aug,https://newsroom.uber.com/iowa/ames_launch/,2015.0
+10,11260,"Anchorage, AK Metro Area",382964,Anchorage,"Anchorage, AK",11260.0,"Anchorage, AK",AK,June,https://www.adn.com/business-economy/2017/06/15/uber-and-lyft-are-arriving-in-alaska-heres-what-you-need-to-know/,2017.0
+11,11300,"Anderson, IN Metro Area",131642,,,,,,,,2016.0
+12,11340,"Anderson, SC Metro Area",187269,,,,,,,,2016.0
+13,11460,"Ann Arbor, MI Metro Area",345290,Ann Arbor,"Ann Arbor, MI",11460.0,"Ann Arbor, MI",MI,Apr,http://www.mlive.com/news/ann-arbor/index.ssf/2014/04/app-driven_ride_service_uber_e.html,2014.0
+14,11500,"Anniston-Oxford, AL Metro Area",118510,,,,,,,,2016.0
+15,11540,"Appleton, WI Metro Area",225952,Appleton,"Appleton, WI",11540.0,"Appleton, WI",WI,Sep,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=2ahUKEwjKtseu28zkAhVQmK0KHRhPBkoQFjAJegQIAxAB&url=https%3A%2F%2Fwww.wearegreenbay.com%2Fnews%2Flocal-news%2Fuber-begins-service-in-appleton%2F228828991&usg=AOvVaw21-YV3631q_ag8WT9bf8Gl,2015.0
+16,11700,"Asheville, NC Metro Area",422752,,,,,,,,2016.0
+17,12020,"Athens-Clarke County, GA Metro Area",192738,Athens-Clarke County,"Athens-Clarke County, GA",12020.0,"Athens-Clarke County, GA",GA,Aug,http://flagpole.com/news/in-the-loop/uber-is-here,2014.0
+18,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",5288302,Atlanta-Sandy Springs-Roswell,"Atlanta-Sandy Springs-Roswell, GA",12060.0,"Atlanta-Sandy Springs-Marietta, GA",GA,Aug,https://newsroom.uber.com/atlanta/uber-atlanta-launches-spottieottiedopaliscious/,2012.0
+19,12100,"Atlantic City-Hammonton, NJ Metro Area",274685,,,,,,,,2016.0
+20,12220,"Auburn-Opelika, AL Metro Area",140780,,,,,,,,2016.0
+21,12260,"Augusta-Richmond County, GA-SC Metro Area",560293,Augusta-Richmond County,"Augusta-Richmond County, GA-SC",12260.0,"Augusta-Richmond County, GA-SC",GA-SC,Apr,http://chronicle.augusta.com/news/business/2015-04-06/uber-ride-sharing-begins-augusta,2015.0
+22,12420,"Austin-Round Rock-San Marcos, TX Metro Area",1728307,Austin-Round Rock,"Austin-Round Rock, TX",12420.0,"Austin-Round Rock-San Marcos, TX",TX,Jun,http://kxan.com/2014/06/04/uber-launches-in-austin-despite-official-ban/,2014.0
+23,12540,"Bakersfield-Delano, CA Metro Area",842207,Bakersfield,"Bakersfield, CA",12540.0,"Bakersfield-Delano, CA",CA,Jun,https://newsroom.uber.com/central-coast/bakersfield-your-uber-is-arriving-now/,2014.0
+24,12580,"Baltimore-Towson, MD Metro Area",2714183,Baltimore-Columbia-Towson,"Baltimore-Columbia-Towson, MD",12580.0,"Baltimore-Towson, MD",MD,Feb,http://technical.ly/baltimore/2013/02/01/uber-baltimore-on-demand-car-service-officially-launches-will-be-available-all-day-super-bowl-sunday/,2013.0
+25,12620,"Bangor, ME Metro Area",153849,,,,,,,,2016.0
+26,12700,"Barnstable Town, MA Metro Area",215937,,,,,,,,2016.0
+27,12940,"Baton Rouge, LA Metro Area",804406,Baton Rouge,"Baton Rouge, LA",12940.0,"Baton Rouge, LA",LA,Jul,http://theadvocate.com/home/9697616-125/ride-share-service-launches-br-service,2014.0
+28,12980,"Battle Creek, MI Metro Area",136072,,,,,,,,2016.0
+29,13020,"Bay City, MI Metro Area",107703,Bay City,"Bay City, MI",13020.0,"Bay City, MI",MI,Mar,https://www.mlive.com/news/saginaw/2017/03/uber_now_serving_saginaw_bay_c.html,2017.0
+30,13140,"Beaumont-Port Arthur, TX Metro Area",389068,Beaumont-Port Arthur,"Beaumont-Port Arthur, TX",13140.0,"Beaumont-Port Arthur, TX",TX,Nov,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjI84OvzczkAhUKKawKHXdnAUQQFjABegQIBBAB&url=https%3A%2F%2Fwww.beaumontenterprise.com%2Fnews%2Farticle%2FUber-rolls-into-Beaumont-6656662.php&usg=AOvVaw3pKyx034DIlIw7arGkSZlu,2015.0
+31,13380,"Bellingham, WA Metro Area",201628,Bellingham,"Bellingham, WA",13380.0,"Bellingham, WA",WA,Nov,http://www.bellinghamherald.com/news/local/article45677118.html,2015.0
+32,13460,"Bend, OR Metro Area",157894,,,,,,,,2016.0
+33,13740,"Billings, MT Metro Area",157365,Billings,"Billings, MT",13740.0,"Billings, MT",MT,Aug,https://billingsgazette.com/business/uber-launches-ride-sharing-service-friday-in-billings/article_1db60c4c-bca6-51cc-8479-227610f195d1.html,2016.0
+34,13780,"Binghamton, NY Metro Area",251321,Binghamton,"Binghamton, NY",13780.0,"Binghamton, NY",NY,Feb,https://www.businessinsider.com/uber-launches-in-birmingham-2015-2,2015.0
+35,13820,"Birmingham-Hoover, AL Metro Area",1128978,Birmingham-Hoover,"Birmingham-Hoover, AL",13820.0,"Birmingham-Hoover, AL",AL,Dec,http://www.bizjournals.com/birmingham/news/2015/12/29/uber-to-start-operations-in-birmingham-this-week.html,2015.0
+36,13900,"Bismarck, ND Metro Area",109266,,,,,,,,2016.0
+37,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",161768,Blacksburg-Christiansburg-Radford,"Blacksburg-Christiansburg-Radford, VA",13980.0,"Blacksburg-Christiansburg-Radford, VA",VA,Aug,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjmmP7c2MzkAhUMD60KHUf9ChkQFjABegQIChAF&url=https%3A%2F%2Fwww.roanoke.com%2Fnews%2Flocal%2Fuber-launches-ride-sharing-service-in-roanoke-blacksburg%2Farticle_55a6cafb-2c15-5b78-bf4e-438d6531a18b.html&usg=AOvVaw23cha40l1QJMTa3Bemar8C,2014.0
+38,14020,"Bloomington, IN Metro Area",192696,Bloomington,"Bloomington, IN",14020.0,"Bloomington, IN",IN,Aug,https://indianapublicmedia.org/news/uber-ridesharing-launches-bloomington-71260/,2014.0
+39,14060,"Bloomington-Normal, IL Metro Area",169832,Bloomington,"Bloomington, IL",14060.0,"Bloomington-Normal, IL",IL,Feb,https://www.uber.com/blog/illinois/uber-is-arriving-now-in-bloomington-normal/,2015.0
+40,14260,"Boise City-Nampa, ID Metro Area",619694,Boise City,"Boise City, ID",14260.0,"Boise City-Nampa, ID",ID,Oct,https://www.uber.com/blog/idaho/uber-launches-in-boise-with-free-rides/,2014.0
+41,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",4560689,Boston-Cambridge-Newton,"Boston-Cambridge-Newton, MA-NH",14460.0,"Boston-Cambridge-Quincy, MA-NH",MA-NH,Sep,http://www.bizjournals.com/boston/blog/mass_roundup/2012/09/uber-taxi-in-boston.html,2012.0
+42,14500,"Boulder, CO Metro Area",295166,,,,,,,,2016.0
+43,14540,"Bowling Green, KY Metro Area",127280,,,,,,,,2016.0
+44,14740,"Bremerton-Silverdale, WA Metro Area",251809,Bremerton-Silverdale,"Bremerton-Silverdale, WA",14740.0,"Bremerton-Silverdale, WA",WA,Sep,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiamuq82czkAhUMOK0KHWX8ByEQFjAAegQIAhAB&url=http%3A%2F%2Farchive.kitsapsun.com%2Fnews%2Flocal%2Fuber-arrives-in-kitsap-ep-1297769390-354356631.html%2F&usg=AOvVaw2eo_FHXVBvyRUEQ9pP8WFt,2015.0
+45,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",918714,Bridgeport-Stamford-Norwalk,"Bridgeport-Stamford-Norwalk, CT",14860.0,"Bridgeport-Stamford-Norwalk, CT",CT,April ,https://www.stamfordadvocate.com/printpromotion/article/Despite-controversy-Uber-takes-off-in-Stamford-6293347.php,2014.0
+46,15180,"Brownsville-Harlingen, TX Metro Area",408054,Brownsville-Harlingen,"Brownsville-Harlingen, TX",15180.0,"Brownsville-Harlingen, TX",TX,July,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi59ZG7zczkAhUHca0KHfMsDxoQFjAAegQIARAB&url=https%3A%2F%2Fwww.brownsvilleherald.com%2Fnews%2Fvalley%2Fuber-to-begin-services-in-valley%2Farticle_cc628a5c-5f8d-11e7-accd-0702b9e785e6.html&usg=AOvVaw1IUfLAN3Q-8zYdSJV5vNl_,2017.0
+47,15260,"Brunswick, GA Metro Area",107890,,,,,,,,2016.0
+48,15380,"Buffalo-Niagara Falls, NY Metro Area",1135198,Buffalo-Cheektowaga-Niagara Falls,"Buffalo-Cheektowaga-Niagara Falls, NY",15380.0,"Buffalo-Niagara Falls, NY",NY,May,https://blog.lyft.com/posts/2014/4/23/lyft-launches-24-cities-in-24-hours-on-the-24th,2014.0
+49,15500,"Burlington, NC Metro Area",151528,,,,,,,,2016.0
+50,15540,"Burlington-South Burlington, VT Metro Area",211035,Burlington-South Burlington,"Burlington-South Burlington, VT",15540.0,"Burlington-South Burlington, VT",VT,Oct,http://www.burlingtonfreepress.com/story/news/local/2014/10/09/uber-officially-comes-burlington/16966319/,2014.0
+51,15940,"Canton-Massillon, OH Metro Area",403238,Canton-Massillon,"Canton-Massillon, OH",15940.0,"Canton-Massillon, OH",OH,Aug,https://www.cantonrep.com/article/20141011/NEWS/141009134,2014.0
+52,15980,"Cape Coral-Fort Myers, FL Metro Area",620151,Cape Coral-Fort Myers,"Cape Coral-Fort Myers, FL",15980.0,"Cape Coral-Fort Myers, FL",FL,December ,https://www.nbc-2.com/story/27543597/uber-to-launch-in-fort-myers-on-thursday,2014.0
+53,16020,"Cape Girardeau-Jackson, MO-IL Metro Area",98062,,,,,,,,2016.0
+54,16180,"Carson City, NV Metro Area",55226,,,,,,,,2016.0
+55,16220,"Casper, WY Metro Area",75507,,,,,,,,2016.0
+56,16300,"Cedar Rapids, IA Metro Area",258223,Cedar Rapids,"Cedar Rapids, IA",16300.0,"Cedar Rapids, IA",IA,Dec,https://newsroom.uber.com/iowa/uber-launching-in-cedar-rapids-with-free-rides/,2014.0
+57,16580,"Champaign-Urbana, IL Metro Area",234445,Champaign-Urbana,"Champaign-Urbana, IL",16580.0,"Champaign-Urbana, IL",IL,Feb,https://newsroom.uber.com/illinois/uber-is-rolling-into-champaign-urbana/,2015.0
+58,16620,"Charleston, WV Metro Area",304571,Charleston,"Charleston, WV",16620.0,"Charleston, WV",WV,Jul,https://newsroom.uber.com/us-south-carolina/south-carolina-your-uberx-is-arriving-now/,2014.0
+59,16700,"Charleston-North Charleston-Summerville, SC Metro Area",667741,Charleston-North Charleston,"Charleston-North Charleston, SC",16700.0,"Charleston-North Charleston-Summerville, SC",SC,Jul,https://newsroom.uber.com/us-south-carolina/south-carolina-your-uberx-is-arriving-now/,2014.0
+60,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",1764313,Charlotte-Concord-Gastonia,"Charlotte-Concord-Gastonia, NC-SC",16740.0,"Charlotte-Gastonia-Rock Hill, NC-SC",NC-SC,Sep,http://www.bizjournals.com/charlotte/blog/bank_notes/2013/09/inside-scoop-uber-arrives-in.html,2013.0
+61,16820,"Charlottesville, VA Metro Area",199776,,,,,,,,2016.0
+62,16860,"Chattanooga, TN-GA Metro Area",530205,Chattanooga,"Chattanooga, GA",16860.0,"Chattanooga, TN-GA",GA,Nov,https://newsroom.uber.com/us-tennessee/chattanooga-your-uber-is-arriving-now/,2014.0
+63,16940,"Cheyenne, WY Metro Area",92127,,,,,,,,2016.0
+64,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",9474211,Chicago-Naperville-Elgin,"Chicago-Naperville-Elgin, IL-WI",16980.0,"Chicago-Joliet-Naperville, IL-IN-WI",IL-WI,Sep,http://techcrunch.com/2011/09/22/uber-brings-its-disruptive-car-service-to-chicago/,2011.0
+65,17020,"Chico, CA Metro Area",220072,Chico,"Chico, CA",17020.0,"Chico, CA",CA,October ,https://krcrtv.com/news/butte-county/uber-rolls-into-chico_20160513174711150,2015.0
+66,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",2133203,Cincinnati,"Cincinnati, OH-IN",17140.0,"Cincinnati-Middletown, OH-KY-IN",OH-IN,Mar,https://newsroom.uber.com/us-ohio/uber-cincinnati-launches-with-free-rides-for-2-weeks/,2014.0
+67,17300,"Clarksville, TN-KY Metro Area",274695,,,,,,,,2016.0
+68,17420,"Cleveland, TN Metro Area",115716,,,,,,,,2016.0
+69,17460,"Cleveland-Elyria-Mentor, OH Metro Area",2075758,Cleveland-Elyria,"Cleveland-Elyria, OH",17460.0,"Cleveland-Elyria-Mentor, OH",OH,Apr,https://newsroom.uber.com/us-ohio/uber-cleveland-launches-with-free-rides-for-2-weeks/,2014.0
+70,17660,"Coeur d'Alene, ID Metro Area",138901,,,,,,,,2016.0
+71,17780,"College Station-Bryan, TX Metro Area",230141,College Station-Bryan,"College Station-Bryan, TX",17780.0,"College Station-Bryan, TX",TX,Aug,http://kagstv.com/News/KAGSNews/ID/4561/Uber-Makes-Its-Debut-In-College-Station-Students-Excited,2014.0
+72,17820,"Colorado Springs, CO Metro Area",648943,Colorado Springs,"Colorado Springs, CO",17820.0,"Colorado Springs, CO",CO,April,https://gazette.com/business/uber-starts-colorado-springs-ride-sharing-service-on-heels-of/article_59038ad8-63ce-521a-943b-f222e9ab55de.html,2014.0
+73,17860,"Columbia, MO Metro Area",172319,Columbia,"Columbia, MO",17860.0,"Columbia, MO",MO,Oct,https://newsroom.uber.com/uber-launching-columbia-with-free-rides/,2014.0
+74,17900,"Columbia, SC Metro Area",770410,Columbia,"Columbia, SC",17900.0,"Columbia, SC",SC,Oct,https://newsroom.uber.com/us-south-carolina/south-carolina-your-uberx-is-arriving-now/,2014.0
+75,17980,"Columbus, GA-AL Metro Area",292141,,,,,,,,2016.0
+76,18020,"Columbus, IN Metro Area",76855,,,,,,,,2016.0
+77,18140,"Columbus, OH Metro Area",1840631,Columbus,"Columbus, OH",18140.0,"Columbus, OH",OH,Oct,http://www.dispatch.com/content/blogs/crawlumbus/2013/10/uber-launching-in-columbus.html,2013.0
+78,18580,"Corpus Christi, TX Metro Area",428217,Corpus Christi,"Corpus Christi, TX",18580.0,"Corpus Christi, TX",TX,May,https://newsroom.uber.com/us-texas/cheers-corpus-christi-your-uberx-has-arrived/,2014.0
+79,18700,"Corvallis, OR Metro Area",85575,Corvallis,"Corvallis, OR",18700.0,"Corvallis, OR",OR,Sep,http://kval.com/news/local/uber-launches-corvallis-service-wednesday-sept-20,2017.0
+80,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",180728,Crestview-Fort Walton Beach-Destin,"Crestview-Fort Walton Beach-Destin, FL",18880.0,"Crestview-Fort Walton Beach-Destin, FL",FL,Sep,https://www.wjhg.com/content/news/Uber-starting-service-at-VPS-394177191.html,2016.0
+81,19060,"Cumberland, MD-WV Metro Area",103239,,,,,,,,2016.0
+82,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",6402922,Dallas-Fort Worth-Arlington,"Dallas-Fort Worth-Arlington, TX",19100.0,"Dallas-Fort Worth-Arlington, TX",TX,,https://www.dmagazine.com/publications/d-magazine/2016/october/which-ride-sharing-app-works-best-in-dallas/,2012.0
+83,19140,"Dalton, GA Metro Area",142493,,,,,,,,2016.0
+84,19180,"Danville, IL Metro Area",81551,,,,,,,,2016.0
+85,19260,"Danville, VA Metro Area",106416,,,,,,,,2016.0
+86,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",382382,Davenport-Moline-Rock Island,"Davenport-Moline-Rock Island, IA-IL",19340.0,"Davenport-Moline-Rock Island, IA-IL",IA-IL,Jul,https://wqad.com/2015/07/21/uber-launches-ride-sharing-app-in-the-quad-cities/,2015.0
+87,19380,"Dayton, OH Metro Area",841310,Dayton,"Dayton, OH",19380.0,"Dayton, OH",OH,Aug,http://www.daytondailynews.com/news/business/uber-to-offer-vehicle-for-hire-service-in-dayton/nhBJZ/,2014.0
+88,19460,"Decatur, AL Metro Area",153968,,,,,,,,2016.0
+89,19500,"Decatur, IL Metro Area",110715,Decatur,"Decatur, IL",19500.0,"Decatur, IL",IL,Feb,https://herald-review.com/news/local/decatur-welcomes-arrival-of-ride-sharing-service-uber/article_98c2a173-c25c-5f6c-b681-bd74c904038b.html,2017.0
+90,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",494527,Deltona-Daytona Beach-Ormond Beach,"Deltona-Daytona Beach-Ormond Beach, FL",19660.0,"Deltona-Daytona Beach-Ormond Beach, FL",FL,Dec,https://www.theledger.com/news/20141204/smartphone-app-uber-car-service-launches-in-the-lakeland-area/1,2014.0
+91,19740,"Denver-Aurora-Broomfield, CO Metro Area",2560529,Denver-Aurora-Lakewood,"Denver-Aurora-Lakewood, CO",19740.0,"Denver-Aurora-Broomfield, CO",CO,Sep,https://newsroom.uber.com/denver/denver-launch-sky-high-in-the-mile-high-city/,2012.0
+92,19780,"Des Moines-West Des Moines, IA Metro Area",570358,Des Moines-West Des Moines,"Des Moines-West Des Moines, IA",19780.0,"Des Moines-West Des Moines, IA",IA,Sep,https://newsroom.uber.com/uber-launching-des-moines-with-free-rides-for-a-week/,2014.0
+93,19820,"Detroit-Warren-Livonia, MI Metro Area",4291843,Detroit-Warren-Dearborn,"Detroit-Warren-Dearborn, MI",19820.0,"Detroit-Warren-Livonia, MI",MI,Oct,https://newsroom.uber.com/detroit/partner_earnings/,2013.0
+94,20020,"Dothan, AL Metro Area",146010,,,,,,,,2016.0
+95,20100,"Dover, DE Metro Area",162912,,,,,,,,2016.0
+96,20220,"Dubuque, IA Metro Area",93880,,,,,,,,2016.0
+97,20260,"Duluth, MN-WI Metro Area",280035,Duluth,"Duluth, MN-WI",20260.0,"Duluth, MN-WI",MN-WI,May,https://www.duluthnewstribune.com/business/4259489-uber-launches-duluth,2017.0
+98,20500,"Durham-Chapel Hill, NC Metro Area",505933,Durham-Chapel Hill,"Durham-Chapel Hill, NC",20500.0,"Durham-Chapel Hill, NC",NC,Jun,https://www.charlotteobserver.com/news/business/article9135194.html,2014.0
+99,20740,"Eau Claire, WI Metro Area",161443,Eau Claire,"Eau Claire, WI",20740.0,"Eau Claire, WI",WI,May,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjo27_H28zkAhUFDKwKHY81BxcQFjAAegQIARAB&url=https%3A%2F%2Fchippewa.com%2Fuber-riding-into-area%2Farticle_4341cd9f-42ef-5590-b5c2-3bdb7f5062e5.html&usg=AOvVaw1OHUiu051TTGUhn2T2Dswa,2017.0
+100,20940,"El Centro, CA Metro Area",175234,El Centro,"El Centro, CA",20940.0,"El Centro, CA",CA,January,https://www.uber.com/blog/san-diego/imperial-county-your-uber-has-arrived/,2015.0
+101,21340,"El Paso, TX Metro Area",804338,El Paso,"El Paso, TX",21340.0,"El Paso, TX",TX,Jun,http://elpaso411.com/2014/06/uber-launches-in-el-paso/,2014.0
+102,21060,"Elizabethtown, KY Metro Area",122347,Elizabethtown-Fort Knox,"Elizabethtown-Fort Knox, KY",21060.0,"Elizabethtown, KY",KY,,,2016.0
+103,21140,"Elkhart-Goshen, IN Metro Area",197646,Elkhart-Goshen,"Elkhart-Goshen, IN",21140.0,"Elkhart-Goshen, IN",IN,,,2016.0
+104,21300,"Elmira, NY Metro Area",88824,,,,,,,,2016.0
+105,21500,"Erie, PA Metro Area",280686,Erie,"Erie, PA",21500.0,"Erie, PA",PA,Apr,http://www.erienewsnow.com/story/28767725/uber-ride-share-app-launching-in-erie,2015.0
+106,21660,"Eugene-Springfield, OR Metro Area",351983,Eugene,"Eugene, OR",21660.0,"Eugene-Springfield, OR",OR,Sep,https://www.registerguard.com/news/20180830/uber-set-to-launch-in-eugene-next-thursday,2018.0
+107,21780,"Evansville, IN-KY Metro Area",357948,Evansville,"Evansville, IN-KY",21780.0,"Evansville, IN-KY",IN-KY,Jan,https://www.courierpress.com/story/news/local/2017/01/25/uber-kicks-off-evansville/97009642/,2017.0
+108,21820,"Fairbanks, AK Metro Area",98314,,,,,,,,2016.0
+109,22020,"Fargo, ND-MN Metro Area",209144,Fargo,"Fargo, ND-MN",22020.0,"Fargo, ND-MN",ND-MN,May,http://hpr1.com/index.php/feature/news/uber-launches-in-fargo/,2015.0
+110,22140,"Farmington, NM Metro Area",130145,,,,,,,,2016.0
+111,22180,"Fayetteville, NC Metro Area",367733,Fayetteville,"Fayetteville, NC",22180.0,"Fayetteville, NC",NC,Jun,https://newsroom.uber.com/us-north-carolina/uber-rolls-into-six-more-north-carolina-cities/,2014.0
+112,22220,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",465780,Fayetteville-Springdale-Rogers,"Fayetteville-Springdale-Rogers, MO",22220.0,"Fayetteville-Springdale-Rogers, AR-MO",MO,Sep,http://www.uatrav.com/news/article_1dc69eea-3874-11e4-a7ce-0017a43b2370.html,2014.0
+113,22380,"Flagstaff, AZ Metro Area",134651,Flagstaff,"Flagstaff, AZ",22380.0,"Flagstaff, AZ",AZ,Sep,https://newsroom.uber.com/flagstaff/uber-launches-flagstaff-with-free-rides/,2014.0
+114,22420,"Flint, MI Metro Area",424926,Flint,"Flint, MI",22420.0,"Flint, MI",MI,Jul,http://nbc25news.com/news/local/ride-sharing-service-uber-launches-in-flint?id=1074670,2014.0
+115,22500,"Florence, SC Metro Area",205705,,,,,,,,2016.0
+116,22520,"Florence-Muscle Shoals, AL Metro Area",147112,,,,,,,,2016.0
+117,22540,"Fond du Lac, WI Metro Area",101665,,,,,,,,2016.0
+118,22660,"Fort Collins-Loveland, CO Metro Area",300637,Fort Collins,"Fort Collins, CO",22660.0,"Fort Collins-Loveland, CO",CO,August ,https://www.denverpost.com/2014/08/27/boulder-fort-collins-see-launch-of-uber/,2014.0
+119,22900,"Fort Smith, AR-OK Metro Area",299749,,,,,,,,2016.0
+120,23060,"Fort Wayne, IN Metro Area",415013,Fort Wayne,"Fort Wayne, IN",23060.0,"Fort Wayne, IN",IN,May,http://wane.com/2015/05/07/uber-taxi-service-now-available-in-fort-wayne/,2015.0
+121,23420,"Fresno, CA Metro Area",933248,Fresno,"Fresno, CA",23420.0,"Fresno, CA",CA,Feb,https://newsroom.uber.com/sf/49685/,2014.0
+122,23460,"Gadsden, AL Metro Area",104462,,,,,,,,2016.0
+123,23540,"Gainesville, FL Metro Area",266321,Gainesville,"Gainesville, FL",23540.0,"Gainesville, FL",FL,Aug,http://www.wcjb.com/local-news/2014/08/uber-officially-gainesville,2014.0
+124,23580,"Gainesville, GA Metro Area",180253,,,,,,,,2016.0
+125,24020,"Glens Falls, NY Metro Area",128985,,,,,,,,2016.0
+126,24140,"Goldsboro, NC Metro Area",122907,,,,,,,,2016.0
+127,24220,"Grand Forks, ND-MN Metro Area",99586,,,,,,,,2016.0
+128,24300,"Grand Junction, CO Metro Area",146313,,,,,,,,2016.0
+129,24340,"Grand Rapids-Wyoming, MI Metro Area",774540,Grand Rapids-Wyoming,"Grand Rapids-Wyoming, MI",24340.0,"Grand Rapids-Wyoming, MI",MI,Jul,http://www.mlive.com/news/grand-rapids/index.ssf/2014/07/uber_in_grand_rapids_rideshari.html,2014.0
+130,24500,"Great Falls, MT Metro Area",81519,Great Falls,"Great Falls, MT",24500.0,"Great Falls, MT",MT,Aug ,http://www.greatfallstribune.com/story/news/local/2016/08/06/uber-launches-ride-sharing-billings/88347926/,2016.0
+131,24540,"Greeley, CO Metro Area",254270,,,,,,,,2016.0
+132,24580,"Green Bay, WI Metro Area",306730,Green Bay,"Green Bay, WI",24580.0,"Green Bay, WI",WI,Oct,https://newsroom.uber.com/green-bay/uber-launching-in-green-bay-with-free-rides/,2014.0
+133,24660,"Greensboro-High Point, NC Metro Area",725282,Greensboro-High Point,"Greensboro-High Point, NC",24660.0,"Greensboro-High Point, NC",NC,Jun,https://myfox8.com/2014/06/26/uber-launches-ride-networking-service-in-greensboro-winston-salem/,2014.0
+134,24780,"Greenville, NC Metro Area",190201,,,,,,,,2016.0
+135,24860,"Greenville-Mauldin-Easley, SC Metro Area",638576,Greenville-Anderson-Mauldin,"Greenville-Anderson-Mauldin, MS-SC",24740.0,"Greenville, MS",MS-SC,Jul,https://newsroom.uber.com/us-south-carolina/south-carolina-your-uberx-is-arriving-now/,2014.0
+136,25060,"Gulfport-Biloxi, MS Metro Area",250196,Gulfport-Biloxi-Pascagoula,"Gulfport-Biloxi-Pascagoula, LA-MS",25060.0,"Gulfport-Biloxi, MS",LA-MS,Jul,https://www.sunherald.com/news/local/article87168487.html,2016.0
+137,25180,"Hagerstown-Martinsburg, MD-WV Metro Area",267239,,,,,,,,2016.0
+138,25260,"Hanford-Corcoran, CA Metro Area",153174,Hanford-Corcoran,"Hanford-Corcoran, CA",25260.0,"Hanford-Corcoran, CA",CA,,,2016.0
+139,25420,"Harrisburg-Carlisle, PA Metro Area",550076,Harrisburg-Carlisle,"Harrisburg-Carlisle, PA",25420.0,"Harrisburg-Carlisle, PA",PA,Jan,https://theburgnews.com/news/harrisburg-lift-uber-launches-city,2015.0
+140,25500,"Harrisonburg, VA Metro Area",125454,Harrisonburg,"Harrisonburg, VA",25500.0,"Harrisonburg, VA",VA,Oct,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwju8eHp2MzkAhUROK0KHRaLB4cQFjAAegQIABAB&url=https%3A%2F%2Fwww.uber.com%2Fblog%2Fvirginia%2Fuber-is-now-rolling-in-harrisonburg%2F&usg=AOvVaw0yiCs_UgDxdUFOS63ZrXbZ,2015.0
+141,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",1212956,Hartford-West Hartford-East Hartford,"Hartford-West Hartford-East Hartford, CT",25540.0,"Hartford-West Hartford-East Hartford, CT",CT,April ,,2014.0
+142,25620,"Hattiesburg, MS Metro Area",146199,,,,,,,,2016.0
+143,25860,"Hickory-Lenoir-Morganton, NC Metro Area",365397,Hickory-Lenoir-Morganton,"Hickory-Lenoir-Morganton, NC",25860.0,"Hickory-Lenoir-Morganton, NC",NC,,,2016.0
+144,25980,"Hinesville-Fort Stewart, GA Metro Area",74778,,,,,,,,2016.0
+145,26100,"Holland-Grand Haven, MI Metro Area",264055,Holland,"Holland, MI",26100.0,"Holland-Grand Haven, MI",MI,June,https://whtc.com/news/articles/2017/jun/16/uber-is-here-along-lakeshore/,2017.0
+146,26180,"Honolulu, HI Metro Area",955775,,,,,,,,2016.0
+147,26300,"Hot Springs, AR Metro Area",96145,,,,,,,,2016.0
+148,26380,"Houma-Bayou Cane-Thibodaux, LA Metro Area",208189,,,,,,,,2016.0
+149,26420,"Houston-Sugar Land-Baytown, TX Metro Area",5977092,Houston-The Woodlands-Sugar Land,"Houston-The Woodlands-Sugar Land, TX",26420.0,"Houston-Sugar Land-Baytown, TX",TX,Feb,http://www.chron.com/news/houston-texas/houston/article/Ridesharing-service-Uber-jumps-into-Houston-market-5253892.php,2014.0
+150,26580,"Huntington-Ashland, WV-KY-OH Metro Area",287611,Huntington-Ashland,"Huntington-Ashland, OH",26580.0,"Huntington-Ashland, WV-KY-OH",OH,July,http://www.herald-dispatch.com/news/uber-launches-in-west-virginia/article_efe55a45-633e-596b-88fc-7d3a7c54af9e.html,2016.0
+151,26620,"Huntsville, AL Metro Area",419181,Huntsville,"Huntsville, AL",26620.0,"Huntsville, AL",AL,March,https://whnt.com/2016/03/03/uber-huntsville-launches-friday-at-4-p-m/,2016.0
+152,26820,"Idaho Falls, ID Metro Area",132610,,,,,,,,2016.0
+153,26900,"Indianapolis-Carmel, IN Metro Area",1759229,Indianapolis-Carmel-Anderson,"Indianapolis-Carmel-Anderson, IN",26900.0,"Indianapolis-Carmel, IN",IN,Jun,https://newsroom.uber.com/indianapolis/hi-indianapolis-your-uber-is-arriving-now/,2013.0
+154,26980,"Iowa City, IA Metro Area",152918,Iowa City,"Iowa City, IA",26980.0,"Iowa City, IA",IA,Apr,https://www.press-citizen.com/story/news/local/2016/04/28/uber-launches-iowa-city/83619436/,2016.0
+155,27060,"Ithaca, NY Metro Area",101620,Ithaca,"Ithaca, NY",27060.0,"Ithaca, NY",NY,June,https://wskg.org/news/ride-hailings-in-ithaca-now-so-we-rode-with-an-uber-driver/,2017.0
+156,27100,"Jackson, MI Metro Area",160201,Jackson,"Jackson, MI",27100.0,"Jackson, MI",MI,Dec,https://newsroom.uber.com/jackson-your-uberx-is-arriving-now/,2014.0
+157,27140,"Jackson, MS Metro Area",540140,Jackson,"Jackson, MS",27140.0,"Jackson, MS",MS,Dec,https://newsroom.uber.com/jackson-your-uberx-is-arriving-now/,2014.0
+158,27180,"Jackson, TN Metro Area",114241,Jackson,"Jackson, TN",27180.0,"Jackson, TN",TN,Dec,https://newsroom.uber.com/jackson-your-uberx-is-arriving-now/,2014.0
+159,27260,"Jacksonville, FL Metro Area",1350198,Jacksonville,"Jacksonville, FL",27260.0,"Jacksonville, FL",FL,Jan,https://newsroom.uber.com/jacksonville/jacksonville-your-uber-is-arriving-now/,2014.0
+160,27340,"Jacksonville, NC Metro Area",179471,,,,,,,,2016.0
+161,27500,"Janesville, WI Metro Area",160310,,,,,,,,2016.0
+162,27620,"Jefferson City, MO Metro Area",149872,,,,,,,,2016.0
+163,27740,"Johnson City, TN Metro Area",198974,,,,,,,,2016.0
+164,27780,"Johnstown, PA Metro Area",143498,Johnstown,"Johnstown, PA",27780.0,"Johnstown, PA",PA,Aug,http://wjactv.com/news/local/uber-comes-to-johnstown,2016.0
+165,27860,"Jonesboro, AR Metro Area",120365,,,,,,,,2016.0
+166,27900,"Joplin, MO Metro Area",175887,,,,,,,,2016.0
+167,28020,"Kalamazoo-Portage, MI Metro Area",326924,Kalamazoo-Portage,"Kalamazoo-Portage, MI",28020.0,"Kalamazoo-Portage, MI",MI,Jul,http://www.usatoday.com/story/money/business/2014/07/25/uber-michigan/13174947/,2014.0
+168,28100,"Kankakee-Bradley, IL Metro Area",113502,Kankakee,"Kankakee, IL",28100.0,"Kankakee-Bradley, IL",IL,Jun,https://www.daily-journal.com/news/local/uber-arrives-in-kankakee-county/article_1595059f-ebb3-5789-af09-b53a66fc7c4c.html,2015.0
+169,28140,"Kansas City, MO-KS Metro Area",2035747,Kansas City,"Kansas City, KS",28140.0,"Kansas City, MO-KS",KS,May,https://newsroom.uber.com/kc/kc-your-uber-has-arrived-and-its-free/,2014.0
+170,28420,"Kennewick-Pasco-Richland, WA Metro Area",255678,Kennewick-Richland,"Kennewick-Richland, WA",28420.0,"Kennewick-Pasco-Richland, WA",WA,Dec,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjeocPK2czkAhUJVK0KHWsWCj8QFjACegQIDBAG&url=https%3A%2F%2Fwww.uber.com%2Fblog%2Fwashington%2Ftri-cities-your-uber-has-arrived%2F&usg=AOvVaw1jZgSPS8EVlyxat5raaajG,2016.0
+171,28660,"Killeen-Temple-Fort Hood, TX Metro Area",408366,Killeen-Temple,"Killeen-Temple, TX",28660.0,"Killeen-Temple-Fort Hood, TX",TX,Jul,https://newsroom.uber.com/us-texas/uber-killeen/,2015.0
+172,28700,"Kingsport-Bristol-Bristol, TN-VA Metro Area",310695,,,,,,,,2016.0
+173,28740,"Kingston, NY Metro Area",182435,,,,,,,,2016.0
+174,28940,"Knoxville, TN Metro Area",699180,Knoxville,"Knoxville, TN",28940.0,"Knoxville, TN",TN,Aug,http://www.local8now.com/home/headlines/Uber-expands-ride-sharing-services-to-Knoxville-273042271.html,2014.0
+175,29020,"Kokomo, IN Metro Area",100485,Kokomo,"Kokomo, IN",29020.0,"Kokomo, IN",IN,,,2016.0
+176,29100,"La Crosse, WI-MN Metro Area",133896,La Crosse-Onalaska,"La Crosse-Onalaska, WI-MN",29100.0,"La Crosse, WI-MN",WI-MN,Feb,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=2ahUKEwj6xZiA3MzkAhUBeKwKHY9aBtwQFjAHegQIARAB&url=https%3A%2F%2Flacrossetribune.com%2Fnews%2Flocal%2Fcolumn%2Fcatching-a-ride-ride-share-company-lyft-launches-in-la%2Farticle_707951fa-a12d-5087-94b0-958b4e6b5578.html&usg=AOvVaw14RFxO9XoAc4zipDeCPKCO,2017.0
+177,29140,"Lafayette, IN Metro Area",202782,Lafayette-West Lafayette,"Lafayette-West Lafayette, IN",29140.0,"Lafayette, IN",IN,Jan,http://theadvocate.com/news/11470712-123/uber-launches-ride-share-service-in,2015.0
+178,29140,"Lafayette, IN Metro Area",202782,Lakeland-Winter Haven,"Lakeland-Winter Haven, FL",29140.0,"Lafayette, IN",FL,Dec,https://www.theledger.com/news/20141204/smartphone-app-uber-car-service-launches-in-the-lakeland-area/1,2014.0
+179,29180,"Lafayette, LA Metro Area",274265,Lafayette,"Lafayette, LA",29180.0,"Lafayette, LA",LA,Jan,http://theadvocate.com/news/11470712-123/uber-launches-ride-share-service-in,2015.0
+180,29340,"Lake Charles, LA Metro Area",198628,,,,,,,,2016.0
+181,29420,"Lake Havasu City-Kingman, AZ Metro Area",200181,,,,,,,,2016.0
+182,29460,"Lakeland-Winter Haven, FL Metro Area",602788,,,,,,,,2016.0
+183,29540,"Lancaster, PA Metro Area",520156,Lancaster,"Lancaster, PA",29540.0,"Lancaster, PA",PA,Mar,https://newsroom.uber.com/us-pennsylvania/lancaster-york-and-reading-your-uber-has-arrived/,2015.0
+184,29620,"Lansing-East Lansing, MI Metro Area",464076,Lansing-East Lansing,"Lansing-East Lansing, MI",29620.0,"Lansing-East Lansing, MI",MI,Jul,http://www.wilx.com/home/headlines/Uber-Launches-Ride-Share-Service-In-Lansing-Area-268528422.html,2014.0
+185,29700,"Laredo, TX Metro Area",251632,Laredo,"Laredo, TX",29700.0,"Laredo, TX",TX,July,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjdmLqizczkAhVQL6wKHawvAH4QFjAAegQIARAB&url=https%3A%2F%2Fwww.lmtonline.com%2Flocal%2Farticle%2FUber-launches-in-Laredo-11285780.php&usg=AOvVaw0G9uJ-GbZ9VmbyhIo3LzNu,2017.0
+186,29740,"Las Cruces, NM Metro Area",210538,,,,,,,,2016.0
+187,29820,"Las Vegas-Paradise, NV Metro Area",1954260,Las Vegas-Henderson-Paradise,"Las Vegas-Henderson-Paradise, NV",29820.0,"Las Vegas-Paradise, NV",NV,Sept,https://newsroom.uber.com/vegas/las-vegas-were-here/,2015.0
+188,29940,"Lawrence, KS Metro Area",111130,Lawrence,"Lawrence, KS",29940.0,"Lawrence, KS",KS,Apr,http://www.kansas.com/news/politics-government/article19297086.html,2015.0
+189,30020,"Lawton, OK Metro Area",125368,,,,,,,,2016.0
+190,30140,"Lebanon, PA Metro Area",133688,Lebanon,"Lebanon, PA",30140.0,"Lebanon, PA",PA,Nov,https://www.ldnews.com/story/news/local/2016/11/11/uber-comes-lebanon-county-lyft-ride-sharing/91874380/,2016.0
+191,30300,"Lewiston, ID-WA Metro Area",60946,,,,,,,,2016.0
+192,30340,"Lewiston-Auburn, ME Metro Area",107623,,,,,,,,2016.0
+193,30460,"Lexington-Fayette, KY Metro Area",473547,Lexington-Fayette,"Lexington-Fayette, KY",30460.0,"Lexington-Fayette, KY",KY,Jun,https://newsroom.uber.com/lexington/uber-lexington-launches-with-free-rides-for-2-weeks/,2014.0
+194,30620,"Lima, OH Metro Area",106205,,,,,,,,2016.0
+195,30700,"Lincoln, NE Metro Area",303151,Lincoln,"Lincoln, NE",30700.0,"Lincoln, NE",NE,Aug,http://ubernebraska.com/lincoln/,2014.0
+196,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",701713,Little Rock-North Little Rock-Conway,"Little Rock-North Little Rock-Conway, AR",30780.0,"Little Rock-North Little Rock-Conway, AR",AR,Nov,https://newsroom.uber.com/arkansas/little-rock-your-uber-is-arriving-now/,2014.0
+197,30860,"Logan, UT-ID Metro Area",125791,Logan,"Logan, ID",30860.0,"Logan, UT-ID",ID,Feb,https://www.cachevalleydaily.com/news/archive/2017/02/22/33425a3c-f877-11e6-8ee3-1f9c7a0d37dd/,2017.0
+198,30980,"Longview, TX Metro Area",214602,,,,,,,,2016.0
+199,31020,"Longview, WA Metro Area",102501,Longview,"Longview, WA",31020.0,"Longview, WA",WA,Mar,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=24&cad=rja&uact=8&ved=2ahUKEwiS-N7h2czkAhUJXKwKHfOCBvYQFjAXegQICRAB&url=https%3A%2F%2Fbigislandnow.com%2F2017%2F03%2F22%2Fneed-a-lyft-new-rideshare-company-begins-service-on-big-island%2F&usg=AOvVaw14t2rndSMWNzE7xLCSrKTf,2017.0
+200,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",12849383,Los Angeles-Long Beach-Anaheim,"Los Angeles-Long Beach-Anaheim, CA",31100.0,"Los Angeles-Long Beach-Santa Ana, CA",CA,Mar,https://newsroom.uber.com/la/uber-la-officially-launched/,2012.0
+201,31140,"Louisville/Jefferson County, KY-IN Metro Area",1287271,Louisville/Jefferson County,"Louisville/Jefferson County, IN",31140.0,"Louisville/Jefferson County, KY-IN",IN,May,https://blog.lyft.com/posts/2014/4/23/lyft-launches-24-cities-in-24-hours-on-the-24th,2014.0
+202,31180,"Lubbock, TX Metro Area",288462,Lubbock,"Lubbock, TX",31180.0,"Lubbock, TX",TX,Jun,https://newsroom.uber.com/uber-lands-in-lubbock-with-two-weeks-of-free-rides/,2014.0
+203,31340,"Lynchburg, VA Metro Area",251016,Lynchburg,"Lynchburg, VA",31340.0,"Lynchburg, VA",VA,Dec,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiI3vL32MzkAhUD1qwKHWxNDWUQFjAAegQIAhAB&url=https%3A%2F%2Fwww.newsadvance.com%2Fbusiness%2Fall-hail-uber-car-service-comes-to-lynchburg%2Farticle_38bce018-8344-5db8-929a-0b13b13ecfaf.html&usg=AOvVaw25K0tDZTrNbSYChO1inZxY,2015.0
+204,31420,"Macon, GA Metro Area",227880,,,,,,,,2016.0
+205,31460,"Madera-Chowchilla, CA Metro Area",151408,,,,,,,,2016.0
+206,31540,"Madison, WI Metro Area",569923,Madison,"Madison, WI",31540.0,"Madison, WI",WI,Mar,https://newsroom.uber.com/madison/madison-your-uber-has-arrived/,2014.0
+207,31700,"Manchester-Nashua, NH Metro Area",401057,Manchester-Nashua,"Manchester-Nashua, NH",31700.0,"Manchester-Nashua, NH",NH,Oct,https://www.nhpr.org/post/ride-sharing-service-uber-comes-manchester,2014.0
+208,31740,"Manhattan, KS Metro Area",127880,,,,,,,,2016.0
+209,31860,"Mankato-North Mankato, MN Metro Area",96878,,,,,,,,2016.0
+210,31900,"Mansfield, OH Metro Area",124177,,,,,,,,2016.0
+211,32580,"McAllen-Edinburg-Mission, TX Metro Area",780087,,,,,,,,2016.0
+212,32780,"Medford, OR Metro Area",203462,Medford,"Medford, OR",32780.0,"Medford, OR",OR,Dec,http://mailtribune.com/news/top-stories/uber-lyft-will-start-dec-1-in-medford,2017.0
+213,32820,"Memphis, TN-MS-AR Metro Area",1316579,Memphis,"Memphis, TN-MS-AR",32820.0,"Memphis, TN-MS-AR",TN-MS-AR,Apr,https://www.memphisdailynews.com/news/2014/apr/25/ride-sharing-service-lyft-launches-in-memphis/,2014.0
+214,32900,"Merced, CA Metro Area",256778,Merced,"Merced, CA",32900.0,"Merced, CA",CA,,,2016.0
+215,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",5582351,Miami-Fort Lauderdale-West Palm Beach,"Miami-Fort Lauderdale-West Palm Beach, FL",33100.0,"Miami-Fort Lauderdale-Pompano Beach, FL",FL,Jun,http://www.miaminewtimes.com/news/uberx-will-launch-in-miami-today-defying-miami-dades-taxi-laws-6533024,2014.0
+216,33140,"Michigan City-La Porte, IN Metro Area",111465,,,,,,,,2016.0
+217,33260,"Midland, TX Metro Area",136975,,,,,,,,2016.0
+218,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",1557244,Milwaukee-Waukesha-West Allis,"Milwaukee-Waukesha-West Allis, WI",33340.0,"Milwaukee-Waukesha-West Allis, WI",WI,Feb,https://newsroom.uber.com/milwaukee/uber-rolls-into-brew-city-with-rider-zero-brandon-knight/,2014.0
+219,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",3286195,Minneapolis-St. Paul-Bloomington,"Minneapolis-St. Paul-Bloomington, MN-WI",33460.0,"Minneapolis-St. Paul-Bloomington, MN-WI",MN-WI,Oct,https://thenextweb.com/insider/2012/10/25/uber-minnesota-twin-cities/,2012.0
+220,33540,"Missoula, MT Metro Area",109494,Missoula,"Missoula, MT",33540.0,"Missoula, MT",MT,Aug,https://missoulian.com/news/local/uber-coming-to-missoula-aug/article_d1d20338-6eba-5340-a547-496972f85db4.html,2016.0
+221,33660,"Mobile, AL Metro Area",413277,Mobile,"Mobile, AL",33660.0,"Mobile, AL",AL,Jun,https://newsroom.uber.com/al/algulfcoast/,2015.0
+222,33700,"Modesto, CA Metro Area",515358,Modesto,"Modesto, CA",33700.0,"Modesto, CA",CA,Apr,https://newsroom.uber.com/sf/modesto-were-moving-in/,2014.0
+223,33740,"Monroe, LA Metro Area",176664,,,,,,,,2016.0
+224,33780,"Monroe, MI Metro Area",151932,,,,,,,,2016.0
+225,33860,"Montgomery, AL Metro Area",376208,Montgomery,"Montgomery, AL",33860.0,"Montgomery, AL",AL,February ,https://www.al.com/news/montgomery/2016/01/montgomery_approves_uber_could.html,2016.0
+226,34060,"Morgantown, WV Metro Area",130288,,,,,,,,2016.0
+227,34100,"Morristown, TN Metro Area",136787,,,,,,,,2016.0
+228,34580,"Mount Vernon-Anacortes, WA Metro Area",117102,Mount Vernon-Anacortes,"Mount Vernon-Anacortes, WA",34580.0,"Mount Vernon-Anacortes, WA",WA,,,2016.0
+229,34620,"Muncie, IN Metro Area",117669,Muncie,"Muncie, IN",34620.0,"Muncie, IN",IN,Mar,https://www.thestarpress.com/story/news/local/2015/03/26/global-rideshare-app-uber-launching-muncie/70500334/,2015.0
+230,34740,"Muskegon-Norton Shores, MI Metro Area",172068,,,,,,,,2016.0
+231,34820,"Myrtle Beach-North Myrtle Beach-Conway, SC Metro Area",270430,,,,,,,,2016.0
+232,34900,"Napa, CA Metro Area",136858,Napa,"Napa, CA",34900.0,"Napa, CA",CA,May ,https://www.pressdemocrat.com/business/4697304-181/uber-targets-tourists-in-wine,2014.0
+233,34940,"Naples-Marco Island, FL Metro Area",322472,Naples-Immokalee-Marco Island,"Naples-Immokalee-Marco Island, FL",34940.0,"Naples-Marco Island, FL",FL,December,,2014.0
+234,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1593050,Nashville-Davidson--Murfreesboro--Franklin,"Nashville-Davidson--Murfreesboro--Franklin, TN",34980.0,"Nashville-Davidson--Murfreesboro--Franklin, TN",TN,Dec,https://twitter.com/uber/status/410868842273849344,2013.0
+235,35300,"New Haven-Milford, CT Metro Area",862989,New Haven-Milford,"New Haven-Milford, CT",35300.0,"New Haven-Milford, CT",CT,April ,,2014.0
+236,35380,"New Orleans-Metairie-Kenner, LA Metro Area",1173327,New Orleans-Metairie,"New Orleans-Metairie, LA",35380.0,"New Orleans-Metairie-Kenner, LA",LA,Apr,https://newsroom.uber.com/louisiana/uberx-and-uberxl-launch-in-new-orleans/,2015.0
+237,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",18919983,,,,,,,,2013.0
+238,35660,"Niles-Benton Harbor, MI Metro Area",156805,Niles-Benton Harbor,"Niles-Benton Harbor, MI",35660.0,"Niles-Benton Harbor, MI",MI,June,https://www.heraldpalladium.com/news/local/a-year-later-with-uber/article_36eff7fb-08bc-5d46-be25-d537168a3354.html,2017.0
+239,35840,"North Port-Bradenton-Sarasota, FL Metro Area",703309,North Port-Sarasota-Bradenton,"North Port-Sarasota-Bradenton, FL",35840.0,"North Port-Bradenton-Sarasota, FL",FL,Dec,https://newsroom.uber.com/florida/uber-florida-is-expanding-across-the-sunshine-state-3/,2014.0
+240,35980,"Norwich-New London, CT Metro Area",274055,,,,,,,,2016.0
+241,36100,"Ocala, FL Metro Area",331290,Ocala,"Ocala, FL",36100.0,"Ocala, FL",FL,Dec,https://newsroom.uber.com/florida/uber-florida-is-expanding-across-the-sunshine-state-3/,2014.0
+242,36140,"Ocean City, NJ Metro Area",97253,,,,,,,,2016.0
+243,36220,"Odessa, TX Metro Area",137145,,,,,,,,2016.0
+244,36260,"Ogden-Clearfield, UT Metro Area",551173,,,,,,,,2016.0
+245,36420,"Oklahoma City, OK Metro Area",1257845,Oklahoma City,"Oklahoma City, OK",36420.0,"Oklahoma City, OK",OK,Oct,http://www.reddirtreport.com/rustys-free-time/uber-officially-arrives-oklahoma-city,2013.0
+246,36500,"Olympia, WA Metro Area",253087,Olympia-Tumwater,"Olympia-Tumwater, WA",36500.0,"Olympia, WA",WA,Jul,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjc28WH28zkAhUHRK0KHQg2CkIQFjACegQIAxAB&url=https%3A%2F%2Fwww.uber.com%2Fblog%2Fseattle%2Fuber-arrives-in-thurston-county%2F&usg=AOvVaw3_MOc_7TSlaq_2Uitc6wmt,2016.0
+247,36540,"Omaha-Council Bluffs, NE-IA Metro Area",868238,Omaha-Council Bluffs,"Omaha-Council Bluffs, IA",36540.0,"Omaha-Council Bluffs, NE-IA",IA,May,https://newsroom.uber.com/omaha/omaha-your-uber-has-arrived/,2014.0
+248,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",2140795,Orlando-Kissimmee-Sanford,"Orlando-Kissimmee-Sanford, FL",36740.0,"Orlando-Kissimmee-Sanford, FL",FL,Jun,https://newsroom.uber.com/florida/orlando-your-uber-is-arriving-now/,2014.0
+249,36780,"Oshkosh-Neenah, WI Metro Area",167059,Oshkosh-Neenah,"Oshkosh-Neenah, WI",36780.0,"Oshkosh-Neenah, WI",WI,Nov,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjR7uu728zkAhVPiqwKHcr3A18QFjACegQICxAH&url=https%3A%2F%2Fwww.thenorthwestern.com%2Fstory%2Fmoney%2F2015%2F12%2F18%2Fuber-enters-oshkosh-fdl-while-taxis-watch%2F77579688%2F&usg=AOvVaw1PAfBSYVfIa44DAJFsq7Y5,2015.0
+250,36980,"Owensboro, KY Metro Area",115857,,,,,,,,2016.0
+251,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",825706,Oxnard-Thousand Oaks-Ventura,"Oxnard-Thousand Oaks-Ventura, CA",37100.0,"Oxnard-Thousand Oaks-Ventura, CA",CA,Jul,https://newsroom.uber.com/central-coast/san-luis-obispo-and-ventura-county-your-uber-has-arrived-2/,2014.0
+252,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",543573,Palm Bay-Melbourne-Titusville,"Palm Bay-Melbourne-Titusville, FL",37340.0,"Palm Bay-Melbourne-Titusville, FL",FL,Dec,https://www.floridatoday.com/story/money/business/2014/12/11/uber-car-service-arrives-brevard-amidst-controversy/20267879/,2014.0
+253,37380,"Palm Coast, FL Metro Area",95928,,,,,,,,2016.0
+254,37460,"Panama City-Lynn Haven-Panama City Beach, FL Metro Area",169272,Panama City,"Panama City, FL",37460.0,"Panama City-Lynn Haven-Panama City Beach, FL",FL,Mar,https://www.wjhg.com/content/news/Uber-launching-in-Bay-County-on-Friday-415830343.html,2017.0
+255,37620,"Parkersburg-Marietta-Vienna, WV-OH Metro Area",162723,,,,,,,,2016.0
+256,37700,"Pascagoula, MS Metro Area",162384,,,,,,,,2016.0
+257,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",450009,Pensacola-Ferry Pass-Brent,"Pensacola-Ferry Pass-Brent, FL",37860.0,"Pensacola-Ferry Pass-Brent, FL",FL,Dec,https://newsroom.uber.com/florida/uber-florida-is-expanding-across-the-sunshine-state-3/,2014.0
+258,37900,"Peoria, IL Metro Area",378712,Peoria,"Peoria, IL",37900.0,"Peoria, IL",IL,Nov,https://www.pjstar.com/article/20151124/news/151129745,2015.0
+259,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",5971483,Philadelphia-Camden-Wilmington,"Philadelphia-Camden-Wilmington, DE-PA-MD",37980.0,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",DE-PA-MD,Jun,http://techcrunch.com/2012/06/06/after-a-month-of-stealthy-testing-uber-officially-launches-in-philadelphia/,2012.0
+260,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",4211213,Phoenix-Mesa-Scottsdale,"Phoenix-Mesa-Scottsdale, AZ",38060.0,"Phoenix-Mesa-Glendale, AZ",AZ,Nov,http://aztechbeat.com/2012/11/uber-launches-its-on-demand-driving-service-publicly-in-phoenix/,2012.0
+261,38300,"Pittsburgh, PA Metro Area",2356381,Pittsburgh,"Pittsburgh, PA",38300.0,"Pittsburgh, PA",PA,Mar,https://newsroom.uber.com/us-pennsylvania/uber-officially-launches-in-pittsburgh/,2014.0
+262,38340,"Pittsfield, MA Metro Area",131144,Pittsfield,"Pittsfield, MA",38340.0,"Pittsfield, MA",MA,May,https://www.uber.com/blog/boston/uber-in-the-berkshires/,2017.0
+263,38540,"Pocatello, ID Metro Area",90438,,,,,,,,2016.0
+264,38940,"Port St. Lucie, FL Metro Area",425082,Port St. Lucie,"Port St. Lucie, FL",38940.0,"Port St. Lucie, FL",FL,,,2016.0
+265,38860,"Portland-South Portland-Biddeford, ME Metro Area",513899,Portland-South Portland,"Portland-South Portland, ME",38860.0,"Portland-South Portland-Biddeford, ME",ME,Oct,https://newsroom.uber.com/maine/portland-your-uber-is-arriving-now/,2014.0
+266,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2232496,Portland-Vancouver-Hillsboro,"Portland-Vancouver-Hillsboro, OR-WA",38900.0,"Portland-Vancouver-Hillsboro, OR-WA",OR-WA,Jul,https://newsroom.uber.com/vancouver-wa/vancouver-washington-we-have-arrived/,2014.0
+267,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",670932,,,,,,,,2016.0
+268,39140,"Prescott, AZ Metro Area",211061,,,,,,,,2016.0
+269,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",1601498,Providence-Warwick,"Providence-Warwick, RI-MA",39300.0,"Providence-New Bedford-Fall River, RI-MA",RI-MA,May,https://www.uber.com/blog/new-england/providence-greenlight-hub-now-open/,2017.0
+270,39340,"Provo-Orem, UT Metro Area",529970,,,,,,,,2016.0
+271,39380,"Pueblo, CO Metro Area",159477,Pueblo,"Pueblo, CO",39380.0,"Pueblo, CO",CO,,,2016.0
+272,39460,"Punta Gorda, FL Metro Area",159990,,,,,,,,2016.0
+273,39540,"Racine, WI Metro Area",195510,Racine,"Racine, WI",39540.0,"Racine, WI",WI,May,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwi9nM7S28zkAhUE26wKHXmSDfEQFjACegQIDBAH&url=https%3A%2F%2Fjournaltimes.com%2Fnews%2Flocal%2Fuber-to-launch-in-racine%2Farticle_b70a0779-d70e-5407-ac25-05fc9ed4e15a.html&usg=AOvVaw3bZuBGqZu2yc_vOBd3ov1U,2015.0
+274,39580,"Raleigh-Cary, NC Metro Area",1137552,Raleigh,"Raleigh, NC",39580.0,"Raleigh-Cary, NC",NC,May,https://blog.lyft.com/posts/2014/4/23/lyft-launches-24-cities-in-24-hours-on-the-24th,2014.0
+275,39660,"Rapid City, SD Metro Area",126802,,,,,,,,2016.0
+276,39740,"Reading, PA Metro Area",411850,Reading,"Reading, PA",39740.0,"Reading, PA",PA,Mar,https://newsroom.uber.com/us-pennsylvania/lancaster-york-and-reading-your-uber-has-arrived/,2015.0
+277,39820,"Redding, CA Metro Area",177291,Redding,"Redding, CA",39820.0,"Redding, CA",CA,February,https://www.techwire.net/news/uber-service-arrives-in-redding.html,2016.0
+278,39900,"Reno-Sparks, NV Metro Area",426448,Reno,"Reno, NV",39900.0,"Reno-Sparks, NV",NV,Oct,https://newsroom.uber.com/reno/uber-launches-in-the-biggest-little-city/,2014.0
+279,40060,"Richmond, VA Metro Area",1261317,Richmond,"Richmond, VA",40060.0,"Richmond, VA",VA,Aug,http://www.richmond.com/business/local/article_fdb57abd-13e5-5070-864d-0e67e522b527.html,2014.0
+280,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",4245773,Riverside-San Bernardino-Ontario,"Riverside-San Bernardino-Ontario, CA",40140.0,"Riverside-San Bernardino-Ontario, CA",CA,May,,2014.0
+281,40220,"Roanoke, VA Metro Area",308893,Roanoke,"Roanoke, VA",40220.0,"Roanoke, VA",VA,Aug,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi19vCM2czkAhUFjq0KHe_UCkcQFjAAegQIBRAB&url=https%3A%2F%2Fwww.roanoke.com%2Fnews%2Flocal%2Fuber-launches-ride-sharing-service-in-roanoke-blacksburg%2Farticle_55a6cafb-2c15-5b78-bf4e-438d6531a18b.html&usg=AOvVaw23cha40l1QJMTa3Bemar8C,2014.0
+282,40340,"Rochester, MN Metro Area",186302,Rochester,"Rochester, MN",40340.0,"Rochester, MN",MN,Mar,https://www.uber.com/blog/minneapolis/uber-launches-rochester-st-cloud-mankato/,2017.0
+283,40380,"Rochester, NY Metro Area",1054445,Rochester,"Rochester, NY",40380.0,"Rochester, NY",NY,May,https://blog.lyft.com/posts/2014/4/23/lyft-launches-24-cities-in-24-hours-on-the-24th,2014.0
+284,40420,"Rockford, IL Metro Area",349287,Rockford,"Rockford, IL",40420.0,"Rockford, IL",IL,Feb,http://www.wifr.com/home/headlines/Ride-Sharing-Program-Uber-Launches-in-Rockford-292033211.html,2015.0
+285,40580,"Rocky Mount, NC Metro Area",152477,,,,,,,,2016.0
+286,40660,"Rome, GA Metro Area",96274,Rome,"Rome, GA",40660.0,"Rome, GA",GA,,,2016.0
+287,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",2154391,Sacramento--Roseville--Arden-Arcade,"Sacramento--Roseville--Arden-Arcade, CA",40900.0,"Sacramento--Arden-Arcade--Roseville, CA",CA,Feb,https://newsroom.uber.com/sacramento/uber-and-sacramento-a-romance-for-the-ages/,2013.0
+288,40980,"Saginaw-Saginaw Township North, MI Metro Area",199911,Saginaw,"Saginaw, MI",40980.0,"Saginaw-Saginaw Township North, MI",MI,Mar,https://www.mlive.com/news/saginaw/2017/03/uber_now_serving_saginaw_bay_c.html,2017.0
+289,41420,"Salem, OR Metro Area",391721,Salem,"Salem, OR",41420.0,"Salem, OR",OR,Jun,https://www.oregonlive.com/commuting/2017/06/uber_to_launch_service_in_sale.html,2017.0
+290,41500,"Salinas, CA Metro Area",416682,Salinas,"Salinas, CA",41500.0,"Salinas, CA",CA,February ,http://www.montereycountyweekly.com/news/local_news/popular-ride-share-company-uber-hits-monterey-county/article_937233da-9431-11e3-afe0-001a4bcf6878.html,2014.0
+291,41540,"Salisbury, MD Metro Area",125324,,,,,,,,2016.0
+292,41620,"Salt Lake City, UT Metro Area",1128988,Salt Lake City,"Salt Lake City, UT",41620.0,"Salt Lake City, UT",UT,May,https://newsroom.uber.com/us-utah/slc-your-uber-has-arrived-and-its-free/,2014.0
+293,41660,"San Angelo, TX Metro Area",112484,San Angelo,"San Angelo, TX",41660.0,"San Angelo, TX",TX,Aug,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=2ahUKEwiLj5_FzczkAhULS60KHZmtDXYQFjAJegQIAhAB&url=https%3A%2F%2Fwww.myfoxzone.com%2Farticle%2Fnews%2Fuber-is-officially-coming-to-san-angelo%2F462041588&usg=AOvVaw24bGJGmpV_8Tp9MIhWli5-,2017.0
+294,41700,"San Antonio-New Braunfels, TX Metro Area",2157897,San Antonio-New Braunfels,"San Antonio-New Braunfels, TX",41700.0,"San Antonio-New Braunfels, TX",TX,Mar,https://newsroom.uber.com/us-texas/saddle-up-san-antonio-your-uberx-has-arrived/,2014.0
+295,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",3105989,San Diego-Carlsbad,"San Diego-Carlsbad, CA",41740.0,"San Diego-Carlsbad-San Marcos, CA",CA,Jun,http://techcrunch.com/2012/06/08/uber-san-diego-launch/,2012.0
+296,41860,"San Francisco-Oakland-Fremont, CA Metro Area",4345320,San Francisco-Oakland-Hayward,"San Francisco-Oakland-Hayward, CA",41860.0,"San Francisco-Oakland-Fremont, CA",CA,May,https://newsroom.uber.com/ubers-founding/,2010.0
+297,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",1843255,San Jose-Sunnyvale-Santa Clara,"San Jose-Sunnyvale-Santa Clara, CA",41940.0,"San Jose-Sunnyvale-Santa Clara, CA",CA,,,2016.0
+298,42020,"San Luis Obispo-Paso Robles, CA Metro Area",270113,San Luis Obispo-Paso Robles-Arroyo Grande,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",42020.0,"San Luis Obispo-Paso Robles, CA",CA,Jul,http://www.keyt.com/news/uber-now-in-san-luis-obispo/27014206,2014.0
+299,41780,"Sandusky, OH Metro Area",77070,,,,,,,,2016.0
+300,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",424712,Santa Maria-Santa Barbara,"Santa Maria-Santa Barbara, CA",42060.0,"Santa Barbara-Santa Maria-Goleta, CA",CA,Oct,https://newsroom.uber.com/central-coast/uber-has-offically-launched-in-santa-barbara/,2013.0
+301,42100,"Santa Cruz-Watsonville, CA Metro Area",263054,Santa Cruz-Watsonville,"Santa Cruz-Watsonville, CA",42100.0,"Santa Cruz-Watsonville, CA",CA,April,http://www.santacruztechbeat.com/2014/04/09/uber-announces-santa-cruz-launch-techraising-partnership/,2014.0
+302,42140,"Santa Fe, NM Metro Area",144606,Santa Fe,"Santa Fe, NM",42140.0,"Santa Fe, NM",NM,Nov,http://www.abqjournal.com/498586/biz/uber-ride-sharing-coming-to-santa-fe.html,2014.0
+303,42220,"Santa Rosa-Petaluma, CA Metro Area",485120,Santa Rosa,"Santa Rosa, CA",42220.0,"Santa Rosa-Petaluma, CA",CA,May,https://www.northbaybusinessjournal.com/industrynews/4185096-181/uber-transit-startup-expands-into,2014.0
+304,42340,"Savannah, GA Metro Area",348689,Savannah,"Savannah, GA",42340.0,"Savannah, GA",GA,May,https://www.bizjournals.com/atlanta/morning_call/2015/06/uber-launch-in-savannah-angers-city-taxi-owners.html,2015.0
+305,42540,"Scranton--Wilkes-Barre, PA Metro Area",564446,Scranton--Wilkes-Barre--Hazleton,"Scranton--Wilkes-Barre--Hazleton, PA",42540.0,"Scranton--Wilkes-Barre, PA",PA,Feb,https://wnep.com/2015/02/08/uber-arrives-in-scranton-wilkes-barre/,2015.0
+306,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",3449059,Seattle-Tacoma-Bellevue,"Seattle-Tacoma-Bellevue, WA",42660.0,"Seattle-Tacoma-Bellevue, WA",WA,Aug,https://newsroom.uber.com/us-washington/2011/08/12/you-are-now-free-to-move-about-seattle/,2011.0
+307,42680,"Sebastian-Vero Beach, FL Metro Area",138268,Sebastian-Vero Beach,"Sebastian-Vero Beach, FL",42680.0,"Sebastian-Vero Beach, FL",FL,,,2016.0
+308,43100,"Sheboygan, WI Metro Area",115472,Sheboygan,"Sheboygan, WI",43100.0,"Sheboygan, WI",WI,May,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiwnZf128zkAhVJcq0KHWRCBfEQFjABegQIAxAB&url=https%3A%2F%2Fwww.sheboyganpress.com%2Fstory%2Fnews%2F2016%2F05%2F06%2Fuber-comes-sheboygan-sort%2F84023130%2F&usg=AOvVaw0gZ90j1dcHnK5bz8GBkJbM,2016.0
+309,43300,"Sherman-Denison, TX Metro Area",121145,,,,,,,,2016.0
+310,43340,"Shreveport-Bossier City, LA Metro Area",399799,Shreveport-Bossier City,"Shreveport-Bossier City, LA",43340.0,"Shreveport-Bossier City, LA",LA,Feb,https://www.shreveporttimes.com/story/news/2018/02/14/uber-launch-thursday-shreveport/337493002/,2018.0
+311,43580,"Sioux City, IA-NE-SD Metro Area",143882,Sioux City,"Sioux City, SD",43580.0,"Sioux City, IA-NE-SD",SD,May,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjwlv6DzczkAhVSiqwKHXxKBUEQFjABegQIABAB&url=https%3A%2F%2Fsiouxcityjournal.com%2Fnews%2Flocal%2Fuber-starts-cruises-friday-in-sioux-city%2Farticle_137419d4-d154-523f-a784-338afa3b2763.html&usg=AOvVaw2t-NTBiKJuw5Y3wRWVUNuP,2017.0
+312,43620,"Sioux Falls, SD Metro Area",229360,Sioux Falls,"Sioux Falls, SD",43620.0,"Sioux Falls, SD",SD,May,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjwlv6DzczkAhVSiqwKHXxKBUEQFjAAegQIAxAB&url=https%3A%2F%2Fwww.kotatv.com%2Fcontent%2Fnews%2FUber-arrives-in-South-Dakota-starting-with-Sioux-Falls-509914161.html&usg=AOvVaw1MVuLo4TIyN09KgDR2ArYK,2019.0
+313,43780,"South Bend-Mishawaka, IN-MI Metro Area",319157,South Bend-Mishawaka,"South Bend-Mishawaka, IN-MI",43780.0,"South Bend-Mishawaka, IN-MI",IN-MI,Aug,https://drive.uber.com/in/cities/south-bend/,2015.0
+314,43900,"Spartanburg, SC Metro Area",284713,,,,,,,,2016.0
+315,44060,"Spokane, WA Metro Area",472147,Spokane-Spokane Valley,"Spokane-Spokane Valley, WA",44060.0,"Spokane, WA",WA,May,https://newsroom.uber.com/us-washington/2014/05/08/spokane-your-uberx-is-arriving-now-and-its-free/,2014.0
+316,44100,"Springfield, IL Metro Area",210390,Springfield,"Springfield, IL",44100.0,"Springfield, IL",IL,Jan,https://newsroom.uber.com/illinois/springfield-you-uber-is-arriving-now/,2015.0
+317,44140,"Springfield, MA Metro Area",693141,Springfield,"Springfield, MA",44140.0,"Springfield, MA",MA,,,2016.0
+318,44180,"Springfield, MO Metro Area",435175,Springfield,"Springfield, MO",44180.0,"Springfield, MO",MO,,,2016.0
+319,44220,"Springfield, OH Metro Area",138193,,,,,,,,2016.0
+320,41060,"St. Cloud, MN Metro Area",189284,St. Cloud,"St. Cloud, MN",41060.0,"St. Cloud, MN",MN,Feb,https://www.sctimes.com/story/news/local/2017/02/25/lyft-finally-comes-st-cloud/98364990/,2017.0
+321,41100,"St. George, UT Metro Area",138451,,,,,,,,2016.0
+322,41140,"St. Joseph, MO-KS Metro Area",129678,,,,,,,,2016.0
+323,41180,"St. Louis, MO-IL Metro Area",2815168,St. Louis,"St. Louis, MO-IL",41180.0,"St. Louis, MO-IL",MO-IL,May,https://fox2now.com/2015/09/21/uber-x-starts-operations-in-st-louis-area/,2017.0
+324,44300,"State College, PA Metro Area",154127,State College,"State College, PA",44300.0,"State College, PA",PA,Feb,https://newsroom.uber.com/us-pennsylvania/state-college-your-uber-is-arriving-now/,2015.0
+325,44600,"Steubenville-Weirton, OH-WV Metro Area",124257,,,,,,,,2016.0
+326,44700,"Stockton, CA Metro Area",687744,Stockton-Lodi,"Stockton-Lodi, CA",44700.0,"Stockton, CA",CA,May,https://www.recordnet.com/article/20140502/a_biz/405020308,2014.0
+327,44940,"Sumter, SC Metro Area",107570,Sumter,"Sumter, SC",44940.0,"Sumter, SC",SC,Jun,"http://www.theitem.com/stories/uber-ride-service-begins-in-south-carolina,226988",2014.0
+328,45060,"Syracuse, NY Metro Area",662757,Syracuse,"Syracuse, NY",45060.0,"Syracuse, NY",NY,June,https://www.syracuse.com/news/2017/06/fares_for_uber_and_lyft_differ_but_appear_to_be_cheaper_than_syracuse_taxis.html,2017.0
+329,45220,"Tallahassee, FL Metro Area",368117,Tallahassee,"Tallahassee, FL",45220.0,"Tallahassee, FL",FL,Aug,http://www.tallahassee.com/story/news/money/2014/08/28/uber-technologies-brings-ride-service-to-tallahassee/14764623/,2014.0
+330,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",2789116,Tampa-St. Petersburg-Clearwater,"Tampa-St. Petersburg-Clearwater, FL",45300.0,"Tampa-St. Petersburg-Clearwater, FL",FL,,https://www.theledger.com/news/20141204/smartphone-app-uber-car-service-launches-in-the-lakeland-area/1,2014.0
+331,45460,"Terre Haute, IN Metro Area",173087,Terre Haute,"Terre Haute, IN",45460.0,"Terre Haute, IN",IN,Mar,https://www.tribstar.com/news/local_news/uber-comes-to-terre-haute/article_7de3bc67-400b-5d14-afb8-0429ba8eca77.html,2017.0
+332,45500,"Texarkana, TX-Texarkana, AR Metro Area",136252,,,,,,,,2016.0
+333,45780,"Toledo, OH Metro Area",651020,Toledo,"Toledo, OH",45780.0,"Toledo, OH",OH,Jun,https://newsroom.uber.com/us-ohio/uber-toledo-launches-with-free-rides-for-2-weeks-2/,2014.0
+334,45820,"Topeka, KS Metro Area",236290,Topeka,"Topeka, KS",45820.0,"Topeka, KS",KS,Apr,http://www2.ljworld.com/news/2015/apr/23/uber-expands-service-lawrence-other-kansas-cities/,2015.0
+335,45940,"Trenton-Ewing, NJ Metro Area",366789,,,,,,,,2016.0
+336,46060,"Tucson, AZ Metro Area",982154,Tucson,"Tucson, AZ",46060.0,"Tucson, AZ",AZ,Oct,https://www.facebook.com/events/592842194106758,2013.0
+337,46140,"Tulsa, OK Metro Area",939345,Tulsa,"Tulsa, OK",46140.0,"Tulsa, OK",OK,Mar,https://newsroom.uber.com/us-oklahoma/tulsa-were-bringing-uber-to-you/,2014.0
+338,46220,"Tuscaloosa, AL Metro Area",219785,,,,,,,,2016.0
+339,46340,"Tyler, TX Metro Area",210512,,,,,,,,2016.0
+340,46540,"Utica-Rome, NY Metro Area",299347,,,,,,,,2016.0
+341,46660,"Valdosta, GA Metro Area",137657,,,,,,,,2016.0
+342,46700,"Vallejo-Fairfield, CA Metro Area",414305,Vallejo-Fairfield,"Vallejo-Fairfield, CA",46700.0,"Vallejo-Fairfield, CA",CA,,,2016.0
+343,47020,"Victoria, TX Metro Area",115396,,,,,,,,2016.0
+344,47220,"Vineland-Millville-Bridgeton, NJ Metro Area",157149,,,,,,,,2016.0
+345,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",1675343,Virginia Beach-Norfolk-Newport News,"Virginia Beach-Norfolk-Newport News, NC",47260.0,"Virginia Beach-Norfolk-Newport News, VA-NC",NC,May,https://blog.lyft.com/posts/2014/4/23/lyft-launches-24-cities-in-24-hours-on-the-24th,2014.0
+346,47300,"Visalia-Porterville, CA Metro Area",443688,,,,,,,,2016.0
+347,47380,"Waco, TX Metro Area",236028,Waco,"Waco, TX",47380.0,"Waco, TX",TX,Aug,https://www.facebook.com/wacouber/info/?tab=page_info,2014.0
+348,47580,"Warner Robins, GA Metro Area",140713,,,,,,,,2016.0
+349,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",5610082,Washington-Arlington-Alexandria,"Washington-Arlington-Alexandria, DC-MD-VA-WV",47900.0,"Washington-Arlington-Alexandria, DC-VA-MD-WV",DC-MD-VA-WV,December,https://techcrunch.com/2011/12/15/uberdc/,2011.0
+350,47940,"Waterloo-Cedar Falls, IA Metro Area",165095,,,,,,,,2016.0
+351,48140,"Wausau, WI Metro Area",134104,,,,,,,,2016.0
+352,48300,"Wenatchee-East Wenatchee, WA Metro Area",111324,Wenatchee,"Wenatchee, WA",48300.0,"Wenatchee-East Wenatchee, WA",WA,Sep,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjiu-6d28zkAhVPRKwKHUcaDKEQFjAAegQIAhAB&url=https%3A%2F%2Fwww.wenatcheeworld.com%2Fbusiness%2Fride-hailing-service-uber-arrives-in-wenatchee%2Farticle_462db040-ff31-557e-8363-0494a9959492.html&usg=AOvVaw2wzvVHq6fX2v3a4Co1nyCn,2016.0
+353,48540,"Wheeling, WV-OH Metro Area",147854,Wheeling,"Wheeling, OH",48540.0,"Wheeling, WV-OH",OH,Aug,https://weelunk.com/wheeling-welcomes-uber/,2017.0
+354,48660,"Wichita Falls, TX Metro Area",152209,,,,,,,,2016.0
+355,48620,"Wichita, KS Metro Area",622367,Wichita,"Wichita, KS",48620.0,"Wichita, KS",KS,Aug,http://www.kake.com/home/headlines/Uber-arrives-in-Wichita-273053761.html,2014.0
+356,48700,"Williamsport, PA Metro Area",116143,Williamsport,"Williamsport, PA",48700.0,"Williamsport, PA",PA,Aug,https://www.northcentralpa.com/news/uber-comes-to-williamsport/article_dcb55581-768e-52f5-b56b-82084736fe51.html,2016.0
+357,48900,"Wilmington, NC Metro Area",363766,,,,,,,,2016.0
+358,49020,"Winchester, VA-WV Metro Area",128757,,,,,,,,2016.0
+359,49180,"Winston-Salem, NC Metro Area",478432,Winston-Salem,"Winston-Salem, NC",49180.0,"Winston-Salem, NC",NC,Jun,https://www.charlotteobserver.com/news/business/article9135194.html,2014.0
+360,49340,"Worcester, MA Metro Area",799553,Worcester,"Worcester, CT",49340.0,"Worcester, MA",CT,Oct,https://newsroom.uber.com/boston/worcester-your-uber-is-arriving/,2014.0
+361,49420,"Yakima, WA Metro Area",244485,Yakima,"Yakima, WA",49420.0,"Yakima, WA",WA,Dec,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwj5nK2j2czkAhVQgK0KHaCCARUQFjACegQICxAG&url=https%3A%2F%2Fwww.uber.com%2Fnewsroom%2Fyakima-your-uber-has-arrived%2F&usg=AOvVaw3llp2g6PFSTFajsktlkhwP,2016.0
+362,49620,"York-Hanover, PA Metro Area",435490,York-Hanover,"York-Hanover, PA",49620.0,"York-Hanover, PA",PA,Nov,http://www.witf.org/news/2016/11/lyft-launches-ride-sharing-service-in-central-pennsylvania.php,2016.0
+363,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",564804,Youngstown-Warren-Boardman,"Youngstown-Warren-Boardman, PA",49660.0,"Youngstown-Warren-Boardman, OH-PA",PA,,,2016.0
+364,49700,"Yuba City, CA Metro Area",167194,Yuba City,"Yuba City, CA",49700.0,"Yuba City, CA",CA,,,2016.0
+365,49740,"Yuma, AZ Metro Area",196509,,,,,,,,2016.0

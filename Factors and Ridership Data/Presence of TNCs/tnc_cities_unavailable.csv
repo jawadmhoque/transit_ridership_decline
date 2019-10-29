@@ -1,0 +1,138 @@
+,CBSA,MNAME,TNC_ARRIVAL_ASSUMPTION,Principal City Name
+0,10180,"Abilene, TX Metro Area",2016,Abilene
+1,10780,"Alexandria, LA Metro Area",2016,Alexandria
+2,11100,"Amarillo, TX Metro Area",2016,Amarillo
+3,11300,"Anderson, IN Metro Area",2016,
+4,11700,"Asheville, NC Metro Area",2016,Asheville
+5,12100,"Atlantic City-Hammonton, NJ Metro Area",2016,Atlantic City
+6,12100,"Atlantic City-Hammonton, NJ Metro Area",2016,Hammonton
+7,12220,"Auburn-Opelika, AL Metro Area",2016,Auburn
+8,12220,"Auburn-Opelika, AL Metro Area",2016,Opelika
+9,12620,"Bangor, ME Metro Area",2016,Bangor
+10,12700,"Barnstable Town, MA Metro Area",2016,Barnstable Town
+11,12980,"Battle Creek, MI Metro Area",2016,Battle Creek
+12,13460,"Bend, OR Metro Area",2016,Bend
+13,13900,"Bismarck, ND Metro Area",2016,Bismarck
+14,14540,"Bowling Green, KY Metro Area",2016,Bowling Green
+15,16220,"Casper, WY Metro Area",2016,Casper
+16,16820,"Charlottesville, VA Metro Area",2016,Charlottesville
+17,16940,"Cheyenne, WY Metro Area",2016,Cheyenne
+18,17300,"Clarksville, TN-KY Metro Area",2016,Clarksville
+19,17420,"Cleveland, TN Metro Area",2016,Cleveland
+20,17660,"Coeur d'Alene, ID Metro Area",2016,Coeur d'Alene
+21,17980,"Columbus, GA-AL Metro Area",2016,Columbus
+22,19060,"Cumberland, MD-WV Metro Area",2016,Cumberland
+23,20220,"Dubuque, IA Metro Area",2016,Dubuque
+24,21060,"Elizabethtown, KY Metro Area",2016,Elizabethtown
+25,21060,"Elizabethtown, KY Metro Area",2016,Fort Knox
+26,21140,"Elkhart-Goshen, IN Metro Area",2016,Elkhart
+27,21140,"Elkhart-Goshen, IN Metro Area",2016,Goshen
+28,21300,"Elmira, NY Metro Area",2016,Elmira
+29,21820,"Fairbanks, AK Metro Area",2016,Fairbanks
+30,22500,"Florence, SC Metro Area",2016,Florence
+31,22540,"Fond du Lac, WI Metro Area",2016,Fond du Lac
+32,22900,"Fort Smith, AR-OK Metro Area",2016,Fort Smith
+33,23580,"Gainesville, GA Metro Area",2016,Gainesville
+34,24020,"Glens Falls, NY Metro Area",2016,Glens Falls
+35,24220,"Grand Forks, ND-MN Metro Area",2016,Grand Forks
+36,24300,"Grand Junction, CO Metro Area",2016,Grand Junction
+37,24540,"Greeley, CO Metro Area",2016,Greeley
+38,25180,"Hagerstown-Martinsburg, MD-WV Metro Area",2016,Hagerstown
+39,25180,"Hagerstown-Martinsburg, MD-WV Metro Area",2016,Martinsburg
+40,25260,"Hanford-Corcoran, CA Metro Area",2016,Corcoran
+41,25260,"Hanford-Corcoran, CA Metro Area",2016,Hanford
+42,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,East Hartford
+43,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,Hartford
+44,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,Middletown
+45,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,Hickory
+46,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,Lenoir
+47,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,Morganton
+48,26380,"Houma-Bayou Cane-Thibodaux, LA Metro Area",2016,Houma
+49,26380,"Houma-Bayou Cane-Thibodaux, LA Metro Area",2016,Thibodaux
+50,26820,"Idaho Falls, ID Metro Area",2016,Idaho Falls
+51,27500,"Janesville, WI Metro Area",2016,Beloit
+52,27500,"Janesville, WI Metro Area",2016,Janesville
+53,27620,"Jefferson City, MO Metro Area",2016,Jefferson City
+54,27740,"Johnson City, TN Metro Area",2016,Johnson City
+55,27860,"Jonesboro, AR Metro Area",2016,Jonesboro
+56,28700,"Kingsport-Bristol-Bristol, TN-VA Metro Area",2016,Bristol
+57,28700,"Kingsport-Bristol-Bristol, TN-VA Metro Area",2016,Kingsport
+58,29020,"Kokomo, IN Metro Area",2016,Kokomo
+59,29460,"Lakeland-Winter Haven, FL Metro Area",2016,Lakeland
+60,29460,"Lakeland-Winter Haven, FL Metro Area",2016,Winter Haven
+61,29740,"Las Cruces, NM Metro Area",2016,Las Cruces
+62,30020,"Lawton, OK Metro Area",2016,Lawton
+63,30340,"Lewiston-Auburn, ME Metro Area",2016,Auburn
+64,30340,"Lewiston-Auburn, ME Metro Area",2016,Lewiston
+65,30620,"Lima, OH Metro Area",2016,Lima
+66,31420,"Macon, GA Metro Area",2016,Macon-Bibb County
+67,31900,"Mansfield, OH Metro Area",2016,Mansfield
+68,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,Edinburg
+69,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,McAllen
+70,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,Mission
+71,32900,"Merced, CA Metro Area",2016,Merced
+72,33740,"Monroe, LA Metro Area",2016,Monroe
+73,34060,"Morgantown, WV Metro Area",2016,Morgantown
+74,34580,"Mount Vernon-Anacortes, WA Metro Area",2016,Anacortes
+75,34580,"Mount Vernon-Anacortes, WA Metro Area",2016,Mount Vernon
+76,34740,"Muskegon-Norton Shores, MI Metro Area",2016,Muskegon
+77,34820,"Myrtle Beach-North Myrtle Beach-Conway, SC Metro Area",2016,Conway
+78,34820,"Myrtle Beach-North Myrtle Beach-Conway, SC Metro Area",2016,Myrtle Beach
+79,34820,"Myrtle Beach-North Myrtle Beach-Conway, SC Metro Area",2016,North Myrtle Beach
+80,34940,"Naples-Marco Island, FL Metro Area",2014,Marco Island
+81,34940,"Naples-Marco Island, FL Metro Area",2014,Naples
+82,35300,"New Haven-Milford, CT Metro Area",2014,Milford city (balance)
+83,35300,"New Haven-Milford, CT Metro Area",2014,New Haven
+84,35980,"Norwich-New London, CT Metro Area",2016,New London
+85,35980,"Norwich-New London, CT Metro Area",2016,Norwich
+86,36140,"Ocean City, NJ Metro Area",2016,Ocean City
+87,36220,"Odessa, TX Metro Area",2016,Odessa
+88,37380,"Palm Coast, FL Metro Area",2016,
+89,37620,"Parkersburg-Marietta-Vienna, WV-OH Metro Area",2016,Parkersburg
+90,37620,"Parkersburg-Marietta-Vienna, WV-OH Metro Area",2016,Vienna
+91,37700,"Pascagoula, MS Metro Area",2016,
+92,38540,"Pocatello, ID Metro Area",2016,Pocatello
+93,38940,"Port St. Lucie, FL Metro Area",2016,Port St. Lucie
+94,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,Middletown
+95,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,Newburgh
+96,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,Poughkeepsie
+97,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,Woodbury
+98,39380,"Pueblo, CO Metro Area",2016,Pueblo
+99,39660,"Rapid City, SD Metro Area",2016,Rapid City
+100,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Chino
+101,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Corona
+102,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Ontario
+103,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Palm Desert
+104,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Redlands
+105,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Riverside
+106,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,San Bernardino
+107,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,Temecula
+108,40660,"Rome, GA Metro Area",2016,Rome
+109,41140,"St. Joseph, MO-KS Metro Area",2016,St. Joseph
+110,41540,"Salisbury, MD Metro Area",2016,Salisbury
+111,42680,"Sebastian-Vero Beach, FL Metro Area",2016,Sebastian
+112,42680,"Sebastian-Vero Beach, FL Metro Area",2016,Vero Beach
+113,43300,"Sherman-Denison, TX Metro Area",2016,Denison
+114,43300,"Sherman-Denison, TX Metro Area",2016,Sherman
+115,43900,"Spartanburg, SC Metro Area",2016,Spartanburg
+116,44140,"Springfield, MA Metro Area",2016,Springfield
+117,44180,"Springfield, MO Metro Area",2016,Springfield
+118,44220,"Springfield, OH Metro Area",2016,Springfield
+119,45500,"Texarkana, TX-Texarkana, AR Metro Area",2016,Texarkana
+120,46220,"Tuscaloosa, AL Metro Area",2016,Tuscaloosa
+121,46540,"Utica-Rome, NY Metro Area",2016,Rome
+122,46540,"Utica-Rome, NY Metro Area",2016,Utica
+123,46700,"Vallejo-Fairfield, CA Metro Area",2016,Vallejo
+124,47020,"Victoria, TX Metro Area",2016,Victoria
+125,47300,"Visalia-Porterville, CA Metro Area",2016,Visalia
+126,47940,"Waterloo-Cedar Falls, IA Metro Area",2016,Cedar Falls
+127,47940,"Waterloo-Cedar Falls, IA Metro Area",2016,Waterloo
+128,48140,"Wausau, WI Metro Area",2016,Wausau
+129,48140,"Wausau, WI Metro Area",2016,Weston
+130,48900,"Wilmington, NC Metro Area",2016,Wilmington
+131,49020,"Winchester, VA-WV Metro Area",2016,Winchester
+132,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,Boardman
+133,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,Warren
+134,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,Youngstown
+135,49700,"Yuba City, CA Metro Area",2016,Yuba City
+136,49740,"Yuma, AZ Metro Area",2016,Yuma

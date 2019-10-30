@@ -1,0 +1,243 @@
+Metropolitan Statistical Area,Abbreviation,State,Rail Cluster,Cluster
+Akron,AKR,OH,,1
+Albany,ALBGA,GA,,1
+Albany-Schenectady-Troy,ALBNY,NY,,1
+Allentown-Bethlehem-Easton,ABE,PA-NJ,,1
+Altoona,ALT,PA,,1
+Ann Arbor,AA,MI,,1
+Baltimore-Columbia-Towson,BAL,MD,C,1
+Binghamton,BIN,NY,,1
+Bridgeport-Stamford-Norwalk,BRI,CT,,1
+Buffalo-Cheektowaga-Niagara Falls,BUF,NY,C,1
+Champaign-Urbana,URB,IL,,1
+Charleston,CHS,WV,,1
+Cleveland-Elyria,CLE,OH,C,1
+Corpus Christi,CC,TX,,1
+Dayton,DAY,OH,,1
+Decatur,DEC,IL,,1
+Detroit-Warren-Dearborn,DET,MI,,1
+Erie,ERIE,PA,,1
+Eugene,EUG,OR,,1
+Flint,FLINT,MI,,1
+Fresno,FRE,CA,,1
+Hartford-West Hartford-East Hartford,HAR,CT,,1
+Ithaca,ITH,NY,,1
+Johnstown,JST,PA,,1
+Lancaster,LAN,PA,,1
+Louisville/Jefferson County,LOU,IN,,1
+Memphis,MEM,TN-MS-AR,,1
+Milwaukee-Waukesha-West Allis,MIL,WI,,1
+Minneapolis-St. Paul-Bloomington,MSP,MN-WI,E,1
+New Haven-Milford,HVN,CT,,1
+New Orleans-Metairie,NOLA,LA,,1
+Pittsburgh,PIT,PA,C,1
+Pittsfield,PSF,MA,,1
+Providence-Warwick,PRO,RI-MA,,1
+Pueblo,PUE,CO,,1
+Reading,REA,PA,,1
+Reno,RNO,NV,,1
+Rochester,ROC,NY,,1
+Saginaw,SAG,MI,,1
+Scranton--Wilkes-Barre--Hazleton,SWB,PA,,1
+St. Cloud,STC,MN,,1
+State College,SCE,PA,,1
+Syracuse,SYR,NY,,1
+Toledo,TOL,OH,,1
+Tucson,TUC,AZ,,1
+Urban Honolulu,HON,HI,,1
+Wheeling,WHE,OH,,1
+Williamsport,WIL,PA,,1
+Worcester,WOR,CT,,1
+Albuquerque,ALQ,NM,,2
+Ames,AMES,IA,,2
+Anchorage,ANC,AK,,2
+Appleton,APP,WI,,2
+Austin-Round Rock,AUS,TX,,2
+Bakersfield,BAK,CA,,2
+Billings,BIL,MT,,2
+Bloomington,BLO,IL,,2
+Boise City,BOI,ID,,2
+Cedar Rapids,CED,IA,,2
+Charlotte-Concord-Gastonia,CHA,NC-SC,E,2
+Cincinnati,CIN,OH-IN,,2
+College Station-Bryan,CSB,TX,,2
+Colorado Springs,COS,CO,,2
+Columbus,CMH,OH,,2
+Corvallis,COR,OR,,2
+Davenport-Moline-Rock Island,DAV,IA-IL,,2
+Des Moines-West Des Moines,DSM,IA,,2
+El Centro,CEN,CA,,2
+Elkhart-Goshen,ELK,IN,,2
+Fargo,FAR,ND-MN,,2
+Fort Collins,FCO,CO,,2
+Grand Rapids-Wyoming,GRR,MI,,2
+Green Bay,GB,WI,,2
+Indianapolis-Carmel-Anderson,IND,IN,,2
+Iowa City,IOWA,IA,,2
+Kahului-Wailuku-Lahaina,KAH,HI,,2
+Kansas City,KC,KS,,2
+Killeen-Temple,KIL,TX,,2
+La Crosse-Onalaska,LAC,WI-MN,,2
+Laredo,LAR,TX,,2
+Lawrence,LAW,KS,,2
+Lebanon,LEB,PA,,2
+Lexington-Fayette,LEX,KY,,2
+Lincoln,LIN,NE,,2
+Logan,LOG,ID,,2
+Lubbock,LUB,TX,,2
+Madison,MAD,WI,,2
+Manchester-Nashua,MAN,NH,,2
+Missoula,MIS,MT,,2
+Modesto,MOD,CA,,2
+Napa,NAP,CA,,2
+Naples-Immokalee-Marco Island,NAP,FL,,2
+Nashville-Davidson--Murfreesboro--Franklin,NAS,TN,,2
+North Port-Sarasota-Bradenton,SRQ,FL,,2
+Oklahoma City,OKC,OK,,2
+Omaha-Council Bluffs,OMA,IA,,2
+Orlando-Kissimmee-Sanford,ORL,FL,,2
+Oshkosh-Neenah,OSH,WI,,2
+Oxnard-Thousand Oaks-Ventura,OXN,CA,,2
+Raleigh,RAL,NC,,2
+Salem,SLE,OR,,2
+St. Louis,STL,MO-IL,E,2
+Salinas,SAL,CA,,2
+Salt Lake City,SLC,UT,E,2
+San Antonio-New Braunfels,SAT,TX,,2
+San Luis Obispo-Paso Robles-Arroyo Grande,SLO,CA,,2
+Santa Cruz-Watsonville,SCZ,CA,,2
+Santa Fe,SFE,NM,,2
+Santa Maria-Santa Barbara,SBB,CA,,2
+Santa Rosa,SRO,CA,,2
+Sioux City,SIC,SD,,2
+Sioux Falls,SIF,SD,,2
+Spokane-Spokane Valley,SPO,WA,,2
+Springfield,SPR,MO,,2
+Stockton-Lodi,STO,CA,,2
+Tampa-St. Petersburg-Clearwater,TPA,FL,,2
+Tulsa,TUL,OK,,2
+Vallejo-Fairfield,VAL,CA,,2
+Virginia Beach-Norfolk-Newport News,VIR,NC,E,2
+Wichita,WIC,KS,,2
+Yakima,YAK,WA,,2
+York-Hanover,YORK,PA,,2
+Athens-Clarke County,ATH,GA,,3
+Augusta-Richmond County,AUG,GA-SC,,3
+Baton Rouge,BTR,LA,,3
+Bay City,BAY,MI,,3
+Beaumont-Port Arthur,BEA,TX,,3
+Bellingham,BEL,WA,,3
+Birmingham-Hoover,BIR,AL,,3
+Blacksburg-Christiansburg-Radford,BLA,VA,,3
+Bloomington,BLO,IN,,3
+Bremerton-Silverdale,BRM,WA,,3
+Brownsville-Harlingen,BRO,TX,,3
+Burlington-South Burlington,BUR,VT,,3
+Canton-Massillon,CAN,OH,,3
+Cape Coral-Fort Myers,FTM,FL,,3
+Charleston-North Charleston,CHS,SC,,3
+Chattanooga,CHA,GA,,3
+Chico,CHICO,CA,,3
+Columbia,COL,MO,,3
+Columbia,CAE,SC,,3
+Crestview-Fort Walton Beach-Destin,DES,FL,,3
+Deltona-Daytona Beach-Ormond Beach,DAY,FL,,3
+Duluth,DUL,MN-WI,,3
+Durham-Chapel Hill,DUR,NC,,3
+Eau Claire,EC,WI,,3
+El Paso,ELP,TX,,3
+Elizabethtown-Fort Knox,FTK,KY,,3
+Evansville,EVA,IN-KY,,3
+Fayetteville,FAY,NC,,3
+Fayetteville-Springdale-Rogers,FYV,MO,,3
+Flagstaff,FLG,AZ,,3
+Fort Wayne,FWA,IN,,3
+Gainesville,GAI,FL,,3
+Great Falls,GFL,MT,,3
+Greensboro-High Point,GSO,NC,,3
+Greenville-Anderson-Mauldin,GSP,MS-SC,,3
+Gulfport-Biloxi-Pascagoula,GPT,LA-MS,,3
+Hanford-Corcoran,HAN,CA,,3
+Harrisburg-Carlisle,MDT,PA,,3
+Harrisonburg,HAR,VA,,3
+Hickory-Lenoir-Morganton,HIC,NC,,3
+Holland,HOL,MI,,3
+Huntington-Ashland,HUN,OH,,3
+Huntsville,HSV,AL,,3
+Jackson,JAC,MI,,3
+Jackson,JAN,MS,,3
+Jackson,JSN,TN,,3
+Jacksonville,JAX,FL,,3
+Kalamazoo-Portage,KAL,MI,,3
+Kankakee,KAN,IL,,3
+Kennewick-Richland,KEN,WA,,3
+Knoxville,KNO,TN,,3
+Kokomo,KOK,IN,,3
+Lafayette,LAF,LA,,3
+Lafayette-West Lafayette,LWL,IN,,3
+Lakeland-Winter Haven,LAK,FL,,3
+Lansing-East Lansing,LAN,MI,,3
+Little Rock-North Little Rock-Conway,LIT,AR,,3
+Longview,LON,WA,,3
+Lynchburg,LYN,VA,,3
+Medford,MED,OR,,3
+Merced,MER,CA,,3
+Mobile,MOB,AL,,3
+Montgomery,MON,AL,,3
+Mount Vernon-Anacortes,MVN,WA,,3
+Muncie,MUN,IN,,3
+Niles-Benton Harbor,NIL,MI,,3
+Ocala,OCA,FL,,3
+Olympia-Tumwater,OLY,WA,,3
+Palm Bay-Melbourne-Titusville,MEL,FL,,3
+Panama City,PAN,FL,,3
+Pensacola-Ferry Pass-Brent,PNS,FL,,3
+Peoria,PEO,IL,,3
+Port St. Lucie,PSL,FL,,3
+Portland-South Portland,PSP,ME,,3
+Racine,RAC,WI,,3
+Redding,RED,CA,,3
+Richmond,RIC,VA,,3
+Roanoke,ROA,VA,,3
+Rochester,RST,MN,,3
+Rockford,RCK,IL,,3
+Rome,ROM,GA,,3
+San Angelo,ANG,TX,,3
+Savannah,SAV,GA,,3
+Sebastian-Vero Beach,VER,FL,,3
+Sheboygan,SHE,WI,,3
+Shreveport-Bossier City,SHR,LA,,3
+Somerset,SOM,PA,,3
+South Bend-Mishawaka,SBN,IN-MI,,3
+Springfield,SPI,IL,,3
+Springfield,SPR,MA,,3
+Sumter,SUM,SC,,3
+Tallahassee,TAL,FL,,3
+Terre Haute,TER,IN,,3
+Topeka,TOP,KS,,3
+Torrington,TOR,CT,,3
+Waco,WACO,TX,,3
+Wenatchee,WEN,WA,,3
+Winston-Salem,WIN,NC,,3
+Youngstown-Warren-Boardman,YNG,PA,,3
+Yuba City,YUBA,CA,,3
+Atlanta-Sandy Springs-Roswell,ATL,GA,E,4
+Dallas-Fort Worth-Arlington,DAL,TX,E,4
+Denver-Aurora-Lakewood,DEN,CO,D,4
+Houston-The Woodlands-Sugar Land,HOU,TX,E,4
+Las Vegas-Henderson-Paradise,LV,NV,--,4
+Phoenix-Mesa-Scottsdale,PHO,AZ,D,4
+Portland-Vancouver-Hillsboro,POR,OR-WA,D,4
+Riverside-San Bernardino-Ontario,ONT,CA,--,4
+Sacramento--Roseville--Arden-Arcade,SAC,CA,D,4
+San Diego-Carlsbad,SD,CA,D,4
+San Jose-Sunnyvale-Santa Clara,SJ,CA,D,4
+Boston-Cambridge-Newton,BOS,MA-NH,B,5
+Chicago-Naperville-Elgin,CHI,IL-WI,B,5
+Los Angeles-Long Beach-Anaheim,LA,CA,A,5
+Miami-Fort Lauderdale-West Palm Beach,MIA,FL,D,5
+Philadelphia-Camden-Wilmington,PHL,DE-PA-MD,B,5
+San Francisco-Oakland-Hayward,SF,CA,B,5
+Seattle-Tacoma-Bellevue,SEA,WA,D,5
+Washington-Arlington-Alexandria,DC,DC-MD-VA-WV,B,5
+,,,,

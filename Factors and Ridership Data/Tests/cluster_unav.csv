@@ -1,0 +1,60 @@
+,CBSA,CBSA Name,Metropolitan Statistical Area,Abbreviation,State,Rail Cluster,Cluster,MNAME,_merge
+10,11700.0,"Asheville, NC Metro Area",,,,,,,left_only
+17,12700.0,"Barnstable Town, MA Metro Area",,,,,,,left_only
+22,13460.0,"Bend-Redmond, OR Metro Area",,,,,,,left_only
+38,16060.0,"Carbondale-Marion, IL Metro Area",,,,,,,left_only
+44,16860.0,"Chattanooga, TN-GA Metro Area",,,,,,,left_only
+45,16980.0,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",,,,,,,left_only
+47,17140.0,"Cincinnati, OH-KY-IN Metro Area",,,,,,,left_only
+58,19300.0,"Daphne-Fairhope-Foley, AL Metro Area",,,,,,,left_only
+68,20700.0,"East Stroudsburg, PA Metro Area",,,,,,,left_only
+79,22220.0,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",,,,,,,left_only
+90,24860.0,"Greenville-Anderson-Mauldin, SC Metro Area",,,,,,,left_only
+91,25060.0,"Gulfport-Biloxi-Pascagoula, MS Metro Area",,,,,,,left_only
+97,26090.0,"Holland, MI Micro Area",,,,,,,left_only
+99,26580.0,"Huntington-Ashland, WV-KY-OH Metro Area",,,,,,,left_only
+112,28140.0,"Kansas City, MO-KS Metro Area",,,,,,,left_only
+127,30340.0,"Lewiston-Auburn, ME Metro Area",,,,,,,left_only
+131,30860.0,"Logan, UT-ID Metro Area",,,,,,,left_only
+134,31140.0,"Louisville/Jefferson County, KY-IN Metro Area",,,,,,,left_only
+139,32580.0,"McAllen-Edinburg-Mission, TX Metro Area",,,,,,,left_only
+150,34060.0,"Morgantown, WV Metro Area",,,,,,,left_only
+158,35620.0,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",,,,,,,left_only
+161,35980.0,"Norwich-New London, CT Metro Area",,,,,,,left_only
+165,36540.0,"Omaha-Council Bluffs, NE-IA Metro Area",,,,,,,left_only
+173,37980.0,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",,,,,,,left_only
+200,41540.0,"Salisbury, MD-DE Metro Area",,,,,,,left_only
+207,41980.0,"San Juan-Carolina-Caguas, PR Metro Area",,,,,,,left_only
+219,43580.0,"Sioux City, IA-NE-SD Metro Area",,,,,,,left_only
+221,43740.0,"Somerset, PA Micro Area",,,,,,,left_only
+236,45860.0,"Torrington, CT Micro Area",,,,,,,left_only
+241,47260.0,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",,,,,,,left_only
+242,47300.0,"Visalia-Porterville, CA Metro Area",,,,,,,left_only
+244,47900.0,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",,,,,,,left_only
+246,48540.0,"Wheeling, WV-OH Metro Area",,,,,,,left_only
+249,48900.0,"Wilmington, NC Metro Area",,,,,,,left_only
+251,49340.0,"Worcester, MA-CT Metro Area",,,,,,,left_only
+254,49660.0,"Youngstown-Warren-Boardman, OH-PA Metro Area",,,,,,,left_only
+256,49740.0,"Yuma, AZ Metro Area",,,,,,,left_only
+257,,,Louisville/Jefferson County,LOU,IN,,1.0,"Louisville/Jefferson County, IN Metro Area",right_only
+258,,,Wheeling,WHE,OH,,1.0,"Wheeling, OH Metro Area",right_only
+259,,,Worcester,WOR,CT,,1.0,"Worcester, CT Metro Area",right_only
+260,,,Cincinnati,CIN,OH-IN,,2.0,"Cincinnati, OH-IN Metro Area",right_only
+261,,,Kansas City,KC,KS,,2.0,"Kansas City, KS Metro Area",right_only
+262,,,Logan,LOG,ID,,2.0,"Logan, ID Metro Area",right_only
+263,,,Omaha-Council Bluffs,OMA,IA,,2.0,"Omaha-Council Bluffs, IA Metro Area",right_only
+264,,,Sioux City,SIC,SD,,2.0,"Sioux City, SD Metro Area",right_only
+265,,,Virginia Beach-Norfolk-Newport News,VIR,NC,E,2.0,"Virginia Beach-Norfolk-Newport News, NC Metro Area",right_only
+266,,,Chattanooga,CHA,GA,,3.0,"Chattanooga, GA Metro Area",right_only
+267,,,Fayetteville-Springdale-Rogers,FYV,MO,,3.0,"Fayetteville-Springdale-Rogers, MO Metro Area",right_only
+268,,,Greenville-Anderson-Mauldin,GSP,MS-SC,,3.0,"Greenville-Anderson-Mauldin, MS-SC Metro Area",right_only
+269,,,Gulfport-Biloxi-Pascagoula,GPT,LA-MS,,3.0,"Gulfport-Biloxi-Pascagoula, LA-MS Metro Area",right_only
+270,,,Holland,HOL,MI,,3.0,"Holland, MI Metro Area",right_only
+271,,,Huntington-Ashland,HUN,OH,,3.0,"Huntington-Ashland, OH Metro Area",right_only
+272,,,Somerset,SOM,PA,,3.0,"Somerset, PA Metro Area",right_only
+273,,,Torrington,TOR,CT,,3.0,"Torrington, CT Metro Area",right_only
+274,,,Youngstown-Warren-Boardman,YNG,PA,,3.0,"Youngstown-Warren-Boardman, PA Metro Area",right_only
+275,,,Chicago-Naperville-Elgin,CHI,IL-WI,B,5.0,"Chicago-Naperville-Elgin, IL-WI Metro Area",right_only
+276,,,Philadelphia-Camden-Wilmington,PHL,DE-PA-MD,B,5.0,"Philadelphia-Camden-Wilmington, DE-PA-MD Metro Area",right_only
+277,,,Washington-Arlington-Alexandria,DC,DC-MD-VA-WV,B,5.0,"Washington-Arlington-Alexandria, DC-MD-VA-WV Metro Area",right_only
+278,,,,,,,,,right_only

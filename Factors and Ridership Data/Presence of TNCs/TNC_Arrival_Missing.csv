@@ -1,0 +1,65 @@
+,CBSA,MNAME,TNC_ARRIVAL,CBSA Code,CBSA Title,Principal City Name
+0,11700,"Asheville, NC Metro Area",2016,11700.0,"Asheville, NC",Asheville
+1,12700,"Barnstable Town, MA Metro Area",2016,12700.0,"Barnstable Town, MA",Barnstable Town
+2,13460,"Bend, OR Metro Area",2016,13460.0,"Bend, OR",Bend
+3,21060,"Elizabethtown, KY Metro Area",2016,21060.0,"Elizabethtown-Fort Knox, KY",Elizabethtown
+4,21060,"Elizabethtown, KY Metro Area",2016,21060.0,"Elizabethtown-Fort Knox, KY",Fort Knox
+5,21140,"Elkhart-Goshen, IN Metro Area",2016,21140.0,"Elkhart-Goshen, IN",Elkhart
+6,21140,"Elkhart-Goshen, IN Metro Area",2016,21140.0,"Elkhart-Goshen, IN",Goshen
+7,24220,"Grand Forks, ND-MN Metro Area",2016,24220.0,"Grand Forks, ND-MN",Grand Forks
+8,25260,"Hanford-Corcoran, CA Metro Area",2016,25260.0,"Hanford-Corcoran, CA",Corcoran
+9,25260,"Hanford-Corcoran, CA Metro Area",2016,25260.0,"Hanford-Corcoran, CA",Hanford
+10,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,25540.0,"Hartford-East Hartford-Middletown, CT",East Hartford
+11,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,25540.0,"Hartford-East Hartford-Middletown, CT",Hartford
+12,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2014,25540.0,"Hartford-East Hartford-Middletown, CT",Middletown
+13,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,25860.0,"Hickory-Lenoir-Morganton, NC",Hickory
+14,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,25860.0,"Hickory-Lenoir-Morganton, NC",Lenoir
+15,25860,"Hickory-Lenoir-Morganton, NC Metro Area",2016,25860.0,"Hickory-Lenoir-Morganton, NC",Morganton
+16,29020,"Kokomo, IN Metro Area",2016,29020.0,"Kokomo, IN",Kokomo
+17,29460,"Lakeland-Winter Haven, FL Metro Area",2016,29460.0,"Lakeland-Winter Haven, FL",Lakeland
+18,29460,"Lakeland-Winter Haven, FL Metro Area",2016,29460.0,"Lakeland-Winter Haven, FL",Winter Haven
+19,30340,"Lewiston-Auburn, ME Metro Area",2016,30340.0,"Lewiston-Auburn, ME",Auburn
+20,30340,"Lewiston-Auburn, ME Metro Area",2016,30340.0,"Lewiston-Auburn, ME",Lewiston
+21,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,32580.0,"McAllen-Edinburg-Mission, TX",Edinburg
+22,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,32580.0,"McAllen-Edinburg-Mission, TX",McAllen
+23,32580,"McAllen-Edinburg-Mission, TX Metro Area",2016,32580.0,"McAllen-Edinburg-Mission, TX",Mission
+24,32900,"Merced, CA Metro Area",2016,32900.0,"Merced, CA",Merced
+25,34060,"Morgantown, WV Metro Area",2016,34060.0,"Morgantown, WV",Morgantown
+26,34580,"Mount Vernon-Anacortes, WA Metro Area",2016,34580.0,"Mount Vernon-Anacortes, WA",Anacortes
+27,34580,"Mount Vernon-Anacortes, WA Metro Area",2016,34580.0,"Mount Vernon-Anacortes, WA",Mount Vernon
+28,34940,"Naples-Marco Island, FL Metro Area",2014,34940.0,"Naples-Marco Island, FL",Marco Island
+29,34940,"Naples-Marco Island, FL Metro Area",2014,34940.0,"Naples-Marco Island, FL",Naples
+30,35300,"New Haven-Milford, CT Metro Area",2014,35300.0,"New Haven-Milford, CT",Milford city (balance)
+31,35300,"New Haven-Milford, CT Metro Area",2014,35300.0,"New Haven-Milford, CT",New Haven
+32,35980,"Norwich-New London, CT Metro Area",2016,35980.0,"Norwich-New London, CT",New London
+33,35980,"Norwich-New London, CT Metro Area",2016,35980.0,"Norwich-New London, CT",Norwich
+34,37380,"Palm Coast, FL Metro Area",2016,,,
+35,37700,"Pascagoula, MS Metro Area",2016,,,
+36,38940,"Port St. Lucie, FL Metro Area",2016,38940.0,"Port St. Lucie, FL",Port St. Lucie
+37,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,39100.0,"Poughkeepsie-Newburgh-Middletown, NY",Middletown
+38,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,39100.0,"Poughkeepsie-Newburgh-Middletown, NY",Newburgh
+39,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,39100.0,"Poughkeepsie-Newburgh-Middletown, NY",Poughkeepsie
+40,39100,"Poughkeepsie-Newburgh-Middletown, NY Metro Area",2016,39100.0,"Poughkeepsie-Newburgh-Middletown, NY",Woodbury
+41,39380,"Pueblo, CO Metro Area",2016,39380.0,"Pueblo, CO",Pueblo
+42,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Chino
+43,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Corona
+44,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Ontario
+45,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Palm Desert
+46,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Redlands
+47,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Riverside
+48,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",San Bernardino
+49,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2014,40140.0,"Riverside-San Bernardino-Ontario, CA",Temecula
+50,40660,"Rome, GA Metro Area",2016,40660.0,"Rome, GA",Rome
+51,41540,"Salisbury, MD Metro Area",2016,41540.0,"Salisbury, MD-DE",Salisbury
+52,42680,"Sebastian-Vero Beach, FL Metro Area",2016,42680.0,"Sebastian-Vero Beach, FL",Sebastian
+53,42680,"Sebastian-Vero Beach, FL Metro Area",2016,42680.0,"Sebastian-Vero Beach, FL",Vero Beach
+54,44140,"Springfield, MA Metro Area",2016,44140.0,"Springfield, MA",Springfield
+55,44180,"Springfield, MO Metro Area",2016,44180.0,"Springfield, MO",Springfield
+56,46700,"Vallejo-Fairfield, CA Metro Area",2016,46700.0,"Vallejo, CA",Vallejo
+57,47300,"Visalia-Porterville, CA Metro Area",2016,47300.0,"Visalia, CA",Visalia
+58,48900,"Wilmington, NC Metro Area",2016,48900.0,"Wilmington, NC",Wilmington
+59,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,49660.0,"Youngstown-Warren-Boardman, OH-PA",Boardman
+60,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,49660.0,"Youngstown-Warren-Boardman, OH-PA",Warren
+61,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2016,49660.0,"Youngstown-Warren-Boardman, OH-PA",Youngstown
+62,49700,"Yuba City, CA Metro Area",2016,49700.0,"Yuba City, CA",Yuba City
+63,49740,"Yuma, AZ Metro Area",2016,49740.0,"Yuma, AZ",Yuma

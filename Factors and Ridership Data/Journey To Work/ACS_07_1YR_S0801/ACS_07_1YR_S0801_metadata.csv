@@ -1,0 +1,345 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+HC01_EST_VC01,Total; Estimate; Workers 16 years and over
+HC01_MOE_VC01,Total; Margin of Error; Workers 16 years and over
+HC02_EST_VC01,Male; Estimate; Workers 16 years and over
+HC02_MOE_VC01,Male; Margin of Error; Workers 16 years and over
+HC03_EST_VC01,Female; Estimate; Workers 16 years and over
+HC03_MOE_VC01,Female; Margin of Error; Workers 16 years and over
+HC01_EST_VC03,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC01_MOE_VC03,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC02_EST_VC03,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC02_MOE_VC03,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC03_EST_VC03,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC03_MOE_VC03,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van"
+HC01_EST_VC04,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC01_MOE_VC04,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC02_EST_VC04,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC02_MOE_VC04,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC03_EST_VC04,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC03_MOE_VC04,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Drove alone"
+HC01_EST_VC05,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC01_MOE_VC05,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC02_EST_VC05,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC02_MOE_VC05,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC03_EST_VC05,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC03_MOE_VC05,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled"
+HC01_EST_VC06,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC01_MOE_VC06,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC02_EST_VC06,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC02_MOE_VC06,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC03_EST_VC06,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC03_MOE_VC06,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 2-person carpool"
+HC01_EST_VC07,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC01_MOE_VC07,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC02_EST_VC07,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC02_MOE_VC07,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC03_EST_VC07,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC03_MOE_VC07,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 3-person carpool"
+HC01_EST_VC08,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC01_MOE_VC08,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC02_EST_VC08,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC02_MOE_VC08,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC03_EST_VC08,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC03_MOE_VC08,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Carpooled - In 4-or-more person carpool"
+HC01_EST_VC09,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC01_MOE_VC09,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC02_EST_VC09,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC02_MOE_VC09,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC03_EST_VC09,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC03_MOE_VC09,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Car, truck, or van - Workers per car, truck, or van"
+HC01_EST_VC10,Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC01_MOE_VC10,Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC02_EST_VC10,Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC02_MOE_VC10,Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC03_EST_VC10,Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC03_MOE_VC10,Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Public transportation (excluding taxicab)
+HC01_EST_VC11,Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC01_MOE_VC11,Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC02_EST_VC11,Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC02_MOE_VC11,Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC03_EST_VC11,Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC03_MOE_VC11,Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Walked
+HC01_EST_VC12,Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC01_MOE_VC12,Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC02_EST_VC12,Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC02_MOE_VC12,Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC03_EST_VC12,Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC03_MOE_VC12,Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Bicycle
+HC01_EST_VC13,"Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC01_MOE_VC13,"Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC02_EST_VC13,"Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC02_MOE_VC13,"Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC03_EST_VC13,"Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC03_MOE_VC13,"Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Taxicab, motorcycle, or other means"
+HC01_EST_VC14,Total; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC01_MOE_VC14,Total; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC02_EST_VC14,Male; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC02_MOE_VC14,Male; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC03_EST_VC14,Female; Estimate; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC03_MOE_VC14,Female; Margin of Error; Workers 16 years and over - MEANS OF TRANSPORTATION TO WORK - Worked at home
+HC01_EST_VC16,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC01_MOE_VC16,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC02_EST_VC16,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC02_MOE_VC16,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC03_EST_VC16,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC03_MOE_VC16,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence
+HC01_EST_VC17,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC01_MOE_VC17,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC02_EST_VC17,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC02_MOE_VC17,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC03_EST_VC17,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC03_MOE_VC17,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked in county of residence
+HC01_EST_VC18,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC01_MOE_VC18,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC02_EST_VC18,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC02_MOE_VC18,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC03_EST_VC18,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC03_MOE_VC18,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked in state of residence - Worked outside county of residence
+HC01_EST_VC19,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC01_MOE_VC19,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC02_EST_VC19,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC02_MOE_VC19,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC03_EST_VC19,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC03_MOE_VC19,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Worked outside state of residence
+HC01_EST_VC20,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC01_MOE_VC20,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC02_EST_VC20,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC02_MOE_VC20,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC03_EST_VC20,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC03_MOE_VC20,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place
+HC01_EST_VC21,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC01_MOE_VC21,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC02_EST_VC21,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC02_MOE_VC21,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC03_EST_VC21,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC03_MOE_VC21,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked in place of residence
+HC01_EST_VC22,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC01_MOE_VC22,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC02_EST_VC22,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC02_MOE_VC22,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC03_EST_VC22,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC03_MOE_VC22,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in a place - Worked outside place of residence
+HC01_EST_VC23,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC01_MOE_VC23,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC02_EST_VC23,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC02_MOE_VC23,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC03_EST_VC23,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC03_MOE_VC23,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in a place
+HC01_EST_VC24,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC01_MOE_VC24,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC02_EST_VC24,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC02_MOE_VC24,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC03_EST_VC24,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC03_MOE_VC24,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states
+HC01_EST_VC25,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC01_MOE_VC25,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC02_EST_VC25,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC02_MOE_VC25,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC03_EST_VC25,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC03_MOE_VC25,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked in minor civil division of residence
+HC01_EST_VC26,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC01_MOE_VC26,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC02_EST_VC26,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC02_MOE_VC26,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC03_EST_VC26,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC03_MOE_VC26,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Living in 12 selected states - Worked outside minor civil division of residence
+HC01_EST_VC27,Total; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC01_MOE_VC27,Total; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC02_EST_VC27,Male; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC02_MOE_VC27,Male; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC03_EST_VC27,Female; Estimate; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC03_MOE_VC27,Female; Margin of Error; Workers 16 years and over - PLACE OF WORK - Not living in 12 selected states
+HC01_EST_VC28,Total; Estimate; Workers 16 years and over who did not work at home
+HC01_MOE_VC28,Total; Margin of Error; Workers 16 years and over who did not work at home
+HC02_EST_VC28,Male; Estimate; Workers 16 years and over who did not work at home
+HC02_MOE_VC28,Male; Margin of Error; Workers 16 years and over who did not work at home
+HC03_EST_VC28,Female; Estimate; Workers 16 years and over who did not work at home
+HC03_MOE_VC28,Female; Margin of Error; Workers 16 years and over who did not work at home
+HC01_EST_VC30,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC01_MOE_VC30,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC02_EST_VC30,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC02_MOE_VC30,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC03_EST_VC30,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC03_MOE_VC30,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 12:00 a.m. to 4:59 a.m.
+HC01_EST_VC31,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC01_MOE_VC31,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC02_EST_VC31,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC02_MOE_VC31,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC03_EST_VC31,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC03_MOE_VC31,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:00 a.m. to 5:29 a.m.
+HC01_EST_VC32,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC01_MOE_VC32,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC02_EST_VC32,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC02_MOE_VC32,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC03_EST_VC32,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC03_MOE_VC32,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 5:30 a.m. to 5:59 a.m.
+HC01_EST_VC33,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC01_MOE_VC33,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC02_EST_VC33,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC02_MOE_VC33,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC03_EST_VC33,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC03_MOE_VC33,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:00 a.m. to 6:29 a.m.
+HC01_EST_VC34,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC01_MOE_VC34,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC02_EST_VC34,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC02_MOE_VC34,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC03_EST_VC34,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC03_MOE_VC34,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 6:30 a.m. to 6:59 a.m.
+HC01_EST_VC35,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC01_MOE_VC35,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC02_EST_VC35,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC02_MOE_VC35,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC03_EST_VC35,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC03_MOE_VC35,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:00 a.m. to 7:29 a.m.
+HC01_EST_VC36,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC01_MOE_VC36,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC02_EST_VC36,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC02_MOE_VC36,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC03_EST_VC36,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC03_MOE_VC36,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 7:30 a.m. to 7:59 a.m.
+HC01_EST_VC37,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC01_MOE_VC37,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC02_EST_VC37,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC02_MOE_VC37,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC03_EST_VC37,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC03_MOE_VC37,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:00 a.m. to 8:29 a.m.
+HC01_EST_VC38,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC01_MOE_VC38,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC02_EST_VC38,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC02_MOE_VC38,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC03_EST_VC38,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC03_MOE_VC38,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 8:30 a.m. to 8:59 a.m.
+HC01_EST_VC39,Total; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC01_MOE_VC39,Total; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC02_EST_VC39,Male; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC02_MOE_VC39,Male; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC03_EST_VC39,Female; Estimate; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC03_MOE_VC39,Female; Margin of Error; Workers 16 years and over who did not work at home - TIME LEAVING HOME TO GO TO WORK - 9:00 a.m. to 11:59 p.m.
+HC01_EST_VC41,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC01_MOE_VC41,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC02_EST_VC41,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC02_MOE_VC41,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC03_EST_VC41,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC03_MOE_VC41,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Less than 10 minutes
+HC01_EST_VC42,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC01_MOE_VC42,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC02_EST_VC42,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC02_MOE_VC42,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC03_EST_VC42,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC03_MOE_VC42,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 10 to 14 minutes
+HC01_EST_VC43,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC01_MOE_VC43,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC02_EST_VC43,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC02_MOE_VC43,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC03_EST_VC43,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC03_MOE_VC43,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 15 to 19 minutes
+HC01_EST_VC44,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC01_MOE_VC44,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC02_EST_VC44,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC02_MOE_VC44,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC03_EST_VC44,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC03_MOE_VC44,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 20 to 24 minutes
+HC01_EST_VC45,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC01_MOE_VC45,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC02_EST_VC45,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC02_MOE_VC45,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC03_EST_VC45,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC03_MOE_VC45,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 25 to 29 minutes
+HC01_EST_VC46,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC01_MOE_VC46,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC02_EST_VC46,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC02_MOE_VC46,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC03_EST_VC46,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC03_MOE_VC46,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 30 to 34 minutes
+HC01_EST_VC47,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC01_MOE_VC47,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC02_EST_VC47,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC02_MOE_VC47,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC03_EST_VC47,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC03_MOE_VC47,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 35 to 44 minutes
+HC01_EST_VC48,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC01_MOE_VC48,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC02_EST_VC48,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC02_MOE_VC48,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC03_EST_VC48,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC03_MOE_VC48,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 45 to 59 minutes
+HC01_EST_VC49,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC01_MOE_VC49,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC02_EST_VC49,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC02_MOE_VC49,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC03_EST_VC49,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC03_MOE_VC49,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - 60 or more minutes
+HC01_EST_VC50,Total; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC01_MOE_VC50,Total; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC02_EST_VC50,Male; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC02_MOE_VC50,Male; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC03_EST_VC50,Female; Estimate; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC03_MOE_VC50,Female; Margin of Error; Workers 16 years and over who did not work at home - TRAVEL TIME TO WORK - Mean travel time to work (minutes)
+HC01_EST_VC52,Total; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC01_MOE_VC52,Total; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC02_EST_VC52,Male; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC02_MOE_VC52,Male; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC03_EST_VC52,Female; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC03_MOE_VC52,Female; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households
+HC01_EST_VC53,Total; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC01_MOE_VC53,Total; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC02_EST_VC53,Male; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC02_MOE_VC53,Male; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC03_EST_VC53,Female; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC03_MOE_VC53,Female; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - No vehicle available
+HC01_EST_VC54,Total; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC01_MOE_VC54,Total; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC02_EST_VC54,Male; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC02_MOE_VC54,Male; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC03_EST_VC54,Female; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC03_MOE_VC54,Female; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 1 vehicle available
+HC01_EST_VC55,Total; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC01_MOE_VC55,Total; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC02_EST_VC55,Male; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC02_MOE_VC55,Male; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC03_EST_VC55,Female; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC03_MOE_VC55,Female; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 2 vehicles available
+HC01_EST_VC56,Total; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC01_MOE_VC56,Total; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC02_EST_VC56,Male; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC02_MOE_VC56,Male; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC03_EST_VC56,Female; Estimate; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC03_MOE_VC56,Female; Margin of Error; VEHICLES AVAILABLE - Workers 16 years and over in households - 3 or more vehicles available
+HC01_EST_VC58,Total; Estimate; PERCENT IMPUTED - Means of transportation to work
+HC01_MOE_VC58,Total; Margin of Error; PERCENT IMPUTED - Means of transportation to work
+HC02_EST_VC58,Male; Estimate; PERCENT IMPUTED - Means of transportation to work
+HC02_MOE_VC58,Male; Margin of Error; PERCENT IMPUTED - Means of transportation to work
+HC03_EST_VC58,Female; Estimate; PERCENT IMPUTED - Means of transportation to work
+HC03_MOE_VC58,Female; Margin of Error; PERCENT IMPUTED - Means of transportation to work
+HC01_EST_VC59,Total; Estimate; PERCENT IMPUTED - Private vehicle occupancy
+HC01_MOE_VC59,Total; Margin of Error; PERCENT IMPUTED - Private vehicle occupancy
+HC02_EST_VC59,Male; Estimate; PERCENT IMPUTED - Private vehicle occupancy
+HC02_MOE_VC59,Male; Margin of Error; PERCENT IMPUTED - Private vehicle occupancy
+HC03_EST_VC59,Female; Estimate; PERCENT IMPUTED - Private vehicle occupancy
+HC03_MOE_VC59,Female; Margin of Error; PERCENT IMPUTED - Private vehicle occupancy
+HC01_EST_VC60,Total; Estimate; PERCENT IMPUTED - Place of work
+HC01_MOE_VC60,Total; Margin of Error; PERCENT IMPUTED - Place of work
+HC02_EST_VC60,Male; Estimate; PERCENT IMPUTED - Place of work
+HC02_MOE_VC60,Male; Margin of Error; PERCENT IMPUTED - Place of work
+HC03_EST_VC60,Female; Estimate; PERCENT IMPUTED - Place of work
+HC03_MOE_VC60,Female; Margin of Error; PERCENT IMPUTED - Place of work
+HC01_EST_VC61,Total; Estimate; PERCENT IMPUTED - Time leaving home to go to work
+HC01_MOE_VC61,Total; Margin of Error; PERCENT IMPUTED - Time leaving home to go to work
+HC02_EST_VC61,Male; Estimate; PERCENT IMPUTED - Time leaving home to go to work
+HC02_MOE_VC61,Male; Margin of Error; PERCENT IMPUTED - Time leaving home to go to work
+HC03_EST_VC61,Female; Estimate; PERCENT IMPUTED - Time leaving home to go to work
+HC03_MOE_VC61,Female; Margin of Error; PERCENT IMPUTED - Time leaving home to go to work
+HC01_EST_VC62,Total; Estimate; PERCENT IMPUTED - Travel time to work
+HC01_MOE_VC62,Total; Margin of Error; PERCENT IMPUTED - Travel time to work
+HC02_EST_VC62,Male; Estimate; PERCENT IMPUTED - Travel time to work
+HC02_MOE_VC62,Male; Margin of Error; PERCENT IMPUTED - Travel time to work
+HC03_EST_VC62,Female; Estimate; PERCENT IMPUTED - Travel time to work
+HC03_MOE_VC62,Female; Margin of Error; PERCENT IMPUTED - Travel time to work
+HC01_EST_VC63,Total; Estimate; PERCENT IMPUTED - Vehicles available
+HC01_MOE_VC63,Total; Margin of Error; PERCENT IMPUTED - Vehicles available
+HC02_EST_VC63,Male; Estimate; PERCENT IMPUTED - Vehicles available
+HC02_MOE_VC63,Male; Margin of Error; PERCENT IMPUTED - Vehicles available
+HC03_EST_VC63,Female; Estimate; PERCENT IMPUTED - Vehicles available
+HC03_MOE_VC63,Female; Margin of Error; PERCENT IMPUTED - Vehicles available

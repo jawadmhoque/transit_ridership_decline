@@ -20,53 +20,50 @@ def get_cluster_file(_filename):
     # Factors and Ridership Data\ code
     current_dir = Path(__file__).parent.absolute()
     # Change the directory
-    # \Script Outputs \ Cluster_wise_summation_files
+    # \Model Estimation\Est4
     # print("current directory at get_cluster_file ",current_dir)
     current_dir = current_dir.parents[0] / 'Script Outputs' / 'Cluster_wise_summation_files'
     os.chdir(str(current_dir))
-    # print("set directory at get_cluster_file ", current_dir)
+    # print("set directory at get_upt_fac_file ", current_dir)
     df = pd.read_csv(_filename)
     return df
-
 
 def get_upt_fac_file(_filename):
     # get the abs path of the directory of the code/script
     # Factors and Ridership Data\ code
     current_dir = Path(__file__).parent.absolute()
     # Change the directory
-    # \Model Estimation\Est4
+    # \Script Outputs \ Cluster_wise_summation_files
     # print("current directory at get_cluster_file ",current_dir)
     current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est4'
     os.chdir(str(current_dir))
-    # print("set directory at get_upt_fac_file ", current_dir)
+    # print("set directory at get_cluster_file ", current_dir)
     df = pd.read_csv(_filename)
     return df
 
 
+
 def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
-    dfcluster = _dfCluster
+    df_uptfac_cluster = _dfFAC
     dffac = _dfFAC
     clustercolumn = _clustercolumn
     try:
         # get unique values
-        yrs = dfcluster['Year'].unique()
+        yrs = df_uptfac_cluster['Year'].unique()
         yrs.sort()
 
-        clusters = dfcluster[clustercolumn].unique()
+        clusters = df_uptfac_cluster[clustercolumn].unique()
         clusters.sort()
 
-        modes = dfcluster['Mode'].unique()
+        df_uptfac_cluster.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
+
+        modes = df_uptfac_cluster['Mode'].unique()
         modes.sort()
-
-        fig, ax = plt.subplots(nrows=8, ncols=2, figsize=(18, 9), constrained_layout=True)
-
-        df_fltr = pd.Dataframe()
 
         # create charts for FACs --> this should be starting from (0,X) --> X = 1,2,3...,8
         for cluster in clusters:
-            df_fltr = dfcluster[dfcluster[clustercolumn] == cluster]
-            df_fltr_fac = dffac[dffac[clustercolumn] == cluster]
-
+            df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
+            # df_fltr_fac = dffac[dffac[clustercolumn] == cluster]
             # Print the cluster
             col_index = df_fltr.columns.get_loc(clustercolumn)
             cluster_code = str(df_fltr.iloc[0, col_index])
@@ -74,20 +71,22 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
             df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
             df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
 
-            # Print the cluster
-            col_index_fac = df_fltr_fac.columns.get_loc(clustercolumn)
-            cluster_code_fac = str(df_fltr_fac.iloc[0, col_index_fac])
-            print('Cluster Code:' + str(cluster_code_fac))
-            df_fltr_fac['Year'] = pd.to_datetime(df_fltr_fac['Year'].astype(str), format='%Y')
-            df_fltr_mod_fac = df_fltr_fac.set_index(pd.DatetimeIndex(df_fltr_fac['Year']).year)
-
+            transparency = 0.1
+            transparency = transparency
+            # # Print the cluster
+            # col_index_fac = df_fltr_fac.columns.get_loc(clustercolumn)
+            # cluster_code_fac = str(df_fltr_fac.iloc[0, col_index_fac])
+            # print('Cluster Code:' + str(cluster_code_fac))
+            # df_fltr_fac['Year'] = pd.to_datetime(df_fltr_fac['Year'].astype(str), format='%Y')
+            # df_fltr_mod_fac = df_fltr_fac.set_index(pd.DatetimeIndex(df_fltr_fac['Year']).year)
+            x = 1
+            fig, ax = plt.subplots(nrows=8, ncols=2, figsize=(18, 9), constrained_layout=True)
             for mode in modes:
                 if mode == 0:
                     mode_name = "BUS"
                 else:
                     mode_name = "RAIL"
-                    # get number of sub-plots defined - 4*2 means 4 rows having 2 graphs (each sized 18x9) in each row = 8 graphs
-                x = 1
+                # get number of sub-plots defined - 4*2 means 4 rows having 2 graphs (each sized 18x9) in each row = 8 graphs
                 df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
                 # Year vs UPT_ADJ_Total_FAC_cumsum --> Graph (0,1)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_Total_FAC_cumsum',
@@ -100,12 +99,12 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_Total_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
+                                      facecolor='red', interpolate=True, alpha=transparency)
                 ax[0][1].fill_between(df_fltr_mode['Year'].values, df_fltr_mode['UPT_ADJ_Total_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_Total_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
+                                      facecolor='green', interpolate=True, alpha=transparency)
                 ax[0][1].set(xlabel="Years", ylabel='Ridership')
                 ax[0][1].legend(loc='best')
                 ax[0][1].set_autoscaley_on(False)
@@ -119,59 +118,59 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 # Year vs POP_EMP_log_FAC_cumsum --> Graph (0,2)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_POP_EMP_log_FAC_cumsum',
                                                   label='Hypothezized rdrship if no changes in population & employment',
-                                                  ax=ax[0][2], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[0][2],
+                                                  ax=ax[1][1], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[1][1],
                                                   legend=True, color='black', linewidth=2)
                 # Paint the area
-                ax[0][2].fill_between(df_fltr_mode['Year'].values,
+                ax[1][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_POP_EMP_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_POP_EMP_log_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][2].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[1][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_POP_EMP_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_POP_EMP_log_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][2].set(xlabel="Years", ylabel='Ridership')
-                ax[0][2].legend(loc='best')
-                ax[0][2].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[1][1].set(xlabel="Years", ylabel='Ridership')
+                ax[1][1].legend(loc='best')
+                ax[1][1].set_autoscaley_on(False)
                 try:
-                    ax[0][2].grid(True)
-                    ax[0][2].margins(0.20)
-                    ax[0][2].set_ylim(
+                    ax[1][1].grid(True)
+                    ax[1][1].margins(0.20)
+                    ax[1][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_POP_EMP_log_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
 
                 # Year vs UPT_ADJ_TSD_POP_PCT_FAC_cumsum --> Graph (0,3)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
-                                                  label='Hypothezized rdrship if no change in TSD Pop', ax=ax[0][3],
+                                                  label='Hypothezized rdrship if no change in TSD Pop', ax=ax[2][1],
                                                   legend=True)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', legend=True,
-                                                  ax=ax[0][3], color='black', linewidth=2)
+                                                  ax=ax[2][1], color='black', linewidth=2)
                 # Paint the area
-                ax[0][3].fill_between(df_fltr_mode['Year'].values,
+                ax[2][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_TSD_POP_PCT_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_TSD_POP_PCT_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][3].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[2][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_TSD_POP_PCT_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_TSD_POP_PCT_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][3].set(xlabel="Years", ylabel='Ridership')
-                ax[0][3].legend(loc='best')
-                ax[0][3].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[2][1].set(xlabel="Years", ylabel='Ridership')
+                ax[2][1].legend(loc='best')
+                ax[2][1].set_autoscaley_on(False)
                 try:
-                    ax[0][3].grid(True)
-                    ax[0][3].margins(0.20)
-                    ax[0][3].set_ylim(
+                    ax[2][1].grid(True)
+                    ax[2][1].margins(0.20)
+                    ax[2][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_TSD_POP_PCT_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
@@ -179,30 +178,30 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 # Year vs UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum --> Graph (0,4)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
                                                   label='Hypothezized rdrship if no change in PCT HH NO VEH',
-                                                  ax=ax[0][4], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[0][4],
+                                                  ax=ax[3][1], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[3][1],
                                                   legend=True,
                                                   color='black', linewidth=2)
                 # Paint the area
-                ax[0][4].fill_between(df_fltr_mode['Year'].values,
+                ax[3][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][4].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[3][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][4].set(xlabel="Years", ylabel='Ridership')
-                ax[0][4].legend(loc='best')
-                ax[0][4].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[3][1].set(xlabel="Years", ylabel='Ridership')
+                ax[3][1].legend(loc='best')
+                ax[3][1].set_autoscaley_on(False)
                 try:
-                    ax[0][4].grid(True)
-                    ax[0][4].margins(0.20)
-                    ax[0][4].set_ylim(
+                    ax[3][1].grid(True)
+                    ax[3][1].margins(0.20)
+                    ax[3][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
@@ -210,30 +209,30 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 # Year vs UPT_ADJ_VRM_ADJ_log_FAC_cumsum --> Graph (0,5)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                                                   label='Hypothezized rdrship if no change in VRMs',
-                                                  ax=ax[0][5], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[0][5],
+                                                  ax=ax[4][1], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[4][1],
                                                   legend=True,
                                                   color='black', linewidth=2)
                 # Paint the area
-                ax[0][5].fill_between(df_fltr_mode['Year'].values,
+                ax[4][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_VRM_ADJ_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_VRM_ADJ_log_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][5].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[4][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_VRM_ADJ_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_VRM_ADJ_log_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][5].set(xlabel="Years", ylabel='Ridership')
-                ax[0][5].legend(loc='best')
-                ax[0][5].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[4][1].set(xlabel="Years", ylabel='Ridership')
+                ax[4][1].legend(loc='best')
+                ax[4][1].set_autoscaley_on(False)
                 try:
-                    ax[0][5].grid(True)
-                    ax[0][5].margins(0.20)
-                    ax[0][5].set_ylim(
+                    ax[4][1].grid(True)
+                    ax[4][1].margins(0.20)
+                    ax[4][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_VRM_ADJ_log_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
@@ -241,30 +240,30 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 # Year vs UPT_ADJ_GasPrice_log_FAC_cumsum --> Graph (0,6)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_GasPrice_log_FAC_cumsum',
                                                   label='Hypothezized rdrship if no change in Gas Prices',
-                                                  ax=ax[0][6], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[0][6],
+                                                  ax=ax[5][1], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[5][1],
                                                   legend=True,
                                                   color='black', linewidth=2)
                 # Paint the area
-                ax[0][6].fill_between(df_fltr_mode['Year'].values,
+                ax[5][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_GasPrice_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_GasPrice_log_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][6].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[5][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_GasPrice_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_GasPrice_log_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][6].set(xlabel="Years", ylabel='Ridership')
-                ax[0][6].legend(loc='best')
-                ax[0][6].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[5][1].set(xlabel="Years", ylabel='Ridership')
+                ax[5][1].legend(loc='best')
+                ax[5][1].set_autoscaley_on(False)
                 try:
-                    ax[0][6].grid(True)
-                    ax[0][6].margins(0.20)
-                    ax[0][6].set_ylim(
+                    ax[5][1].grid(True)
+                    ax[5][1].margins(0.20)
+                    ax[5][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_GasPrice_log_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
@@ -272,33 +271,32 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 # Year vs UPT_ADJ_FARE_per_UPT_log_FAC_cumsum --> Graph (0,7)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ_FARE_per_UPT_log_FAC_cumsum',
                                                   label='Hypothezized rdrship if no change in UPTs',
-                                                  ax=ax[0][7], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[0][7],
+                                                  ax=ax[6][1], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[6][1],
                                                   legend=True, color='black', linewidth=2)
                 # Paint the area
-                ax[0][7].fill_between(df_fltr_mode['Year'].values,
+                ax[6][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_FARE_per_UPT_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       df_fltr_mode['UPT_ADJ'].values > df_fltr_mode[
                                           'UPT_ADJ_FARE_per_UPT_log_FAC_cumsum'].values,
-                                      facecolor='red', interpolate=True, alpha=0.1)
-                ax[0][7].fill_between(df_fltr_mode['Year'].values,
+                                      facecolor='red', interpolate=True, alpha=transparency)
+                ax[6][1].fill_between(df_fltr_mode['Year'].values,
                                       df_fltr_mode['UPT_ADJ_FARE_per_UPT_log_FAC_cumsum'].values,
                                       df_fltr_mode['UPT_ADJ'].values,
                                       df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[
                                           'UPT_ADJ_FARE_per_UPT_log_FAC_cumsum'].values,
-                                      facecolor='green', interpolate=True, alpha=0.1)
-                ax[0][7].set(xlabel="Years", ylabel='Ridership')
-                ax[0][7].legend(loc='best')
-                ax[0][7].set_autoscaley_on(False)
+                                      facecolor='green', interpolate=True, alpha=transparency)
+                ax[6][1].set(xlabel="Years", ylabel='Ridership')
+                ax[6][1].legend(loc='best')
+                ax[6][1].set_autoscaley_on(False)
                 try:
-                    ax[0][7].grid(True)
-                    ax[0][7].margins(0.20)
-                    ax[0][7].set_ylim(
+                    ax[6][1].grid(True)
+                    ax[6][1].margins(0.20)
+                    ax[6][1].set_ylim(
                         [0, max(df_fltr_mode[['UPT_ADJ', 'UPT_ADJ_FARE_per_UPT_log_FAC_cumsum']].values.max(1))])
                 except ValueError:
                     pass
-
                 # create chart for the cluster file
                 # try:
                 #     df_fltr_mode_fac = df_fltr_mod_fac[df_fltr_mod_fac.Mode == mode]
@@ -453,33 +451,34 @@ def create_combined_graphs(_dfCluster, _dfFAC, _clustercolumn):
                 #     pass
 
                 # save the plot
-                fig.suptitle(('Cluster Code:' + str(clustercolumn) + "-" + str(mode)), fontsize=14)
-                fig.tight_layout()
-                _figno = x
-
-                # get the abs path of the directory of the code/script
-                # Factors and Ridership Data\ code
-                current_dir = Path(__file__).parent.absolute()
-                # Change the directory
-                # \Model Estimation\Est4
-                # print("current directory at get_cluster_file ",current_dir)
-                current_dir = current_dir.parents[0] / 'Script Outputs' / 'Combined'
-                os.chdir(str(current_dir))
-                fig.savefig(("Fig " + str(_figno) + "-" + clustercolumn + " - " + mode + ".png"))
-                plt.suptitle(clustercolumn, fontsize=14)
-                plt.close(fig)
-                x += 1
-    except:
+            fig.suptitle(('Cluster Code:' + str(clustercolumn) + "-" + str(mode_name)), fontsize=14)
+            # fig.tight_layout()
+            _figno = x
+            # get the abs path of the directory of the code/script
+            # Factors and Ridership Data\ code
+            current_dir = Path(__file__).parent.absolute()
+            # Change the directory
+            # \Model Estimation\Est4
+            # print("current directory at get_cluster_file ",current_dir)
+            current_dir = current_dir.parents[0] / 'Script Outputs' / 'Combined'
+            os.chdir(str(current_dir))
+            print("Current set directory: ", current_dir)
+            fig.savefig(("Fig " + str(_figno) + "-" + clustercolumn + " - " + mode_name + ".png"))
+            plt.suptitle(clustercolumn, fontsize=14)
+            plt.close(fig)
+            x += 1
+    finally:
         pass
-
 
 def main():
     # create function to prepare charts
     dfgt11 = get_cluster_file("CLUSTER_GT_NEW_11.csv")
     dfgt11.head()
 
-    df_uptfac_gt11 = get_upt_fac_file("FAC_totals_GT_CLUSTERS.csv")
+    df_uptfac_gt11 = get_upt_fac_file("UPT_FAC_totals_GT_CLUSTERS.csv")
     df_uptfac_gt11.head()
+
+    variablename = 'CLUSTER_GT_NEW_11'
 
     create_combined_graphs(dfgt11, df_uptfac_gt11, 'CLUSTER_GT_NEW_11')
     print('complete')

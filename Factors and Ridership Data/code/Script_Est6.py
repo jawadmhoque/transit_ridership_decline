@@ -7,7 +7,7 @@ import pandas as pd
 import sys
 import os
 
-
+# make the charts
 def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
     df_org = _df_org
     clustercolumn = _clustername
@@ -41,7 +41,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                          'UPT_ADJ_POP_EMP_log_FAC_cumsum',
                          'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                          'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
-                         'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
+                         # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                          'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
                          'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
@@ -57,7 +57,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                               'Population & Employment',
                               'Gas Price (S)',
                               'Med Income (Individual level)',
-                              'Immigrant population',
+                              # 'Immigrant population',
                               '0 Veh household share',
                               'Transit Supportive Density population',
                               'Work from home jobs',
@@ -68,7 +68,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                               ' of Bike Share on Rail',
                               'E-Scooters on Rail',
                               'Unmeasurable variables']
-            fig, ax = plt.subplots(nrows=4, ncols=4, figsize=(22, 11), constrained_layout=False)
+            fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 11), constrained_layout=False)
             if mode == 0:
                 mode_name = "BUS"
                 # remove columns specific to rail
@@ -111,7 +111,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                                           where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[chartcol].values,
                                           facecolor='red', interpolate=True, alpha=transparency)
                 # ax[row][col].set(xlabel="Years", ylabel='Ridership')
-                ax[row][col].legend(loc='best', fontsize=6)
+                ax[row][col].legend(loc='best', fontsize=8)
                 ax[row][col].set_autoscaley_on(False)
                 try:
                     ax[row][col].grid(True)
@@ -132,8 +132,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 z.label_outer()
 
             # num += 1
-            fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=16)
-            # fig.tight_layout()
+            # fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=16)
+            fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
             _figno = x
             # get the abs path of the directory of the code/script
             # Factors and Ridership Data\ code
@@ -151,8 +151,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
             os.chdir(str(current_dir))
             # Axis title
-            fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
-            fig.text(0.06, 0.5, 'Ridership', ha='center', va='center', rotation='vertical', fontsize=16)
+            # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
+            fig.text(0.02, 0.5, 'Ridership', ha='center', va='baseline', rotation='vertical', fontsize=16)
             figname = ("Est6 - " + str(_startyear) + "-" + str(_endyear) + " Cluster " + str(
                 cluster) + "-" + mode_name + ".png")
             figcounter += 1
@@ -165,12 +165,11 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
 
             # for z in ax.flat:
             #     z.set(xlabel='Years', ylabel='Ridership')
-
+            # plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
             plt.close(fig)
             x += 1
             clusternumber += 1
     print("Success")
-
 
 # def create_upt_fac_total_apta4_cluster(_filename, _clustervalue):
 #     # get the abs path of the directory of the code/script
@@ -231,7 +230,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
 #     # df_queried = df.where(("Year">=str(startyear)) & ("Year"<=str(end_year)))
 #     return df_fitered
 
-
+# filter the dataframe based on the start and end years
 def filter_dataframe(_df, _startyear, _endyear):
     df = _df
     startyear = _startyear
@@ -240,7 +239,7 @@ def filter_dataframe(_df, _startyear, _endyear):
     # df_queried = df.where(("Year">=str(startyear)) & ("Year"<=str(end_year)))
     return df_fitered
 
-
+# prepare the file for charts
 def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
     # Factors and Ridership Data\ code
@@ -263,7 +262,7 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
                 'POP_EMP_log_FAC',
                 'GAS_PRICE_2018_log_FAC',
                 'TOTAL_MED_INC_INDIV_2018_log_FAC',
-                'Tot_NonUSA_POP_pct_FAC',
+                # 'Tot_NonUSA_POP_pct_FAC',
                 'PCT_HH_NO_VEH_FAC',
                 'TSD_POP_PCT_FAC',
                 'JTW_HOME_PCT_FAC',
@@ -304,7 +303,7 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
     # prepare_charts(df_queried, cluster_values, _filename, startyear, endyear)
 
-
+# prepare the file for charts
 def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
     # Factors and Ridership Data\ code
@@ -327,7 +326,7 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
                 'POP_EMP_log_FAC',
                 'GAS_PRICE_2018_log_FAC',
                 'TOTAL_MED_INC_INDIV_2018_log_FAC',
-                'Tot_NonUSA_POP_pct_FAC',
+                # 'Tot_NonUSA_POP_pct_FAC',
                 'PCT_HH_NO_VEH_FAC',
                 'TSD_POP_PCT_FAC',
                 'JTW_HOME_PCT_FAC',
@@ -363,7 +362,7 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
     prepare_charts(df_org, cluster_values, _filename, startyear, endyear)
 
-
+# make the charts
 def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear):
     df_org = _df_org
     clustercolumn = _clustername
@@ -397,7 +396,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                          'UPT_ADJ_POP_EMP_log_FAC_cumsum',
                          'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                          'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
-                         'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
+                         # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                          'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
                          'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
@@ -414,7 +413,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                               'Population & Employment',
                               'Gas Price (S)',
                               'Med Income (Individual level)',
-                              'Immigrant population',
+                              # 'Immigrant population',
                               '0 Veh household share',
                               'Transit Supportive Density population',
                               'Work from home jobs',
@@ -469,7 +468,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                                           where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[chartcol].values,
                                           facecolor='red', interpolate=True, alpha=transparency)
                 # ax[row][col].set(xlabel="Years", ylabel='Ridership')
-                ax[row][col].legend(loc='best', fontsize=6)
+                ax[row][col].legend(loc='best', fontsize=8)
                 ax[row][col].set_autoscaley_on(False)
                 try:
                     ax[row][col].grid(True)
@@ -490,8 +489,8 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                 z.label_outer()
 
             # num += 1
-            fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=16)
-            # fig.tight_layout()
+            # fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=16)
+            fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
             _figno = x
             # get the abs path of the directory of the code/script
             # Factors and Ridership Data\ code
@@ -509,8 +508,8 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
             current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
             os.chdir(str(current_dir))
             # Axis title
-            fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
-            fig.text(0.06, 0.5, 'Ridership', ha='center', va='center', rotation='vertical', fontsize=16)
+            # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
+            fig.text(0.02, 0.5, 'Ridership', ha='center', va='baseline', rotation='vertical', fontsize=16)
             figname = ("Est6 - " + str(_startyear) + "-" + str(_endyear) + " (pivot) " + " Cluster "
                        + str(cluster) + "-" + mode_name + ".png")
             figcounter += 1
@@ -523,13 +522,13 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
 
             # for z in ax.flat:
             #     z.set(xlabel='Years', ylabel='Ridership')
-
+            # plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
             plt.close(fig)
             x += 1
             clusternumber += 1
     print("Success")
 
-
+# prepare the file for charts
 def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
     # Factors and Ridership Data\ code
@@ -549,7 +548,7 @@ def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear,
                  'UPT_ADJ_POP_EMP_log_FAC_cumsum',
                  'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                  'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
-                 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
+                 # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                  'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
                  'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                  'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
@@ -573,12 +572,42 @@ def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear,
     prepare_charts_pivot(df_org, _clustervalue, _filename, startyear, endyear)
 
 
+def get_cluster_chart(_df, _filename, _chartname, _current_dir):
+    df = _df
+    filename = _filename
+    chartname = _chartname
+    current_dir = _current_dir
+
+
+def get_cluster_file(_filename):
+    filename = _filename
+    try:
+        # get the absolute path of the script and then check if the csv file exists or not
+        current_dir = pathlib.Path(__file__).parent.absolute()
+        current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est6'
+        os.chdir(str(current_dir))
+        try:
+            if (current_dir / 'UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv').is_file():
+                df = pd.read_csv(filename)
+                get_cluster_chart(df,filename,chartname,current_dir)
+
+
+        except FileNotFoundError:
+            print("File could not be found. Please check the file is placed in the folder path - Factors and Ridership Data\Model Estimation\Est6")
+
+    except FileNotFoundError:
+        print("System error, in cluster_level_chart_function")
+
+
+
 def main():
+
+    # create charts at cluster level
+    # get_cluster_file("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv")
     # Pass on the cluster_file and cluster_column
     # create_upt_fac_total_apta4_cluster("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4")
-
-    # create_upt_fac_total_apta4_cluster_b2002("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
-    # create_upt_fac_total_apta4_b2012("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
+    create_upt_fac_total_apta4_cluster_b2002("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
+    create_upt_fac_total_apta4_b2012("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
     create_upt_fac_total_apta4_b2002_pivot("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv", "CLUSTER_APTA4", 2002, 2018)
 
     # for 2002 - 2018

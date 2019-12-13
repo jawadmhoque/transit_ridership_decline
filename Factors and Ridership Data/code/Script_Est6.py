@@ -19,19 +19,6 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
     modes = df_org['Mode'].unique()
     modes.sort()
     figcounter = 1
-    chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum', 'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
-                 'UPT_ADJ_POP_EMP_log_FAC_cumsum', 'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
-                 'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
-                 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum', 'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
-                 'UPT_ADJ_TSD_POP_PCT_FAC_cumsum', 'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
-                 'UPT_ADJ_RAIL_COMPETITION_FAC_cumsum', 'UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum',
-                 'UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum', 'UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum',
-                 'UPT_ADJ_scooter_flag_BUS_FAC_cumsum', 'UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum']
-    subplot_labels = ['VRMs', 'Fares', 'Population & Employment', 'Gas Price (S)', 'Med Income (Individual level)',
-                      'Immigrant population', '0 Veh household share', 'TSD population', 'Work from home jobs',
-                      'Rail Competition', 'since TNCs services on Bus ',
-                      'since TNCs services on Rail', ' of Bike Share on Bus',
-                      'E-Scooters on Bus', 'E-Scooters on Rail']
     clusternumber = 1
     for cluster in clusters:
         df_fltr = df_org[df_org[clustercolumn] == cluster]
@@ -49,11 +36,58 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
         # # num = 0
         x = 1
         for mode in modes:
+            chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
+                         'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
+                         'UPT_ADJ_POP_EMP_log_FAC_cumsum',
+                         'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
+                         'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
+                         'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
+                         'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
+                         'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
+                         'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
+                         'UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum',
+                         'UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum',
+                         'UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum',
+                         'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
+                         'UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum',
+                         'UPT_ADJ_scooter_flag_RAIL_FAC_cumsum',
+                         'UPT_ADJ_Unknown_FAC_cumsum']
+            subplot_labels = ['VRMs',
+                              'Fares',
+                              'Population & Employment',
+                              'Gas Price (S)',
+                              'Med Income (Individual level)',
+                              'Immigrant population',
+                              '0 Veh household share',
+                              'Transit Supportive Density population',
+                              'Work from home jobs',
+                              'since TNCs services on Bus ',
+                              'since TNCs services on Rail',
+                              ' of Bike Share on Bus',
+                              'E-Scooters on Bus',
+                              ' of Bike Share on Rail',
+                              'E-Scooters on Rail',
+                              'Unmeasurable variables']
             fig, ax = plt.subplots(nrows=4, ncols=4, figsize=(22, 11), constrained_layout=False)
             if mode == 0:
                 mode_name = "BUS"
+                # remove columns specific to rail
+                chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum')
+                chartcols.remove('UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum')
+                chartcols.remove('UPT_ADJ_scooter_flag_RAIL_FAC_cumsum')
+                subplot_labels.remove('since TNCs services on Rail')
+                subplot_labels.remove(' of Bike Share on Rail')
+                subplot_labels.remove('E-Scooters on Rail')
             else:
                 mode_name = "RAIL"
+                # remove columns specific to rail
+                chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum')
+                chartcols.remove('UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum')
+                chartcols.remove('UPT_ADJ_scooter_flag_BUS_FAC_cumsum')
+                subplot_labels.remove('since TNCs services on Bus ')
+                subplot_labels.remove(' of Bike Share on Bus')
+                subplot_labels.remove('E-Scooters on Bus')
+
             df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
             col = 0
             row = 0
@@ -98,7 +132,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 z.label_outer()
 
             # num += 1
-            fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=12)
+            fig.suptitle(('Cluster Code: ' + str(cluster) + "-" + str(mode_name)), fontsize=16)
             # fig.tight_layout()
             _figno = x
             # get the abs path of the directory of the code/script
@@ -117,8 +151,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
             os.chdir(str(current_dir))
             # Axis title
-            fig.text(0.5, 0.02, 'Year', ha='center', va='center')
-            fig.text(0.06, 0.5, 'Ridership', ha='center', va='center', rotation='vertical')
+            fig.text(0.5, 0.02, 'Year', ha='center', va='center',fontsize=16)
+            fig.text(0.06, 0.5, 'Ridership', ha='center', va='center', rotation='vertical',fontsize=16)
             figname = ("Est6 - " + str(_startyear) + "-" + str(_endyear) + " Cluster " + str(
                 cluster) + "-" + mode_name + ".png")
             figcounter += 1
@@ -224,10 +258,22 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     df_org = filter_dataframe(df, startyear, endyear)
     # create cumulative column and update the column
     # create new columns
-    col_name = ['VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC', 'GAS_PRICE_2018_log_FAC',
-                'TOTAL_MED_INC_INDIV_2018_log_FAC', 'Tot_NonUSA_POP_pct_FAC', 'PCT_HH_NO_VEH_FAC', 'TSD_POP_PCT_FAC',
-                'JTW_HOME_PCT_FAC', 'RAIL_COMPETITION_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
-                'BIKE_SHARE_BUS_FAC', 'scooter_flag_BUS_FAC', 'BIKE_SHARE_RAIL_FAC', 'Total_FAC']
+    col_name = ['VRM_ADJ_log_FAC',
+                'FARE_per_UPT_2018_log_FAC',
+                'POP_EMP_log_FAC',
+                'GAS_PRICE_2018_log_FAC',
+                'TOTAL_MED_INC_INDIV_2018_log_FAC',
+                'Tot_NonUSA_POP_pct_FAC',
+                'PCT_HH_NO_VEH_FAC',
+                'TSD_POP_PCT_FAC',
+                'JTW_HOME_PCT_FAC',
+                'YEARS_SINCE_TNC_BUS_FAC',
+                'YEARS_SINCE_TNC_RAIL_FAC',
+                'BIKE_SHARE_BUS_FAC',
+                'scooter_flag_BUS_FAC',
+                'BIKE_SHARE_RAIL_FAC',
+                'scooter_flag_RAIL_FAC',
+                'Unknown_FAC']
     cum_col = []
     col_UPT_ADJ = ['UPT_ADJ']
 
@@ -276,10 +322,22 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
     df_org = filter_dataframe(df, startyear, endyear)
     # create cumulative column and update the column
     # create new columns
-    col_name = ['VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC', 'GAS_PRICE_2018_log_FAC',
-                'TOTAL_MED_INC_INDIV_2018_log_FAC', 'Tot_NonUSA_POP_pct_FAC', 'PCT_HH_NO_VEH_FAC', 'TSD_POP_PCT_FAC',
-                'JTW_HOME_PCT_FAC', 'RAIL_COMPETITION_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
-                'BIKE_SHARE_BUS_FAC', 'scooter_flag_BUS_FAC', 'BIKE_SHARE_RAIL_FAC', 'Total_FAC']
+    col_name = ['VRM_ADJ_log_FAC',
+                'FARE_per_UPT_2018_log_FAC',
+                'POP_EMP_log_FAC',
+                'GAS_PRICE_2018_log_FAC',
+                'TOTAL_MED_INC_INDIV_2018_log_FAC',
+                'Tot_NonUSA_POP_pct_FAC',
+                'PCT_HH_NO_VEH_FAC',
+                'TSD_POP_PCT_FAC',
+                'JTW_HOME_PCT_FAC',
+                'YEARS_SINCE_TNC_BUS_FAC',
+                'YEARS_SINCE_TNC_RAIL_FAC',
+                'BIKE_SHARE_BUS_FAC',
+                'scooter_flag_BUS_FAC',
+                'BIKE_SHARE_RAIL_FAC',
+                'scooter_flag_RAIL_FAC',
+                'Unknown_FAC']
     cum_col = []
     col_UPT_ADJ = ['UPT_ADJ']
 

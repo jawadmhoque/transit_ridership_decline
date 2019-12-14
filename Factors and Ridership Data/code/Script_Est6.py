@@ -7,6 +7,7 @@ import pandas as pd
 import sys
 import os
 
+
 # make the charts
 def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
     df_org = _df_org
@@ -39,36 +40,36 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                          'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
                          'UPT_ADJ_POP_EMP_log_FAC_cumsum',
+                         'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                          'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
                          # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                          'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
-                         'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
                          'UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum',
                          'UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum',
                          'UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum',
-                         'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                          'UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum',
+                         'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                          'UPT_ADJ_scooter_flag_RAIL_FAC_cumsum',
                          'UPT_ADJ_Unknown_FAC_cumsum']
             subplot_labels = ['VRMs',
                               'Fares',
                               'Population & Employment',
+                              'Transit Supportive Density population',
                               'Gas Price (S)',
                               'Med Income (Individual level)',
                               # 'Immigrant population',
                               '0 Veh household share',
-                              'Transit Supportive Density population',
                               'Work from home jobs',
                               'since TNCs services on Bus ',
                               'since TNCs services on Rail',
-                              ' of Bike Share on Bus',
+                              'Bike Share on Bus',
+                              'Bike Share on Rail',
                               'E-Scooters on Bus',
-                              ' of Bike Share on Rail',
                               'E-Scooters on Rail',
                               'Unmeasurable variables']
-            fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 11), constrained_layout=False)
+            fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=False)
             if mode == 0:
                 mode_name = "BUS"
                 # remove columns specific to rail
@@ -76,7 +77,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_scooter_flag_RAIL_FAC_cumsum')
                 subplot_labels.remove('since TNCs services on Rail')
-                subplot_labels.remove(' of Bike Share on Rail')
+                subplot_labels.remove('Bike Share on Rail')
                 subplot_labels.remove('E-Scooters on Rail')
             else:
                 mode_name = "RAIL"
@@ -85,7 +86,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_scooter_flag_BUS_FAC_cumsum')
                 subplot_labels.remove('since TNCs services on Bus ')
-                subplot_labels.remove(' of Bike Share on Bus')
+                subplot_labels.remove('Bike Share on Bus')
                 subplot_labels.remove('E-Scooters on Bus')
 
             df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
@@ -111,7 +112,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                                           where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[chartcol].values,
                                           facecolor='red', interpolate=True, alpha=transparency)
                 # ax[row][col].set(xlabel="Years", ylabel='Ridership')
-                ax[row][col].legend(loc='best', fontsize=8)
+                ax[row][col].legend(loc='best', fontsize=10)
+                ax[row][col].set_title(str(subplotlable))
                 ax[row][col].set_autoscaley_on(False)
                 try:
                     ax[row][col].grid(True)
@@ -152,7 +154,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             os.chdir(str(current_dir))
             # Axis title
             # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
-            fig.text(0.02, 0.5, 'Ridership', ha='center', va='baseline', rotation='vertical', fontsize=16)
+            fig.text(0.02, 0.5, 'Ridership (in 100 million)', ha='center', va='baseline', rotation='vertical',
+                     fontsize=16)
             figname = ("Est6 - " + str(_startyear) + "-" + str(_endyear) + " Cluster " + str(
                 cluster) + "-" + mode_name + ".png")
             figcounter += 1
@@ -170,6 +173,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             x += 1
             clusternumber += 1
     print("Success")
+
 
 # def create_upt_fac_total_apta4_cluster(_filename, _clustervalue):
 #     # get the abs path of the directory of the code/script
@@ -239,6 +243,7 @@ def filter_dataframe(_df, _startyear, _endyear):
     # df_queried = df.where(("Year">=str(startyear)) & ("Year"<=str(end_year)))
     return df_fitered
 
+
 # prepare the file for charts
 def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
@@ -252,6 +257,10 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     os.chdir(str(current_dir))
     # print("set directory at get_cluster_file ", current_dir)
     df = pd.read_csv(_filename)
+    # try:
+    #     df['UPT_ADJ'] = df['UPT_ADJ'] / 100
+    # except ValueError:
+    #     pass
     startyear = _startyear
     endyear = _endyear
     df_org = filter_dataframe(df, startyear, endyear)
@@ -260,21 +269,28 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     col_name = ['VRM_ADJ_log_FAC',
                 'FARE_per_UPT_2018_log_FAC',
                 'POP_EMP_log_FAC',
+                'TSD_POP_PCT_FAC',
                 'GAS_PRICE_2018_log_FAC',
                 'TOTAL_MED_INC_INDIV_2018_log_FAC',
                 # 'Tot_NonUSA_POP_pct_FAC',
                 'PCT_HH_NO_VEH_FAC',
-                'TSD_POP_PCT_FAC',
                 'JTW_HOME_PCT_FAC',
                 'YEARS_SINCE_TNC_BUS_FAC',
                 'YEARS_SINCE_TNC_RAIL_FAC',
                 'BIKE_SHARE_BUS_FAC',
-                'scooter_flag_BUS_FAC',
                 'BIKE_SHARE_RAIL_FAC',
+                'scooter_flag_BUS_FAC',
                 'scooter_flag_RAIL_FAC',
                 'Unknown_FAC']
     cum_col = []
     col_UPT_ADJ = ['UPT_ADJ']
+
+    for col in col_name:
+        df[col] = np.where(df[col] == '-', 0, df[col])
+        try:
+            df[col] = df[col] / 100
+        except ValueError:
+            pass
 
     for col in col_name:
         df_org[str(col) + '_cumsum'] = df_org[col]
@@ -303,6 +319,7 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
     # prepare_charts(df_queried, cluster_values, _filename, startyear, endyear)
 
+
 # prepare the file for charts
 def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
@@ -316,6 +333,11 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
     os.chdir(str(current_dir))
     # print("set directory at get_cluster_file ", current_dir)
     df = pd.read_csv(_filename)
+    try:
+        df['UPT_ADJ'] = df['UPT_ADJ'] / 100
+    except ValueError:
+        pass
+
     startyear = _startyear
     endyear = _endyear
     df_org = filter_dataframe(df, startyear, endyear)
@@ -324,21 +346,28 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
     col_name = ['VRM_ADJ_log_FAC',
                 'FARE_per_UPT_2018_log_FAC',
                 'POP_EMP_log_FAC',
+                'TSD_POP_PCT_FAC',
                 'GAS_PRICE_2018_log_FAC',
                 'TOTAL_MED_INC_INDIV_2018_log_FAC',
                 # 'Tot_NonUSA_POP_pct_FAC',
                 'PCT_HH_NO_VEH_FAC',
-                'TSD_POP_PCT_FAC',
                 'JTW_HOME_PCT_FAC',
                 'YEARS_SINCE_TNC_BUS_FAC',
                 'YEARS_SINCE_TNC_RAIL_FAC',
                 'BIKE_SHARE_BUS_FAC',
-                'scooter_flag_BUS_FAC',
                 'BIKE_SHARE_RAIL_FAC',
+                'scooter_flag_BUS_FAC',
                 'scooter_flag_RAIL_FAC',
                 'Unknown_FAC']
     cum_col = []
     col_UPT_ADJ = ['UPT_ADJ']
+
+    for col in col_name:
+        df[col] = np.where(df[col] == '-', 0, df[col])
+        # try:
+        #     df[col] = df[col]/100
+        # except ValueError:
+        #     pass
 
     for col in col_name:
         df_org[str(col) + '_cumsum'] = df_org[col]
@@ -361,6 +390,7 @@ def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endy
 
     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
     prepare_charts(df_org, cluster_values, _filename, startyear, endyear)
+
 
 # make the charts
 def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear):
@@ -394,17 +424,17 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
             chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                          'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
                          'UPT_ADJ_POP_EMP_log_FAC_cumsum',
+                         'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                          'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
                          # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                          'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
-                         'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                          'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
                          'UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum',
                          'UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum',
                          'UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum',
-                         'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                          'UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum',
+                         'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                          'UPT_ADJ_scooter_flag_RAIL_FAC_cumsum',
                          'UPT_ADJ_Unknown_FAC_cumsum',
                          'UPT_ADJ_New_Reporter_FAC_cumsum']
@@ -413,19 +443,19 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                               'Population & Employment',
                               'Gas Price (S)',
                               'Med Income (Individual level)',
+                              'Transit Supportive Density population',
                               # 'Immigrant population',
                               '0 Veh household share',
-                              'Transit Supportive Density population',
                               'Work from home jobs',
                               'since TNCs services on Bus ',
                               'since TNCs services on Rail',
-                              ' of Bike Share on Bus',
+                              'Bike Share on Bus',
+                              'Bike Share on Rail',
                               'E-Scooters on Bus',
-                              ' of Bike Share on Rail',
                               'E-Scooters on Rail',
                               'Unmeasurable variables',
                               'new PT mode introduction']
-            fig, ax = plt.subplots(nrows=4, ncols=4, figsize=(22, 11), constrained_layout=False)
+            fig, ax = plt.subplots(nrows=4, ncols=4, figsize=(22, 15), constrained_layout=False)
             if mode == 0:
                 mode_name = "BUS"
                 # remove columns specific to rail
@@ -433,7 +463,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                 chartcols.remove('UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_scooter_flag_RAIL_FAC_cumsum')
                 subplot_labels.remove('since TNCs services on Rail')
-                subplot_labels.remove(' of Bike Share on Rail')
+                subplot_labels.remove('Bike Share on Rail')
                 subplot_labels.remove('E-Scooters on Rail')
             else:
                 mode_name = "RAIL"
@@ -442,7 +472,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                 chartcols.remove('UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_scooter_flag_BUS_FAC_cumsum')
                 subplot_labels.remove('since TNCs services on Bus ')
-                subplot_labels.remove(' of Bike Share on Bus')
+                subplot_labels.remove('Bike Share on Bus')
                 subplot_labels.remove('E-Scooters on Bus')
 
             df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
@@ -468,7 +498,8 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                                           where=df_fltr_mode['UPT_ADJ'].values <= df_fltr_mode[chartcol].values,
                                           facecolor='red', interpolate=True, alpha=transparency)
                 # ax[row][col].set(xlabel="Years", ylabel='Ridership')
-                ax[row][col].legend(loc='best', fontsize=8)
+                ax[row][col].legend(loc='best', fontsize=10)
+                ax[row][col].set_title(str(subplotlable))
                 ax[row][col].set_autoscaley_on(False)
                 try:
                     ax[row][col].grid(True)
@@ -509,7 +540,8 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
             os.chdir(str(current_dir))
             # Axis title
             # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
-            fig.text(0.02, 0.5, 'Ridership', ha='center', va='baseline', rotation='vertical', fontsize=16)
+            fig.text(0.02, 0.5, 'Ridership (in 100 million)', ha='center', va='baseline', rotation='vertical',
+                     fontsize=16)
             figname = ("Est6 - " + str(_startyear) + "-" + str(_endyear) + " (pivot) " + " Cluster "
                        + str(cluster) + "-" + mode_name + ".png")
             figcounter += 1
@@ -528,6 +560,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
             clusternumber += 1
     print("Success")
 
+
 # prepare the file for charts
 def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
@@ -541,28 +574,36 @@ def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear,
     os.chdir(str(current_dir))
     # print("set directory at get_cluster_file ", current_dir)
     df = pd.read_csv(_filename)
+    # try:
+    #     df['UPT_ADJ'] = df['UPT_ADJ'] / 100
+    # except ValueError:
+    #     pass
 
     # do data cleanup here
     chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                  'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
                  'UPT_ADJ_POP_EMP_log_FAC_cumsum',
+                 'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                  'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                  'UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum',
                  # 'UPT_ADJ_Tot_NonUSA_POP_pct_FAC_cumsum',
                  'UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum',
-                 'UPT_ADJ_TSD_POP_PCT_FAC_cumsum',
                  'UPT_ADJ_JTW_HOME_PCT_FAC_cumsum',
                  'UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum',
                  'UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum',
                  'UPT_ADJ_BIKE_SHARE_BUS_FAC_cumsum',
-                 'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                  'UPT_ADJ_BIKE_SHARE_RAIL_FAC_cumsum',
                  'UPT_ADJ_scooter_flag_RAIL_FAC_cumsum',
+                 'UPT_ADJ_scooter_flag_BUS_FAC_cumsum',
                  'UPT_ADJ_Unknown_FAC_cumsum',
                  'UPT_ADJ_New_Reporter_FAC_cumsum']
 
     for col in chartcols:
         df[col] = np.where(df[col] == '-', 0, df[col])
+        # try:
+        #     df[col] = df[col]/100
+        # except ValueError:
+        #     pass
         # df[col].astype({col: 'float'}).dtypes
 
     startyear = _startyear
@@ -572,16 +613,169 @@ def create_upt_fac_total_apta4_b2002_pivot(_filename, _clustervalue, _startyear,
     prepare_charts_pivot(df_org, _clustervalue, _filename, startyear, endyear)
 
 
-def get_cluster_chart(_df, _filename, _chartname, _current_dir):
-    df = _df
+def get_cluster_chart(_df, _filename, _chart_name, _clusterfile):
+    df_uptfac_cluster = _df
     filename = _filename
-    chartname = _chartname
-    current_dir = _current_dir
+    chart_name = _chart_name
+    clustercolumn = _clusterfile
+    # get unique values
+    yrs = df_uptfac_cluster['Year'].unique()
+    yrs.sort()
+    clusters = df_uptfac_cluster[clustercolumn].unique()
+    clusters.sort()
+    df_uptfac_cluster.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
+    modes = df_uptfac_cluster['Mode'].unique()
+    modes.sort()
+    mode_name = ""
+
+    for cluster in clusters:
+        df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
+        # Print the cluster
+        col_index = df_fltr.columns.get_loc(clustercolumn)
+        cluster_code = str(df_fltr.iloc[0, col_index])
+        print('Cluster Code:' + str(cluster_code))
+        df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
+        df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
+        transparency = 0.1
+        transparency = transparency
+        # # Print the cluster
+        x = 1
+        fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=True)
+        for mode in modes:
+            if mode == 0:
+                mode_name = "BUS"
+            else:
+                mode_name = "RAIL"
+            # get number of sub-plots defined - 4*2 means 4 rows having 2 graphs (each sized 18x9) in each row = 8 graphs
+            df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
+            row=0
+            col=0
+
+            # Year vs VRM_ADJ_log_FAC --> Graph (0,0)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='VRM_ADJ_log_FAC', label=str(mode), ax=ax[row][col], legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='VRMs')
+            ax[row][col].legend(loc='best')
+            row+=1
+
+            # Year vs FARE_per_UPT_2018_log_FAC --> Graph (1,0)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='FARE_per_UPT_2018_log_FAC', label=str(mode), ax=ax[row][col], legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='Fares')
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs POP_EMP_log_FAC --> Graph (2,0)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='POP_EMP_log_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='Population and employment')
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs Tot_NonUSA_POP_pct_FAC --> Graph (3,0)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='Tot_NonUSA_POP_pct_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='TSD population')
+            ax[row][col].legend(loc='best')
+            row =0
+
+            col+=1
+
+            # Year vs GAS_PRICE_2018_log_FAC --> Graph (0,1)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='GAS_PRICE_2018_log_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='Gas price ($)')
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs TOTAL_MED_INC_INDIV_2018_log_FAC --> Graph (1,1)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='TOTAL_MED_INC_INDIV_2018_log_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='Median Income (individual)')
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs PCT_HH_NO_VEH_FAC --> Graph (2,1)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='PCT_HH_NO_VEH_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='0 Veh HH')
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs JTW_HOME_PCT_FAC --> Graph (3,1)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='JTW_HOME_PCT_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='work from home population')
+            ax[row][col].legend(loc='best')
+            row = 0
+
+            col += 1
+
+            # Year vs YEARS_SINCE_TNC --> Graph (0,2)
+            if (mode=="BUS"):
+                ylabel = 'YEARS_SINCE_TNC_BUS_FAC'
+            else:
+                ylabel = "YEARS_SINCE_TNC_RAIL_FAC"
+            df_fltr_mode.groupby('Mode').plot(x='Year', y=ylabel, label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel=('TNCs presence on ' + str(mode)))
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs TOTAL_MED_INC_INDIV_2018_log_FAC --> Graph (1,2)
+            if (mode=="BUS"):
+                ylabel = 'BIKE_SHARE_BUS_FAC'
+            else:
+                ylabel = "BIKE_SHARE_RAIL_FAC"
+            df_fltr_mode.groupby('Mode').plot(x='Year', y=ylabel, label=str(mode),
+                                              ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel=('PBS presence on ' + str(mode)))
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs PCT_HH_NO_VEH_FAC --> Graph (2,2)
+            if (mode == "BUS"):
+                ylabel = 'scooter_flag_BUS_FAC'
+            else:
+                ylabel = "scooter_flag_RAIL_FAC"
+            df_fltr_mode.groupby('Mode').plot(x='Year', y=ylabel, label=str(mode),
+                                              ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel=('E-scooter presence on ' + str(mode)))
+            ax[row][col].legend(loc='best')
+            row += 1
+
+            # Year vs JTW_HOME_PCT_FAC --> Graph (3,2)
+            df_fltr_mode.groupby('Mode').plot(x='Year', y='JTW_HOME_PCT_FAC', label=str(mode), ax=ax[row][col],
+                                              legend=True)
+            ax[row][col].set(xlabel="Years", ylabel='work from home population')
+            ax[row][col].legend(loc='best')
+            row = 0
+
+            col=0
+
+            fig.suptitle(('Cluster Code:' + str(clustercolumn) + "-" + str(mode_name)), fontsize=14)
+            fig.tight_layout()
+            _figno = x
+            # get the abs path of the directory of the code/script
+            # Factors and Ridership Data\ code
+            current_dir = pathlib.Path(__file__).parent.absolute()
+            # Change the directory
+            # \Model Estimation\Est4
+            # print("current directory at get_cluster_file ",current_dir)
+            current_dir = current_dir.parents[0] / 'Script Outputs' / 'Est6_Outputs'
+            os.chdir(str(current_dir))
+            print("Current set directory: ", current_dir)
+            fig.savefig(("Est6 - " + str(cluster) + " " + str(mode_name) + ".png"))
+            plt.suptitle(clustercolumn, fontsize=14)
+            plt.close(fig)
+            x += 1
 
 
-def get_cluster_file(_filename):
+def get_cluster_file(_filename,_clusterfile):
     filename = _filename
+    clusterfile = _clusterfile
     try:
+        chart_name = filename.split('.')[0]
         # get the absolute path of the script and then check if the csv file exists or not
         current_dir = pathlib.Path(__file__).parent.absolute()
         current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est6'
@@ -589,9 +783,7 @@ def get_cluster_file(_filename):
         try:
             if (current_dir / 'UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv').is_file():
                 df = pd.read_csv(filename)
-                get_cluster_chart(df,filename,chartname,current_dir)
-
-
+                get_cluster_chart(df, filename, chart_name, clusterfile)
         except FileNotFoundError:
             print("File could not be found. Please check the file is placed in the folder path - Factors and Ridership Data\Model Estimation\Est6")
 
@@ -599,16 +791,14 @@ def get_cluster_file(_filename):
         print("System error, in cluster_level_chart_function")
 
 
-
 def main():
-
     # create charts at cluster level
-    # get_cluster_file("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv")
+    get_cluster_file("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv","CLUSTER_APTA4")
     # Pass on the cluster_file and cluster_column
     # create_upt_fac_total_apta4_cluster("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4")
-    create_upt_fac_total_apta4_cluster_b2002("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
-    create_upt_fac_total_apta4_b2012("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
-    create_upt_fac_total_apta4_b2002_pivot("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv", "CLUSTER_APTA4", 2002, 2018)
+    # create_upt_fac_total_apta4_cluster_b2002("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
+    # create_upt_fac_total_apta4_b2012("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
+    # create_upt_fac_total_apta4_b2002_pivot("UPT_FAC_totals_APTA4_CLUSTERS_b2012_pivot.csv", "CLUSTER_APTA4", 2002, 2018)
 
     # for 2002 - 2018
     # for 2012 - 2018

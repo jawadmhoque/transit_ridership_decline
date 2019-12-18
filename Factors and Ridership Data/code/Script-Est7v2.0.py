@@ -1,10 +1,13 @@
 # import packages for the file usage
 import os.path
 import pathlib
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import os
+import matplotlib as mpl
+from matplotlib import cycler
 
 
 def filter_dataframe(_df, _startyear, _endyear):
@@ -61,22 +64,22 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                          'UPT_ADJ_BIKE_SHARE_FAC_cumsum',
                          'UPT_ADJ_scooter_flag_FAC_cumsum',
                          'UPT_ADJ_Unknown_FAC_cumsum']
-            subplot_labels = ['VRMs',
-                              'Fares',
-                              'Population & Employment',
-                              'Transit Supportive Density (TSD) population',
-                              'Gas Price (S)',
-                              'Med Income (Individual level)',
+            subplot_labels = ['Vehicle Revenue Miles',
+                              'Average Fares (2018$)',
+                              'Population + Employment',
+                              '% of Population in Transit Supportive Density',
+                              'Average Gas Price (2018$)',
+                              'Median Per Capita Income (2018$)',
                               # 'Immigrant population',
-                              '0 Veh household share',
-                              'Work from home job',
-                              'Effect of TNC services on Bus for High Inc/NY',
-                              'Effect of TNC services on Bus for Mid&Low Inc Clusters',
-                              'Effect of TNC services on Rail for High Inc/NY',
-                              'Effect of TNC services on Rail for Mid&Low Inc Clusters',
+                              '% of Households with 0 Vehicles',
+                              '% Working at Home',
+                              'Years Since Ride-hail Start on Bus for High Inc/NY',
+                              'Years Since Ride-hail Start on Bus for Mid&Low Inc Clusters',
+                              'Years Since Ride-hail Start on Rail for High Inc/NY',
+                              'Years Since Ride-hail Start on Rail for Mid&Low Inc Clusters',
                               'Bike Share',
-                              'E-Scooters',
-                              'Effect of Unmeasurable variables']
+                              'Electric Scooters',
+                              'Unmeasurable variables']
             fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=False)
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
@@ -85,9 +88,9 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL2_MIDLOW_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL2_HINY_FAC_cumsum')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for High Inc/NY')
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 1):
                 mode_name = "RAIL"
@@ -95,9 +98,9 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL2_MIDLOW_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_BUS2_HINY_FAC_cumsum')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for High Inc/NY')
 
             if ((cluster == 2) or (cluster == 3)) and (mode == 0):
                 mode_name = "BUS"
@@ -105,9 +108,9 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL2_HINY_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_BUS2_HINY_FAC_cumsum')
 
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for High Inc/NY')
 
             if ((cluster == 2) or (cluster == 3)) and (mode == 1):
                 mode_name = "RAIL"
@@ -115,9 +118,9 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL2_HINY_FAC_cumsum')
                 chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_BUS2_HINY_FAC_cumsum')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for Mid&Low Inc Clusters')
+                subplot_labels.remove('Years Since Ride-hail Start on Rail for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start on Bus for High Inc/NY')
 
             df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
             col = 0
@@ -126,9 +129,9 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
             num = 0
             for chartcol, subplotlable in zip(chartcols, subplot_labels):
                 df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                  label='Hypothezized rdrship if no changes in ' + str(
-                                                      subplotlable), ax=ax[row][col], legend=True)
-                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[row][col],
+                                                  label='Hypothezized Ridership if no changes in ' + str(
+                                                      subplotlable[:27]), ax=ax[row][col], legend=True)
+                df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Ridership', ax=ax[row][col],
                                                   legend=True, color='black', linewidth=2.4)
                 # Paint the area
                 ax[row][col].fill_between(df_fltr_mode['Year'].values, df_fltr_mode[chartcol].values,
@@ -141,7 +144,10 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                                           facecolor='red', interpolate=True, alpha=transparency)
                 # ax[row][col].set(xlabel="Years", ylabel='Ridership')
                 ax[row][col].legend(loc='best', fontsize=10)
-                ax[row][col].set_title(str(subplotlable))
+                if "Ride-hail" not in subplotlable:
+                    ax[row][col].set_title(str(subplotlable))
+                else:
+                    ax[row][col].set_title(str(subplotlable[:28]))
                 ax[row][col].set_autoscaley_on(False)
                 try:
                     ax[row][col].grid(True)
@@ -313,31 +319,31 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                          'BIKE_SHARE',
                          'scooter_flag',
                          'UPT_ADJ']
-            subplot_labels = ['VRMs',
-                              'Fares',
-                              'Population & Employment',
-                              'Transit Supportive Density (TSD) population',
-                              'Gas Price (S)',
-                              'Med Income (Individual level)',
+            subplot_labels = ['Vehicle Revenue Miles',
+                              'Average Fares (2018$)',
+                              'Population + Employment',
+                              '% of Population in Transit Supportive Density',
+                              'Average Gas Price (2018$)',
+                              'Median Per Capita Income (2018$)',
                               # 'Immigrant population',
-                              '0 Veh household share',
-                              'Work from home job',
-                              'Effect of TNC services on Bus for High Inc/NY',
-                              'Effect of TNC services on Bus for Mid&Low Inc Clusters',
-                              'Effect of TNC services on Rail for High Inc/NY',
-                              'Effect of TNC services on Rail for Mid&Low Inc Clusters',
+                              '% of Households with 0 Vehicles',
+                              '% Working at home',
+                              'Years Since Ride-hail Start Bus HINY',
+                              'Years Since Ride-hail Start Bus MIDLOW',
+                              'Years Since Ride-hail Start Rail HINY',
+                              'Years Since Ride-hail Start Rail MIDLOW',
                               'Bike Share',
-                              'E-Scooters',
-                              'Unlinked Passenger Trips (UPTs)']
+                              'Electric Scooters',
+                              'Ridership']
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
                 mode_name = "BUS"
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_HINY')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start Bus MIDLOW')
+                subplot_labels.remove('Years Since Ride-hail Start Rail MIDLOW')
+                subplot_labels.remove('Years Since Ride-hail Start Rail HINY')
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 1):
                 mode_name = "RAIL"
@@ -345,9 +351,9 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_HINY')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start Bus HINY')
+                subplot_labels.remove('Years Since Ride-hail Start Bus MIDLOW')
+                subplot_labels.remove('Years Since Ride-hail Start Rail MIDLOW')
 
             if ((cluster == 2) or (cluster == 3)) and (mode == 0):
                 mode_name = "BUS"
@@ -355,9 +361,9 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_HINY')
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_HINY')
 
-                subplot_labels.remove('Effect of TNC services on Rail for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start Rail MIDLOW')
+                subplot_labels.remove('Years Since Ride-hail Start Bus HINY')
+                subplot_labels.remove('Years Since Ride-hail Start Rail HINY')
 
             if ((cluster == 2) or (cluster == 3)) and (mode == 1):
                 mode_name = "RAIL"
@@ -365,9 +371,9 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_HINY')
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_HINY')
 
-                subplot_labels.remove('Effect of TNC services on Bus for Mid&Low Inc Clusters')
-                subplot_labels.remove('Effect of TNC services on Rail for High Inc/NY')
-                subplot_labels.remove('Effect of TNC services on Bus for High Inc/NY')
+                subplot_labels.remove('Years Since Ride-hail Start Bus MIDLOW')
+                subplot_labels.remove('Years Since Ride-hail Start Bus HINY')
+                subplot_labels.remove('Years Since Ride-hail Start Rail HINY')
 
             df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
             col = 0
@@ -375,10 +381,13 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
             num = 0
             for chartcol, subplotlable in zip(chartcols, subplot_labels):
                 df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                  label=(str(subplotlable) + ' - ' + mode_name),
+                                                  label=(str(subplotlable[0:27]) + ' - ' + mode_name),
                                                   ax=ax[row][col], legend=True)
                 ax[row][col].legend(loc='best', fontsize=10)
-                ax[row][col].set_title(str(subplotlable))
+                if "Ride-hail" not in subplotlable:
+                    ax[row][col].set_title(str(subplotlable))
+                else:
+                    ax[row][col].set_title(str(subplotlable[:28]))
                 ax[row][col].set_autoscaley_on(True)
                 try:
                     ax[row][col].grid(True)
@@ -471,6 +480,11 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         clusternumber = 1
         x = 1
         fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(22, 15), constrained_layout=False)
+        # plt.style.use('seaborn-darkgrid')
+        custom_cycler = (cycler(color=['r', 'g', 'b', 'y']))
+        plt.rc('lines', linewidth=2.4)
+        plt.rc('axes', prop_cycle=custom_cycler)
+        # mpl.style.use('seaborn')
         col = 0
         row = 0
         for cluster in clusters:
@@ -482,36 +496,39 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
             df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
             df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
             # Initialize the figure
-            plt.style.use('seaborn-darkgrid')
             chartcols = ['UPT_ADJ']
-            subplot_labels = ['Unlinked Passenger Trips']
+            subplot_labels = ['Ridership']
             for mode in modes:
-                df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
-                if mode == 0:
-                    mode_name = "BUS"
+                if (cluster==3) and (mode==1):
+                    pass
                 else:
-                    mode_name = "RAIL"
+                    df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
+                    if mode == 0:
+                        mode_name = "BUS"
+                    else:
+                        mode_name = "RAIL"
 
-                for chartcol, subplotlable in zip(chartcols, subplot_labels):
-                    df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                      label=(str(subplotlable) + ' - ' + mode_name),
-                                                      ax=ax[row][col], legend=True)
-                    ax[row][col].legend(loc='best', fontsize=10)
-                    ax[row][col].set_title(str(subplotlable))
-                    ax[row][col].set_autoscaley_on(True)
-                    try:
-                        ax[row][col].grid(True)
-                        ax[row][col].margins(0.20)
-                    except ValueError:
-                        pass
+                    for chartcol, subplotlable in zip(chartcols, subplot_labels):
+                        df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
+                                                          label=(str(subplotlable) + ' - ' + mode_name),
+                                                          ax=ax[row][col], legend=True)
+                        ax[row][col].set_prop_cycle(custom_cycler)
+                        ax[row][col].legend(loc='best', fontsize=10)
+                        ax[row][col].set_title(str(subplotlable))
+                        ax[row][col].set_autoscaley_on(True)
+                        try:
+                            ax[row][col].grid(True)
+                            ax[row][col].margins(0.20)
+                        except ValueError:
+                            pass
             if row >= 1:
                 row = 0
                 col += 1
             else:
                 row += 1
 
-        for z in fig.get_axes():
-            z.label_outer()
+        # for z in fig.get_axes():
+        #     z.label_outer()
 
         fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
         _figno = x
@@ -542,7 +559,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         fig.savefig(figname)
 
         plt.suptitle("Clusterwise Ridership Trends", fontsize=10)
-
+        plt.style.use('seaborn')
         plt.close(fig)
         x += 1
         clusternumber += 1
@@ -577,9 +594,9 @@ def main():
     # get the UPT_FAC files created according to the base year
     # base year 2002
     create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
-    # # # base year 2012
+    # # # # base year 2012
     create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
-    # # # get absolute charts
+    # # # # get absolute charts
     get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # get upt only charts
     get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")

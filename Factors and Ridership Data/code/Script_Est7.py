@@ -238,7 +238,6 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
     prepare_charts(df_org, cluster_values, _filename, startyear, endyear)
 
 
-
 # prepare the file for charts
 def create_upt_fac_total_apta4_b2012(_filename, _clustervalue, _startyear, _endyear):
     # get the abs path of the directory of the code/script
@@ -336,7 +335,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
         # # num = 0
         x = 1
         for mode in modes:
-            if cluster == 3 and mode ==0:
+            if cluster == 3 and mode == 0:
                 continue
             else:
                 chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
@@ -558,7 +557,7 @@ def get_cluster_chart_FAC(_df, _filename, _chart_name, _clusterfile):
         transparency = 0.1
         transparency = transparency
         for mode in modes:
-            if cluster == 3 and mode ==0:
+            if cluster == 3 and mode == 0:
                 continue
             else:
                 # # Print the cluster
@@ -758,7 +757,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
         transparency = transparency
         # # Print the cluster
         for mode in modes:
-            if cluster ==3 and mode ==0:
+            if cluster == 3 and mode == 0:
                 continue
             else:
                 x = 1

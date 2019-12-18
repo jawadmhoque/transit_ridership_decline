@@ -231,16 +231,12 @@ def create_upt_fac_total_apta4_cluster_b2002(_filename, _clustervalue, _startyea
         df_org['UPT_ADJ_' + str(col)] = df_org['UPT_ADJ'] - df_org[col]
 
         # save the cumulative file as UPT_filename.csv
-    df_org.to_csv("UPT_" + folder_name + "_b" + str(startyear) + '.csv')
-    print("Success")
-
+    UPTfile = "UPT_" + folder_name + "_b" + str(startyear) + '.csv'
+    df_org.to_csv(UPTfile)
+    print("Successfully created " + UPTfile)
     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
     prepare_charts(df_org, cluster_values, _filename, startyear, endyear)
 
-    # startyear = 2012
-    # endyear = 2018
-    # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
-    # prepare_charts(df_queried, cluster_values, _filename, startyear, endyear)
 
 
 # prepare the file for charts
@@ -324,22 +320,25 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
     figcounter = 1
     clusternumber = 1
     for cluster in clusters:
-        if cluster != 3:
-            df_fltr = df_org[df_org[clustercolumn] == cluster]
-            # Print the cluster
-            col_index = df_fltr.columns.get_loc(clustercolumn)
-            cluster_code = str(df_fltr.iloc[0, col_index])
-            print('Cluster Code:' + str(cluster_code))
-            df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
-            df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
-            # Initialize the figure
-            plt.style.use('seaborn-darkgrid')
-            # # create a color palette
-            # palette = plt.get_cmap('Set1')
-            # # # multiple line plot
-            # # num = 0
-            x = 1
-            for mode in modes:
+        # filter via cluster
+        df_fltr = df_org[df_org[clustercolumn] == cluster]
+        # Print the cluster
+        col_index = df_fltr.columns.get_loc(clustercolumn)
+        cluster_code = str(df_fltr.iloc[0, col_index])
+        print('Cluster Code:' + str(cluster_code))
+        df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
+        df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
+        # Initialize the figure
+        plt.style.use('seaborn-darkgrid')
+        # # create a color palette
+        # palette = plt.get_cmap('Set1')
+        # # # multiple line plot
+        # # num = 0
+        x = 1
+        for mode in modes:
+            if cluster == 3 and mode ==0:
+                continue
+            else:
                 chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                              'UPT_ADJ_FARE_per_UPT_2018_log_FAC_cumsum',
                              'UPT_ADJ_POP_EMP_log_FAC_cumsum',
@@ -549,18 +548,19 @@ def get_cluster_chart_FAC(_df, _filename, _chart_name, _clusterfile):
     mode_name = ""
 
     for cluster in clusters:
-        if cluster != 3:
-            df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
-            # Print the cluster
-            col_index = df_fltr.columns.get_loc(clustercolumn)
-            cluster_code = str(df_fltr.iloc[0, col_index])
-            print('Cluster Code:' + str(cluster_code))
-            df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
-            df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
-            transparency = 0.1
-            transparency = transparency
-
-            for mode in modes:
+        df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
+        # Print the cluster
+        col_index = df_fltr.columns.get_loc(clustercolumn)
+        cluster_code = str(df_fltr.iloc[0, col_index])
+        print('Cluster Code:' + str(cluster_code))
+        df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
+        df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
+        transparency = 0.1
+        transparency = transparency
+        for mode in modes:
+            if cluster == 3 and mode ==0:
+                continue
+            else:
                 # # Print the cluster
                 x = 1
                 fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=True)
@@ -747,18 +747,20 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
     figcounter = 1
     clusternumber = 1
     for cluster in clusters:
-        if cluster != 3:
-            df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
-            # Print the cluster
-            col_index = df_fltr.columns.get_loc(clustercolumn)
-            cluster_code = str(df_fltr.iloc[0, col_index])
-            print('Cluster Code:' + str(cluster_code))
-            df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
-            df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
-            transparency = 0.1
-            transparency = transparency
-            # # Print the cluster
-            for mode in modes:
+        df_fltr = df_uptfac_cluster[df_uptfac_cluster[clustercolumn] == cluster]
+        # Print the cluster
+        col_index = df_fltr.columns.get_loc(clustercolumn)
+        cluster_code = str(df_fltr.iloc[0, col_index])
+        print('Cluster Code:' + str(cluster_code))
+        df_fltr['Year'] = pd.to_datetime(df_fltr['Year'].astype(str), format='%Y')
+        df_fltr_mod = df_fltr.set_index(pd.DatetimeIndex(df_fltr['Year']).year)
+        transparency = 0.1
+        transparency = transparency
+        # # Print the cluster
+        for mode in modes:
+            if cluster ==3 and mode ==0:
+                continue
+            else:
                 x = 1
                 fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=True)
                 if mode == 0:

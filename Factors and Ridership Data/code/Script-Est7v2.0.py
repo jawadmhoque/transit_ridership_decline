@@ -296,6 +296,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
         # # # multiple line plot
         # # num = 0
         x = 1
+        fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=False)
         for mode in modes:
             chartcols = ['VRM_ADJ',
                          'FARE_per_UPT_2018',
@@ -329,7 +330,6 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                               'Bike Share',
                               'E-Scooters',
                               'Unlinked Passenger Trips (UPTs)']
-            fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 15), constrained_layout=False)
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
                 mode_name = "BUS"
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_MIDLOW')
@@ -375,15 +375,16 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
             row = 0
             num = 0
             for chartcol, subplotlable in zip(chartcols, subplot_labels):
-                df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol), label=str(subplotlable),
+                df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
+                                                  label=(str(subplotlable) + ' - ' + mode_name),
                                                   ax=ax[row][col], legend=True)
                 ax[row][col].legend(loc='best', fontsize=10)
                 ax[row][col].set_title(str(subplotlable))
-                ax[row][col].set_autoscaley_on(False)
+                ax[row][col].set_autoscaley_on(True)
                 try:
                     ax[row][col].grid(True)
                     ax[row][col].margins(0.20)
-                    ax[row][col].set_ylim(0, (df_fltr_mode[chartcols].max()) * 1.25)
+                    # ax[row][col].set_ylim(0, (df_fltr_mode[chartcols].max()) * 1.25)
                 except ValueError:
                     pass
                 if row >= 3:
@@ -392,43 +393,43 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 else:
                     row += 1
 
-            fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
-            _figno = x
-            # get the abs path of the directory of the code/script
-            # Factors and Ridership Data\ code
-            current_dir = pathlib.Path(__file__).parent.absolute()
-            # Change the directory
-            # \Script Outputs
-            # change the directory to where the file would be saved
-            current_dir = current_dir.parents[0] / 'Script Outputs'
-            os.chdir(str(current_dir))
-            print("Current set directory: ", current_dir)
-            outputdirectory = "Est7_Outputs"
-            p = pathlib.Path(outputdirectory)
-            p.mkdir(parents=True, exist_ok=True)
-            current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
-            os.chdir(str(current_dir))
-            # Axis title
-            # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
-            figlabel = ""
-            # if max(df_fltr['UPT_ADJ']) / 10 ** 9 > 0.0:
-            #     figlabel = 'Ridership (in 100 million)'
-            # else:
-            #     figlabel = 'Ridership (in 10 million)'
+        fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
+        _figno = x
+        # get the abs path of the directory of the code/script
+        # Factors and Ridership Data\ code
+        current_dir = pathlib.Path(__file__).parent.absolute()
+        # Change the directory
+        # \Script Outputs
+        # change the directory to where the file would be saved
+        current_dir = current_dir.parents[0] / 'Script Outputs'
+        os.chdir(str(current_dir))
+        print("Current set directory: ", current_dir)
+        outputdirectory = "Est7_Outputs"
+        p = pathlib.Path(outputdirectory)
+        p.mkdir(parents=True, exist_ok=True)
+        current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
+        os.chdir(str(current_dir))
+        # Axis title
+        # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
+        figlabel = ""
+        # if max(df_fltr['UPT_ADJ']) / 10 ** 9 > 0.0:
+        #     figlabel = 'Ridership (in 100 million)'
+        # else:
+        #     figlabel = 'Ridership (in 10 million)'
 
-            fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
-                     fontsize=16)
-            figname = ("Est7 - (absolute)" + " Cluster " + str(cluster) + " - " + mode_name + ".png")
-            figcounter += 1
-            figlabel = ""
+        fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
+                 fontsize=16)
+        figname = ("Est7 - (absolute)" + " Cluster " + str(cluster) + ".png")
+        figcounter += 1
+        figlabel = ""
 
-            fig.savefig(figname)
+        fig.savefig(figname)
 
-            plt.suptitle(clustercolumn, fontsize=10)
+        plt.suptitle(clustercolumn, fontsize=10)
 
-            plt.close(fig)
-            x += 1
-            clusternumber += 1
+        plt.close(fig)
+        x += 1
+        clusternumber += 1
         print("Successfully created " + figname)
 
 
@@ -456,9 +457,9 @@ def get_cluster_file_raw(_filename, _clusterfile):
 def main():
     # get the UPT_FAC files created according to the base year
     # base year 2002
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
     # # base year 2012
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
     # # get absolute charts
     get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
 

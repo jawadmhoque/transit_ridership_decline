@@ -333,6 +333,10 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                               'Bike Share',
                               'Electric Scooters',
                               'Ridership']
+
+            remove_list = ['GAS_PRICE_2018', 'TOTAL_MED_INC_INDIV_2018','PCT_HH_NO_VEH',
+                           'JTW_HOME_PCT', 'BIKE_SHARE', 'scooter_flag']
+
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
                 mode_name = "BUS"
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_MIDLOW')
@@ -377,22 +381,30 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
             col = 0
             row = 0
             num = 0
+
+            # if ((cluster == 2) or (cluster == 3) or (cluster == 10)) and (mode == 0):
+
+
+
             for chartcol, subplotlable in zip(chartcols, subplot_labels):
-                df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                  label=(str(subplotlable[0:27]) + ' - ' + mode_name),
-                                                  ax=ax[row][col], legend=True)
-                ax[row][col].legend(loc='best', fontsize=10)
-                if "Ride-hail" not in subplotlable:
-                    ax[row][col].set_title(str(subplotlable))
-                else:
-                    ax[row][col].set_title(str(subplotlable[:28]))
-                ax[row][col].set_autoscaley_on(True)
-                try:
-                    ax[row][col].grid(True)
-                    ax[row][col].margins(0.20)
-                    # ax[row][col].set_ylim(0, (df_fltr_mode[chartcols].max()) * 1.25)
-                except ValueError:
+                if mode ==0 and (chartcol in remove_list):
                     pass
+                else:
+                    df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
+                                                      label=(str(subplotlable[0:27]) + ' - ' + mode_name),
+                                                      ax=ax[row][col], legend=True)
+                    ax[row][col].legend(loc='best', fontsize=10)
+                    if "Ride-hail" not in subplotlable:
+                        ax[row][col].set_title(str(subplotlable))
+                    else:
+                        ax[row][col].set_title(str(subplotlable[:28]))
+                    ax[row][col].set_autoscaley_on(True)
+                    try:
+                        ax[row][col].grid(True)
+                        ax[row][col].margins(0.20)
+                        # ax[row][col].set_ylim(0, (df_fltr_mode[chartcols].max()) * 1.25)
+                    except ValueError:
+                        pass
                 if row >= 3:
                     row = 0
                     col += 1
@@ -497,7 +509,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
             chartcols = ['UPT_ADJ']
             subplot_labels = ['Ridership']
             for mode in modes:
-                if (cluster==3) and (mode==1):
+                if (cluster == 3) and (mode == 1):
                     pass
                 else:
                     df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
@@ -617,6 +629,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         clustercolumn = _clusterfile
         clusters = df_org[clustercolumn].unique()
         clusters.sort()
+        df_org.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
         modes = df_org['Mode'].unique()
         modes.sort()
 
@@ -734,14 +747,14 @@ def main():
     # get the UPT_FAC files created according to the base year
     # base year 2002
     create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
-    # # # # # base year 2012
+    # # # # # # # base year 2012
     create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
-    # # # # # get absolute charts
+    # # # # # # get absolute charts
     get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
-    # # # get upt only charts
-    # get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
-    # #  # get pct change in core cluster
-    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    # # # # get upt only charts
+    get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    # # #  # get pct change in core cluster
+    # create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
 
 
 if __name__ == "__main__":

@@ -44,7 +44,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         figcounter = 1
         clusternumber = 1
         x = 1
-        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(22, 15), constrained_layout=False, squeeze=False)
+        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(25, 25), constrained_layout=False, squeeze=False)
         col = 0
         row = 0
         # plt.style.use('seaborn-darkgrid')
@@ -78,8 +78,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                         subplot_labels = ['New York']
 
                     for chartcol, subplotlable in zip(chartcols, subplot_labels):
-                        df_fltr.groupby('CLUSTER_APTA4').plot(x='Year', y=str(chartcol),
-                                                              label=(str(subplotlable)), ax=ax[row][col], legend=True)
+                        df_fltr.groupby('CLUSTER_APTA4').plot(x='Year', y=str(chartcol),ax=ax[row][col], legend=True)
                         # ax[row][col].set_prop_cycle(custom_cycler)
                         ax[row][col].legend(loc='best', fontsize=10)
                         ax[row][col].set_title(str(mode_name))

@@ -859,21 +859,6 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 df_fltr_mode = df_fltr_mod[df_fltr_mod.Mode == mode]
                 row = 0
                 col = 0
-
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-",0,df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-                # df_fltr_mode[] = np.where(df_fltr_mode[] == "-", 0, df_fltr_mode[])
-
-
-                    # df[col] = np.where(df[col] == '-', 0, df[col])
-                    #
-
                 # Year vs VRM_ADJ_log_FAC --> Graph (0,0)
                 df_fltr_mode.groupby('Mode').plot(x='Year', y='VRM_ADJ', label=str(mode_name), ax=ax[row][col],
                                                   legend=True)

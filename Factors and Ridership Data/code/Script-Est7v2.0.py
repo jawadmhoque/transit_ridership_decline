@@ -334,7 +334,10 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                               'Electric Scooters',
                               'Ridership']
 
-            remove_list = ['GAS_PRICE_2018', 'TOTAL_MED_INC_INDIV_2018','PCT_HH_NO_VEH',
+            # plt.xlabel('xlabel', fontsize=16)
+            # plt.ylabel('ylabel', fontsize=16)
+
+            remove_list = ['GAS_PRICE_2018', 'TSD_POP_PCT', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
                            'JTW_HOME_PCT', 'BIKE_SHARE', 'scooter_flag']
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
@@ -342,6 +345,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_HINY')
+                remove_list.append('YEARS_SINCE_TNC_BUS2_HINY')
 
                 subplot_labels.remove('Years Since Ride-hail Start Bus MIDLOW')
                 subplot_labels.remove('Years Since Ride-hail Start Rail MIDLOW')
@@ -362,6 +366,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_MIDLOW')
                 chartcols.remove('YEARS_SINCE_TNC_RAIL2_HINY')
                 chartcols.remove('YEARS_SINCE_TNC_BUS2_HINY')
+                remove_list.append('YEARS_SINCE_TNC_BUS2_MIDLOW')
 
                 subplot_labels.remove('Years Since Ride-hail Start Rail MIDLOW')
                 subplot_labels.remove('Years Since Ride-hail Start Bus HINY')
@@ -384,14 +389,20 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
 
             # if ((cluster == 2) or (cluster == 3) or (cluster == 10)) and (mode == 0):
 
-
-
             for chartcol, subplotlable in zip(chartcols, subplot_labels):
-                if mode ==0 and (chartcol in remove_list):
+                if mode == 0 and (chartcol in remove_list):
                     pass
                 else:
+                    if mode == 1 and (chartcol in remove_list):
+                        if chartcol == 'TOTAL_MED_INC_INDIV_2018':
+                            labeltext = (str(subplotlable[0:32]))
+                        else:
+                            labeltext = (str(subplotlable[0:27]))
+                    else:
+                        labeltext = (str(subplotlable[0:27]) + ' - ' + mode_name)
+
                     df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                      label=(str(subplotlable[0:27]) + ' - ' + mode_name),
+                                                      label=(labeltext),
                                                       ax=ax[row][col], legend=True)
                     ax[row][col].legend(loc='best', fontsize=10)
                     if "Ride-hail" not in subplotlable:
@@ -489,7 +500,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         figcounter = 1
         clusternumber = 1
         x = 1
-        fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(22, 15), constrained_layout=False)
+        fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(22,15), constrained_layout=False)
         # plt.style.use('seaborn-darkgrid')
         custom_cycler = (cycler(color=['r', 'g', 'b', 'y']))
         plt.rc('lines', linewidth=2.4)
@@ -570,6 +581,8 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
 
         plt.suptitle("Clusterwise Ridership Trends", fontsize=10)
         plt.style.use('seaborn')
+        plt.subplots_adjust(left=0.05, bottom=0.05, right=0.95, top=0.95, wspace=0, hspace=0)
+        plt.tight_layout()
         plt.close(fig)
         x += 1
         clusternumber += 1
@@ -636,7 +649,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         figcounter = 1
         clusternumber = 1
         x = 1
-        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(22, 15), constrained_layout=False, squeeze=False)
+        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(20, 25), constrained_layout=False, squeeze=False)
         col = 0
         row = 0
         # plt.style.use('seaborn-darkgrid')
@@ -673,9 +686,13 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                         df_fltr.groupby('CLUSTER_APTA4').plot(x='Year', y=str(chartcol),
                                                               label=(str(subplotlable)), ax=ax[row][col], legend=True)
                         # ax[row][col].set_prop_cycle(custom_cycler)
-                        ax[row][col].legend(loc='best', fontsize=10)
-                        ax[row][col].set_title(str(mode_name))
+                        ax[row][col].legend(loc='best', fontsize=14)
+                        ax[row][col].set_title(str(mode_name),fontsize=16)
                         ax[row][col].set_autoscaley_on(True)
+                        # for tick in ax.xaxis.get_majorticklabels():  # example for xaxis
+                        #     tick.set_fontsize(14)
+                        # ax[row][col].xlabel(fontsize=12)
+                        # ax[row][col].ylabel(fontsize=12)
                         try:
                             ax[row][col].grid(True)
                             ax[row][col].margins(0.20)
@@ -686,7 +703,9 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                 col += 1
             else:
                 row += 1
-        fig.tight_layout(rect=[0.03, 0.03, 1, 0.95])
+
+
+        fig.tight_layout(rect=[0.03, 0.0, 1, 1])
         _figno = x
         # get the abs path of the directory of the code/script
         # Factors and Ridership Data\ code
@@ -715,6 +734,8 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         fig.savefig(figname)
 
         plt.suptitle("Percent Change in Ridership from 2002", fontsize=10)
+        plt.subplots_adjust(left=0.05, bottom=0.05, right=0.95, top=0.95, wspace=0, hspace=0)
+        plt.tight_layout()
         plt.style.use('seaborn')
         plt.close(fig)
         x += 1
@@ -752,9 +773,9 @@ def main():
     # # # # # # get absolute charts
     get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # # # get upt only charts
-    get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    # get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # #  # get pct change in core cluster
-    # create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
 
 
 if __name__ == "__main__":

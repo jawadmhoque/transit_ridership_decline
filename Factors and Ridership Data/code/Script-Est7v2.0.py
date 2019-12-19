@@ -1,12 +1,10 @@
 # import packages for the file usage
 import os.path
 import pathlib
-import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import os
-import matplotlib as mpl
 from matplotlib import cycler
 
 

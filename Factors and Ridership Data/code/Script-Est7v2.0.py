@@ -337,7 +337,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
             # plt.xlabel('xlabel', fontsize=16)
             # plt.ylabel('ylabel', fontsize=16)
 
-            remove_list = ['GAS_PRICE_2018', 'TSD_POP_PCT', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
+            remove_list = ['POP_EMP','GAS_PRICE_2018', 'TSD_POP_PCT', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
                            'JTW_HOME_PCT', 'BIKE_SHARE', 'scooter_flag']
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
@@ -772,8 +772,6 @@ def main():
     create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
     # # # # # # get absolute charts
     get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
-    # # # # get upt only charts
-    # get_clusterwise_only_UPTs("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # #  # get pct change in core cluster
     create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
 

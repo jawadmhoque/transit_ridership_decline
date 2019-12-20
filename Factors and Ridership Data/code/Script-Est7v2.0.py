@@ -337,7 +337,7 @@ def get_cluster_chart_raw(_df, _filename, _chart_name, _clusterfile):
             # plt.xlabel('xlabel', fontsize=16)
             # plt.ylabel('ylabel', fontsize=16)
 
-            remove_list = ['POP_EMP','GAS_PRICE_2018', 'TSD_POP_PCT', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
+            remove_list = ['POP_EMP', 'GAS_PRICE_2018', 'TSD_POP_PCT', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
                            'JTW_HOME_PCT', 'BIKE_SHARE', 'scooter_flag']
 
             if ((cluster == 1) or (cluster == 10)) and (mode == 0):
@@ -500,11 +500,6 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         figcounter = 1
         clusternumber = 1
         x = 1
-        fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(22,15), constrained_layout=False)
-        # plt.style.use('seaborn-darkgrid')
-        custom_cycler = (cycler(color=['r', 'g', 'b', 'y']))
-        plt.rc('lines', linewidth=2.4)
-        plt.rc('axes', prop_cycle=custom_cycler)
         # mpl.style.use('seaborn')
         col = 0
         row = 0
@@ -520,6 +515,9 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
             chartcols = ['UPT_ADJ']
             subplot_labels = ['Ridership']
             for mode in modes:
+                fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(20, 15), constrained_layout=False)
+                # plt.style.use('seaborn-darkgrid')
+                custom_cycler = (cycler(color=['r', 'g', 'b', 'y']))
                 if (cluster == 3) and (mode == 1):
                     pass
                 else:
@@ -528,13 +526,14 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                         mode_name = "BUS"
                     else:
                         mode_name = "RAIL"
-
                     for chartcol, subplotlable in zip(chartcols, subplot_labels):
+                        plt.rc('lines', linewidth=3)
+                        plt.rc('axes', prop_cycle=custom_cycler)
                         df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
                                                           label=(str(subplotlable) + ' - ' + mode_name),
                                                           ax=ax[row][col], legend=True)
                         ax[row][col].set_prop_cycle(custom_cycler)
-                        ax[row][col].legend(loc='best', fontsize=10)
+                        ax[row][col].legend(loc='best', fontsize=16)
                         ax[row][col].set_title(str(subplotlable))
                         ax[row][col].set_autoscaley_on(True)
                         try:
@@ -572,14 +571,14 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         figlabel = ""
 
         fig.text(0.02, 0.5, 'Ridership', ha='center', va='baseline', rotation='vertical',
-                 fontsize=16)
+                 fontsize=18)
         figname = ("Est7 - (absolute)" + " Clusterwise Ridership Trends" + ".png")
         figcounter += 1
         figlabel = ""
 
         fig.savefig(figname)
 
-        plt.suptitle("Clusterwise Ridership Trends", fontsize=10)
+        plt.suptitle("Clusterwise Ridership Trends", fontsize=18)
         plt.style.use('seaborn')
         plt.subplots_adjust(left=0.05, bottom=0.05, right=0.95, top=0.95, wspace=0, hspace=0)
         plt.tight_layout()
@@ -613,12 +612,15 @@ def get_clusterwise_only_UPTs(_filename, _clusterfile):
         print("System error, in cluster_level_chart_function")
 
 
-def pct_change(df):
+def pct_change_2002(df):
     df['UPT_PCT_CHNGE'] = 100 * (1 - df.iloc[0].UPT_ADJ / df.UPT_ADJ)
     return df
 
+def pct_change_2012(df):
+    df['UPT_PCT_CHNGE'] = 100 * (1 - df.iloc[10].UPT_ADJ / df.UPT_ADJ)
+    return df
 
-def get_pct_change_clusterwise(_df, _chart_name, _clusterfile, _filename):
+def get_pct_change_clusterwise(_df, _chart_name, _clusterfile, _filename,_pct_change_value):
     df_org = _df
     chart_name = _chart_name
     clustercolumn = _clusterfile
@@ -630,11 +632,14 @@ def get_pct_change_clusterwise(_df, _chart_name, _clusterfile, _filename):
     df_org.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
     modes = df_org['Mode'].unique()
     modes.sort()
-    df_org = df_org.groupby([chart_name, 'Mode']).apply(pct_change)
-    get_clusterwise_UPTs(df_org, _filename, chart_name, clustercolumn)
+    if '2002' in _pct_change_value:
+        df_org = df_org.groupby([chart_name, 'Mode']).apply(pct_change_2002)
+    else:
+        df_org = df_org.groupby([chart_name, 'Mode']).apply(pct_change_2012)
+    get_clusterwise_UPTs(df_org, _filename, chart_name, clustercolumn, _pct_change_value)
 
 
-def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
+def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile, pct_change_value):
     try:
         df_org = _df
         filename = _filename
@@ -645,17 +650,20 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         df_org.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
         modes = df_org['Mode'].unique()
         modes.sort()
-
+        if "2002" in pct_change_value:
+            b = 'b2002'
+        if "2012" in pct_change_value:
+            b = 'b2012'
         figcounter = 1
         clusternumber = 1
         x = 1
-        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(20, 25), constrained_layout=False, squeeze=False)
         col = 0
         row = 0
         # plt.style.use('seaborn-darkgrid')
         # custom_cycler = (cycler(color=['r', 'g', 'b', 'y']))
-        plt.rc('lines', linewidth=2.4)
+
         # plt.rc('axes', prop_cycle=custom_cycler)
+        fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(20, 22), constrained_layout=False, squeeze=False)
         for mode in modes:
             df_fltr_mode = df_org[df_org.Mode == mode]
             mode_name = ""
@@ -663,6 +671,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                 mode_name = "BUS"
             else:
                 mode_name = "RAIL"
+
             for cluster in clusters:
                 if (mode == 1) and (cluster == 3):
                     pass
@@ -686,8 +695,11 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                         df_fltr.groupby('CLUSTER_APTA4').plot(x='Year', y=str(chartcol),
                                                               label=(str(subplotlable)), ax=ax[row][col], legend=True)
                         # ax[row][col].set_prop_cycle(custom_cycler)
-                        ax[row][col].legend(loc='best', fontsize=14)
-                        ax[row][col].set_title(str(mode_name),fontsize=16)
+                        plt.rc('lines', linewidth=3)
+                        plt.rc('xtick', labelsize=16)
+                        plt.rc('ytick', labelsize=16)
+                        ax[row][col].legend(loc='best', fontsize=18)
+                        ax[row][col].set_title(str(mode_name), fontsize=18)
                         ax[row][col].set_autoscaley_on(True)
                         # for tick in ax.xaxis.get_majorticklabels():  # example for xaxis
                         #     tick.set_fontsize(14)
@@ -703,9 +715,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
                 col += 1
             else:
                 row += 1
-
-
-        fig.tight_layout(rect=[0.03, 0.0, 1, 1])
+        fig.tight_layout(rect=[0.02, 0.0, 1, 1])
         _figno = x
         # get the abs path of the directory of the code/script
         # Factors and Ridership Data\ code
@@ -725,16 +735,16 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
         figlabel = ""
 
-        fig.text(0.02, 0.5, 'Percent Change in Ridership from 2002', ha='center', va='baseline', rotation='vertical',
-                 fontsize=16)
-        figname = ("Est7 - Percent Change in Ridership from 2002" + ".png")
+        fig.text(0.02, 0.5, ("Percent Change in Ridership from " + str(b)), ha='center', va='baseline',
+                 rotation='vertical', fontsize=18)
+        figname = ("Est7 - Percent Change in Ridership from " + b + ".png")
         figcounter += 1
         figlabel = ""
 
         fig.savefig(figname)
 
-        plt.suptitle("Percent Change in Ridership from 2002", fontsize=10)
-        plt.subplots_adjust(left=0.05, bottom=0.05, right=0.95, top=0.95, wspace=0, hspace=0)
+        plt.suptitle(("Percent Change in Ridership from " + str(b)), fontsize=18)
+        plt.subplots_adjust(left=0.02, bottom=0.02, right=0.98, top=0.98, wspace=0, hspace=0)
         plt.tight_layout()
         plt.style.use('seaborn')
         plt.close(fig)
@@ -745,7 +755,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
         print("Functional error, in get_clusterwise_UPTs_function")
 
 
-def create_clusterwise_pct(_filename, _clusterfile):
+def create_clusterwise_pct(_filename, _clusterfile, _pct_change_value):
     filename = _filename
     chart_name = clusterfile = _clusterfile
     try:
@@ -756,7 +766,8 @@ def create_clusterwise_pct(_filename, _clusterfile):
         try:
             if (current_dir / filename).is_file():
                 df = pd.read_csv(filename)
-                get_pct_change_clusterwise(df, chart_name, clusterfile, filename)
+                pct_change_value = _pct_change_value
+                get_pct_change_clusterwise(df, chart_name, clusterfile, filename,pct_change_value)
         except FileNotFoundError:
             print("File could not be found. Please check the file is placed in the folder path - Factors and Ridership "
                   "Data\Model Estimation\Est7")
@@ -767,13 +778,15 @@ def create_clusterwise_pct(_filename, _clusterfile):
 def main():
     # get the UPT_FAC files created according to the base year
     # base year 2002
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
-    # # # # # # # base year 2012
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
-    # # # # # # get absolute charts
-    get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
+    # # # # # # # # base year 2012
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
+    # # # # # # # get absolute charts
+    # get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # #  # get pct change in core cluster
-    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4","2002")
+    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "2012")
+    # create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2012.csv", "CLUSTER_APTA4", "2012")
 
 
 if __name__ == "__main__":

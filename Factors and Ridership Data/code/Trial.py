@@ -115,7 +115,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile):
 
         fig.text(0.02, 0.5, 'Percent Change in Ridership from 2002', ha='center', va='baseline', rotation='vertical',
                  fontsize=16)
-        figname = ("Est7 - Percent Change in Ridership from 2002" + ".png")
+        figname = ("Est7 - (Trial) Percent Change in Ridership from 2002" + ".png")
         figcounter += 1
         figlabel = ""
 

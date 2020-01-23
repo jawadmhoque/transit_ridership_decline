@@ -84,10 +84,10 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 num = 0
                 for chartcol, subplotlable in zip(chartcols, subplot_labels):
                     df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                      label='Hypothezized rdrship if no changes in ' + str(
+                                                      label='Hypothesized ridership if no changes in ' + str(
                                                           subplotlable),
                                                       ax=ax[row][col], legend=True)
-                    df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[row][col],
+                    df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Ridership', ax=ax[row][col],
                                                       legend=True, color='black', linewidth=2.4)
                     # Paint the area
                     ax[row][col].fill_between(df_fltr_mode['Year'].values, df_fltr_mode[chartcol].values,
@@ -136,7 +136,7 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
                 current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
                 os.chdir(str(current_dir))
                 # Axis title
-                # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
+                fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
                 figlabel = ""
                 # if max(df_fltr['UPT_ADJ']) / 10 ** 9 > 0.0:
                 #     figlabel = 'Ridership (in 100 million)'
@@ -145,6 +145,8 @@ def prepare_charts(_df_org, _clustername, _filename, _startyear, _endyear):
 
                 fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
                          fontsize=16)
+                # fig.text(0.02, 0.5, 'Years', ha='center', rotation='', fontsize=16)
+
                 figname = ("Est7 - " + str(_startyear) + "-" + str(_endyear) + " Cluster " + str(
                     cluster) + "-" + mode_name + ".png")
                 figcounter += 1
@@ -399,10 +401,10 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                 num = 0
                 for chartcol, subplotlable in zip(chartcols, subplot_labels):
                     df_fltr_mode.groupby('Mode').plot(x='Year', y=str(chartcol),
-                                                      label=('Hypothezized rdrship if no changes in ' + str(
+                                                      label=('Hypothesized ridership if no changes in ' + str(
                                                           subplotlable)),
                                                       ax=ax[row][col], legend=True)
-                    df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Rdrship', ax=ax[row][col],
+                    df_fltr_mode.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Ridership', ax=ax[row][col],
                                                       legend=True, color='black', linewidth=2.4)
                     # labelsize
                     # ax[row][col].legend(fontsize=2)
@@ -457,7 +459,7 @@ def prepare_charts_pivot(_df_org, _clustername, _filename, _startyear, _endyear)
                 current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
                 os.chdir(str(current_dir))
                 # Axis title
-                # fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
+                fig.text(0.5, 0.02, 'Year', ha='center', va='center', fontsize=16)
                 fig.text(0.02, 0.5, 'Ridership (in 100 million)', ha='center', va='baseline', rotation='vertical',
                          fontsize=16)
                 figname = ("Est7 - " + str(_startyear) + "-" + str(_endyear) + " (pivot) " + " Cluster "

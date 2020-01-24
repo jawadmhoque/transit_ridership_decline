@@ -82,13 +82,14 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             combinechartscol.append('Vehicle_Revenue_Miles')
             combinedchartslabel.append('Vehicle Revenue Miles')
 
-            df_cluster['Land_Use'] = df_cluster['UPT_ADJ_POP_EMP_log_FAC_cumsum'] + df_cluster['UPT_ADJ_TSD_POP_PCT_FAC_cumsum']
+            df_cluster['Land_Use'] = df_cluster['UPT_ADJ'] - df_cluster['POP_EMP_log_FAC_cumsum'] - df_cluster['TSD_POP_PCT_FAC_cumsum']
             combinechartscol.append('Land_Use')
             combinedchartslabel.append('Land Use Changes')
 
-            df_cluster['Inc_HH_Char'] = df_cluster['UPT_ADJ_TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum'] + \
-                                        df_cluster['UPT_ADJ_PCT_HH_NO_VEH_FAC_cumsum'] + \
-                                        df_cluster['UPT_ADJ_JTW_HOME_PCT_FAC_cumsum']
+            df_cluster['Inc_HH_Char'] = df_cluster['UPT_ADJ'] - \
+                                        df_cluster['TOTAL_MED_INC_INDIV_2018_log_FAC_cumsum'] - \
+                                        df_cluster['PCT_HH_NO_VEH_FAC_cumsum'] - \
+                                        df_cluster['JTW_HOME_PCT_FAC_cumsum']
             combinechartscol.append('Inc_HH_Char')
             combinedchartslabel.append('Income & Household Characteristics')
 
@@ -98,11 +99,12 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             combinechartscol.append('UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum')
             combinedchartslabel.append('Average Gas Price (2018$)')
 
-            strTNCField = 'UPT_ADJ_'+strTNCField+"_FAC_cumsum"
+            strTNCField = strTNCField+"_FAC_cumsum"
 
-            df_cluster['New_Competing_Modes'] = df_cluster[strTNCField] + \
-                                                df_cluster['UPT_ADJ_BIKE_SHARE_FAC_cumsum'] + \
-                                                df_cluster['UPT_ADJ_scooter_flag_FAC_cumsum']
+            df_cluster['New_Competing_Modes'] =  df_cluster['UPT_ADJ'] - \
+                                                 df_cluster[strTNCField] + \
+                                                df_cluster['BIKE_SHARE_FAC_cumsum'] + \
+                                                df_cluster['scooter_flag_FAC_cumsum']
             combinechartscol.append('New_Competing_Modes')
             combinedchartslabel.append('New Competing Modes')
 

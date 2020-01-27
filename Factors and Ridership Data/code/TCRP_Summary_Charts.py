@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 
-def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
+def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels,byear):
     df_org = df
     df_org.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
     # get unique values
@@ -186,7 +186,7 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             fig.set_size_inches(16.53, 11.69)
             fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
                      fontsize=16)
-            figname = ("TCRP Summary Graphs - " + mode_name + " - " + str(cluster_title) + ".png")
+            figname = ("TCRP Summary Graphs - " + byear + " - "+ mode_name + " - " + str(cluster_title) + ".png")
             figcounter += 1
             fig.savefig(figname)
             plt.suptitle(clustercolumn, fontsize=15)
@@ -196,7 +196,7 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             print("Successfully created " + figname)
 
 
-def find_file(filename, clustercolumn):
+def find_file(filename, clustercolumn,byear):
     # get the abs path of the directory of the code/script
     current_dir = pathlib.Path(__file__).parent.absolute()
     folder_name = chart_name = filename.split('.')[0]
@@ -215,7 +215,7 @@ def find_file(filename, clustercolumn):
                    'Average Gas Price (2018$)', 'Median Per Capita Income (2018$)',
                    '% of Households with 0 Vehicles', '% Working at Home',
                    'Years Since Ride-hail Start', 'Bike Share', 'Electric Scooters']
-    TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels)
+    TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels,byear)
 
 
 def main():
@@ -223,7 +223,8 @@ def main():
     # Lets create summary charts
     include a set of FAC charts corresponding to the all six categories as defined for APTA Clusters
     """
-    find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "b2002")
+    find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2012.csv", "CLUSTER_APTA4", "b2012")
 
 
 if __name__ == "__main__":

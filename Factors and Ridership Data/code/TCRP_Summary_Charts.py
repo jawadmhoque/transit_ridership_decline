@@ -75,7 +75,7 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             col = 0
             row = 0
             num = 0
-            fig, ax = plt.subplots(nrows=2, ncols=3, figsize=(20, 18), constrained_layout=False, squeeze=False)
+            fig, ax = plt.subplots(nrows=2, ncols=3, figsize=(22, 19), sharex=True, sharey=True, constrained_layout=False, squeeze=False)
             combinechartscol = []
             combinedchartslabel = []
             df_cluster['Vehicle_Revenue_Miles'] = df_cluster['UPT_ADJ_VRM_ADJ_log_FAC_cumsum']
@@ -115,9 +115,9 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
                                                 y=str(combinechartcol),
                                                 label='Hypothesized Ridership if no changes in ' + str(combinedchartlabel),
                                                 ax=ax[row][col], legend=True,
-                                                fontsize=13, linewidth=2.5)
+                                                fontsize=12, linewidth=2.5)
                 df_cluster.groupby('Mode').plot(x='Year', y='UPT_ADJ', label='Observed Ridership', ax=ax[row][col],
-                                                  legend=True, color='black', linewidth=2.5, fontsize=13)
+                                                  legend=True, color='black', linewidth=2.5, fontsize=12)
                 # Paint the area
                 ax[row][col].fill_between(df_cluster['Year'].values, df_cluster[combinechartcol].values,
                                           df_cluster['UPT_ADJ'].values,
@@ -128,10 +128,10 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
                                           where=df_cluster['UPT_ADJ'].values <= df_cluster[combinechartcol].values,
                                           facecolor='red', interpolate=True, alpha=transparency)
 
-                ax[row][col].set_xlabel(xlabel="Year", fontsize=15.5)
-                ax[row][col].tick_params(labelsize=15.5)
-                ax[row][col].legend(loc='best')
-                ax[row][col].set_title(str(combinedchartlabel), fontsize=15.5)
+                ax[row][col].set_xlabel(xlabel="Year", fontsize=13)
+                ax[row][col].tick_params(labelsize=13)
+                ax[row][col].legend(loc='best', fontsize=9)
+                ax[row][col].set_title(str(combinedchartlabel), fontsize=13)
                 try:
                     ax[row][col].grid(True)
                     ax[row][col].margins(0.20)
@@ -189,7 +189,7 @@ def TCRP_Summary_Charts(df, clustercolumn, chartcols, plot_labels):
             figname = ("TCRP Summary Graphs - " + mode_name + " - " + str(cluster_title) + ".png")
             figcounter += 1
             fig.savefig(figname)
-            plt.suptitle(clustercolumn, fontsize=18)
+            plt.suptitle(clustercolumn, fontsize=15)
             plt.close(fig)
             x += 1
             clusternumber += 1

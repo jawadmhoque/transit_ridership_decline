@@ -223,7 +223,7 @@ def main():
     # Lets create summary charts
     include a set of FAC charts corresponding to the all six categories as defined for APTA Clusters
     """
-    # find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "b2002")
+    find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "b2002")
     find_file("UPT_FAC_totals_APTA4_CLUSTERS_b2012 - Copy.csv", "CLUSTER_APTA4", "b2012")
 
 

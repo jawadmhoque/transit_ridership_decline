@@ -239,7 +239,7 @@ def create_upt_fac_cluster_file(_filename, _clustervalue, _startyear, _endyear):
                 'Unknown_FAC']
     cum_col = []
     col_UPT_ADJ = ['UPT_ADJ']
-
+    # check for table records, wherever data is missing replace it with "0"
     for col in col_name:
         df[col] = np.where(df[col] == '-', 0, df[col])
         try:

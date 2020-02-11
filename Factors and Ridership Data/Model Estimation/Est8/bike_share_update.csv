@@ -1,0 +1,326 @@
+CBSA,Mode,Year,MNAME,PBS_Flag_Update
+11700,Bus,2002,"Asheville, NC Metro Area",0
+11700,Bus,2003,"Asheville, NC Metro Area",0
+11700,Bus,2004,"Asheville, NC Metro Area",0
+11700,Bus,2005,"Asheville, NC Metro Area",0
+11700,Bus,2006,"Asheville, NC Metro Area",0
+11700,Bus,2007,"Asheville, NC Metro Area",0
+11700,Bus,2008,"Asheville, NC Metro Area",0
+11700,Bus,2009,"Asheville, NC Metro Area",0
+11700,Bus,2010,"Asheville, NC Metro Area",0
+11700,Bus,2011,"Asheville, NC Metro Area",0
+11700,Bus,2012,"Asheville, NC Metro Area",0
+11700,Bus,2013,"Asheville, NC Metro Area",0
+11700,Bus,2014,"Asheville, NC Metro Area",0
+11700,Bus,2015,"Asheville, NC Metro Area",0
+11700,Bus,2016,"Asheville, NC Metro Area",0
+11700,Bus,2017,"Asheville, NC Metro Area",0
+11700,Bus,2018,"Asheville, NC Metro Area",0
+12700,Bus,2006,"Barnstable Town, MA Metro Area",0
+12700,Bus,2007,"Barnstable Town, MA Metro Area",0
+12700,Bus,2008,"Barnstable Town, MA Metro Area",0
+12700,Bus,2009,"Barnstable Town, MA Metro Area",0
+12700,Bus,2010,"Barnstable Town, MA Metro Area",0
+12700,Bus,2011,"Barnstable Town, MA Metro Area",0
+12700,Bus,2012,"Barnstable Town, MA Metro Area",0
+12700,Bus,2013,"Barnstable Town, MA Metro Area",0
+12700,Bus,2014,"Barnstable Town, MA Metro Area",0
+12700,Bus,2015,"Barnstable Town, MA Metro Area",0
+12700,Bus,2016,"Barnstable Town, MA Metro Area",0
+12700,Bus,2017,"Barnstable Town, MA Metro Area",0
+12700,Bus,2018,"Barnstable Town, MA Metro Area",0
+13460,Bus,2006,"Bend, OR Metro Area",0
+13460,Bus,2007,"Bend, OR Metro Area",0
+13460,Bus,2008,"Bend, OR Metro Area",0
+13460,Bus,2009,"Bend, OR Metro Area",0
+13460,Bus,2010,"Bend, OR Metro Area",0
+13460,Bus,2011,"Bend, OR Metro Area",0
+13460,Bus,2012,"Bend, OR Metro Area",0
+13460,Bus,2013,"Bend, OR Metro Area",0
+13460,Bus,2014,"Bend, OR Metro Area",0
+13460,Bus,2015,"Bend, OR Metro Area",0
+13460,Bus,2016,"Bend, OR Metro Area",0
+13460,Bus,2017,"Bend, OR Metro Area",1
+13460,Bus,2018,"Bend, OR Metro Area",1
+14060,Bus,2006,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2007,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2008,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2009,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2010,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2011,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2012,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2013,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2014,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2015,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2016,"Bloomington-Normal, IL Metro Area",0
+14060,Bus,2017,"Bloomington-Normal, IL Metro Area",1
+14060,Bus,2018,"Bloomington-Normal, IL Metro Area",1
+24860,Bus,2003,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2004,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2005,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2006,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2007,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2008,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2009,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2010,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2011,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2012,"Greenville-Mauldin-Easley, SC Metro Area",0
+24860,Bus,2013,"Greenville-Mauldin-Easley, SC Metro Area",1
+24860,Bus,2014,"Greenville-Mauldin-Easley, SC Metro Area",1
+24860,Bus,2015,"Greenville-Mauldin-Easley, SC Metro Area",1
+24860,Bus,2016,"Greenville-Mauldin-Easley, SC Metro Area",1
+24860,Bus,2017,"Greenville-Mauldin-Easley, SC Metro Area",1
+24860,Bus,2018,"Greenville-Mauldin-Easley, SC Metro Area",1
+26100,Bus,2002,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2003,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2004,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2005,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2006,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2007,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2008,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2009,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2010,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2011,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2012,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2013,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2014,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2015,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2016,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2017,"Holland-Grand Haven, MI Metro Area",0
+26100,Bus,2018,"Holland-Grand Haven, MI Metro Area",0
+26580,Bus,2002,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2003,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2004,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2005,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2006,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2007,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2008,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2009,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2010,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2011,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2012,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2013,"Huntington-Ashland, WV-KY-OH Metro Area",0
+26580,Bus,2014,"Huntington-Ashland, WV-KY-OH Metro Area",1
+26580,Bus,2015,"Huntington-Ashland, WV-KY-OH Metro Area",1
+26580,Bus,2016,"Huntington-Ashland, WV-KY-OH Metro Area",1
+26580,Bus,2017,"Huntington-Ashland, WV-KY-OH Metro Area",1
+26580,Bus,2018,"Huntington-Ashland, WV-KY-OH Metro Area",1
+29140,Bus,2003,"Lafayette, IN Metro Area",0
+29140,Bus,2004,"Lafayette, IN Metro Area",0
+29140,Bus,2005,"Lafayette, IN Metro Area",0
+29140,Bus,2006,"Lafayette, IN Metro Area",0
+29140,Bus,2007,"Lafayette, IN Metro Area",0
+29140,Bus,2008,"Lafayette, IN Metro Area",0
+29140,Bus,2009,"Lafayette, IN Metro Area",0
+29140,Bus,2010,"Lafayette, IN Metro Area",0
+29140,Bus,2011,"Lafayette, IN Metro Area",0
+29140,Bus,2012,"Lafayette, IN Metro Area",0
+29140,Bus,2013,"Lafayette, IN Metro Area",0
+29140,Bus,2014,"Lafayette, IN Metro Area",0
+29140,Bus,2015,"Lafayette, IN Metro Area",0
+29140,Bus,2016,"Lafayette, IN Metro Area",0
+29140,Bus,2017,"Lafayette, IN Metro Area",1
+29140,Bus,2018,"Lafayette, IN Metro Area",1
+30340,Bus,2015,"Lewiston-Auburn, ME Metro Area",0
+30340,Bus,2016,"Lewiston-Auburn, ME Metro Area",0
+30340,Bus,2017,"Lewiston-Auburn, ME Metro Area",0
+30340,Bus,2018,"Lewiston-Auburn, ME Metro Area",0
+31100,Bus,2002,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2003,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2004,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2005,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2006,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2007,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2008,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2009,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2010,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2011,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2012,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2013,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2014,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2015,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Bus,2016,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+31100,Bus,2017,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+31100,Bus,2018,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+31100,Rail,2002,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2003,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2004,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2005,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2006,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2007,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2008,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2009,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2010,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2011,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2012,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2013,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2014,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2015,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0
+31100,Rail,2016,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+31100,Rail,2017,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+31100,Rail,2018,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",1
+32580,Bus,2015,"McAllen-Edinburg-Mission, TX Metro Area",0
+32580,Bus,2016,"McAllen-Edinburg-Mission, TX Metro Area",0
+32580,Bus,2017,"McAllen-Edinburg-Mission, TX Metro Area",0
+32580,Bus,2018,"McAllen-Edinburg-Mission, TX Metro Area",0
+35620,Bus,2002,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2003,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2004,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2005,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2006,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2007,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2008,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2009,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2010,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2011,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2012,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Bus,2013,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Bus,2014,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Bus,2015,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Bus,2016,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Bus,2017,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Bus,2018,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2002,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2003,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2004,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2005,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2006,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2007,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2008,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2009,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2010,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2011,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2012,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0
+35620,Rail,2013,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2014,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2015,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2016,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2017,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35620,Rail,2018,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",1
+35980,Bus,2003,"Norwich-New London, CT Metro Area",0
+35980,Bus,2004,"Norwich-New London, CT Metro Area",0
+35980,Bus,2005,"Norwich-New London, CT Metro Area",0
+35980,Bus,2006,"Norwich-New London, CT Metro Area",0
+35980,Bus,2007,"Norwich-New London, CT Metro Area",0
+35980,Bus,2008,"Norwich-New London, CT Metro Area",0
+35980,Bus,2009,"Norwich-New London, CT Metro Area",0
+35980,Bus,2010,"Norwich-New London, CT Metro Area",0
+35980,Bus,2011,"Norwich-New London, CT Metro Area",0
+35980,Bus,2012,"Norwich-New London, CT Metro Area",0
+35980,Bus,2013,"Norwich-New London, CT Metro Area",0
+35980,Bus,2014,"Norwich-New London, CT Metro Area",0
+35980,Bus,2015,"Norwich-New London, CT Metro Area",0
+35980,Bus,2016,"Norwich-New London, CT Metro Area",0
+35980,Bus,2017,"Norwich-New London, CT Metro Area",0
+35980,Bus,2018,"Norwich-New London, CT Metro Area",0
+41540,Bus,2006,"Salisbury, MD Metro Area",0
+41540,Bus,2007,"Salisbury, MD Metro Area",0
+41540,Bus,2008,"Salisbury, MD Metro Area",0
+41540,Bus,2009,"Salisbury, MD Metro Area",0
+41540,Bus,2010,"Salisbury, MD Metro Area",0
+41540,Bus,2011,"Salisbury, MD Metro Area",0
+41540,Bus,2012,"Salisbury, MD Metro Area",0
+41540,Bus,2013,"Salisbury, MD Metro Area",0
+41540,Bus,2014,"Salisbury, MD Metro Area",0
+41540,Bus,2015,"Salisbury, MD Metro Area",0
+41540,Bus,2016,"Salisbury, MD Metro Area",0
+41540,Bus,2017,"Salisbury, MD Metro Area",0
+41540,Bus,2018,"Salisbury, MD Metro Area",0
+42060,Bus,2002,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2003,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2004,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2005,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2006,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2007,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2008,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2009,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2010,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2011,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2012,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2013,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2014,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2015,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2016,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2017,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+42060,Bus,2018,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",0
+44180,Bus,2002,"Springfield, MO Metro Area",0
+44180,Bus,2003,"Springfield, MO Metro Area",0
+44180,Bus,2004,"Springfield, MO Metro Area",0
+44180,Bus,2005,"Springfield, MO Metro Area",0
+44180,Bus,2006,"Springfield, MO Metro Area",0
+44180,Bus,2007,"Springfield, MO Metro Area",0
+44180,Bus,2008,"Springfield, MO Metro Area",0
+44180,Bus,2009,"Springfield, MO Metro Area",0
+44180,Bus,2010,"Springfield, MO Metro Area",0
+44180,Bus,2011,"Springfield, MO Metro Area",0
+44180,Bus,2012,"Springfield, MO Metro Area",0
+44180,Bus,2013,"Springfield, MO Metro Area",0
+44180,Bus,2014,"Springfield, MO Metro Area",0
+44180,Bus,2015,"Springfield, MO Metro Area",0
+44180,Bus,2016,"Springfield, MO Metro Area",0
+44180,Bus,2017,"Springfield, MO Metro Area",0
+44180,Bus,2018,"Springfield, MO Metro Area",0
+47300,Bus,2004,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2005,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2006,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2007,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2008,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2009,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2010,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2011,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2012,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2013,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2014,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2015,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2016,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2017,"Visalia-Porterville, CA Metro Area",0
+47300,Bus,2018,"Visalia-Porterville, CA Metro Area",0
+48900,Bus,2002,"Wilmington, NC Metro Area",0
+48900,Bus,2003,"Wilmington, NC Metro Area",0
+48900,Bus,2004,"Wilmington, NC Metro Area",0
+48900,Bus,2005,"Wilmington, NC Metro Area",0
+48900,Bus,2006,"Wilmington, NC Metro Area",0
+48900,Bus,2007,"Wilmington, NC Metro Area",0
+48900,Bus,2008,"Wilmington, NC Metro Area",0
+48900,Bus,2009,"Wilmington, NC Metro Area",0
+48900,Bus,2010,"Wilmington, NC Metro Area",0
+48900,Bus,2011,"Wilmington, NC Metro Area",0
+48900,Bus,2012,"Wilmington, NC Metro Area",0
+48900,Bus,2013,"Wilmington, NC Metro Area",0
+48900,Bus,2014,"Wilmington, NC Metro Area",0
+48900,Bus,2015,"Wilmington, NC Metro Area",0
+48900,Bus,2016,"Wilmington, NC Metro Area",0
+48900,Bus,2017,"Wilmington, NC Metro Area",0
+48900,Bus,2018,"Wilmington, NC Metro Area",0
+49660,Bus,2002,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2003,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2004,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2005,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2006,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2007,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2008,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2009,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2010,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2011,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2012,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2013,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2014,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2015,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2016,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2017,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49660,Bus,2018,"Youngstown-Warren-Boardman, OH-PA Metro Area",0
+49740,Bus,2004,"Yuma, AZ Metro Area",0
+49740,Bus,2005,"Yuma, AZ Metro Area",0
+49740,Bus,2006,"Yuma, AZ Metro Area",0
+49740,Bus,2007,"Yuma, AZ Metro Area",0
+49740,Bus,2008,"Yuma, AZ Metro Area",0
+49740,Bus,2009,"Yuma, AZ Metro Area",0
+49740,Bus,2010,"Yuma, AZ Metro Area",0
+49740,Bus,2011,"Yuma, AZ Metro Area",0
+49740,Bus,2012,"Yuma, AZ Metro Area",0
+49740,Bus,2013,"Yuma, AZ Metro Area",0
+49740,Bus,2014,"Yuma, AZ Metro Area",0
+49740,Bus,2015,"Yuma, AZ Metro Area",0
+49740,Bus,2016,"Yuma, AZ Metro Area",0
+49740,Bus,2017,"Yuma, AZ Metro Area",0
+49740,Bus,2018,"Yuma, AZ Metro Area",0

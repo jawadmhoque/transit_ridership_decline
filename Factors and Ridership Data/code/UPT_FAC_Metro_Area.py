@@ -326,7 +326,7 @@ def get_cumsum_fields(df, col_name):
             cum_col.append(str(col) + '_cumsum')
     # for each cluster_id get the cumulative addition starting from 2002-->2018
     for col in cum_col:
-        df[col] = df.groupby(['ID', 'RAIL_FLAG', 'Year'])[col].cumsum()
+        df[col] = df[col].cumsum()
     # # create a new column which is diff between UPT_ADJ - CUMSUM colmn
     for col in cum_col:
         df['UPT_ADJ_' + str(col)] = df['UPT_ADJ'] - df[col]
@@ -343,12 +343,14 @@ def prepare_dataframe(df):
     df = check_4_nullvalues(df, col_name)
     metro_names = df['ID'].unique()
     for metro in metro_names:
+        # if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
         file_name = str(metro)
         df_filter = df[df.ID == str(metro)]
         df_filter = get_cumsum_fields(df_filter, col_name)
         df_filter.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
         start_year = get_start_year(df_filter)
         end_year = get_end_year(df_filter)
+        df_filter.to_csv(metro+".csv")
         prepare_chart(df_filter, start_year, end_year, file_name)
 
 
@@ -394,6 +396,7 @@ def prepare_chart(df, start_year, end_year, file_name):
         # if df_fltr_mode.loc[0,'UPT_ADJ'] is not != 0:
         fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 19), sharex=True, sharey=True,
                                constrained_layout=False, squeeze=False)
+        # fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 19), constrained_layout=False, squeeze=False)
         if mode == 0:
             chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum')
             subplot_labels.remove('Years Since Ride-hail Start on Rail')
@@ -447,7 +450,8 @@ def prepare_chart(df, start_year, end_year, file_name):
     # Change the directory to ..\Script Outputs
     current_dir = current_dir.parents[0] / 'Script Outputs'
     os.chdir(str(current_dir))
-    outputdirectory = "Est7_Outputs/Metro_Area"
+    # outputdirectory = "Est7_Outputs/Metro_Area"
+    outputdirectory = "Est7_Outputs/without_scale"
     p = pathlib.Path(outputdirectory)
     p.mkdir(parents=True, exist_ok=True)
     current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory

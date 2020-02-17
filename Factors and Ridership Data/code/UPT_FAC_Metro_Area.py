@@ -278,7 +278,7 @@ def read_the_FAC_file(file_name):
     try:
         if pathlib.Path(current_dir / file_name).exists():
             df = pd.read_csv(file_name)
-            # prepare_dataframe(df)
+            prepare_dataframe(df)
             prepare_dataframe_summary(df)
     except FileNotFoundError:
         print("File not found " + str(current_dir))

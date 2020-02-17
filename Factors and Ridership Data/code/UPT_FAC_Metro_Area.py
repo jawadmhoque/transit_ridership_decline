@@ -5,6 +5,7 @@ import pathlib
 import os.path
 import numpy as np
 import os
+import openpyxl
 
 
 # def filter_dataframe(_df, _startyear, _endyear):
@@ -277,7 +278,8 @@ def read_the_FAC_file(file_name):
     try:
         if pathlib.Path(current_dir / file_name).exists():
             df = pd.read_csv(file_name)
-            prepare_dataframe(df)
+            # prepare_dataframe(df)
+            prepare_dataframe_summary(df)
     except FileNotFoundError:
         print("File not found " + str(current_dir))
 
@@ -288,6 +290,15 @@ def get_filtered_columns():
                 'TSD_POP_PCT_FAC', 'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
                 'JTW_HOME_PCT_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
                 'BIKE_SHARE_FAC', 'scooter_flag_FAC', 'Unknown_FAC']
+    return col_name
+
+
+def get_filtered_summary_columns():
+    col_name = ["ID", "Year", "RAIL_FLAG", "CLUSTER_APTA", "UPT_ADJ",
+                'VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC',
+                'TSD_POP_PCT_FAC', 'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
+                'JTW_HOME_PCT_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
+                'BIKE_SHARE_FAC', 'scooter_flag_FAC']
     return col_name
 
 
@@ -350,8 +361,131 @@ def prepare_dataframe(df):
         df_filter.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
         start_year = get_start_year(df_filter)
         end_year = get_end_year(df_filter)
+        # export the metro file as CSV
         df_filter.to_csv(metro+".csv")
         prepare_chart(df_filter, start_year, end_year, file_name)
+        print("Successfully created metro area based FAC Charts")
+
+
+def get_filtered_columns_summary():
+    col_name = ["ID", "Year", "RAIL_FLAG", "CLUSTER_APTA", "UPT_ADJ",
+                'VRM_ADJ', 'FARE_per_UPT_2018', 'POP_EMP', 'TSD_POP_PCT',
+                'GAS_PRICE_2018', 'TOTAL_MED_INC_INDIV_2018', 'PCT_HH_NO_VEH',
+                'JTW_HOME_PCT', 'YEARS_SINCE_TNC_BUS', 'YEARS_SINCE_TNC_RAIL',
+                'BIKE_SHARE', 'scooter_flag', 'fitted_exp',
+                'VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC',
+                'TSD_POP_PCT_FAC', 'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
+                'JTW_HOME_PCT_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
+                'BIKE_SHARE_FAC', 'scooter_flag_FAC']
+    return col_name
+
+
+def prepare_dataframe_summary(df):
+    # combine Bus and Rail values
+    df['YEARS_SINCE_TNC_BUS_FAC'] = df['YEARS_SINCE_TNC_BUS2_HINY_FAC'] + df['YEARS_SINCE_TNC_BUS2_MIDLOW_FAC']
+    df['YEARS_SINCE_TNC_RAIL_FAC'] = df['YEARS_SINCE_TNC_RAIL2_HINY_FAC'] + df['YEARS_SINCE_TNC_RAIL2_HINY_FAC']
+    col_name = get_filtered_columns_summary()
+    df = df.loc[:, col_name]
+    # replace the null values with 0
+    df = check_4_nullvalues(df, col_name)
+    metro_names = df['ID'].unique()
+    for metro in metro_names:
+        # if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
+        file_name = str(metro)
+        df_filter = df[df.ID == str(metro)]
+        cumsum_col_name = get_filtered_summary_columns()
+        df_filter = get_cumsum_fields(df_filter, cumsum_col_name)
+        df_filter.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
+        start_year = get_start_year(df_filter)
+        end_year = get_end_year(df_filter)
+        prepare_summary_sheet(df_filter, start_year, end_year, file_name)
+    print("Successfully created metro area based summary reports")
+
+
+def prepare_summary_sheet(df_filter, start_year, end_year, file_name):
+    # Check file in Path = Factors and Ridership Data\code
+    current_dir = pathlib.Path(__file__).parent.absolute()
+    # Change the directory
+    # Script Outputs\Est7_Outputs\FAC Summary Reports
+    current_dir = current_dir.parents[0] / 'Script Outputs' / 'Est7_Outputs' / 'FAC Summary Reports'
+    os.chdir(str(current_dir))
+    wb = openpyxl.load_workbook("template.xlsx")
+    sheet = wb["Sheet1"]
+    sheet['C1'] = sheet['E7'] = start_year
+    sheet['C2'] = sheet['F7'] = end_year
+    # df_filter.set_index("Year", inplace=True)
+    if df_filter.iloc[0, df_filter.columns.get_loc("Mode")] == 0:
+        mode = "Bus"
+        sheet['E16'] = (df_filter.iloc[0, df_filter.columns.get_loc("YEARS_SINCE_TNC_BUS")])
+        sheet['F16'] = (df_filter.iloc[-1, df_filter.columns.get_loc("YEARS_SINCE_TNC_BUS")])
+        sheet['H16'] = df_filter["YEARS_SINCE_TNC_BUS_FAC"].sum()
+    else:
+        mode = "Rail"
+        sheet['E16'] = (df_filter.iloc[0, df_filter.columns.get_loc("YEARS_SINCE_TNC_RAIL")])
+        sheet['F16'] = (df_filter.iloc[-1, df_filter.columns.get_loc("YEARS_SINCE_TNC_RAIL")])
+        sheet['H16'] = df_filter["YEARS_SINCE_TNC_RAIL_FAC"].sum()
+
+    sheet['C6'] = str(mode)
+
+    # get base year's corresponding values
+    sheet['E8'] = (df_filter.iloc[0, df_filter.columns.get_loc("VRM_ADJ")])
+    # ivalue = df_filter.loc[-1, "VRM_ADJ"]
+    sheet['E9'] = (df_filter.iloc[0, df_filter.columns.get_loc("FARE_per_UPT_2018")])
+    sheet['E10'] = (df_filter.iloc[0, df_filter.columns.get_loc("POP_EMP")])
+    sheet['E11'] = (df_filter.iloc[0, df_filter.columns.get_loc("TSD_POP_PCT")])
+    sheet['E12'] = (df_filter.iloc[0, df_filter.columns.get_loc("GAS_PRICE_2018")])
+    sheet['E13'] = (df_filter.iloc[0, df_filter.columns.get_loc("TOTAL_MED_INC_INDIV_2018")])
+    sheet['E14'] = (df_filter.iloc[0, df_filter.columns.get_loc("PCT_HH_NO_VEH")])
+    sheet['E15'] = (df_filter.iloc[0, df_filter.columns.get_loc("JTW_HOME_PCT")])
+
+    sheet['E17'] = (df_filter.iloc[0, df_filter.columns.get_loc("BIKE_SHARE")])
+    sheet['E18'] = (df_filter.iloc[0, df_filter.columns.get_loc("scooter_flag")])
+    sheet['E20'] = (df_filter.iloc[0, df_filter.columns.get_loc("fitted_exp")])
+    sheet['E21'] = (df_filter.iloc[0, df_filter.columns.get_loc("UPT_ADJ")])
+
+    end_row = [int(end_year) - int(start_year)]
+    # # get last year
+    df_filter.columns.get_loc("VRM_ADJ")
+    sheet['F8'] = (df_filter.iloc[-1, df_filter.columns.get_loc("VRM_ADJ")])
+    sheet['F9'] = (df_filter.iloc[-1, df_filter.columns.get_loc("FARE_per_UPT_2018")])
+    sheet['F10'] = (df_filter.iloc[-1, df_filter.columns.get_loc("POP_EMP")])
+    sheet['F11'] = (df_filter.iloc[-1, df_filter.columns.get_loc("TSD_POP_PCT")])
+    sheet['F12'] = (df_filter.iloc[-1, df_filter.columns.get_loc("GAS_PRICE_2018")])
+    sheet['F13'] = (df_filter.iloc[-1, df_filter.columns.get_loc("TOTAL_MED_INC_INDIV_2018")])
+    sheet['F14'] = (df_filter.iloc[-1, df_filter.columns.get_loc("PCT_HH_NO_VEH")])
+    sheet['F15'] = (df_filter.iloc[-1, df_filter.columns.get_loc("JTW_HOME_PCT")])
+
+    sheet['F17'] = (df_filter.iloc[-1, df_filter.columns.get_loc("BIKE_SHARE")])
+    sheet['F18'] = (df_filter.iloc[-1, df_filter.columns.get_loc("scooter_flag")])
+    sheet['F20'] = (df_filter.iloc[-1, df_filter.columns.get_loc("fitted_exp")])
+    sheet['F21'] = (df_filter.iloc[-1, df_filter.columns.get_loc("UPT_ADJ")])
+
+    # get summation values of FACs
+    sheet['H8'] = df_filter["VRM_ADJ_log_FAC"].sum()
+    sheet['H9'] = df_filter["FARE_per_UPT_2018_log_FAC"].sum()
+    sheet['H10'] = df_filter["POP_EMP_log_FAC"].sum()
+    sheet['H11'] = df_filter["TSD_POP_PCT_FAC"].sum()
+    sheet['H12'] = df_filter["GAS_PRICE_2018_log_FAC"].sum()
+    sheet['H13'] = df_filter["TOTAL_MED_INC_INDIV_2018_log_FAC"].sum()
+    sheet['H14'] = df_filter["PCT_HH_NO_VEH_FAC"].sum()
+    sheet['H15'] = df_filter["JTW_HOME_PCT_FAC"].sum()
+
+    sheet['H17'] = df_filter["BIKE_SHARE_FAC"].sum()
+    sheet['H18'] = df_filter["scooter_flag_FAC"].sum()
+
+    # sheet['F21'] = str(df_filter.loc[-1, "fitted_exp"])
+    # get difference in percentage
+    # sheet['J10'] = sheet['I10'].value / sheet['G29'].value
+    # sheet['J11'] = sheet['I10'].value / sheet['G29'].value
+    # sheet['J12'] = sheet['I10'].value / sheet['G29'].value
+    # sheet['J13'] = sheet['I10'].value / sheet['G29'].value
+    # sheet['J14'] = sheet['I10'].value/sheet['G29'].value
+    # sheet['J15'] = sheet['I10'].value/sheet['G29'].value
+    # sheet['J16'] = sheet['I10'].value/sheet['G29'].value
+    # sheet['J17'] = sheet['I10'].value/sheet['G29'].value
+
+    wb.save(file_name + ".xlsx")
+    # df_filter.to_csv(file_name + ".csv")
 
 
 def prepare_chart(df, start_year, end_year, file_name):

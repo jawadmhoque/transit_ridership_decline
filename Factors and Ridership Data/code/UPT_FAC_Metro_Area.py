@@ -6,6 +6,8 @@ import os.path
 import numpy as np
 import os
 import openpyxl
+from tqdm import tqdm
+from time import sleep
 
 
 # def filter_dataframe(_df, _startyear, _endyear):
@@ -278,7 +280,9 @@ def read_the_FAC_file(file_name):
     try:
         if pathlib.Path(current_dir / file_name).exists():
             df = pd.read_csv(file_name)
+            print("Creating FAC charts and csv for each metro area")
             prepare_dataframe(df)
+            print("Creating summary reports for each metro area")
             prepare_dataframe_summary(df)
     except FileNotFoundError:
         print("File not found " + str(current_dir))
@@ -353,7 +357,7 @@ def prepare_dataframe(df):
     # replace the null values with 0
     df = check_4_nullvalues(df, col_name)
     metro_names = df['ID'].unique()
-    for metro in metro_names:
+    for metro in tqdm(metro_names):
         # if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
         file_name = str(metro)
         df_filter = df[df.ID == str(metro)]
@@ -364,6 +368,7 @@ def prepare_dataframe(df):
         # export the metro file as CSV
         df_filter.to_csv(metro+".csv")
         prepare_chart(df_filter, start_year, end_year, file_name)
+        sleep(0.02)
         print("Successfully created metro area based FAC Charts")
 
 
@@ -389,7 +394,7 @@ def prepare_dataframe_summary(df):
     # replace the null values with 0
     df = check_4_nullvalues(df, col_name)
     metro_names = df['ID'].unique()
-    for metro in metro_names:
+    for metro in tqdm(metro_names):
         # if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
         file_name = str(metro)
         df_filter = df[df.ID == str(metro)]
@@ -399,7 +404,8 @@ def prepare_dataframe_summary(df):
         start_year = get_start_year(df_filter)
         end_year = get_end_year(df_filter)
         prepare_summary_sheet(df_filter, start_year, end_year, file_name)
-    print("Successfully created metro area based summary reports")
+        sleep(0.02)
+        print("Successfully created metro area based summary reports")
 
 
 def prepare_summary_sheet(df_filter, start_year, end_year, file_name):

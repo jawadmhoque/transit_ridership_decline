@@ -280,8 +280,12 @@ def read_the_FAC_file(file_name):
     try:
         if pathlib.Path(current_dir / file_name).exists():
             df = pd.read_csv(file_name)
-            print("Creating FAC charts and csv for each metro area")
-            prepare_dataframe(df)
+            # print("Creating FAC charts and csv for each metro area")
+            # prepare_dataframe(df)
+            # get indexes of all rows for which column "year" is less than 2012
+            indexNames = df[df['Year'] < 2012].index
+            # Delete these row indexes from dataFrame
+            df.drop(indexNames, inplace=True)
             print("Creating summary reports for each metro area")
             prepare_dataframe_summary(df)
     except FileNotFoundError:
@@ -302,7 +306,7 @@ def get_filtered_summary_columns():
                 'VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC',
                 'TSD_POP_PCT_FAC', 'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
                 'JTW_HOME_PCT_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
-                'BIKE_SHARE_FAC', 'scooter_flag_FAC']
+                'BIKE_SHARE_FAC', 'scooter_flag_FAC','New_Reporter_FAC']
     return col_name
 
 
@@ -365,11 +369,17 @@ def prepare_dataframe(df):
         df_filter.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
         start_year = get_start_year(df_filter)
         end_year = get_end_year(df_filter)
+        # Check file in Path = Factors and Ridership Data\code
+        current_dir = pathlib.Path(__file__).parent.absolute()
+        # Change the directory
+        # Script Outputs\Est7_Outputs\Metro_Area_CSVs
+        current_dir = current_dir.parents[0] / 'Script Outputs' / 'Est7_Outputs' / 'Metro_Area_CSVs'
+        os.chdir(str(current_dir))
         # export the metro file as CSV
         df_filter.to_csv(metro+".csv")
         prepare_chart(df_filter, start_year, end_year, file_name)
-        sleep(0.02)
-        print("Successfully created metro area based FAC Charts")
+        sleep(0.2)
+    print("Successfully created metro area based FAC Charts")
 
 
 def get_filtered_columns_summary():
@@ -381,7 +391,7 @@ def get_filtered_columns_summary():
                 'VRM_ADJ_log_FAC', 'FARE_per_UPT_2018_log_FAC', 'POP_EMP_log_FAC',
                 'TSD_POP_PCT_FAC', 'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
                 'JTW_HOME_PCT_FAC', 'YEARS_SINCE_TNC_BUS_FAC', 'YEARS_SINCE_TNC_RAIL_FAC',
-                'BIKE_SHARE_FAC', 'scooter_flag_FAC']
+                'BIKE_SHARE_FAC', 'scooter_flag_FAC', 'New_Reporter_FAC']
     return col_name
 
 
@@ -395,7 +405,7 @@ def prepare_dataframe_summary(df):
     df = check_4_nullvalues(df, col_name)
     metro_names = df['ID'].unique()
     for metro in tqdm(metro_names):
-        # if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
+        # e.g. if metro == "New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area-Bus":
         file_name = str(metro)
         df_filter = df[df.ID == str(metro)]
         cumsum_col_name = get_filtered_summary_columns()
@@ -404,8 +414,8 @@ def prepare_dataframe_summary(df):
         start_year = get_start_year(df_filter)
         end_year = get_end_year(df_filter)
         prepare_summary_sheet(df_filter, start_year, end_year, file_name)
-        sleep(0.02)
-        print("Successfully created metro area based summary reports")
+        sleep(0.2)
+    print("Successfully created metro area based summary reports")
 
 
 def prepare_summary_sheet(df_filter, start_year, end_year, file_name):
@@ -478,6 +488,10 @@ def prepare_summary_sheet(df_filter, start_year, end_year, file_name):
 
     sheet['H17'] = df_filter["BIKE_SHARE_FAC"].sum()
     sheet['H18'] = df_filter["scooter_flag_FAC"].sum()
+    if df_filter["New_Reporter_FAC"].sum()>0:
+        sheet['H19'] = df_filter["New_Reporter_FAC"].sum()
+    else:
+        sheet['H19'] = df_filter["New_Reporter_FAC"].sum()
 
     # sheet['F21'] = str(df_filter.loc[-1, "fitted_exp"])
     # get difference in percentage
@@ -591,7 +605,7 @@ def prepare_chart(df, start_year, end_year, file_name):
     current_dir = current_dir.parents[0] / 'Script Outputs'
     os.chdir(str(current_dir))
     # outputdirectory = "Est7_Outputs/Metro_Area"
-    outputdirectory = "Est7_Outputs/without_scale"
+    outputdirectory = "Est7_Outputs/Metro_Area"
     p = pathlib.Path(outputdirectory)
     p.mkdir(parents=True, exist_ok=True)
     current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory

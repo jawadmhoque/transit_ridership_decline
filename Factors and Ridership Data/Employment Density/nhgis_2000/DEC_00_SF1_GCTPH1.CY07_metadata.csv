@@ -1,0 +1,13 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+GCT_STUB.target-geo-id,Target Geo Id
+GCT_STUB.target-geo-id2,Target Geo Id2
+GCT_STUB.display-label,Geographical Area,GCT_STUB.display-label
+HC01,Population
+HC02,Housing  units
+HC04,Area in square miles - Total area
+HC05,Area in square miles - Water area
+HC06,Area in square miles - Land area
+HC08,Density per square mile of land area - Population
+HC09,Density per square mile of land area - Housing  units

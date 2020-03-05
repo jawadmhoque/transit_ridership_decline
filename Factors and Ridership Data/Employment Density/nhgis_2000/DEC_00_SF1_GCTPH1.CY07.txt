@@ -1,0 +1,19 @@
+GCT-PH1
+Population, Housing Units, Area, and Density: 2000 - County -- Census Tract
+
+NOTE:  For information on confidentiality protection,
+nonsampling error, definitions, and count corrections see
+http://www.census.gov/prod/cen2000/doc/sf1.pdf
+
+
+
+
+Source: U.S. Census Bureau, Census 2000 Summary File 1
+
+
+
+
+(X) Not applicable.
+
+
+

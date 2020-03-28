@@ -268,14 +268,14 @@ from time import sleep
 #     # df_queried = prepare_charts_timeframe(df_org, startyear, endyear)
 #     prepare_charts(df_org, metro_area_col, startyear, endyear)
 
-def read_the_FAC_file(file_name):
+def read_the_FAC_file(file_name,filepath):
     # get the abs path of the directory of the code/script
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
     folder_name = file_name.split('.')[0]
     # Change the directory
     # \Script Outputs \ Cluster_wise_summation_files
-    current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est7'
+    current_dir = current_dir.parents[0] / filepath
     os.chdir(str(current_dir))
     try:
         if pathlib.Path(current_dir / file_name).exists():
@@ -626,7 +626,8 @@ def main():
     # get the UPT_FAC files created according to the base year
     # # # # # # # # #  base year 2002
     # create_upt_fac_metro_area("FAC.csv", "ID", 2002, 2018)
-    read_the_FAC_file("FAC.csv")
+    filepath = 'Model Estimation / Est 9'
+    read_the_FAC_file("FAC.csv",filepath)
 
 
 if __name__ == "__main__":

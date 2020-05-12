@@ -1,0 +1,445 @@
+,CBSA,MNAME,APTA_CLUSTER
+0,10180,"Abilene, TX Metro Area",Low
+13,10420,"Akron, OH Metro Area",Mid
+26,10500,"Albany, GA Metro Area",Low
+39,10540,"Albany, OR Metro Area",
+44,10580,"Albany-Schenectady-Troy, NY Metro Area",Mid
+57,10740,"Albuquerque, NM Metro Area",Mid
+70,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",Mid
+83,11020,"Altoona, PA Metro Area",Low
+96,11100,"Amarillo, TX Metro Area",Low
+109,11180,"Ames, IA Metro Area",Low
+122,11260,"Anchorage, AK Metro Area",Mid
+135,11460,"Ann Arbor, MI Metro Area",Mid
+148,11540,"Appleton, WI Metro Area",
+161,11700,"Asheville, NC Metro Area",Low
+174,12020,"Athens-Clarke County, GA Metro Area",Low
+187,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",High
+195,12060,"Atlanta-Sandy Springs-Roswell, GA Metro Area",High
+200,12100,"Atlantic City, NJ Metro Area",Mid
+203,12100,"Atlantic City-Hammonton, NJ Metro Area",Mid
+213,12220,"Auburn-Opelika, AL Metro Area",Low
+226,12260,"Augusta-Richmond County, GA-SC Metro Area",Low
+239,12420,"Austin-Round Rock, TX Metro Area",Mid
+244,12420,"Austin-Round Rock-San Marcos, TX Metro Area",Mid
+252,12540,"Bakersfield, CA Metro Area",
+257,12540,"Bakersfield-Delano, CA Metro Area",
+265,12580,"Baltimore-Towson, MD Metro Area",High
+273,12580,"Baltimore-Columbia-Towson, MD Metro Area",High
+278,12620,"Bangor, ME Metro Area",Low
+291,12700,"Barnstable Town, MA Metro Area",Mid
+304,12940,"Baton Rouge, LA Metro Area",Low
+317,13020,"Bay City, MI Metro Area",Low
+330,13140,"Beaumont-Port Arthur, TX Metro Area",Low
+343,13220,"Beckley, WV Metro Area",
+348,13380,"Bellingham, WA Metro Area",Low
+361,13460,"Bend, OR Metro Area",Low
+369,13460,"Bend-Redmond, OR Metro Area",Low
+374,13740,"Billings, MT Metro Area",Low
+387,13780,"Binghamton, NY Metro Area",Low
+400,13820,"Birmingham-Hoover, AL Metro Area",Mid
+413,13900,"Bismarck, ND Metro Area",Low
+426,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",Low
+439,14020,"Bloomington, IN Metro Area",Low
+452,14060,"Bloomington-Normal, IL Metro Area",Low
+460,14060,"Bloomington, IL Metro Area",Low
+465,14100,"Bloomsburg-Berwick, PA Metro Area",
+470,14260,"Boise City-Nampa, ID Metro Area",Low
+478,14260,"Boise City, ID Metro Area",Low
+483,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",High
+491,14460,"Boston-Cambridge-Newton, MA-NH Metro Area",High
+496,14500,"Boulder, CO Metro Area",Mid
+509,14540,"Bowling Green, KY Metro Area",Low
+522,14740,"Bremerton-Silverdale, WA Metro Area",Mid
+535,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",Mid
+548,15180,"Brownsville-Harlingen, TX Metro Area",Low
+561,15260,"Brunswick, GA Metro Area",
+574,15380,"Buffalo-Niagara Falls, NY Metro Area",Mid
+582,15380,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",Mid
+587,15500,"Burlington, NC Metro Area",Low
+600,15540,"Burlington-South Burlington, VT Metro Area",Low
+613,15680,"California-Lexington Park, MD Metro Area",
+618,15940,"Canton-Massillon, OH Metro Area",Low
+631,15980,"Cape Coral-Fort Myers, FL Metro Area",Low
+644,16060,"Carbondale-Marion, IL Metro Area",
+649,16180,"Carson City, NV Metro Area",Low
+658,16220,"Casper, WY Metro Area",Low
+671,16300,"Cedar Rapids, IA Metro Area",Low
+684,16540,"Chambersburg-Waynesboro, PA Metro Area",
+689,16580,"Champaign-Urbana, IL Metro Area",Mid
+702,16620,"Charleston, WV Metro Area",Low
+715,16700,"Charleston-North Charleston, SC Metro Area",Low
+718,16700,"Charleston-North Charleston-Summerville, SC Metro Area",Low
+728,16740,"Charlotte-Gastonia-Concord, NC-SC Metro Area",Mid
+733,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",Mid
+736,16740,"Charlotte-Concord-Gastonia, NC-SC Metro Area",Mid
+741,16820,"Charlottesville, VA Metro Area",Low
+754,16860,"Chattanooga, TN-GA Metro Area",Low
+767,16940,"Cheyenne, WY Metro Area",Low
+780,16980,"Chicago-Naperville-Joliet, IL-IN-WI Metro Area",High
+785,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",High
+788,16980,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",High
+793,17020,"Chico, CA Metro Area",Low
+806,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",Mid
+814,17140,"Cincinnati, OH-KY-IN Metro Area",Mid
+819,17300,"Clarksville, TN-KY Metro Area",Low
+832,17420,"Cleveland, TN Metro Area",Low
+845,17460,"Cleveland-Elyria-Mentor, OH Metro Area",Mid
+853,17460,"Cleveland-Elyria, OH Metro Area",Mid
+858,17660,"Coeur d'Alene, ID Metro Area",Low
+871,17780,"College Station-Bryan, TX Metro Area",Low
+884,17820,"Colorado Springs, CO Metro Area",Low
+897,17860,"Columbia, MO Metro Area",Low
+910,17900,"Columbia, SC Metro Area",Low
+923,17980,"Columbus, GA-AL Metro Area",Low
+936,18020,"Columbus, IN Metro Area",Low
+949,18140,"Columbus, OH Metro Area",Mid
+962,18580,"Corpus Christi, TX Metro Area",Mid
+975,18700,"Corvallis, OR Metro Area",Low
+988,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",High
+1001,19300,"Daphne-Fairhope-Foley, AL Metro Area",
+1006,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",Low
+1019,19380,"Dayton, OH Metro Area",Mid
+1032,19500,"Decatur, IL Metro Area",Low
+1045,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",Mid
+1058,19740,"Denver-Aurora, CO Metro Area",High
+1062,19740,"Denver-Aurora-Broomfield, CO Metro Area",High
+1066,19740,"Denver-Aurora-Lakewood, CO Metro Area",High
+1071,19780,"Des Moines, IA Metro Area",Low
+1072,19780,"Des Moines-West Des Moines, IA Metro Area",Low
+1084,19820,"Detroit-Warren-Livonia, MI Metro Area",Mid
+1092,19820,"Detroit-Warren-Dearborn, MI Metro Area",Mid
+1097,20020,"Dothan, AL Metro Area",Low
+1110,20100,"Dover, DE Metro Area",Low
+1123,20220,"Dubuque, IA Metro Area",Low
+1136,20260,"Duluth, MN-WI Metro Area",Low
+1149,20500,"Durham, NC Metro Area",Mid
+1153,20500,"Durham-Chapel Hill, NC Metro Area",Mid
+1162,20700,"East Stroudsburg, PA Metro Area",
+1167,20740,"Eau Claire, WI Metro Area",Low
+1180,20940,"El Centro, CA Metro Area",Low
+1193,21060,"Elizabethtown, KY Metro Area",Low
+1201,21060,"Elizabethtown-Fort Knox, KY Metro Area",Low
+1206,21140,"Elkhart-Goshen, IN Metro Area",Low
+1219,21300,"Elmira, NY Metro Area",Low
+1232,21340,"El Paso, TX Metro Area",Mid
+1245,21500,"Erie, PA Metro Area",Low
+1258,21660,"Eugene-Springfield, OR Metro Area",Mid
+1266,21660,"Eugene, OR Metro Area",Mid
+1271,21780,"Evansville, IN-KY Metro Area",Low
+1284,21820,"Fairbanks, AK Metro Area",Low
+1297,22020,"Fargo, ND-MN Metro Area",Low
+1310,22180,"Fayetteville, NC Metro Area",Low
+1323,22220,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",Low
+1336,22380,"Flagstaff, AZ Metro Area",Low
+1349,22420,"Flint, MI Metro Area",Low
+1362,22500,"Florence, SC Metro Area",Low
+1375,22540,"Fond du Lac, WI Metro Area",Low
+1388,22660,"Fort Collins-Loveland, CO Metro Area",Low
+1396,22660,"Fort Collins, CO Metro Area",Low
+1401,22900,"Fort Smith, AR-OK Metro Area",Low
+1414,23020,"Fort Walton Beach-Crestview-Destin, FL Metro Area",Low
+1419,23020,"Crestview-Fort Walton Beach-Destin, FL Metro Area",Low
+1427,23060,"Fort Wayne, IN Metro Area",Low
+1440,23420,"Fresno, CA Metro Area",Mid
+1453,23540,"Gainesville, FL Metro Area",Low
+1466,23580,"Gainesville, GA Metro Area",Low
+1479,23900,"Gettysburg, PA Metro Area",
+1484,24020,"Glens Falls, NY Metro Area",Low
+1497,24140,"Goldsboro, NC Metro Area",Low
+1510,24220,"Grand Forks, ND-MN Metro Area",Low
+1523,24300,"Grand Junction, CO Metro Area",Low
+1536,24340,"Grand Rapids-Wyoming, MI Metro Area",Mid
+1549,24500,"Great Falls, MT Metro Area",Low
+1562,24540,"Greeley, CO Metro Area",Low
+1575,24580,"Green Bay, WI Metro Area",Low
+1588,24660,"Greensboro-High Point, NC Metro Area",Low
+1601,24780,"Greenville, NC Metro Area",Low
+1614,24860,"Greenville, SC Metro Area",Low
+1616,24860,"Greenville-Mauldin-Easley, SC Metro Area",Low
+1622,24860,"Greenville-Anderson-Mauldin, SC Metro Area",Low
+1627,25060,"Gulfport-Biloxi, MS Metro Area",Low
+1635,25060,"Gulfport-Biloxi-Pascagoula, MS Metro Area",Low
+1640,25180,"Hagerstown-Martinsburg, MD-WV Metro Area",Low
+1653,25220,"Hammond, LA Metro Area",
+1658,25260,"Hanford-Corcoran, CA Metro Area",Low
+1671,25420,"Harrisburg-Carlisle, PA Metro Area",Mid
+1684,25500,"Harrisonburg, VA Metro Area",Low
+1697,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",Mid
+1710,25620,"Hattiesburg, MS Metro Area",Low
+1723,25860,"Hickory-Lenoir-Morganton, NC Metro Area",Low
+1736,25940,"Hilton Head Island-Bluffton-Beaufort, SC Metro Area",
+1741,25980,"Hinesville-Fort Stewart, GA Metro Area",Low
+1748,25980,"Hinesville, GA Metro Area",Low
+1753,26140,"Homosassa Springs, FL Metro Area",
+1758,26300,"Hot Springs, AR Metro Area",Low
+1771,26420,"Houston-Sugar Land-Baytown, TX Metro Area",High
+1779,26420,"Houston-The Woodlands-Sugar Land, TX Metro Area",High
+1784,26580,"Huntington-Ashland, WV-KY-OH Metro Area",Low
+1797,26620,"Huntsville, AL Metro Area",Low
+1810,26820,"Idaho Falls, ID Metro Area",Low
+1823,26900,"Indianapolis, IN Metro Area",Mid
+1824,26900,"Indianapolis-Carmel, IN Metro Area",Mid
+1831,26900,"Indianapolis-Carmel-Anderson, IN Metro Area",Mid
+1836,26980,"Iowa City, IA Metro Area",Low
+1849,27060,"Ithaca, NY Metro Area",Low
+1862,27100,"Jackson, MI Metro Area",Low
+1875,27140,"Jackson, MS Metro Area",Low
+1888,27180,"Jackson, TN Metro Area",Low
+1901,27260,"Jacksonville, FL Metro Area",Mid
+1914,27340,"Jacksonville, NC Metro Area",Low
+1927,27500,"Janesville, WI Metro Area",Low
+1935,27500,"Janesville-Beloit, WI Metro Area",Low
+1940,27620,"Jefferson City, MO Metro Area",Low
+1953,27740,"Johnson City, TN Metro Area",Low
+1966,27780,"Johnstown, PA Metro Area",Low
+1979,27860,"Jonesboro, AR Metro Area",Low
+1992,27900,"Joplin, MO Metro Area",Low
+2005,27980,"Kahului-Wailuku-Lahaina, HI Metro Area",
+2010,28020,"Kalamazoo-Portage, MI Metro Area",Low
+2023,28100,"Kankakee-Bradley, IL Metro Area",Low
+2031,28100,"Kankakee, IL Metro Area",Low
+2036,28140,"Kansas City, MO-KS Metro Area",Mid
+2049,28420,"Kennewick-Richland-Pasco, WA Metro Area",Mid
+2052,28420,"Kennewick-Pasco-Richland, WA Metro Area",Mid
+2057,28420,"Kennewick-Richland, WA Metro Area",Mid
+2062,28660,"Killeen-Temple-Fort Hood, TX Metro Area",Low
+2070,28660,"Killeen-Temple, TX Metro Area",Low
+2075,28700,"Kingsport-Bristol-Bristol, TN-VA Metro Area",Low
+2088,28740,"Kingston, NY Metro Area",Low
+2101,28940,"Knoxville, TN Metro Area",Low
+2114,29020,"Kokomo, IN Metro Area",
+2127,29100,"La Crosse, WI-MN Metro Area",Low
+2135,29100,"La Crosse-Onalaska, WI-MN Metro Area",Low
+2140,29140,"Lafayette, IN Metro Area",Low
+2148,29140,"Lafayette-West Lafayette, IN Metro Area",Low
+2153,29180,"Lafayette, LA Metro Area",Low
+2166,29420,"Lake Havasu City-Kingman, AZ Metro Area",
+2177,29460,"Lakeland, FL Metro Area",Low
+2180,29460,"Lakeland-Winter Haven, FL Metro Area",Low
+2190,29540,"Lancaster, PA Metro Area",Mid
+2203,29620,"Lansing-East Lansing, MI Metro Area",Mid
+2216,29700,"Laredo, TX Metro Area",Low
+2229,29740,"Las Cruces, NM Metro Area",Low
+2242,29820,"Las Vegas-Paradise, NV Metro Area",Mid
+2250,29820,"Las Vegas-Henderson-Paradise, NV Metro Area",Mid
+2255,29940,"Lawrence, KS Metro Area",Low
+2268,30020,"Lawton, OK Metro Area",Low
+2281,30140,"Lebanon, PA Metro Area",Low
+2294,30340,"Lewiston-Auburn, ME Metro Area",Low
+2307,30460,"Lexington-Fayette, KY Metro Area",Low
+2320,30700,"Lincoln, NE Metro Area",Low
+2333,30780,"Little Rock-North Little Rock, AR Metro Area",Low
+2335,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",Low
+2346,30860,"Logan, UT-ID Metro Area",Low
+2359,30980,"Longview, TX Metro Area",Low
+2372,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",High
+2380,31100,"Los Angeles-Long Beach-Anaheim, CA Metro Area",High
+2385,31140,"Louisville, KY-IN Metro Area",Mid
+2386,31140,"Louisville-Jefferson County, KY-IN Metro Area",Mid
+2398,31180,"Lubbock, TX Metro Area",Low
+2411,31340,"Lynchburg, VA Metro Area",Low
+2424,31420,"Macon, GA Metro Area",Low
+2435,31420,"Macon-Bibb County, GA Metro Area",Low
+2437,31460,"Madera, CA Metro Area",Low
+2441,31460,"Madera-Chowchilla, CA Metro Area",Low
+2450,31540,"Madison, WI Metro Area",Mid
+2463,31700,"Manchester-Nashua, NH Metro Area",Low
+2476,31740,"Manhattan, KS Metro Area",Low
+2485,31860,"Mankato-North Mankato, MN Metro Area",Low
+2494,32580,"McAllen-Edinburg-Mission, TX Metro Area",Low
+2507,32780,"Medford, OR Metro Area",Low
+2520,32820,"Memphis, TN-MS-AR Metro Area",Mid
+2533,32900,"Merced, CA Metro Area",Low
+2546,33100,"Miami-Fort Lauderdale-Miami Beach, FL Metro Area",High
+2548,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",High
+2554,33100,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",High
+2559,33140,"Michigan City-La Porte, IN Metro Area",Low
+2572,33220,"Midland, MI Metro Area",Low
+2577,33260,"Midland, TX Metro Area",Low
+2590,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",Mid
+2603,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",High
+2616,33540,"Missoula, MT Metro Area",Low
+2629,33660,"Mobile, AL Metro Area",Low
+2642,33700,"Modesto, CA Metro Area",Low
+2655,33740,"Monroe, LA Metro Area",Low
+2668,33860,"Montgomery, AL Metro Area",Low
+2681,34060,"Morgantown, WV Metro Area",Low
+2694,34580,"Mount Vernon-Anacortes, WA Metro Area",Low
+2707,34620,"Muncie, IN Metro Area",Low
+2720,34740,"Muskegon-Norton Shores, MI Metro Area",Low
+2728,34740,"Muskegon, MI Metro Area",Low
+2733,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC Metro Area",Low
+2736,34820,"Myrtle Beach-North Myrtle Beach-Conway, SC Metro Area",Low
+2741,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC Metro Area",Low
+2746,34900,"Napa, CA Metro Area",Low
+2759,34940,"Naples-Marco Island, FL Metro Area",Low
+2767,34940,"Naples-Immokalee-Marco Island, FL Metro Area",Low
+2772,34980,"Nashville-Davidson-Murfreesboro, TN Metro Area",Mid
+2774,34980,"Nashville-Davidson-Murfreesboro-Franklin, TN Metro Area",Mid
+2785,35100,"New Bern, NC Metro Area",
+2790,35300,"New Haven-Milford, CT Metro Area",Mid
+2803,35380,"New Orleans-Metairie-Kenner, LA Metro Area",Mid
+2811,35380,"New Orleans-Metairie, LA Metro Area",Mid
+2816,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",High
+2824,35620,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",High
+2829,35660,"Niles-Benton Harbor, MI Metro Area",Low
+2842,35840,"North Port-Bradenton-Sarasota, FL Metro Area",Mid
+2845,35840,"North Port-Sarasota-Bradenton, FL Metro Area",Mid
+2850,35980,"Norwich-New London, CT Metro Area",Low
+2863,36100,"Ocala, FL Metro Area",Low
+2876,36140,"Ocean City, NJ Metro Area",Low
+2889,36220,"Odessa, TX Metro Area",Low
+2902,36260,"Ogden-Clearfield, UT Metro Area",Mid
+2915,36420,"Oklahoma City, OK Metro Area",Mid
+2928,36500,"Olympia, WA Metro Area",Mid
+2936,36500,"Olympia-Tumwater, WA Metro Area",Mid
+2941,36540,"Omaha-Council Bluffs, NE-IA Metro Area",Low
+2954,36740,"Orlando-Kissimmee, FL Metro Area",Mid
+2959,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",Mid
+2967,36780,"Oshkosh-Neenah, WI Metro Area",Low
+2980,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",Mid
+2993,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",Low
+3006,37460,"Panama City-Lynn Haven, FL Metro Area",Low
+3010,37460,"Panama City-Lynn Haven-Panama City Beach, FL Metro Area",Low
+3014,37460,"Panama City, FL Metro Area",Low
+3019,37620,"Parkersburg-Marietta-Vienna, WV-OH Metro Area",Low
+3027,37620,"Parkersburg-Vienna, WV Metro Area",Low
+3032,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",Low
+3045,37900,"Peoria, IL Metro Area",Low
+3058,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",High
+3071,38060,"Phoenix-Mesa-Scottsdale, AZ Metro Area",High
+3076,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",High
+3084,38300,"Pittsburgh, PA Metro Area",High
+3097,38340,"Pittsfield, MA Metro Area",Low
+3110,38540,"Pocatello, ID Metro Area",
+3123,38860,"Portland-South Portland-Biddeford, ME Metro Area",Mid
+3131,38860,"Portland-South Portland, ME Metro Area",Mid
+3136,38900,"Portland-Vancouver-Beaverton, OR-WA Metro Area",High
+3141,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",High
+3149,38940,"Port St. Lucie-Fort Pierce, FL Metro Area",Low
+3151,38940,"Port St. Lucie, FL Metro Area",Low
+3162,39140,"Prescott, AZ Metro Area",
+3175,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",Mid
+3183,39300,"Providence-Warwick, RI-MA Metro Area",Mid
+3188,39340,"Provo-Orem, UT Metro Area",Mid
+3201,39380,"Pueblo, CO Metro Area",Low
+3214,39460,"Punta Gorda, FL Metro Area",Low
+3227,39540,"Racine, WI Metro Area",Low
+3240,39580,"Raleigh-Cary, NC Metro Area",Mid
+3248,39580,"Raleigh, NC Metro Area",Mid
+3253,39740,"Reading, PA Metro Area",Low
+3266,39820,"Redding, CA Metro Area",Low
+3279,39900,"Reno-Sparks, NV Metro Area",Mid
+3287,39900,"Reno, NV Metro Area",Mid
+3292,40060,"Richmond, VA Metro Area",Mid
+3305,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",Mid
+3318,40220,"Roanoke, VA Metro Area",Low
+3331,40340,"Rochester, MN Metro Area",Low
+3344,40380,"Rochester, NY Metro Area",Mid
+3357,40420,"Rockford, IL Metro Area",Low
+3370,40580,"Rocky Mount, NC Metro Area",Low
+3383,40660,"Rome, GA Metro Area",Low
+3396,40900,"Sacramento-Arden-Arcade-Roseville, CA Metro Area",Mid
+3404,40900,"Sacramento-Roseville-Arden-Arcade, CA Metro Area",Mid
+3409,40980,"Saginaw-Saginaw Township North, MI Metro Area",Low
+3417,40980,"Saginaw, MI Metro Area",Low
+3422,41060,"St. Cloud, MN Metro Area",Low
+3435,41100,"St. George, UT Metro Area",Low
+3448,41140,"St. Joseph, MO-KS Metro Area",Low
+3461,41180,"St. Louis, MO-IL Metro Area",Mid
+3474,41420,"Salem, OR Metro Area",Mid
+3487,41500,"Salinas, CA Metro Area",Mid
+3500,41540,"Salisbury, MD Metro Area",Low
+3508,41540,"Salisbury, MD-DE Metro Area",Low
+3513,41620,"Salt Lake City, UT Metro Area",Mid
+3526,41660,"San Angelo, TX Metro Area",Low
+3539,41700,"San Antonio, TX Metro Area",Mid
+3544,41700,"San Antonio-New Braunfels, TX Metro Area",Mid
+3552,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",High
+3560,41740,"San Diego-Carlsbad, CA Metro Area",High
+3565,41780,"Sandusky, OH Metro Area",
+3573,41860,"San Francisco-Oakland-Fremont, CA Metro Area",High
+3581,41860,"San Francisco-Oakland-Hayward, CA Metro Area",High
+3586,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",High
+3599,42020,"San Luis Obispo-Paso Robles, CA Metro Area",Low
+3607,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA Metro Area",Low
+3612,42060,"Santa Barbara-Santa Maria, CA Metro Area",Mid
+3614,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",Mid
+3620,42060,"Santa Maria-Santa Barbara, CA Metro Area",Mid
+3625,42100,"Santa Cruz-Watsonville, CA Metro Area",Mid
+3638,42140,"Santa Fe, NM Metro Area",Low
+3651,42220,"Santa Rosa-Petaluma, CA Metro Area",Low
+3659,42220,"Santa Rosa, CA Metro Area",Low
+3664,42340,"Savannah, GA Metro Area",Low
+3677,42540,"Scranton-Wilkes-Barre, PA Metro Area",Low
+3685,42540,"Scranton-Wilkes-Barre-Hazleton, PA Metro Area",Low
+3690,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",High
+3703,42680,"Vero Beach, FL Metro Area",Low
+3704,42680,"Sebastian-Vero Beach, FL Metro Area",Low
+3716,42700,"Sebring, FL Metro Area",
+3721,43100,"Sheboygan, WI Metro Area",Low
+3734,43300,"Sherman-Denison, TX Metro Area",Low
+3747,43340,"Shreveport-Bossier City, LA Metro Area",Low
+3760,43420,"Sierra Vista-Douglas, AZ Metro Area",
+3765,43580,"Sioux City, IA-NE-SD Metro Area",Low
+3778,43780,"South Bend-Mishawaka, IN-MI Metro Area",Low
+3791,43900,"Spartanburg, SC Metro Area",Low
+3804,44060,"Spokane, WA Metro Area",Mid
+3812,44060,"Spokane-Spokane Valley, WA Metro Area",Mid
+3817,44100,"Springfield, IL Metro Area",Low
+3830,44140,"Springfield, MA Metro Area",Mid
+3843,44180,"Springfield, MO Metro Area",Low
+3856,44220,"Springfield, OH Metro Area",Low
+3869,44300,"State College, PA Metro Area",Low
+3882,44420,"Staunton-Waynesboro, VA Metro Area",
+3887,44700,"Stockton, CA Metro Area",Mid
+3895,44700,"Stockton-Lodi, CA Metro Area",Mid
+3900,44940,"Sumter, SC Metro Area",Low
+3913,45060,"Syracuse, NY Metro Area",Mid
+3926,45220,"Tallahassee, FL Metro Area",Low
+3939,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",Mid
+3952,45460,"Terre Haute, IN Metro Area",Low
+3965,45500,"Texarkana, TX-Texarkana, AR Metro Area",Low
+3973,45500,"Texarkana, TX-AR Metro Area",Low
+3978,45540,"The Villages, FL Metro Area",
+3983,45780,"Toledo, OH Metro Area",Low
+3996,45820,"Topeka, KS Metro Area",Low
+4009,45940,"Trenton-Ewing, NJ Metro Area",Mid
+4017,45940,"Trenton, NJ Metro Area",Mid
+4022,46060,"Tucson, AZ Metro Area",Mid
+4035,46140,"Tulsa, OK Metro Area",Low
+4048,46220,"Tuscaloosa, AL Metro Area",Low
+4061,46340,"Tyler, TX Metro Area",Low
+4074,46520,"Urban Honolulu, HI Metro Area",Mid
+4079,46540,"Utica-Rome, NY Metro Area",Low
+4092,46660,"Valdosta, GA Metro Area",
+4105,46700,"Vallejo-Fairfield, CA Metro Area",Low
+4118,47020,"Victoria, TX Metro Area",Low
+4131,47220,"Vineland-Millville-Bridgeton, NJ Metro Area",Low
+4139,47220,"Vineland-Bridgeton, NJ Metro Area",Low
+4144,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",Mid
+4157,47300,"Visalia-Porterville, CA Metro Area",Low
+4170,47380,"Waco, TX Metro Area",Low
+4183,47460,"Walla Walla, WA Metro Area",
+4188,47580,"Warner Robins, GA Metro Area",Low
+4201,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",High
+4214,47940,"Waterloo-Cedar Falls, IA Metro Area",Low
+4227,48060,"Watertown-Fort Drum, NY Metro Area",
+4232,48140,"Wausau, WI Metro Area",Low
+4245,48300,"Wenatchee, WA Metro Area",Low
+4249,48300,"Wenatchee-East Wenatchee, WA Metro Area",Low
+4258,48540,"Wheeling, WV-OH Metro Area",Low
+4271,48620,"Wichita, KS Metro Area",Low
+4284,48660,"Wichita Falls, TX Metro Area",Low
+4297,48700,"Williamsport, PA Metro Area",Low
+4310,48900,"Wilmington, NC Metro Area",Low
+4323,49020,"Winchester, VA-WV Metro Area",Low
+4336,49180,"Winston-Salem, NC Metro Area",Low
+4349,49340,"Worcester, MA Metro Area",Mid
+4357,49340,"Worcester, MA-CT Metro Area",Mid
+4362,49420,"Yakima, WA Metro Area",Low
+4375,49620,"York-Hanover, PA Metro Area",Low
+4388,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",Low
+4401,49700,"Yuba City, CA Metro Area",Low
+4414,49740,"Yuma, AZ Metro Area",Low

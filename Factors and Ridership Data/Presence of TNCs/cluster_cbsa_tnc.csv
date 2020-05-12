@@ -1,0 +1,242 @@
+CBSA,MNAME,Year,TOT_POP,UBER_ARRIVAL,TNC_ARRIVAL_YEAR,TNC_FIRST_FULL_YEAR_OPERATION,TNC_FLAG,APTA_CLUSTER,Proposed TNC Groups,TNC_TRIPS_PER_PERSON,TRIP_SHARE_2017
+35620,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",2017,20320876,5/1/11,2011,2012,1,New York,1,21.5,0.110
+41860,"San Francisco-Oakland-Hayward, CA Metro Area",2017,4727357,10/1/10,2010,2011,1,High Op-Ex,2,22.8,0.580
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",2017,6216710,12/1/11,2011,2012,1,High Op-Ex,3,18.3,0.580
+16980,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",2017,9533895,9/1/11,2011,2012,1,High Op-Ex,4,11.3,0.580
+14460,"Boston-Cambridge-Newton, MA-NH Metro Area",2017,4836531,10/1/11,2011,2012,1,High Op-Ex,5,9.1,0.580
+41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",2017,1998463,5/1/12,2012,2013,1,High Op-Ex,6,8.0,0.098
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",2017,6096120,5/1/12,2012,2013,1,High Op-Ex,7,6.2,0.580
+31100,"Los Angeles-Long Beach-Anaheim, CA Metro Area",2017,13353907,2/1/12,2012,2013,1,High Op-Ex,8,8.2,0.580
+33100,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",2017,6158824,6/1/14,2014,2015,1,High Op-Ex,9,7.6,0.580
+41740,"San Diego-Carlsbad, CA Metro Area",2017,3337685,5/1/12,2012,2013,1,High Op-Ex,10,7.2,0.098
+42660,"Seattle-Tacoma-Bellevue, WA Metro Area",2017,3867046,8/1/11,2011,2012,1,High Op-Ex,11,7.5,0.580
+38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2017,2451560,8/1/14,2014,2015,1,High Op-Ex,12,7.5,0.198
+38300,"Pittsburgh, PA Metro Area",2017,2333367,2/1/14,2014,2015,1,High Op-Ex,13,7.0,0.198
+12060,"Atlanta-Sandy Springs-Roswell, GA Metro Area",2017,5882450,8/1/12,2012,2013,1,High Op-Ex,14,7.0,0.198
+12580,"Baltimore-Columbia-Towson, MD Metro Area",2017,2808175,1/1/13,2013,2014,1,High Op-Ex,15,6.1,0.098
+38060,"Phoenix-Mesa-Scottsdale, AZ Metro Area",2017,4737270,11/1/12,2012,2013,1,High Op-Ex,16,4.6,0.098
+19100,"Dallas-Fort Worth-Arlington, TX Metro Area",2017,7400479,8/1/12,2012,2013,1,High Op-Ex,17,4.1,0.098
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2017,3600618,10/1/12,2012,2013,1,High Op-Ex,18,3.6,0.098
+19740,"Denver-Aurora-Lakewood, CO Metro Area",2017,2888227,8/1/12,2012,2013,1,High Op-Ex,19,3.5,0.098
+26420,"Houston-The Woodlands-Sugar Land, TX Metro Area",2017,6892427,2/1/14,2014,2015,1,High Op-Ex,20,2.9,0.098
+10420,"Akron, OH Metro Area",2017,703505,12/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+10740,"Albuquerque, NM Metro Area",2017,913113,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",2017,840550,2/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+11460,"Ann Arbor, MI Metro Area",2017,367627,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+12100,"Atlantic City-Hammonton, NJ Metro Area",2017,269918,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+12420,"Austin-Round Rock, TX Metro Area",2017,2115827,6/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+12700,"Barnstable Town, MA Metro Area",2017,213444,5/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+13820,"Birmingham-Hoover, AL Metro Area",2017,1149807,12/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+14500,"Boulder, CO Metro Area",2017,322514,2/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+14740,"Bremerton-Silverdale, WA Metro Area",2017,266414,5/1/16,2016,2017,1,Mid Op-Ex,21,4.4,0.198
+14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",2017,949921,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+16580,"Champaign-Urbana, IL Metro Area",2017,241000,2/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+16740,"Charlotte-Concord-Gastonia, NC-SC Metro Area",2017,2525305,9/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+17140,"Cincinnati, OH-KY-IN Metro Area",2017,2180746,3/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+17460,"Cleveland-Elyria, OH Metro Area",2017,2058844,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+18140,"Columbus, OH Metro Area",2017,2078725,12/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+19380,"Dayton, OH Metro Area",2017,803416,10/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",2017,649202,12/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+19820,"Detroit-Warren-Dearborn, MI Metro Area",2017,4313002,3/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.098
+20500,"Durham-Chapel Hill, NC Metro Area",2017,567428,6/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+21340,"El Paso, TX Metro Area",2017,842677,7/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+23420,"Fresno, CA Metro Area",2017,989255,2/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+24340,"Grand Rapids-Wyoming, MI Metro Area",2017,1059113,8/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+25420,"Harrisburg-Carlisle, PA Metro Area",2017,571903,2/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+25540,"Hartford-West Hartford-East Hartford, CT Metro Area",2017,1210259,7/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+26900,"Indianapolis-Carmel-Anderson, IN Metro Area",2017,2027059,6/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+27260,"Jacksonville, FL Metro Area",2017,1504980,1/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+28140,"Kansas City, MO-KS Metro Area",2017,2126945,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+28420,"Kennewick-Richland, WA Metro Area",2017,290296,12/1/16,2016,2017,1,Mid Op-Ex,21,4.4,0.198
+29540,"Lancaster, PA Metro Area",2017,542903,4/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+29620,"Lansing-East Lansing, MI Metro Area",2017,477656,8/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+29820,"Las Vegas-Henderson-Paradise, NV Metro Area",2017,2204079,9/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+31140,"Louisville-Jefferson County, KY-IN Metro Area",2017,1293722,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+31540,"Madison, WI Metro Area",2017,654230,3/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+32820,"Memphis, TN-MS-AR Metro Area",2017,1346626,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",2017,1576236,3/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.098
+34980,"Nashville-Davidson-Murfreesboro-Franklin, TN Metro Area",2017,1904226,12/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+35300,"New Haven-Milford, CT Metro Area",2017,860435,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+35380,"New Orleans-Metairie, LA Metro Area",2017,1275762,9/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+35840,"North Port-Sarasota-Bradenton, FL Metro Area",2017,804690,12/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+36260,"Ogden-Clearfield, UT Metro Area",2017,666547,3/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+36420,"Oklahoma City, OK Metro Area",2017,1383737,11/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+36500,"Olympia-Tumwater, WA Metro Area",2017,280588,6/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+36740,"Orlando-Kissimmee-Sanford, FL Metro Area",2017,2509831,6/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",2017,854223,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+38860,"Portland-South Portland, ME Metro Area",2017,532083,10/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+39300,"Providence-Warwick, RI-MA Metro Area",2017,1621122,11/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+39340,"Provo-Orem, UT Metro Area",2017,617678,4/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+39580,"Raleigh, NC Metro Area",2017,1335079,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+39900,"Reno, NV Metro Area",2017,465208,9/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+40060,"Richmond, VA Metro Area",2017,1301540,8/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+40140,"Riverside-San Bernardino-Ontario, CA Metro Area",2017,4580670,2/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+40900,"Sacramento-Roseville-Arden-Arcade, CA Metro Area",2017,2324884,2/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+41500,"Salinas, CA Metro Area",2017,437907,8/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+41620,"Salt Lake City, UT Metro Area",2017,1203105,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+41700,"San Antonio-New Braunfels, TX Metro Area",2017,2473974,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.098
+42100,"Santa Cruz-Watsonville, CA Metro Area",2017,275897,6/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+42060,"Santa Maria-Santa Barbara, CA Metro Area",2017,448150,10/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+44060,"Spokane-Spokane Valley, WA Metro Area",2017,564291,6/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+44140,"Springfield, MA Metro Area",2017,631652,1/1/15,2015,2016,1,Mid Op-Ex,21,4.4,0.198
+41180,"St. Louis, MO-IL Metro Area",2017,2807216,11/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+44700,"Stockton-Lodi, CA Metro Area",2017,745424,9/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",2017,3091399,4/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+45940,"Trenton, NJ Metro Area",2017,374733,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+46060,"Tucson, AZ Metro Area",2017,1022769,10/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+46520,"Urban Honolulu, HI Metro Area",2017,988650,8/1/13,2013,2014,1,Mid Op-Ex,21,4.4,0.198
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",2017,1724388,5/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+49340,"Worcester, MA-CT Metro Area",2017,942475,8/1/14,2014,2015,1,Mid Op-Ex,21,4.4,0.198
+10180,"Abilene, TX Metro Area",2017,169747,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+11020,"Altoona, PA Metro Area",2017,123457,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+11100,"Amarillo, TX Metro Area",2017,266575,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+11180,"Ames, IA Metro Area",2017,97502,8/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+11700,"Asheville, NC Metro Area",2017,456145,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+12020,"Athens-Clarke County, GA Metro Area",2017,206937,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+12220,"Auburn-Opelika, AL Metro Area",2017,161604,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+12260,"Augusta-Richmond County, GA-SC Metro Area",2017,600600,4/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+12620,"Bangor, ME Metro Area",2017,151957,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+12940,"Baton Rouge, LA Metro Area",2017,834159,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+13140,"Beaumont-Port Arthur, TX Metro Area",2017,411339,2/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+13380,"Bellingham, WA Metro Area",2017,221404,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+13740,"Billings, MT Metro Area",2017,172081,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",2017,181986,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+14060,"Bloomington, IL Metro Area",2017,186356,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+14020,"Bloomington, IN Metro Area",2017,167825,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+14260,"Boise City, ID Metro Area",2017,710323,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+14540,"Bowling Green, KY Metro Area",2017,178474,9/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+15540,"Burlington-South Burlington, VT Metro Area",2017,218341,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+15500,"Burlington, NC Metro Area",2017,162391,8/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+15940,"Canton-Massillon, OH Metro Area",2017,399927,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+15980,"Cape Coral-Fort Myers, FL Metro Area",2017,739224,12/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+16180,"Carson City, NV Metro Area",2017,54745,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+16300,"Cedar Rapids, IA Metro Area",2017,270293,1/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+16700,"Charleston-North Charleston, SC Metro Area",2017,775831,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+16620,"Charleston, WV Metro Area",2017,215089,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+16820,"Charlottesville, VA Metro Area",2017,232182,9/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+16860,"Chattanooga, TN-GA Metro Area",2017,554876,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+17020,"Chico, CA Metro Area",2017,229294,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+17300,"Clarksville, TN-KY Metro Area",2017,285602,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+17660,"Coeur d'Alene, ID Metro Area",2017,157637,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+17780,"College Station-Bryan, TX Metro Area",2017,258860,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+17820,"Colorado Springs, CO Metro Area",2017,723878,5/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+17860,"Columbia, MO Metro Area",2017,178271,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+17900,"Columbia, SC Metro Area",2017,825004,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+17980,"Columbus, GA-AL Metro Area",2017,305911,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+23020,"Crestview-Fort Walton Beach-Destin, FL Metro Area",2017,271346,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",2017,382298,7/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+19780,"Des Moines-West Des Moines, IA Metro Area",2017,645911,9/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+20100,"Dover, DE Metro Area",2017,176824,8/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+20940,"El Centro, CA Metro Area",2017,182830,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+21140,"Elkhart-Goshen, IN Metro Area",2017,205032,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+21500,"Erie, PA Metro Area",2017,274541,4/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+22020,"Fargo, ND-MN Metro Area",2017,241356,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+22220,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",2017,535557,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+22180,"Fayetteville, NC Metro Area",2017,386662,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+22380,"Flagstaff, AZ Metro Area",2017,140776,1/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+22420,"Flint, MI Metro Area",2017,407385,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+22660,"Fort Collins, CO Metro Area",2017,343976,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+22900,"Fort Smith, AR-OK Metro Area",2017,282086,5/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+23060,"Fort Wayne, IN Metro Area",2017,434617,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+23540,"Gainesville, FL Metro Area",2017,285374,9/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+23580,"Gainesville, GA Metro Area",2017,199335,12/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+24300,"Grand Junction, CO Metro Area",2017,151616,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+24540,"Greeley, CO Metro Area",2017,304633,4/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+24580,"Green Bay, WI Metro Area",2017,320050,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+24660,"Greensboro-High Point, NC Metro Area",2017,761184,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+24860,"Greenville-Anderson-Mauldin, SC Metro Area",2017,895923,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+24780,"Greenville, NC Metro Area",2017,179042,9/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+25060,"Gulfport-Biloxi-Pascagoula, MS Metro Area",2017,394232,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+25180,"Hagerstown-Martinsburg, MD-WV Metro Area",2017,265498,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+25260,"Hanford-Corcoran, CA Metro Area",2017,150101,10/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+25500,"Harrisonburg, VA Metro Area",2017,134442,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+25620,"Hattiesburg, MS Metro Area",2017,146530,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+25980,"Hinesville, GA Metro Area",2017,81044,6/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+26580,"Huntington-Ashland, WV-KY-OH Metro Area",2017,356474,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+26620,"Huntsville, AL Metro Area",2017,455448,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+26980,"Iowa City, IA Metro Area",2017,171491,4/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+27140,"Jackson, MS Metro Area",2017,578794,12/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+27340,"Jacksonville, NC Metro Area",2017,193893,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+27500,"Janesville-Beloit, WI Metro Area",2017,162309,12/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+27740,"Johnson City, TN Metro Area",2017,203462,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+28020,"Kalamazoo-Portage, MI Metro Area",2017,338338,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+28660,"Killeen-Temple, TX Metro Area",2017,442693,7/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+28700,"Kingsport-Bristol-Bristol, TN-VA Metro Area",2017,305914,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+28940,"Knoxville, TN Metro Area",2017,877874,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+29140,"Lafayette-West Lafayette, IN Metro Area",2017,218769,7/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+29180,"Lafayette, LA Metro Area",2017,491558,2/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+29460,"Lakeland-Winter Haven, FL Metro Area",2017,686483,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+29740,"Las Cruces, NM Metro Area",2017,215579,9/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+29940,"Lawrence, KS Metro Area",2017,120793,6/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+30140,"Lebanon, PA Metro Area",2017,139754,6/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+30460,"Lexington-Fayette, KY Metro Area",2017,512650,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+30700,"Lincoln, NE Metro Area",2017,331592,1/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+30780,"Little Rock-North Little Rock-Conway, AR Metro Area",2017,738082,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+31180,"Lubbock, TX Metro Area",2017,318011,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+31340,"Lynchburg, VA Metro Area",2017,260116,12/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+31420,"Macon-Bibb County, GA Metro Area",2017,229258,5/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+31700,"Manchester-Nashua, NH Metro Area",2017,409697,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+31740,"Manhattan, KS Metro Area",2017,98080,6/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+32900,"Merced, CA Metro Area",2017,272673,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+33140,"Michigan City-La Porte, IN Metro Area",2017,110029,5/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+33260,"Midland, TX Metro Area",2017,169643,6/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+33540,"Missoula, MT Metro Area",2017,117441,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+33660,"Mobile, AL Metro Area",2017,413955,6/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+33700,"Modesto, CA Metro Area",2017,547899,5/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+33860,"Montgomery, AL Metro Area",2017,373889,2/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+34060,"Morgantown, WV Metro Area",2017,138709,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+34620,"Muncie, IN Metro Area",2017,115184,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+34820,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC Metro Area",2017,464165,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+34900,"Napa, CA Metro Area",2017,140973,4/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+34940,"Naples-Immokalee-Marco Island, FL Metro Area",2017,372880,12/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+35980,"Norwich-New London, CT Metro Area",2017,269033,2/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+36100,"Ocala, FL Metro Area",2017,354353,9/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+36140,"Ocean City, NJ Metro Area",2017,93553,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+36220,"Odessa, TX Metro Area",2017,157087,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+36540,"Omaha-Council Bluffs, NE-IA Metro Area",2017,934184,6/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+36780,"Oshkosh-Neenah, WI Metro Area",2017,170414,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",2017,589162,12/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",2017,487784,1/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+37900,"Peoria, IL Metro Area",2017,373637,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+38940,"Port St. Lucie, FL Metro Area",2017,473429,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+39380,"Pueblo, CO Metro Area",2017,166475,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+39460,"Punta Gorda, FL Metro Area",2017,182033,10/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+39540,"Racine, WI Metro Area",2017,196071,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+39740,"Reading, PA Metro Area",2017,417854,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+39820,"Redding, CA Metro Area",2017,179921,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+40220,"Roanoke, VA Metro Area",2017,312688,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+40420,"Rockford, IL Metro Area",2017,338291,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+41540,"Salisbury, MD-DE Metro Area",2017,405853,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA Metro Area",2017,283405,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+42140,"Santa Fe, NM Metro Area",2017,148750,3/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+42220,"Santa Rosa, CA Metro Area",2017,504217,5/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+42340,"Savannah, GA Metro Area",2017,387543,5/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+42540,"Scranton-Wilkes-Barre-Hazleton, PA Metro Area",2017,555426,2/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+42680,"Sebastian-Vero Beach, FL Metro Area",2017,154383,8/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+43780,"South Bend-Mishawaka, IN-MI Metro Area",2017,321815,10/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+43900,"Spartanburg, SC Metro Area",2017,334391,7/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+44100,"Springfield, IL Metro Area",2017,207596,2/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+44180,"Springfield, MO Metro Area",2017,461469,11/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+41100,"St. George, UT Metro Area",2017,165662,7/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+44300,"State College, PA Metro Area",2017,162660,2/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+45220,"Tallahassee, FL Metro Area",2017,385473,9/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+45780,"Toledo, OH Metro Area",2017,603668,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+45820,"Topeka, KS Metro Area",2017,233149,11/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+46140,"Tulsa, OK Metro Area",2017,990773,4/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+46220,"Tuscaloosa, AL Metro Area",2017,242279,8/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+46340,"Tyler, TX Metro Area",2017,227727,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+46700,"Vallejo-Fairfield, CA Metro Area",2017,445458,11/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+47220,"Vineland-Bridgeton, NJ Metro Area",2017,152538,10/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+47300,"Visalia-Porterville, CA Metro Area",2017,464493,6/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+47380,"Waco, TX Metro Area",2017,267554,1/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+47580,"Warner Robins, GA Metro Area",2017,192766,6/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+48620,"Wichita, KS Metro Area",2017,646542,9/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+48700,"Williamsport, PA Metro Area",2017,113841,11/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+48900,"Wilmington, NC Metro Area",2017,288156,7/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+49020,"Winchester, VA-WV Metro Area",2017,139223,9/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+49180,"Winston-Salem, NC Metro Area",2017,667733,8/1/14,2014,2015,1,Low Op-Ex,22,2.3,0.198
+49420,"Yakima, WA Metro Area",2017,250193,12/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+49620,"York-Hanover, PA Metro Area",2017,446078,7/1/15,2015,2016,1,Low Op-Ex,22,2.3,0.198
+49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",2017,541926,6/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+49700,"Yuba City, CA Metro Area",2017,173679,4/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198
+49740,"Yuma, AZ Metro Area",2017,207534,3/1/16,2016,2017,1,Low Op-Ex,22,2.3,0.198

@@ -1,0 +1,1611 @@
+,CBSA,MNAME,TTI_INTERPOLATION,Year,TTI,DEL_PER_AUTO_COMMUTER,TOT_DELAY_HRS
+0,10420,"Akron, OH Metro Area",0,2012,1.11,30.0,13358.0
+1,10420,"Akron, OH Metro Area",0,2013,1.11,32.0,13825.0
+2,10420,"Akron, OH Metro Area",0,2014,1.11,33.0,14470.0
+3,10420,"Akron, OH Metro Area",0,2015,1.1,35.0,14783.0
+4,10420,"Akron, OH Metro Area",0,2016,1.1,35.0,15128.0
+5,10420,"Akron, OH Metro Area",0,2017,1.1,37.0,15352.0
+6,10420,"Akron, OH Metro Area",0,2018,1.0975000000000001,38.0,15572.5
+7,10500,"Albany, GA Metro Area",1,2012,1.065,16.5,1693.0
+8,10500,"Albany, GA Metro Area",1,2013,1.0675000000000001,16.75,1722.5
+9,10500,"Albany, GA Metro Area",1,2014,1.07,17.0,1752.0
+10,10500,"Albany, GA Metro Area",1,2015,1.07,17.0,1791.0
+11,10500,"Albany, GA Metro Area",1,2016,1.08,18.0,1831.0
+12,10500,"Albany, GA Metro Area",1,2017,1.08,18.0,1870.0
+13,10500,"Albany, GA Metro Area",1,2018,1.0825,18.25,1899.5
+14,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2012,1.16,45.0,15389.0
+15,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2013,1.16,46.0,15838.0
+16,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2014,1.17,47.0,16422.0
+17,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2015,1.17,48.0,16907.0
+18,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2016,1.17,48.0,17258.0
+19,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2017,1.17,49.0,17489.0
+20,10580,"Albany-Schenectady-Troy, NY Metro Area",0,2018,1.17,49.5,17755.75
+21,10740,"Albuquerque, NM Metro Area",0,2012,1.19,40.0,20398.0
+22,10740,"Albuquerque, NM Metro Area",0,2013,1.19,41.0,21013.0
+23,10740,"Albuquerque, NM Metro Area",0,2014,1.18,41.0,21652.0
+24,10740,"Albuquerque, NM Metro Area",0,2015,1.19,43.0,22255.0
+25,10740,"Albuquerque, NM Metro Area",0,2016,1.19,44.0,22741.0
+26,10740,"Albuquerque, NM Metro Area",0,2017,1.2,44.0,23302.0
+27,10740,"Albuquerque, NM Metro Area",0,2018,1.205,44.75,23714.5
+28,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2012,1.18,32.0,15728.0
+29,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2013,1.18,33.0,16145.0
+30,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2014,1.18,34.0,16592.0
+31,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2015,1.19,35.0,17010.0
+32,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2016,1.2,37.0,17408.0
+33,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2017,1.2,38.0,18068.0
+34,10900,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",0,2018,1.205,39.0,18437.0
+35,11020,"Altoona, PA Metro Area",1,2012,1.045,16.5,1378.5
+36,11020,"Altoona, PA Metro Area",1,2013,1.0475,16.75,1400.75
+37,11020,"Altoona, PA Metro Area",1,2014,1.05,17.0,1423.0
+38,11020,"Altoona, PA Metro Area",1,2015,1.06,17.0,1453.0
+39,11020,"Altoona, PA Metro Area",1,2016,1.06,18.0,1483.0
+40,11020,"Altoona, PA Metro Area",1,2017,1.06,18.0,1512.0
+41,11020,"Altoona, PA Metro Area",1,2018,1.0625,18.25,1534.25
+42,11180,"Ames, IA Metro Area",1,2012,1.065,7.5,890.0
+43,11180,"Ames, IA Metro Area",1,2013,1.0675000000000001,7.75,902.0
+44,11180,"Ames, IA Metro Area",1,2014,1.07,8.0,914.0
+45,11180,"Ames, IA Metro Area",1,2015,1.08,8.0,930.0
+46,11180,"Ames, IA Metro Area",1,2016,1.08,8.0,946.0
+47,11180,"Ames, IA Metro Area",1,2017,1.08,9.0,962.0
+48,11180,"Ames, IA Metro Area",1,2018,1.0825,9.25,974.0
+49,11260,"Anchorage, AK Metro Area",0,2012,1.2,40.0,9177.0
+50,11260,"Anchorage, AK Metro Area",0,2013,1.2,41.0,9501.0
+51,11260,"Anchorage, AK Metro Area",0,2014,1.2,41.0,9658.0
+52,11260,"Anchorage, AK Metro Area",0,2015,1.21,41.0,9976.0
+53,11260,"Anchorage, AK Metro Area",0,2016,1.22,42.0,10487.0
+54,11260,"Anchorage, AK Metro Area",0,2017,1.22,42.0,11149.0
+55,11260,"Anchorage, AK Metro Area",0,2018,1.225,42.25,11521.75
+56,11460,"Ann Arbor, MI Metro Area",1,2012,1.11,22.0,6750.0
+57,11460,"Ann Arbor, MI Metro Area",1,2013,1.11,22.0,6795.0
+58,11460,"Ann Arbor, MI Metro Area",1,2014,1.11,22.0,6840.0
+59,11460,"Ann Arbor, MI Metro Area",1,2015,1.11,22.0,6900.0
+60,11460,"Ann Arbor, MI Metro Area",1,2016,1.11,22.0,6960.0
+61,11460,"Ann Arbor, MI Metro Area",1,2017,1.11,22.0,7020.0
+62,11460,"Ann Arbor, MI Metro Area",1,2018,1.11,22.0,7065.0
+63,11540,"Appleton, WI Metro Area",1,2012,1.06,15.0,3405.5
+64,11540,"Appleton, WI Metro Area",1,2013,1.06,15.0,3435.25
+65,11540,"Appleton, WI Metro Area",1,2014,1.06,15.0,3465.0
+66,11540,"Appleton, WI Metro Area",1,2015,1.06,15.0,3505.0
+67,11540,"Appleton, WI Metro Area",1,2016,1.06,15.0,3544.0
+68,11540,"Appleton, WI Metro Area",1,2017,1.06,15.0,3584.0
+69,11540,"Appleton, WI Metro Area",1,2018,1.06,15.0,3613.75
+70,11700,"Asheville, NC Metro Area",1,2012,1.08,25.5,7726.0
+71,11700,"Asheville, NC Metro Area",1,2013,1.08,25.75,7804.0
+72,11700,"Asheville, NC Metro Area",1,2014,1.08,26.0,7882.0
+73,11700,"Asheville, NC Metro Area",1,2015,1.08,26.0,7985.0
+74,11700,"Asheville, NC Metro Area",1,2016,1.08,27.0,8088.0
+75,11700,"Asheville, NC Metro Area",1,2017,1.08,27.0,8194.0
+76,11700,"Asheville, NC Metro Area",1,2018,1.08,27.25,8272.0
+77,12020,"Athens-Clarke County, GA Metro Area",1,2012,1.08,21.0,2937.5
+78,12020,"Athens-Clarke County, GA Metro Area",1,2013,1.085,22.0,3081.25
+79,12020,"Athens-Clarke County, GA Metro Area",1,2014,1.09,23.0,3225.0
+80,12020,"Athens-Clarke County, GA Metro Area",1,2015,1.09,24.0,3417.0
+81,12020,"Athens-Clarke County, GA Metro Area",1,2016,1.1,26.0,3608.0
+82,12020,"Athens-Clarke County, GA Metro Area",1,2017,1.11,27.0,3800.0
+83,12020,"Athens-Clarke County, GA Metro Area",1,2018,1.1150000000000002,28.0,3943.75
+84,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2012,1.24,64.0,215539.0
+85,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2013,1.25,66.0,224398.0
+86,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2014,1.25,68.0,227691.0
+87,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2015,1.27,71.0,232059.0
+88,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2016,1.28,74.0,235198.0
+89,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2017,1.3,77.0,237405.0
+90,12060,"Atlanta-Sandy Springs-Marietta, GA Metro Area",0,2018,1.3125,79.25,239833.5
+91,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2012,1.1,23.5,9745.5
+92,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2013,1.1,23.75,9796.25
+93,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2014,1.1,24.0,9847.0
+94,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2015,1.1,24.0,9914.0
+95,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2016,1.1,24.0,9982.0
+96,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2017,1.1,25.0,10050.0
+97,12260,"Augusta-Richmond County, GA-SC Metro Area",1,2018,1.1,25.25,10100.75
+98,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2012,1.31,55.0,54518.0
+99,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2013,1.32,58.0,56789.0
+100,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2014,1.33,59.0,58506.0
+101,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2015,1.33,61.0,61262.0
+102,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2016,1.34,63.0,64709.0
+103,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2017,1.34,66.0,68187.0
+104,12420,"Austin-Round Rock-San Marcos, TX Metro Area",0,2018,1.3425,67.75,70607.25
+105,12540,"Bakersfield-Delano, CA Metro Area",0,2012,1.11,18.0,7079.0
+106,12540,"Bakersfield-Delano, CA Metro Area",0,2013,1.12,18.0,7201.0
+107,12540,"Bakersfield-Delano, CA Metro Area",0,2014,1.12,22.0,7834.0
+108,12540,"Bakersfield-Delano, CA Metro Area",0,2015,1.13,22.0,8067.0
+109,12540,"Bakersfield-Delano, CA Metro Area",0,2016,1.13,23.0,8467.0
+110,12540,"Bakersfield-Delano, CA Metro Area",0,2017,1.13,24.0,8896.0
+111,12540,"Bakersfield-Delano, CA Metro Area",0,2018,1.1324999999999998,24.5,9161.5
+112,12580,"Baltimore-Towson, MD Metro Area",0,2012,1.25,50.0,82074.0
+113,12580,"Baltimore-Towson, MD Metro Area",0,2013,1.25,51.0,84539.0
+114,12580,"Baltimore-Towson, MD Metro Area",0,2014,1.26,54.0,86755.0
+115,12580,"Baltimore-Towson, MD Metro Area",0,2015,1.25,55.0,88266.0
+116,12580,"Baltimore-Towson, MD Metro Area",0,2016,1.25,57.0,91419.0
+117,12580,"Baltimore-Towson, MD Metro Area",0,2017,1.25,59.0,93815.0
+118,12580,"Baltimore-Towson, MD Metro Area",0,2018,1.2475,60.25,95580.0
+119,12940,"Baton Rouge, LA Metro Area",0,2012,1.21,48.0,22891.0
+120,12940,"Baton Rouge, LA Metro Area",0,2013,1.22,50.0,24500.0
+121,12940,"Baton Rouge, LA Metro Area",0,2014,1.22,52.0,26174.0
+122,12940,"Baton Rouge, LA Metro Area",0,2015,1.23,55.0,27246.0
+123,12940,"Baton Rouge, LA Metro Area",0,2016,1.23,56.0,27852.0
+124,12940,"Baton Rouge, LA Metro Area",0,2017,1.23,58.0,28362.0
+125,12940,"Baton Rouge, LA Metro Area",0,2018,1.2325,59.5,28909.0
+126,13020,"Bay City, MI Metro Area",1,2012,1.05,15.0,1103.5
+127,13020,"Bay City, MI Metro Area",1,2013,1.05,15.0,1099.75
+128,13020,"Bay City, MI Metro Area",1,2014,1.05,15.0,1096.0
+129,13020,"Bay City, MI Metro Area",1,2015,1.05,15.0,1091.0
+130,13020,"Bay City, MI Metro Area",1,2016,1.05,15.0,1086.0
+131,13020,"Bay City, MI Metro Area",1,2017,1.05,15.0,1081.0
+132,13020,"Bay City, MI Metro Area",1,2018,1.05,15.0,1077.25
+133,13140,"Beaumont-Port Arthur, TX Metro Area",0,2012,1.13,34.0,6800.0
+134,13140,"Beaumont-Port Arthur, TX Metro Area",0,2013,1.14,37.0,7220.0
+135,13140,"Beaumont-Port Arthur, TX Metro Area",0,2014,1.13,38.0,7566.0
+136,13140,"Beaumont-Port Arthur, TX Metro Area",0,2015,1.13,39.0,7786.0
+137,13140,"Beaumont-Port Arthur, TX Metro Area",0,2016,1.13,40.0,8491.0
+138,13140,"Beaumont-Port Arthur, TX Metro Area",0,2017,1.13,41.0,8493.0
+139,13140,"Beaumont-Port Arthur, TX Metro Area",0,2018,1.13,41.75,8724.75
+140,13380,"Bellingham, WA Metro Area",1,2012,1.08,18.0,2105.0
+141,13380,"Bellingham, WA Metro Area",1,2013,1.09,20.0,2353.0
+142,13380,"Bellingham, WA Metro Area",1,2014,1.1,22.0,2601.0
+143,13380,"Bellingham, WA Metro Area",1,2015,1.11,24.0,2932.0
+144,13380,"Bellingham, WA Metro Area",1,2016,1.13,27.0,3262.0
+145,13380,"Bellingham, WA Metro Area",1,2017,1.14,30.0,3593.0
+146,13380,"Bellingham, WA Metro Area",1,2018,1.15,32.0,3841.0
+147,13740,"Billings, MT Metro Area",1,2012,1.0750000000000002,14.0,1927.5
+148,13740,"Billings, MT Metro Area",1,2013,1.0775000000000001,14.5,1968.75
+149,13740,"Billings, MT Metro Area",1,2014,1.08,15.0,2010.0
+150,13740,"Billings, MT Metro Area",1,2015,1.08,16.0,2065.0
+151,13740,"Billings, MT Metro Area",1,2016,1.09,16.0,2120.0
+152,13740,"Billings, MT Metro Area",1,2017,1.09,17.0,2175.0
+153,13740,"Billings, MT Metro Area",1,2018,1.0925,17.5,2216.25
+154,13780,"Binghamton, NY Metro Area",1,2012,1.0550000000000002,19.0,3102.0
+155,13780,"Binghamton, NY Metro Area",1,2013,1.0525,18.5,3042.5
+156,13780,"Binghamton, NY Metro Area",1,2014,1.05,18.0,2983.0
+157,13780,"Binghamton, NY Metro Area",1,2015,1.05,17.0,2903.0
+158,13780,"Binghamton, NY Metro Area",1,2016,1.05,17.0,2824.0
+159,13780,"Binghamton, NY Metro Area",1,2017,1.04,16.0,2745.0
+160,13780,"Binghamton, NY Metro Area",1,2018,1.0375,15.5,2685.5
+161,13820,"Birmingham-Hoover, AL Metro Area",0,2012,1.13,37.0,20329.0
+162,13820,"Birmingham-Hoover, AL Metro Area",0,2013,1.14,38.0,21033.0
+163,13820,"Birmingham-Hoover, AL Metro Area",0,2014,1.14,38.0,21543.0
+164,13820,"Birmingham-Hoover, AL Metro Area",0,2015,1.13,39.0,22011.0
+165,13820,"Birmingham-Hoover, AL Metro Area",0,2016,1.13,39.0,22292.0
+166,13820,"Birmingham-Hoover, AL Metro Area",0,2017,1.13,40.0,22877.0
+167,13820,"Birmingham-Hoover, AL Metro Area",0,2018,1.1275,40.5,23210.5
+168,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2012,1.0550000000000002,9.0,968.0
+169,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2013,1.0575,10.0,1046.5
+170,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2014,1.06,11.0,1125.0
+171,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2015,1.06,12.0,1229.0
+172,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2016,1.07,13.0,1334.0
+173,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2017,1.07,15.0,1439.0
+174,13980,"Blacksburg-Christiansburg-Radford, VA Metro Area",1,2018,1.0725,16.0,1517.5
+175,14020,"Bloomington, IN Metro Area",1,2012,1.0950000000000002,15.0,1707.5
+176,14020,"Bloomington, IN Metro Area",1,2013,1.0975000000000001,15.0,1721.25
+177,14020,"Bloomington, IN Metro Area",1,2014,1.1,15.0,1735.0
+178,14020,"Bloomington, IN Metro Area",1,2015,1.1,15.0,1753.0
+179,14020,"Bloomington, IN Metro Area",1,2016,1.1,15.0,1771.0
+180,14020,"Bloomington, IN Metro Area",1,2017,1.11,15.0,1790.0
+181,14020,"Bloomington, IN Metro Area",1,2018,1.1125,15.0,1803.75
+182,14060,"Bloomington-Normal, IL Metro Area",1,2012,1.04,9.0,1264.5
+183,14060,"Bloomington-Normal, IL Metro Area",1,2013,1.04,9.0,1267.75
+184,14060,"Bloomington-Normal, IL Metro Area",1,2014,1.04,9.0,1271.0
+185,14060,"Bloomington-Normal, IL Metro Area",1,2015,1.04,9.0,1275.0
+186,14060,"Bloomington-Normal, IL Metro Area",1,2016,1.04,9.0,1279.0
+187,14060,"Bloomington-Normal, IL Metro Area",1,2017,1.04,9.0,1284.0
+188,14060,"Bloomington-Normal, IL Metro Area",1,2018,1.04,9.0,1287.25
+189,14260,"Boise City-Nampa, ID Metro Area",0,2012,1.14,36.0,10196.0
+190,14260,"Boise City-Nampa, ID Metro Area",0,2013,1.14,39.0,10690.0
+191,14260,"Boise City-Nampa, ID Metro Area",0,2014,1.15,41.0,11145.0
+192,14260,"Boise City-Nampa, ID Metro Area",0,2015,1.15,43.0,10855.0
+193,14260,"Boise City-Nampa, ID Metro Area",0,2016,1.16,44.0,11795.0
+194,14260,"Boise City-Nampa, ID Metro Area",0,2017,1.16,45.0,12254.0
+195,14260,"Boise City-Nampa, ID Metro Area",0,2018,1.1624999999999999,46.0,12531.25
+196,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2012,1.29,69.0,164282.0
+197,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2013,1.29,70.0,169166.0
+198,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2014,1.29,72.0,174013.0
+199,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2015,1.3,75.0,179172.0
+200,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2016,1.3,77.0,184486.0
+201,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2017,1.3,80.0,189426.0
+202,14460,"Boston-Cambridge-Quincy, MA-NH Metro Area",0,2018,1.3025,82.0,193279.25
+203,14740,"Bremerton-Silverdale, WA Metro Area",1,2012,1.15,24.5,5036.5
+204,14740,"Bremerton-Silverdale, WA Metro Area",1,2013,1.15,24.75,5080.75
+205,14740,"Bremerton-Silverdale, WA Metro Area",1,2014,1.15,25.0,5125.0
+206,14740,"Bremerton-Silverdale, WA Metro Area",1,2015,1.15,25.0,5183.0
+207,14740,"Bremerton-Silverdale, WA Metro Area",1,2016,1.15,26.0,5242.0
+208,14740,"Bremerton-Silverdale, WA Metro Area",1,2017,1.15,26.0,5302.0
+209,14740,"Bremerton-Silverdale, WA Metro Area",1,2018,1.15,26.25,5346.25
+210,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2012,1.35,50.0,32544.0
+211,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2013,1.34,52.0,34008.0
+212,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2014,1.34,53.0,35036.0
+213,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2015,1.34,54.0,36570.0
+214,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2016,1.34,57.0,37908.0
+215,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2017,1.34,57.0,38789.0
+216,14860,"Bridgeport-Stamford-Norwalk, CT Metro Area",0,2018,1.34,58.0,39727.25
+217,15180,"Brownsville-Harlingen, TX Metro Area",0,2012,1.14,25.0,3377.0
+218,15180,"Brownsville-Harlingen, TX Metro Area",0,2013,1.14,26.0,3516.0
+219,15180,"Brownsville-Harlingen, TX Metro Area",0,2014,1.14,27.0,3836.0
+220,15180,"Brownsville-Harlingen, TX Metro Area",0,2015,1.13,28.0,4135.0
+221,15180,"Brownsville-Harlingen, TX Metro Area",0,2016,1.13,28.0,4412.0
+222,15180,"Brownsville-Harlingen, TX Metro Area",0,2017,1.13,29.0,4629.0
+223,15180,"Brownsville-Harlingen, TX Metro Area",0,2018,1.1275,29.5,4827.25
+224,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2012,1.17,44.0,26474.0
+225,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2013,1.17,46.0,27170.0
+226,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2014,1.17,47.0,27842.0
+227,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2015,1.16,47.0,28913.0
+228,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2016,1.16,48.0,30526.0
+229,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2017,1.16,48.0,31977.0
+230,15380,"Buffalo-Niagara Falls, NY Metro Area",0,2018,1.1575,48.25,33010.75
+231,15540,"Burlington-South Burlington, VT Metro Area",1,2012,1.0950000000000002,23.5,2819.5
+232,15540,"Burlington-South Burlington, VT Metro Area",1,2013,1.0975000000000001,24.25,2912.75
+233,15540,"Burlington-South Burlington, VT Metro Area",1,2014,1.1,25.0,3006.0
+234,15540,"Burlington-South Burlington, VT Metro Area",1,2015,1.1,26.0,3129.0
+235,15540,"Burlington-South Burlington, VT Metro Area",1,2016,1.11,27.0,3254.0
+236,15540,"Burlington-South Burlington, VT Metro Area",1,2017,1.11,28.0,3379.0
+237,15540,"Burlington-South Burlington, VT Metro Area",1,2018,1.1125,28.75,3472.25
+238,15940,"Canton-Massillon, OH Metro Area",1,2012,1.06,21.0,6356.0
+239,15940,"Canton-Massillon, OH Metro Area",1,2013,1.06,21.5,6466.0
+240,15940,"Canton-Massillon, OH Metro Area",1,2014,1.06,22.0,6576.0
+241,15940,"Canton-Massillon, OH Metro Area",1,2015,1.06,23.0,6722.0
+242,15940,"Canton-Massillon, OH Metro Area",1,2016,1.06,23.0,6869.0
+243,15940,"Canton-Massillon, OH Metro Area",1,2017,1.06,24.0,7016.0
+244,15940,"Canton-Massillon, OH Metro Area",1,2018,1.06,24.5,7126.0
+245,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2012,1.18,36.0,13449.0
+246,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2013,1.18,35.0,13799.0
+247,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2014,1.18,35.0,14274.0
+248,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2015,1.17,36.0,14679.0
+249,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2016,1.17,36.0,15308.0
+250,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2017,1.17,37.0,15733.0
+251,15980,"Cape Coral-Fort Myers, FL Metro Area",0,2018,1.1675,37.5,16097.75
+252,16300,"Cedar Rapids, IA Metro Area",1,2012,1.05,12.5,2481.0
+253,16300,"Cedar Rapids, IA Metro Area",1,2013,1.0550000000000002,13.25,2629.0
+254,16300,"Cedar Rapids, IA Metro Area",1,2014,1.06,14.0,2777.0
+255,16300,"Cedar Rapids, IA Metro Area",1,2015,1.07,15.0,2974.0
+256,16300,"Cedar Rapids, IA Metro Area",1,2016,1.07,16.0,3172.0
+257,16300,"Cedar Rapids, IA Metro Area",1,2017,1.08,17.0,3369.0
+258,16300,"Cedar Rapids, IA Metro Area",1,2018,1.085,17.75,3517.0
+259,16580,"Champaign-Urbana, IL Metro Area",1,2012,1.06,11.0,1659.0
+260,16580,"Champaign-Urbana, IL Metro Area",1,2013,1.06,11.0,1668.5
+261,16580,"Champaign-Urbana, IL Metro Area",1,2014,1.06,11.0,1678.0
+262,16580,"Champaign-Urbana, IL Metro Area",1,2015,1.06,11.0,1691.0
+263,16580,"Champaign-Urbana, IL Metro Area",1,2016,1.06,11.0,1703.0
+264,16580,"Champaign-Urbana, IL Metro Area",1,2017,1.06,11.0,1716.0
+265,16580,"Champaign-Urbana, IL Metro Area",1,2018,1.06,11.0,1725.5
+266,16620,"Charleston, WV Metro Area",1,2012,1.05,14.0,2263.0
+267,16620,"Charleston, WV Metro Area",1,2013,1.05,14.0,2254.5
+268,16620,"Charleston, WV Metro Area",1,2014,1.05,14.0,2246.0
+269,16620,"Charleston, WV Metro Area",1,2015,1.05,14.0,2234.0
+270,16620,"Charleston, WV Metro Area",1,2016,1.05,14.0,2223.0
+271,16620,"Charleston, WV Metro Area",1,2017,1.05,14.0,2212.0
+272,16620,"Charleston, WV Metro Area",1,2018,1.05,14.0,2203.5
+273,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2012,1.23,47.0,18939.0
+274,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2013,1.22,46.0,19514.0
+275,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2014,1.23,47.0,19768.0
+276,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2015,1.23,48.0,20047.0
+277,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2016,1.23,50.0,20555.0
+278,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2017,1.23,51.0,21087.0
+279,16700,"Charleston-North Charleston-Summerville, SC Metro Area",0,2018,1.23,52.0,21416.75
+280,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2012,1.24,48.0,39817.0
+281,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2013,1.23,50.0,42138.0
+282,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2014,1.23,51.0,44377.0
+283,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2015,1.23,52.0,46235.0
+284,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2016,1.22,54.0,48442.0
+285,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2017,1.22,57.0,50641.0
+286,16740,"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area",0,2018,1.2175,58.5,52207.0
+287,16860,"Chattanooga, TN-GA Metro Area",1,2012,1.105,25.0,10375.0
+288,16860,"Chattanooga, TN-GA Metro Area",1,2013,1.1075000000000002,25.5,10510.5
+289,16860,"Chattanooga, TN-GA Metro Area",1,2014,1.11,26.0,10646.0
+290,16860,"Chattanooga, TN-GA Metro Area",1,2015,1.12,27.0,10823.0
+291,16860,"Chattanooga, TN-GA Metro Area",1,2016,1.12,27.0,11004.0
+292,16860,"Chattanooga, TN-GA Metro Area",1,2017,1.12,28.0,11188.0
+293,16860,"Chattanooga, TN-GA Metro Area",1,2018,1.1225,28.5,11323.5
+294,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2012,1.29,63.0,319661.0
+295,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2013,1.3,67.0,330198.0
+296,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2014,1.31,70.0,334329.0
+297,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2015,1.31,70.0,339747.0
+298,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2016,1.32,72.0,344891.0
+299,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2017,1.32,73.0,352759.0
+300,16980,"Chicago-Joliet-Naperville, IL-IN-WI Metro Area",0,2018,1.3225,73.75,357366.5
+301,17020,"Chico, CA Metro Area",1,2012,1.085,16.5,1788.5
+302,17020,"Chico, CA Metro Area",1,2013,1.0875000000000001,16.75,1800.25
+303,17020,"Chico, CA Metro Area",1,2014,1.09,17.0,1812.0
+304,17020,"Chico, CA Metro Area",1,2015,1.1,17.0,1827.0
+305,17020,"Chico, CA Metro Area",1,2016,1.1,17.0,1843.0
+306,17020,"Chico, CA Metro Area",1,2017,1.1,18.0,1859.0
+307,17020,"Chico, CA Metro Area",1,2018,1.1025,18.25,1870.75
+308,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2012,1.17,46.0,55383.0
+309,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2013,1.18,47.0,56754.0
+310,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2014,1.18,49.0,58108.0
+311,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2015,1.17,50.0,59998.0
+312,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2016,1.17,51.0,62902.0
+313,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2017,1.17,52.0,64061.0
+314,17140,"Cincinnati-Middletown, OH-KY-IN Metro Area",0,2018,1.1675,52.75,65549.25
+315,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2012,1.15,41.0,49805.0
+316,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2013,1.15,43.0,51101.0
+317,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2014,1.15,43.0,51770.0
+318,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2015,1.15,44.0,53046.0
+319,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2016,1.15,46.0,54900.0
+320,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2017,1.15,46.0,56070.0
+321,17460,"Cleveland-Elyria-Mentor, OH Metro Area",0,2018,1.15,46.75,57145.0
+322,17780,"College Station-Bryan, TX Metro Area",1,2012,1.145,29.0,4968.5
+323,17780,"College Station-Bryan, TX Metro Area",1,2013,1.1475,29.5,5049.25
+324,17780,"College Station-Bryan, TX Metro Area",1,2014,1.15,30.0,5130.0
+325,17780,"College Station-Bryan, TX Metro Area",1,2015,1.15,31.0,5235.0
+326,17780,"College Station-Bryan, TX Metro Area",1,2016,1.16,31.0,5343.0
+327,17780,"College Station-Bryan, TX Metro Area",1,2017,1.16,32.0,5453.0
+328,17780,"College Station-Bryan, TX Metro Area",1,2018,1.1624999999999999,32.5,5533.75
+329,17820,"Colorado Springs, CO Metro Area",0,2012,1.15,38.0,16141.0
+330,17820,"Colorado Springs, CO Metro Area",0,2013,1.15,37.0,16538.0
+331,17820,"Colorado Springs, CO Metro Area",0,2014,1.16,40.0,16832.0
+332,17820,"Colorado Springs, CO Metro Area",0,2015,1.15,40.0,17103.0
+333,17820,"Colorado Springs, CO Metro Area",0,2016,1.15,42.0,17470.0
+334,17820,"Colorado Springs, CO Metro Area",0,2017,1.15,43.0,17883.0
+335,17820,"Colorado Springs, CO Metro Area",0,2018,1.1475,43.75,18145.75
+336,17860,"Columbia, MO Metro Area",1,2012,1.1,19.0,2632.0
+337,17860,"Columbia, MO Metro Area",1,2013,1.1,19.0,2642.0
+338,17860,"Columbia, MO Metro Area",1,2014,1.1,19.0,2652.0
+339,17860,"Columbia, MO Metro Area",1,2015,1.1,19.0,2665.0
+340,17860,"Columbia, MO Metro Area",1,2016,1.1,19.0,2679.0
+341,17860,"Columbia, MO Metro Area",1,2017,1.1,19.0,2692.0
+342,17860,"Columbia, MO Metro Area",1,2018,1.1,19.0,2702.0
+343,17900,"Columbia, SC Metro Area",0,2012,1.15,42.0,14674.0
+344,17900,"Columbia, SC Metro Area",0,2013,1.16,43.0,15128.0
+345,17900,"Columbia, SC Metro Area",0,2014,1.16,43.0,15392.0
+346,17900,"Columbia, SC Metro Area",0,2015,1.15,44.0,15687.0
+347,17900,"Columbia, SC Metro Area",0,2016,1.15,44.0,16061.0
+348,17900,"Columbia, SC Metro Area",0,2017,1.15,44.0,16331.0
+349,17900,"Columbia, SC Metro Area",0,2018,1.1475,44.25,16565.75
+350,18140,"Columbus, OH Metro Area",0,2012,1.18,44.0,43720.0
+351,18140,"Columbus, OH Metro Area",0,2013,1.18,45.0,45865.0
+352,18140,"Columbus, OH Metro Area",0,2014,1.18,47.0,46936.0
+353,18140,"Columbus, OH Metro Area",0,2015,1.18,47.0,48216.0
+354,18140,"Columbus, OH Metro Area",0,2016,1.19,48.0,49973.0
+355,18140,"Columbus, OH Metro Area",0,2017,1.19,50.0,51381.0
+356,18140,"Columbus, OH Metro Area",0,2018,1.1925,50.75,52492.25
+357,18580,"Corpus Christi, TX Metro Area",0,2012,1.12,32.0,8115.0
+358,18580,"Corpus Christi, TX Metro Area",0,2013,1.12,35.0,8694.0
+359,18580,"Corpus Christi, TX Metro Area",0,2014,1.12,35.0,8851.0
+360,18580,"Corpus Christi, TX Metro Area",0,2015,1.13,36.0,9001.0
+361,18580,"Corpus Christi, TX Metro Area",0,2016,1.13,37.0,9279.0
+362,18580,"Corpus Christi, TX Metro Area",0,2017,1.13,38.0,9458.0
+363,18580,"Corpus Christi, TX Metro Area",0,2018,1.1324999999999998,38.75,9609.75
+364,18700,"Corvallis, OR Metro Area",1,2012,1.0950000000000002,10.0,740.5
+365,18700,"Corvallis, OR Metro Area",1,2013,1.0975000000000001,10.0,752.25
+366,18700,"Corvallis, OR Metro Area",1,2014,1.1,10.0,764.0
+367,18700,"Corvallis, OR Metro Area",1,2015,1.1,10.0,779.0
+368,18700,"Corvallis, OR Metro Area",1,2016,1.11,10.0,796.0
+369,18700,"Corvallis, OR Metro Area",1,2017,1.11,10.0,811.0
+370,18700,"Corvallis, OR Metro Area",1,2018,1.1125,10.0,822.75
+371,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2012,1.13,21.5,4632.0
+372,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2013,1.13,21.75,4685.5
+373,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2014,1.13,22.0,4739.0
+374,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2015,1.13,22.0,4809.0
+375,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2016,1.13,22.0,4881.0
+376,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2017,1.13,23.0,4953.0
+377,18880,"Crestview-Fort Walton Beach-Destin, FL Metro Area",1,2018,1.13,23.25,5006.5
+378,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2012,1.26,57.0,198340.0
+379,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2013,1.27,59.0,205089.0
+380,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2014,1.27,60.0,209671.0
+381,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2015,1.26,63.0,214718.0
+382,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2016,1.26,65.0,220076.0
+383,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2017,1.26,67.0,224883.0
+384,19100,"Dallas-Fort Worth-Arlington, TX Metro Area",0,2018,1.2575,68.75,228686.0
+385,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2012,1.05,14.0,4060.0
+386,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2013,1.05,14.0,4067.0
+387,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2014,1.05,14.0,4074.0
+388,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2015,1.05,14.0,4084.0
+389,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2016,1.05,14.0,4093.0
+390,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2017,1.05,14.0,4102.0
+391,19340,"Davenport-Moline-Rock Island, IA-IL Metro Area",1,2018,1.05,14.0,4109.0
+392,19380,"Dayton, OH Metro Area",0,2012,1.11,27.0,15723.0
+393,19380,"Dayton, OH Metro Area",0,2013,1.11,27.0,16003.0
+394,19380,"Dayton, OH Metro Area",0,2014,1.12,28.0,16254.0
+395,19380,"Dayton, OH Metro Area",0,2015,1.12,30.0,16447.0
+396,19380,"Dayton, OH Metro Area",0,2016,1.12,30.0,16823.0
+397,19380,"Dayton, OH Metro Area",0,2017,1.12,32.0,17377.0
+398,19380,"Dayton, OH Metro Area",0,2018,1.12,33.0,17657.75
+399,19500,"Decatur, IL Metro Area",1,2012,1.06,12.5,1172.0
+400,19500,"Decatur, IL Metro Area",1,2013,1.06,12.25,1165.5
+401,19500,"Decatur, IL Metro Area",1,2014,1.06,12.0,1159.0
+402,19500,"Decatur, IL Metro Area",1,2015,1.06,12.0,1151.0
+403,19500,"Decatur, IL Metro Area",1,2016,1.06,11.0,1142.0
+404,19500,"Decatur, IL Metro Area",1,2017,1.06,11.0,1133.0
+405,19500,"Decatur, IL Metro Area",1,2018,1.06,10.75,1126.5
+406,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2012,1.08,14.5,2986.0
+407,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2013,1.08,14.75,3012.5
+408,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2014,1.08,15.0,3039.0
+409,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2015,1.08,15.0,3074.0
+410,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2016,1.08,16.0,3109.0
+411,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2017,1.08,16.0,3145.0
+412,19660,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,2018,1.08,16.25,3171.5
+413,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2012,1.3,53.0,95576.0
+414,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2013,1.3,55.0,99468.0
+415,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2014,1.3,55.0,101271.0
+416,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2015,1.31,58.0,103318.0
+417,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2016,1.31,59.0,105664.0
+418,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2017,1.31,61.0,107463.0
+419,19740,"Denver-Aurora-Broomfield, CO Metro Area",0,2018,1.3125,62.5,109011.0
+420,19780,"Des Moines-West Des Moines, IA Metro Area",1,2012,1.065,16.5,7943.5
+421,19780,"Des Moines-West Des Moines, IA Metro Area",1,2013,1.0675000000000001,16.75,8119.25
+422,19780,"Des Moines-West Des Moines, IA Metro Area",1,2014,1.07,17.0,8295.0
+423,19780,"Des Moines-West Des Moines, IA Metro Area",1,2015,1.07,17.0,8528.0
+424,19780,"Des Moines-West Des Moines, IA Metro Area",1,2016,1.08,18.0,8762.0
+425,19780,"Des Moines-West Des Moines, IA Metro Area",1,2017,1.08,18.0,8998.0
+426,19780,"Des Moines-West Des Moines, IA Metro Area",1,2018,1.0825,18.25,9173.75
+427,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2012,1.24,57.0,151032.0
+428,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2013,1.24,58.0,153478.0
+429,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2014,1.24,59.0,157277.0
+430,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2015,1.24,60.0,160898.0
+431,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2016,1.24,61.0,162407.0
+432,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2017,1.24,61.0,165339.0
+433,19820,"Detroit-Warren-Livonia, MI Metro Area",0,2018,1.24,61.5,167354.5
+434,20260,"Duluth, MN-WI Metro Area",1,2012,1.07,15.0,1879.0
+435,20260,"Duluth, MN-WI Metro Area",1,2013,1.07,15.0,1878.0
+436,20260,"Duluth, MN-WI Metro Area",1,2014,1.07,15.0,1877.0
+437,20260,"Duluth, MN-WI Metro Area",1,2015,1.07,15.0,1876.0
+438,20260,"Duluth, MN-WI Metro Area",1,2016,1.07,15.0,1874.0
+439,20260,"Duluth, MN-WI Metro Area",1,2017,1.07,15.0,1873.0
+440,20260,"Duluth, MN-WI Metro Area",1,2018,1.07,15.0,1872.0
+441,20500,"Durham-Chapel Hill, NC Metro Area",1,2012,1.145,30.0,11290.5
+442,20500,"Durham-Chapel Hill, NC Metro Area",1,2013,1.1475,30.5,11447.25
+443,20500,"Durham-Chapel Hill, NC Metro Area",1,2014,1.15,31.0,11604.0
+444,20500,"Durham-Chapel Hill, NC Metro Area",1,2015,1.15,32.0,11811.0
+445,20500,"Durham-Chapel Hill, NC Metro Area",1,2016,1.15,32.0,12019.0
+446,20500,"Durham-Chapel Hill, NC Metro Area",1,2017,1.16,33.0,12231.0
+447,20500,"Durham-Chapel Hill, NC Metro Area",1,2018,1.1624999999999999,33.5,12387.75
+448,20740,"Eau Claire, WI Metro Area",1,2012,1.05,12.0,1306.5
+449,20740,"Eau Claire, WI Metro Area",1,2013,1.05,12.0,1310.25
+450,20740,"Eau Claire, WI Metro Area",1,2014,1.05,12.0,1314.0
+451,20740,"Eau Claire, WI Metro Area",1,2015,1.05,12.0,1318.0
+452,20740,"Eau Claire, WI Metro Area",1,2016,1.05,12.0,1324.0
+453,20740,"Eau Claire, WI Metro Area",1,2017,1.05,12.0,1329.0
+454,20740,"Eau Claire, WI Metro Area",1,2018,1.05,12.0,1332.75
+455,20940,"El Centro, CA Metro Area",1,2012,1.13,15.0,1699.0
+456,20940,"El Centro, CA Metro Area",1,2013,1.13,15.0,1719.5
+457,20940,"El Centro, CA Metro Area",1,2014,1.13,15.0,1740.0
+458,20940,"El Centro, CA Metro Area",1,2015,1.13,15.0,1767.0
+459,20940,"El Centro, CA Metro Area",1,2016,1.13,15.0,1794.0
+460,20940,"El Centro, CA Metro Area",1,2017,1.13,15.0,1822.0
+461,20940,"El Centro, CA Metro Area",1,2018,1.13,15.0,1842.5
+462,21060,"Elizabethtown, KY Metro Area",1,2012,1.08,14.0,1268.0
+463,21060,"Elizabethtown, KY Metro Area",1,2013,1.08,14.0,1276.0
+464,21060,"Elizabethtown, KY Metro Area",1,2014,1.08,14.0,1284.0
+465,21060,"Elizabethtown, KY Metro Area",1,2015,1.08,14.0,1295.0
+466,21060,"Elizabethtown, KY Metro Area",1,2016,1.08,14.0,1306.0
+467,21060,"Elizabethtown, KY Metro Area",1,2017,1.08,14.0,1316.0
+468,21060,"Elizabethtown, KY Metro Area",1,2018,1.08,14.0,1324.0
+469,21140,"Elkhart-Goshen, IN Metro Area",1,2012,1.0550000000000002,13.0,2013.0
+470,21140,"Elkhart-Goshen, IN Metro Area",1,2013,1.0575,13.0,2016.0
+471,21140,"Elkhart-Goshen, IN Metro Area",1,2014,1.06,13.0,2019.0
+472,21140,"Elkhart-Goshen, IN Metro Area",1,2015,1.06,13.0,2023.0
+473,21140,"Elkhart-Goshen, IN Metro Area",1,2016,1.06,13.0,2027.0
+474,21140,"Elkhart-Goshen, IN Metro Area",1,2017,1.07,13.0,2031.0
+475,21140,"Elkhart-Goshen, IN Metro Area",1,2018,1.0725,13.0,2034.0
+476,21340,"El Paso, TX Metro Area",0,2012,1.17,38.0,20106.0
+477,21340,"El Paso, TX Metro Area",0,2013,1.16,37.0,20459.0
+478,21340,"El Paso, TX Metro Area",0,2014,1.16,38.0,21018.0
+479,21340,"El Paso, TX Metro Area",0,2015,1.16,39.0,21604.0
+480,21340,"El Paso, TX Metro Area",0,2016,1.16,40.0,22216.0
+481,21340,"El Paso, TX Metro Area",0,2017,1.16,41.0,22711.0
+482,21340,"El Paso, TX Metro Area",0,2018,1.16,41.75,23134.25
+483,21500,"Erie, PA Metro Area",1,2012,1.09,19.0,4009.5
+484,21500,"Erie, PA Metro Area",1,2013,1.09,19.0,3989.25
+485,21500,"Erie, PA Metro Area",1,2014,1.09,19.0,3969.0
+486,21500,"Erie, PA Metro Area",1,2015,1.09,19.0,3941.0
+487,21500,"Erie, PA Metro Area",1,2016,1.09,19.0,3914.0
+488,21500,"Erie, PA Metro Area",1,2017,1.09,19.0,3888.0
+489,21500,"Erie, PA Metro Area",1,2018,1.09,19.0,3867.75
+490,21660,"Eugene-Springfield, OR Metro Area",0,2012,1.16,36.0,5759.0
+491,21660,"Eugene-Springfield, OR Metro Area",0,2013,1.16,37.0,5897.0
+492,21660,"Eugene-Springfield, OR Metro Area",0,2014,1.17,38.0,6126.0
+493,21660,"Eugene-Springfield, OR Metro Area",0,2015,1.17,39.0,6281.0
+494,21660,"Eugene-Springfield, OR Metro Area",0,2016,1.17,40.0,6436.0
+495,21660,"Eugene-Springfield, OR Metro Area",0,2017,1.17,40.0,6589.0
+496,21660,"Eugene-Springfield, OR Metro Area",0,2018,1.17,40.5,6704.75
+497,21780,"Evansville, IN-KY Metro Area",1,2012,1.09,15.5,3947.5
+498,21780,"Evansville, IN-KY Metro Area",1,2013,1.09,15.75,3953.25
+499,21780,"Evansville, IN-KY Metro Area",1,2014,1.09,16.0,3959.0
+500,21780,"Evansville, IN-KY Metro Area",1,2015,1.09,16.0,3967.0
+501,21780,"Evansville, IN-KY Metro Area",1,2016,1.09,17.0,3975.0
+502,21780,"Evansville, IN-KY Metro Area",1,2017,1.09,17.0,3982.0
+503,21780,"Evansville, IN-KY Metro Area",1,2018,1.09,17.25,3987.75
+504,22020,"Fargo, ND-MN Metro Area",1,2012,1.145,14.0,2238.5
+505,22020,"Fargo, ND-MN Metro Area",1,2013,1.1475,14.5,2374.25
+506,22020,"Fargo, ND-MN Metro Area",1,2014,1.15,15.0,2510.0
+507,22020,"Fargo, ND-MN Metro Area",1,2015,1.15,15.0,2648.0
+508,22020,"Fargo, ND-MN Metro Area",1,2016,1.16,16.0,2817.0
+509,22020,"Fargo, ND-MN Metro Area",1,2017,1.16,17.0,3053.0
+510,22020,"Fargo, ND-MN Metro Area",1,2018,1.1624999999999999,17.5,3188.75
+511,22180,"Fayetteville, NC Metro Area",1,2012,1.09,20.0,6478.5
+512,22180,"Fayetteville, NC Metro Area",1,2013,1.09,20.0,6502.75
+513,22180,"Fayetteville, NC Metro Area",1,2014,1.09,20.0,6527.0
+514,22180,"Fayetteville, NC Metro Area",1,2015,1.09,20.0,6557.0
+515,22180,"Fayetteville, NC Metro Area",1,2016,1.09,20.0,6591.0
+516,22180,"Fayetteville, NC Metro Area",1,2017,1.09,20.0,6624.0
+517,22180,"Fayetteville, NC Metro Area",1,2018,1.09,20.0,6648.25
+518,22380,"Flagstaff, AZ Metro Area",1,2012,1.0750000000000002,16.5,1416.5
+519,22380,"Flagstaff, AZ Metro Area",1,2013,1.0775000000000001,16.75,1432.75
+520,22380,"Flagstaff, AZ Metro Area",1,2014,1.08,17.0,1449.0
+521,22380,"Flagstaff, AZ Metro Area",1,2015,1.08,17.0,1470.0
+522,22380,"Flagstaff, AZ Metro Area",1,2016,1.08,18.0,1492.0
+523,22380,"Flagstaff, AZ Metro Area",1,2017,1.09,18.0,1514.0
+524,22380,"Flagstaff, AZ Metro Area",1,2018,1.0925,18.25,1530.25
+525,22420,"Flint, MI Metro Area",1,2012,1.05,15.0,5676.5
+526,22420,"Flint, MI Metro Area",1,2013,1.05,15.0,5646.25
+527,22420,"Flint, MI Metro Area",1,2014,1.05,15.0,5616.0
+528,22420,"Flint, MI Metro Area",1,2015,1.05,15.0,5575.0
+529,22420,"Flint, MI Metro Area",1,2016,1.05,15.0,5535.0
+530,22420,"Flint, MI Metro Area",1,2017,1.05,15.0,5495.0
+531,22420,"Flint, MI Metro Area",1,2018,1.05,15.0,5464.75
+532,22660,"Fort Collins-Loveland, CO Metro Area",1,2012,1.1,19.5,5822.5
+533,22660,"Fort Collins-Loveland, CO Metro Area",1,2013,1.1,19.75,5846.75
+534,22660,"Fort Collins-Loveland, CO Metro Area",1,2014,1.1,20.0,5871.0
+535,22660,"Fort Collins-Loveland, CO Metro Area",1,2015,1.1,21.0,5902.0
+536,22660,"Fort Collins-Loveland, CO Metro Area",1,2016,1.1,21.0,5934.0
+537,22660,"Fort Collins-Loveland, CO Metro Area",1,2017,1.1,21.0,5968.0
+538,22660,"Fort Collins-Loveland, CO Metro Area",1,2018,1.1,21.25,5992.25
+539,23060,"Fort Wayne, IN Metro Area",1,2012,1.0750000000000002,18.0,5763.0
+540,23060,"Fort Wayne, IN Metro Area",1,2013,1.0775000000000001,18.0,5784.5
+541,23060,"Fort Wayne, IN Metro Area",1,2014,1.08,18.0,5806.0
+542,23060,"Fort Wayne, IN Metro Area",1,2015,1.09,18.0,5835.0
+543,23060,"Fort Wayne, IN Metro Area",1,2016,1.09,18.0,5863.0
+544,23060,"Fort Wayne, IN Metro Area",1,2017,1.09,18.0,5892.0
+545,23060,"Fort Wayne, IN Metro Area",1,2018,1.0925,18.0,5913.5
+546,23420,"Fresno, CA Metro Area",0,2012,1.14,29.0,16127.0
+547,23420,"Fresno, CA Metro Area",0,2013,1.15,32.0,16934.0
+548,23420,"Fresno, CA Metro Area",0,2014,1.15,36.0,17638.0
+549,23420,"Fresno, CA Metro Area",0,2015,1.15,39.0,18092.0
+550,23420,"Fresno, CA Metro Area",0,2016,1.16,40.0,18769.0
+551,23420,"Fresno, CA Metro Area",0,2017,1.16,40.0,19311.0
+552,23420,"Fresno, CA Metro Area",0,2018,1.1624999999999999,41.0,19729.25
+553,23540,"Gainesville, FL Metro Area",1,2012,1.17,26.5,5469.5
+554,23540,"Gainesville, FL Metro Area",1,2013,1.17,26.75,5496.25
+555,23540,"Gainesville, FL Metro Area",1,2014,1.17,27.0,5523.0
+556,23540,"Gainesville, FL Metro Area",1,2015,1.17,27.0,5558.0
+557,23540,"Gainesville, FL Metro Area",1,2016,1.17,28.0,5594.0
+558,23540,"Gainesville, FL Metro Area",1,2017,1.17,28.0,5630.0
+559,23540,"Gainesville, FL Metro Area",1,2018,1.17,28.25,5656.75
+560,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2012,1.14,40.0,16557.0
+561,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2013,1.13,39.0,17361.0
+562,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2014,1.13,40.0,17811.0
+563,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2015,1.13,40.0,18276.0
+564,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2016,1.13,41.0,18775.0
+565,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2017,1.13,41.0,19417.0
+566,24340,"Grand Rapids-Wyoming, MI Metro Area",0,2018,1.13,41.25,19818.5
+567,24500,"Great Falls, MT Metro Area",1,2012,1.1,13.0,966.0
+568,24500,"Great Falls, MT Metro Area",1,2013,1.1,13.0,961.5
+569,24500,"Great Falls, MT Metro Area",1,2014,1.1,13.0,957.0
+570,24500,"Great Falls, MT Metro Area",1,2015,1.1,13.0,951.0
+571,24500,"Great Falls, MT Metro Area",1,2016,1.1,13.0,945.0
+572,24500,"Great Falls, MT Metro Area",1,2017,1.1,13.0,939.0
+573,24500,"Great Falls, MT Metro Area",1,2018,1.1,13.0,934.5
+574,24580,"Green Bay, WI Metro Area",1,2012,1.05,15.0,3359.5
+575,24580,"Green Bay, WI Metro Area",1,2013,1.05,15.0,3369.75
+576,24580,"Green Bay, WI Metro Area",1,2014,1.05,15.0,3380.0
+577,24580,"Green Bay, WI Metro Area",1,2015,1.05,15.0,3394.0
+578,24580,"Green Bay, WI Metro Area",1,2016,1.05,15.0,3408.0
+579,24580,"Green Bay, WI Metro Area",1,2017,1.05,15.0,3421.0
+580,24580,"Green Bay, WI Metro Area",1,2018,1.05,15.0,3431.25
+581,24660,"Greensboro-High Point, NC Metro Area",0,2012,1.11,34.0,6969.0
+582,24660,"Greensboro-High Point, NC Metro Area",0,2013,1.11,35.0,7092.0
+583,24660,"Greensboro-High Point, NC Metro Area",0,2014,1.12,35.0,7385.0
+584,24660,"Greensboro-High Point, NC Metro Area",0,2015,1.12,37.0,7508.0
+585,24660,"Greensboro-High Point, NC Metro Area",0,2016,1.13,37.0,7758.0
+586,24660,"Greensboro-High Point, NC Metro Area",0,2017,1.13,38.0,7896.0
+587,24660,"Greensboro-High Point, NC Metro Area",0,2018,1.1324999999999998,38.75,8023.75
+588,25060,"Gulfport-Biloxi, MS Metro Area",1,2012,1.07,19.5,4620.0
+589,25060,"Gulfport-Biloxi, MS Metro Area",1,2013,1.07,19.75,4670.0
+590,25060,"Gulfport-Biloxi, MS Metro Area",1,2014,1.07,20.0,4720.0
+591,25060,"Gulfport-Biloxi, MS Metro Area",1,2015,1.07,20.0,4786.0
+592,25060,"Gulfport-Biloxi, MS Metro Area",1,2016,1.07,20.0,4852.0
+593,25060,"Gulfport-Biloxi, MS Metro Area",1,2017,1.07,21.0,4920.0
+594,25060,"Gulfport-Biloxi, MS Metro Area",1,2018,1.07,21.25,4970.0
+595,25260,"Hanford-Corcoran, CA Metro Area",1,2012,1.08,10.0,908.0
+596,25260,"Hanford-Corcoran, CA Metro Area",1,2013,1.08,10.0,914.0
+597,25260,"Hanford-Corcoran, CA Metro Area",1,2014,1.08,10.0,920.0
+598,25260,"Hanford-Corcoran, CA Metro Area",1,2015,1.08,10.0,928.0
+599,25260,"Hanford-Corcoran, CA Metro Area",1,2016,1.08,10.0,936.0
+600,25260,"Hanford-Corcoran, CA Metro Area",1,2017,1.08,10.0,944.0
+601,25260,"Hanford-Corcoran, CA Metro Area",1,2018,1.08,10.0,950.0
+602,25420,"Harrisburg-Carlisle, PA Metro Area",1,2012,1.085,31.5,14171.5
+603,25420,"Harrisburg-Carlisle, PA Metro Area",1,2013,1.0875000000000001,31.75,14273.75
+604,25420,"Harrisburg-Carlisle, PA Metro Area",1,2014,1.09,32.0,14376.0
+605,25420,"Harrisburg-Carlisle, PA Metro Area",1,2015,1.1,32.0,14511.0
+606,25420,"Harrisburg-Carlisle, PA Metro Area",1,2016,1.1,32.0,14648.0
+607,25420,"Harrisburg-Carlisle, PA Metro Area",1,2017,1.1,33.0,14785.0
+608,25420,"Harrisburg-Carlisle, PA Metro Area",1,2018,1.1025,33.25,14887.25
+609,25500,"Harrisonburg, VA Metro Area",1,2012,1.08,22.5,1799.0
+610,25500,"Harrisonburg, VA Metro Area",1,2013,1.08,22.75,1809.0
+611,25500,"Harrisonburg, VA Metro Area",1,2014,1.08,23.0,1819.0
+612,25500,"Harrisonburg, VA Metro Area",1,2015,1.08,24.0,1832.0
+613,25500,"Harrisonburg, VA Metro Area",1,2016,1.08,24.0,1846.0
+614,25500,"Harrisonburg, VA Metro Area",1,2017,1.08,24.0,1859.0
+615,25500,"Harrisonburg, VA Metro Area",1,2018,1.08,24.25,1869.0
+616,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2012,1.17,48.0,25017.0
+617,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2013,1.18,48.0,25451.0
+618,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2014,1.18,49.0,26100.0
+619,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2015,1.17,48.0,26428.0
+620,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2016,1.17,49.0,27021.0
+621,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2017,1.17,50.0,27436.0
+622,25540,"Hartford-West Hartford-East Hartford, CT Metro Area",0,2018,1.1675,50.25,27770.0
+623,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2012,1.05,18.0,4075.0
+624,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2013,1.05,18.0,4072.5
+625,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2014,1.05,18.0,4070.0
+626,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2015,1.05,18.0,4067.0
+627,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2016,1.05,18.0,4064.0
+628,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2017,1.05,18.0,4060.0
+629,25860,"Hickory-Lenoir-Morganton, NC Metro Area",1,2018,1.05,18.0,4057.5
+630,26100,"Holland-Grand Haven, MI Metro Area",1,2012,1.06,11.0,1161.5
+631,26100,"Holland-Grand Haven, MI Metro Area",1,2013,1.06,11.0,1163.75
+632,26100,"Holland-Grand Haven, MI Metro Area",1,2014,1.06,11.0,1166.0
+633,26100,"Holland-Grand Haven, MI Metro Area",1,2015,1.06,11.0,1169.0
+634,26100,"Holland-Grand Haven, MI Metro Area",1,2016,1.06,11.0,1172.0
+635,26100,"Holland-Grand Haven, MI Metro Area",1,2017,1.06,11.0,1175.0
+636,26100,"Holland-Grand Haven, MI Metro Area",1,2018,1.06,11.0,1177.25
+637,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2012,1.31,64.0,209742.0
+638,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2013,1.33,68.0,222132.0
+639,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2014,1.33,70.0,231617.0
+640,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2015,1.33,72.0,236989.0
+641,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2016,1.34,73.0,242869.0
+642,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2017,1.34,75.0,247440.0
+643,26420,"Houston-Sugar Land-Baytown, TX Metro Area",0,2018,1.3425,76.25,251395.75
+644,26620,"Huntsville, AL Metro Area",1,2012,1.11,22.5,7106.5
+645,26620,"Huntsville, AL Metro Area",1,2013,1.11,22.75,7152.75
+646,26620,"Huntsville, AL Metro Area",1,2014,1.11,23.0,7199.0
+647,26620,"Huntsville, AL Metro Area",1,2015,1.11,23.0,7260.0
+648,26620,"Huntsville, AL Metro Area",1,2016,1.11,23.0,7321.0
+649,26620,"Huntsville, AL Metro Area",1,2017,1.11,24.0,7384.0
+650,26620,"Huntsville, AL Metro Area",1,2018,1.11,24.25,7430.25
+651,26900,"Indianapolis-Carmel, IN Metro Area",0,2012,1.18,43.0,37744.0
+652,26900,"Indianapolis-Carmel, IN Metro Area",0,2013,1.18,44.0,39065.0
+653,26900,"Indianapolis-Carmel, IN Metro Area",0,2014,1.18,45.0,40210.0
+654,26900,"Indianapolis-Carmel, IN Metro Area",0,2015,1.18,46.0,41413.0
+655,26900,"Indianapolis-Carmel, IN Metro Area",0,2016,1.18,47.0,42653.0
+656,26900,"Indianapolis-Carmel, IN Metro Area",0,2017,1.18,48.0,43003.0
+657,26900,"Indianapolis-Carmel, IN Metro Area",0,2018,1.18,48.75,43701.25
+658,26980,"Iowa City, IA Metro Area",1,2012,1.07,14.5,1853.5
+659,26980,"Iowa City, IA Metro Area",1,2013,1.07,14.75,1883.25
+660,26980,"Iowa City, IA Metro Area",1,2014,1.07,15.0,1913.0
+661,26980,"Iowa City, IA Metro Area",1,2015,1.07,15.0,1952.0
+662,26980,"Iowa City, IA Metro Area",1,2016,1.07,16.0,1992.0
+663,26980,"Iowa City, IA Metro Area",1,2017,1.07,16.0,2032.0
+664,26980,"Iowa City, IA Metro Area",1,2018,1.07,16.25,2061.75
+665,27060,"Ithaca, NY Metro Area",1,2012,1.17,27.0,1477.5
+666,27060,"Ithaca, NY Metro Area",1,2013,1.17,27.0,1482.25
+667,27060,"Ithaca, NY Metro Area",1,2014,1.17,27.0,1487.0
+668,27060,"Ithaca, NY Metro Area",1,2015,1.17,27.0,1494.0
+669,27060,"Ithaca, NY Metro Area",1,2016,1.17,27.0,1500.0
+670,27060,"Ithaca, NY Metro Area",1,2017,1.17,27.0,1506.0
+671,27060,"Ithaca, NY Metro Area",1,2018,1.17,27.0,1510.75
+672,27100,"Jackson, MI Metro Area",1,2012,1.06,16.0,1446.0
+673,27100,"Jackson, MI Metro Area",1,2013,1.06,16.0,1448.5
+674,27100,"Jackson, MI Metro Area",1,2014,1.06,16.0,1451.0
+675,27100,"Jackson, MI Metro Area",1,2015,1.06,16.0,1454.0
+676,27100,"Jackson, MI Metro Area",1,2016,1.06,16.0,1457.0
+677,27100,"Jackson, MI Metro Area",1,2017,1.06,16.0,1461.0
+678,27100,"Jackson, MI Metro Area",1,2018,1.06,16.0,1463.5
+679,27140,"Jackson, MS Metro Area",0,2012,1.13,38.0,9575.0
+680,27140,"Jackson, MS Metro Area",0,2013,1.13,39.0,9782.0
+681,27140,"Jackson, MS Metro Area",0,2014,1.13,40.0,10121.0
+682,27140,"Jackson, MS Metro Area",0,2015,1.13,41.0,10437.0
+683,27140,"Jackson, MS Metro Area",0,2016,1.13,41.0,10651.0
+684,27140,"Jackson, MS Metro Area",0,2017,1.13,42.0,10999.0
+685,27140,"Jackson, MS Metro Area",0,2018,1.13,42.5,11218.5
+686,27180,"Jackson, TN Metro Area",1,2012,1.08,22.0,1698.5
+687,27180,"Jackson, TN Metro Area",1,2013,1.08,22.0,1700.75
+688,27180,"Jackson, TN Metro Area",1,2014,1.08,22.0,1703.0
+689,27180,"Jackson, TN Metro Area",1,2015,1.08,22.0,1706.0
+690,27180,"Jackson, TN Metro Area",1,2016,1.08,22.0,1709.0
+691,27180,"Jackson, TN Metro Area",1,2017,1.08,22.0,1712.0
+692,27180,"Jackson, TN Metro Area",1,2018,1.08,22.0,1714.25
+693,27260,"Jacksonville, FL Metro Area",0,2012,1.17,41.0,31106.0
+694,27260,"Jacksonville, FL Metro Area",0,2013,1.17,41.0,31630.0
+695,27260,"Jacksonville, FL Metro Area",0,2014,1.18,43.0,32579.0
+696,27260,"Jacksonville, FL Metro Area",0,2015,1.19,44.0,33457.0
+697,27260,"Jacksonville, FL Metro Area",0,2016,1.19,46.0,33935.0
+698,27260,"Jacksonville, FL Metro Area",0,2017,1.19,46.0,34792.0
+699,27260,"Jacksonville, FL Metro Area",0,2018,1.1925,46.75,35345.25
+700,27780,"Johnstown, PA Metro Area",1,2012,1.06,12.0,851.5
+701,27780,"Johnstown, PA Metro Area",1,2013,1.06,12.0,846.75
+702,27780,"Johnstown, PA Metro Area",1,2014,1.06,12.0,842.0
+703,27780,"Johnstown, PA Metro Area",1,2015,1.06,12.0,836.0
+704,27780,"Johnstown, PA Metro Area",1,2016,1.06,12.0,829.0
+705,27780,"Johnstown, PA Metro Area",1,2017,1.06,12.0,823.0
+706,27780,"Johnstown, PA Metro Area",1,2018,1.06,12.0,818.25
+707,28020,"Kalamazoo-Portage, MI Metro Area",1,2012,1.06,15.5,3649.0
+708,28020,"Kalamazoo-Portage, MI Metro Area",1,2013,1.06,15.75,3664.0
+709,28020,"Kalamazoo-Portage, MI Metro Area",1,2014,1.06,16.0,3679.0
+710,28020,"Kalamazoo-Portage, MI Metro Area",1,2015,1.06,17.0,3699.0
+711,28020,"Kalamazoo-Portage, MI Metro Area",1,2016,1.06,17.0,3719.0
+712,28020,"Kalamazoo-Portage, MI Metro Area",1,2017,1.06,17.0,3739.0
+713,28020,"Kalamazoo-Portage, MI Metro Area",1,2018,1.06,17.25,3754.0
+714,28100,"Kankakee-Bradley, IL Metro Area",1,2012,1.06,13.0,1149.5
+715,28100,"Kankakee-Bradley, IL Metro Area",1,2013,1.06,13.0,1144.75
+716,28100,"Kankakee-Bradley, IL Metro Area",1,2014,1.06,13.0,1140.0
+717,28100,"Kankakee-Bradley, IL Metro Area",1,2015,1.06,13.0,1134.0
+718,28100,"Kankakee-Bradley, IL Metro Area",1,2016,1.06,13.0,1127.0
+719,28100,"Kankakee-Bradley, IL Metro Area",1,2017,1.06,13.0,1121.0
+720,28100,"Kankakee-Bradley, IL Metro Area",1,2018,1.06,13.0,1116.25
+721,28140,"Kansas City, MO-KS Metro Area",0,2012,1.15,42.0,43434.0
+722,28140,"Kansas City, MO-KS Metro Area",0,2013,1.15,43.0,44406.0
+723,28140,"Kansas City, MO-KS Metro Area",0,2014,1.15,44.0,45800.0
+724,28140,"Kansas City, MO-KS Metro Area",0,2015,1.15,45.0,47011.0
+725,28140,"Kansas City, MO-KS Metro Area",0,2016,1.15,47.0,47659.0
+726,28140,"Kansas City, MO-KS Metro Area",0,2017,1.15,47.0,48328.0
+727,28140,"Kansas City, MO-KS Metro Area",0,2018,1.15,47.75,48960.0
+728,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2012,1.07,15.0,3045.0
+729,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2013,1.07,15.0,3082.0
+730,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2014,1.07,15.0,3119.0
+731,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2015,1.07,15.0,3167.0
+732,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2016,1.07,15.0,3217.0
+733,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2017,1.07,15.0,3267.0
+734,28420,"Kennewick-Pasco-Richland, WA Metro Area",1,2018,1.07,15.0,3304.0
+735,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2012,1.09,14.0,3235.5
+736,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2013,1.09,14.0,3248.75
+737,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2014,1.09,14.0,3262.0
+738,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2015,1.09,14.0,3279.0
+739,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2016,1.09,14.0,3297.0
+740,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2017,1.09,14.0,3315.0
+741,28660,"Killeen-Temple-Fort Hood, TX Metro Area",1,2018,1.09,14.0,3328.25
+742,28940,"Knoxville, TN Metro Area",0,2012,1.14,38.0,15646.0
+743,28940,"Knoxville, TN Metro Area",0,2013,1.14,38.0,15857.0
+744,28940,"Knoxville, TN Metro Area",0,2014,1.14,40.0,16914.0
+745,28940,"Knoxville, TN Metro Area",0,2015,1.13,42.0,17448.0
+746,28940,"Knoxville, TN Metro Area",0,2016,1.13,42.0,17788.0
+747,28940,"Knoxville, TN Metro Area",0,2017,1.13,44.0,18020.0
+748,28940,"Knoxville, TN Metro Area",0,2018,1.1275,45.0,18296.5
+749,29020,"Kokomo, IN Metro Area",1,2012,1.05,8.0,717.5
+750,29020,"Kokomo, IN Metro Area",1,2013,1.05,8.0,717.75
+751,29020,"Kokomo, IN Metro Area",1,2014,1.05,8.0,718.0
+752,29020,"Kokomo, IN Metro Area",1,2015,1.05,8.0,718.0
+753,29020,"Kokomo, IN Metro Area",1,2016,1.05,8.0,719.0
+754,29020,"Kokomo, IN Metro Area",1,2017,1.05,8.0,719.0
+755,29020,"Kokomo, IN Metro Area",1,2018,1.05,8.0,719.25
+756,29100,"La Crosse, WI-MN Metro Area",1,2012,1.07,16.0,1725.5
+757,29100,"La Crosse, WI-MN Metro Area",1,2013,1.07,16.0,1730.75
+758,29100,"La Crosse, WI-MN Metro Area",1,2014,1.07,16.0,1736.0
+759,29100,"La Crosse, WI-MN Metro Area",1,2015,1.07,16.0,1743.0
+760,29100,"La Crosse, WI-MN Metro Area",1,2016,1.07,16.0,1750.0
+761,29100,"La Crosse, WI-MN Metro Area",1,2017,1.07,16.0,1757.0
+762,29100,"La Crosse, WI-MN Metro Area",1,2018,1.07,16.0,1762.25
+763,29140,"Lafayette, IN Metro Area",1,2012,1.0950000000000002,16.5,2671.5
+764,29140,"Lafayette, IN Metro Area",1,2013,1.0975000000000001,16.75,2700.25
+765,29140,"Lafayette, IN Metro Area",1,2014,1.1,17.0,2729.0
+766,29140,"Lafayette, IN Metro Area",1,2015,1.11,17.0,2767.0
+767,29140,"Lafayette, IN Metro Area",1,2016,1.11,17.0,2805.0
+768,29140,"Lafayette, IN Metro Area",1,2017,1.11,18.0,2844.0
+769,29140,"Lafayette, IN Metro Area",1,2018,1.1125,18.25,2872.75
+770,29180,"Lafayette, LA Metro Area",1,2012,1.1150000000000002,29.5,8001.5
+771,29180,"Lafayette, LA Metro Area",1,2013,1.1175000000000002,29.75,8063.75
+772,29180,"Lafayette, LA Metro Area",1,2014,1.12,30.0,8126.0
+773,29180,"Lafayette, LA Metro Area",1,2015,1.13,30.0,8208.0
+774,29180,"Lafayette, LA Metro Area",1,2016,1.13,31.0,8291.0
+775,29180,"Lafayette, LA Metro Area",1,2017,1.13,31.0,8375.0
+776,29180,"Lafayette, LA Metro Area",1,2018,1.1324999999999998,31.25,8437.25
+777,29460,"Lakeland-Winter Haven, FL Metro Area",1,2012,1.09,16.0,4560.0
+778,29460,"Lakeland-Winter Haven, FL Metro Area",1,2013,1.09,16.0,4595.5
+779,29460,"Lakeland-Winter Haven, FL Metro Area",1,2014,1.09,16.0,4631.0
+780,29460,"Lakeland-Winter Haven, FL Metro Area",1,2015,1.09,16.0,4678.0
+781,29460,"Lakeland-Winter Haven, FL Metro Area",1,2016,1.09,16.0,4725.0
+782,29460,"Lakeland-Winter Haven, FL Metro Area",1,2017,1.09,16.0,4773.0
+783,29460,"Lakeland-Winter Haven, FL Metro Area",1,2018,1.09,16.0,4808.5
+784,29620,"Lansing-East Lansing, MI Metro Area",1,2012,1.045,15.0,4843.0
+785,29620,"Lansing-East Lansing, MI Metro Area",1,2013,1.0475,15.0,4860.0
+786,29620,"Lansing-East Lansing, MI Metro Area",1,2014,1.05,15.0,4877.0
+787,29620,"Lansing-East Lansing, MI Metro Area",1,2015,1.06,15.0,4899.0
+788,29620,"Lansing-East Lansing, MI Metro Area",1,2016,1.06,15.0,4922.0
+789,29620,"Lansing-East Lansing, MI Metro Area",1,2017,1.06,15.0,4945.0
+790,29620,"Lansing-East Lansing, MI Metro Area",1,2018,1.0625,15.0,4962.0
+791,29700,"Laredo, TX Metro Area",0,2012,1.16,23.0,4570.0
+792,29700,"Laredo, TX Metro Area",0,2013,1.16,25.0,4772.0
+793,29700,"Laredo, TX Metro Area",0,2014,1.17,26.0,4927.0
+794,29700,"Laredo, TX Metro Area",0,2015,1.17,29.0,5425.0
+795,29700,"Laredo, TX Metro Area",0,2016,1.17,30.0,5876.0
+796,29700,"Laredo, TX Metro Area",0,2017,1.17,32.0,6312.0
+797,29700,"Laredo, TX Metro Area",0,2018,1.17,33.5,6658.25
+798,29820,"Las Vegas-Paradise, NV Metro Area",0,2012,1.25,46.0,57732.0
+799,29820,"Las Vegas-Paradise, NV Metro Area",0,2013,1.25,46.0,59749.0
+800,29820,"Las Vegas-Paradise, NV Metro Area",0,2014,1.25,47.0,61537.0
+801,29820,"Las Vegas-Paradise, NV Metro Area",0,2015,1.25,49.0,63559.0
+802,29820,"Las Vegas-Paradise, NV Metro Area",0,2016,1.26,50.0,64585.0
+803,29820,"Las Vegas-Paradise, NV Metro Area",0,2017,1.26,51.0,67761.0
+804,29820,"Las Vegas-Paradise, NV Metro Area",0,2018,1.2625,52.0,69317.0
+805,30140,"Lebanon, PA Metro Area",1,2012,1.08,8.0,656.0
+806,30140,"Lebanon, PA Metro Area",1,2013,1.08,8.0,660.5
+807,30140,"Lebanon, PA Metro Area",1,2014,1.08,8.0,665.0
+808,30140,"Lebanon, PA Metro Area",1,2015,1.08,8.0,671.0
+809,30140,"Lebanon, PA Metro Area",1,2016,1.08,8.0,677.0
+810,30140,"Lebanon, PA Metro Area",1,2017,1.08,8.0,683.0
+811,30140,"Lebanon, PA Metro Area",1,2018,1.08,8.0,687.5
+812,30460,"Lexington-Fayette, KY Metro Area",1,2012,1.1749999999999998,35.5,10754.0
+813,30460,"Lexington-Fayette, KY Metro Area",1,2013,1.1775,35.75,10848.0
+814,30460,"Lexington-Fayette, KY Metro Area",1,2014,1.18,36.0,10942.0
+815,30460,"Lexington-Fayette, KY Metro Area",1,2015,1.19,36.0,11066.0
+816,30460,"Lexington-Fayette, KY Metro Area",1,2016,1.19,37.0,11191.0
+817,30460,"Lexington-Fayette, KY Metro Area",1,2017,1.19,37.0,11318.0
+818,30460,"Lexington-Fayette, KY Metro Area",1,2018,1.1925,37.25,11412.0
+819,30700,"Lincoln, NE Metro Area",1,2012,1.09,16.0,4463.0
+820,30700,"Lincoln, NE Metro Area",1,2013,1.09,16.0,4508.0
+821,30700,"Lincoln, NE Metro Area",1,2014,1.09,16.0,4553.0
+822,30700,"Lincoln, NE Metro Area",1,2015,1.09,16.0,4612.0
+823,30700,"Lincoln, NE Metro Area",1,2016,1.09,16.0,4672.0
+824,30700,"Lincoln, NE Metro Area",1,2017,1.09,16.0,4733.0
+825,30700,"Lincoln, NE Metro Area",1,2018,1.09,16.0,4778.0
+826,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2012,1.13,36.0,13278.0
+827,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2013,1.13,37.0,13531.0
+828,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2014,1.13,39.0,13842.0
+829,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2015,1.13,40.0,14073.0
+830,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2016,1.13,42.0,14462.0
+831,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2017,1.13,43.0,14823.0
+832,30780,"Little Rock-North Little Rock-Conway, AR Metro Area",0,2018,1.13,44.0,15068.25
+833,30860,"Logan, UT-ID Metro Area",1,2012,1.07,7.0,726.0
+834,30860,"Logan, UT-ID Metro Area",1,2013,1.07,7.0,733.5
+835,30860,"Logan, UT-ID Metro Area",1,2014,1.07,7.0,741.0
+836,30860,"Logan, UT-ID Metro Area",1,2015,1.07,7.0,751.0
+837,30860,"Logan, UT-ID Metro Area",1,2016,1.07,7.0,761.0
+838,30860,"Logan, UT-ID Metro Area",1,2017,1.07,7.0,771.0
+839,30860,"Logan, UT-ID Metro Area",1,2018,1.07,7.0,778.5
+840,31020,"Longview, WA Metro Area",1,2012,1.08,23.0,1477.5
+841,31020,"Longview, WA Metro Area",1,2013,1.08,23.0,1484.25
+842,31020,"Longview, WA Metro Area",1,2014,1.08,23.0,1491.0
+843,31020,"Longview, WA Metro Area",1,2015,1.08,23.0,1500.0
+844,31020,"Longview, WA Metro Area",1,2016,1.08,23.0,1509.0
+845,31020,"Longview, WA Metro Area",1,2017,1.08,23.0,1518.0
+846,31020,"Longview, WA Metro Area",1,2018,1.08,23.0,1524.75
+847,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2012,1.47,103.0,859180.0
+848,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2013,1.48,105.0,874694.0
+849,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2014,1.48,108.0,897650.0
+850,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2015,1.49,113.0,924196.0
+851,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2016,1.5,116.0,942350.0
+852,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2017,1.51,119.0,971478.0
+853,31100,"Los Angeles-Long Beach-Santa Ana, CA Metro Area",0,2018,1.5175,121.75,989935.0
+854,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2012,1.18,40.0,25811.0
+855,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2013,1.18,41.0,26611.0
+856,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2014,1.18,42.0,27237.0
+857,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2015,1.18,43.0,28088.0
+858,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2016,1.18,44.0,28889.0
+859,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2017,1.18,46.0,29392.0
+860,31140,"Louisville/Jefferson County, KY-IN Metro Area",0,2018,1.18,47.0,29930.75
+861,31180,"Lubbock, TX Metro Area",1,2012,1.09,19.0,4560.5
+862,31180,"Lubbock, TX Metro Area",1,2013,1.09,19.0,4590.25
+863,31180,"Lubbock, TX Metro Area",1,2014,1.09,19.0,4620.0
+864,31180,"Lubbock, TX Metro Area",1,2015,1.09,19.0,4659.0
+865,31180,"Lubbock, TX Metro Area",1,2016,1.09,19.0,4699.0
+866,31180,"Lubbock, TX Metro Area",1,2017,1.09,19.0,4739.0
+867,31180,"Lubbock, TX Metro Area",1,2018,1.09,19.0,4768.75
+868,31340,"Lynchburg, VA Metro Area",1,2012,1.11,28.0,3573.0
+869,31340,"Lynchburg, VA Metro Area",1,2013,1.11,28.0,3586.0
+870,31340,"Lynchburg, VA Metro Area",1,2014,1.11,28.0,3599.0
+871,31340,"Lynchburg, VA Metro Area",1,2015,1.11,28.0,3617.0
+872,31340,"Lynchburg, VA Metro Area",1,2016,1.11,28.0,3634.0
+873,31340,"Lynchburg, VA Metro Area",1,2017,1.11,28.0,3651.0
+874,31340,"Lynchburg, VA Metro Area",1,2018,1.11,28.0,3664.0
+875,31540,"Madison, WI Metro Area",0,2012,1.15,34.0,8400.0
+876,31540,"Madison, WI Metro Area",0,2013,1.15,35.0,8762.0
+877,31540,"Madison, WI Metro Area",0,2014,1.15,35.0,9030.0
+878,31540,"Madison, WI Metro Area",0,2015,1.15,37.0,9282.0
+879,31540,"Madison, WI Metro Area",0,2016,1.15,37.0,9451.0
+880,31540,"Madison, WI Metro Area",0,2017,1.15,38.0,9664.0
+881,31540,"Madison, WI Metro Area",0,2018,1.15,38.75,9822.5
+882,32780,"Medford, OR Metro Area",1,2012,1.07,14.0,2349.5
+883,32780,"Medford, OR Metro Area",1,2013,1.07,14.0,2368.25
+884,32780,"Medford, OR Metro Area",1,2014,1.07,14.0,2387.0
+885,32780,"Medford, OR Metro Area",1,2015,1.07,14.0,2412.0
+886,32780,"Medford, OR Metro Area",1,2016,1.07,14.0,2437.0
+887,32780,"Medford, OR Metro Area",1,2017,1.07,14.0,2462.0
+888,32780,"Medford, OR Metro Area",1,2018,1.07,14.0,2480.75
+889,32820,"Memphis, TN-MS-AR Metro Area",0,2012,1.17,42.0,24364.0
+890,32820,"Memphis, TN-MS-AR Metro Area",0,2013,1.17,43.0,25003.0
+891,32820,"Memphis, TN-MS-AR Metro Area",0,2014,1.18,44.0,25891.0
+892,32820,"Memphis, TN-MS-AR Metro Area",0,2015,1.18,45.0,26996.0
+893,32820,"Memphis, TN-MS-AR Metro Area",0,2016,1.18,47.0,27523.0
+894,32820,"Memphis, TN-MS-AR Metro Area",0,2017,1.18,48.0,28015.0
+895,32820,"Memphis, TN-MS-AR Metro Area",0,2018,1.18,49.0,28546.0
+896,32900,"Merced, CA Metro Area",1,2012,1.09,14.0,2120.5
+897,32900,"Merced, CA Metro Area",1,2013,1.09,14.0,2129.75
+898,32900,"Merced, CA Metro Area",1,2014,1.09,14.0,2139.0
+899,32900,"Merced, CA Metro Area",1,2015,1.09,14.0,2151.0
+900,32900,"Merced, CA Metro Area",1,2016,1.09,14.0,2164.0
+901,32900,"Merced, CA Metro Area",1,2017,1.09,14.0,2176.0
+902,32900,"Merced, CA Metro Area",1,2018,1.09,14.0,2185.25
+903,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2012,1.29,58.0,224594.0
+904,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2013,1.29,60.0,233319.0
+905,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2014,1.3,63.0,241385.0
+906,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2015,1.31,65.0,251153.0
+907,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2016,1.31,67.0,257800.0
+908,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2017,1.31,69.0,265947.0
+909,33100,"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",0,2018,1.3125,70.5,272087.5
+910,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2012,1.17,41.0,37638.0
+911,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2013,1.17,41.0,38608.0
+912,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2014,1.17,43.0,39470.0
+913,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2015,1.17,44.0,40800.0
+914,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2016,1.17,44.0,41596.0
+915,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2017,1.17,46.0,42146.0
+916,33340,"Milwaukee-Waukesha-West Allis, WI Metro Area",0,2018,1.17,46.75,42815.0
+917,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2012,1.26,50.0,90573.0
+918,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2013,1.26,50.0,93750.0
+919,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2014,1.26,52.0,96726.0
+920,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2015,1.25,53.0,99730.0
+921,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2016,1.25,54.0,101370.0
+922,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2017,1.25,56.0,103695.0
+923,33460,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0,2018,1.2475,57.0,105437.25
+924,33540,"Missoula, MT Metro Area",1,2012,1.13,21.5,2108.0
+925,33540,"Missoula, MT Metro Area",1,2013,1.13,21.75,2117.0
+926,33540,"Missoula, MT Metro Area",1,2014,1.13,22.0,2126.0
+927,33540,"Missoula, MT Metro Area",1,2015,1.13,22.0,2138.0
+928,33540,"Missoula, MT Metro Area",1,2016,1.13,23.0,2150.0
+929,33540,"Missoula, MT Metro Area",1,2017,1.13,23.0,2162.0
+930,33540,"Missoula, MT Metro Area",1,2018,1.13,23.25,2171.0
+931,33660,"Mobile, AL Metro Area",1,2012,1.1,28.0,9785.0
+932,33660,"Mobile, AL Metro Area",1,2013,1.1,28.0,9783.5
+933,33660,"Mobile, AL Metro Area",1,2014,1.1,28.0,9782.0
+934,33660,"Mobile, AL Metro Area",1,2015,1.1,28.0,9780.0
+935,33660,"Mobile, AL Metro Area",1,2016,1.1,28.0,9778.0
+936,33660,"Mobile, AL Metro Area",1,2017,1.1,28.0,9776.0
+937,33660,"Mobile, AL Metro Area",1,2018,1.1,28.0,9774.5
+938,33700,"Modesto, CA Metro Area",1,2012,1.21,28.5,10996.0
+939,33700,"Modesto, CA Metro Area",1,2013,1.21,28.75,11044.5
+940,33700,"Modesto, CA Metro Area",1,2014,1.21,29.0,11093.0
+941,33700,"Modesto, CA Metro Area",1,2015,1.21,29.0,11157.0
+942,33700,"Modesto, CA Metro Area",1,2016,1.21,30.0,11222.0
+943,33700,"Modesto, CA Metro Area",1,2017,1.21,30.0,11287.0
+944,33700,"Modesto, CA Metro Area",1,2018,1.21,30.25,11335.5
+945,33860,"Montgomery, AL Metro Area",1,2012,1.08,25.0,6780.5
+946,33860,"Montgomery, AL Metro Area",1,2013,1.08,25.0,6766.25
+947,33860,"Montgomery, AL Metro Area",1,2014,1.08,25.0,6752.0
+948,33860,"Montgomery, AL Metro Area",1,2015,1.08,25.0,6733.0
+949,33860,"Montgomery, AL Metro Area",1,2016,1.08,25.0,6714.0
+950,33860,"Montgomery, AL Metro Area",1,2017,1.08,25.0,6695.0
+951,33860,"Montgomery, AL Metro Area",1,2018,1.08,25.0,6680.75
+952,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2012,1.09,23.5,1412.0
+953,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2013,1.09,23.75,1425.0
+954,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2014,1.09,24.0,1438.0
+955,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2015,1.09,24.0,1455.0
+956,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2016,1.09,24.0,1473.0
+957,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2017,1.09,25.0,1490.0
+958,34580,"Mount Vernon-Anacortes, WA Metro Area",1,2018,1.09,25.25,1503.0
+959,34620,"Muncie, IN Metro Area",1,2012,1.06,11.0,1096.5
+960,34620,"Muncie, IN Metro Area",1,2013,1.06,11.0,1094.75
+961,34620,"Muncie, IN Metro Area",1,2014,1.06,11.0,1093.0
+962,34620,"Muncie, IN Metro Area",1,2015,1.06,11.0,1091.0
+963,34620,"Muncie, IN Metro Area",1,2016,1.06,11.0,1088.0
+964,34620,"Muncie, IN Metro Area",1,2017,1.06,11.0,1086.0
+965,34620,"Muncie, IN Metro Area",1,2018,1.06,11.0,1084.25
+966,34900,"Napa, CA Metro Area",1,2012,1.21,44.5,4245.0
+967,34900,"Napa, CA Metro Area",1,2013,1.21,44.75,4259.5
+968,34900,"Napa, CA Metro Area",1,2014,1.21,45.0,4274.0
+969,34900,"Napa, CA Metro Area",1,2015,1.21,45.0,4293.0
+970,34900,"Napa, CA Metro Area",1,2016,1.21,45.0,4312.0
+971,34900,"Napa, CA Metro Area",1,2017,1.21,46.0,4332.0
+972,34900,"Napa, CA Metro Area",1,2018,1.21,46.25,4346.5
+973,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2012,1.22,51.0,45483.0
+974,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2013,1.21,53.0,46524.0
+975,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2014,1.22,55.0,48192.0
+976,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2015,1.22,57.0,49865.0
+977,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2016,1.22,57.0,51038.0
+978,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2017,1.22,58.0,52249.0
+979,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0,2018,1.22,58.75,53263.25
+980,35300,"New Haven-Milford, CT Metro Area",0,2012,1.16,42.0,13778.0
+981,35300,"New Haven-Milford, CT Metro Area",0,2013,1.16,43.0,14126.0
+982,35300,"New Haven-Milford, CT Metro Area",0,2014,1.16,43.0,14460.0
+983,35300,"New Haven-Milford, CT Metro Area",0,2015,1.16,44.0,14932.0
+984,35300,"New Haven-Milford, CT Metro Area",0,2016,1.16,44.0,15212.0
+985,35300,"New Haven-Milford, CT Metro Area",0,2017,1.16,45.0,15574.0
+986,35300,"New Haven-Milford, CT Metro Area",0,2018,1.16,45.5,15852.5
+987,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2012,1.33,49.0,49530.0
+988,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2013,1.32,51.0,50397.0
+989,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2014,1.33,54.0,51201.0
+990,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2015,1.34,56.0,53514.0
+991,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2016,1.35,57.0,54196.0
+992,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2017,1.36,58.0,55833.0
+993,35380,"New Orleans-Metairie-Kenner, LA Metro Area",0,2018,1.3675000000000002,59.0,56991.0
+994,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2012,1.34,81.0,727659.0
+995,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2013,1.34,84.0,746546.0
+996,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2014,1.34,85.0,759632.0
+997,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2015,1.35,87.0,778986.0
+998,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2016,1.35,89.0,790205.0
+999,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2017,1.35,92.0,811609.0
+1000,35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA Metro Area",0,2018,1.3525,93.75,824603.25
+1001,35660,"Niles-Benton Harbor, MI Metro Area",1,2012,1.04,15.5,879.5
+1002,35660,"Niles-Benton Harbor, MI Metro Area",1,2013,1.04,15.25,861.25
+1003,35660,"Niles-Benton Harbor, MI Metro Area",1,2014,1.04,15.0,843.0
+1004,35660,"Niles-Benton Harbor, MI Metro Area",1,2015,1.04,15.0,819.0
+1005,35660,"Niles-Benton Harbor, MI Metro Area",1,2016,1.04,15.0,795.0
+1006,35660,"Niles-Benton Harbor, MI Metro Area",1,2017,1.04,14.0,770.0
+1007,35660,"Niles-Benton Harbor, MI Metro Area",1,2018,1.04,13.75,751.75
+1008,35980,"Norwich-New London, CT Metro Area",1,2012,1.06,24.0,4035.5
+1009,35980,"Norwich-New London, CT Metro Area",1,2013,1.06,24.0,4026.75
+1010,35980,"Norwich-New London, CT Metro Area",1,2014,1.06,24.0,4018.0
+1011,35980,"Norwich-New London, CT Metro Area",1,2015,1.06,24.0,4006.0
+1012,35980,"Norwich-New London, CT Metro Area",1,2016,1.06,24.0,3995.0
+1013,35980,"Norwich-New London, CT Metro Area",1,2017,1.06,24.0,3983.0
+1014,35980,"Norwich-New London, CT Metro Area",1,2018,1.06,24.0,3974.25
+1015,36100,"Ocala, FL Metro Area",1,2012,1.09,21.0,3712.0
+1016,36100,"Ocala, FL Metro Area",1,2013,1.09,21.5,3765.5
+1017,36100,"Ocala, FL Metro Area",1,2014,1.09,22.0,3819.0
+1018,36100,"Ocala, FL Metro Area",1,2015,1.09,23.0,3889.0
+1019,36100,"Ocala, FL Metro Area",1,2016,1.09,23.0,3961.0
+1020,36100,"Ocala, FL Metro Area",1,2017,1.09,24.0,4033.0
+1021,36100,"Ocala, FL Metro Area",1,2018,1.09,24.5,4086.5
+1022,36420,"Oklahoma City, OK Metro Area",0,2012,1.18,45.0,36587.0
+1023,36420,"Oklahoma City, OK Metro Area",0,2013,1.18,46.0,38643.0
+1024,36420,"Oklahoma City, OK Metro Area",0,2014,1.18,46.0,39188.0
+1025,36420,"Oklahoma City, OK Metro Area",0,2015,1.19,47.0,40393.0
+1026,36420,"Oklahoma City, OK Metro Area",0,2016,1.19,49.0,41693.0
+1027,36420,"Oklahoma City, OK Metro Area",0,2017,1.19,50.0,43448.0
+1028,36420,"Oklahoma City, OK Metro Area",0,2018,1.1925,51.0,44513.0
+1029,36500,"Olympia, WA Metro Area",1,2012,1.12,26.5,5145.0
+1030,36500,"Olympia, WA Metro Area",1,2013,1.12,26.75,5209.5
+1031,36500,"Olympia, WA Metro Area",1,2014,1.12,27.0,5274.0
+1032,36500,"Olympia, WA Metro Area",1,2015,1.12,27.0,5359.0
+1033,36500,"Olympia, WA Metro Area",1,2016,1.12,28.0,5445.0
+1034,36500,"Olympia, WA Metro Area",1,2017,1.12,28.0,5532.0
+1035,36500,"Olympia, WA Metro Area",1,2018,1.12,28.25,5596.5
+1036,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2012,1.16,34.0,16444.0
+1037,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2013,1.16,35.0,16842.0
+1038,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2014,1.16,35.0,17079.0
+1039,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2015,1.16,36.0,17796.0
+1040,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2016,1.17,37.0,18535.0
+1041,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2017,1.17,38.0,19117.0
+1042,36540,"Omaha-Council Bluffs, NE-IA Metro Area",0,2018,1.1724999999999999,38.75,19626.5
+1043,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2012,1.22,50.0,53777.0
+1044,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2013,1.22,49.0,55877.0
+1045,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2014,1.23,52.0,57037.0
+1046,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2015,1.23,53.0,58893.0
+1047,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2016,1.23,55.0,61392.0
+1048,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2017,1.24,57.0,63205.0
+1049,36740,"Orlando-Kissimmee-Sanford, FL Metro Area",0,2018,1.2425,58.25,64747.0
+1050,36780,"Oshkosh-Neenah, WI Metro Area",1,2012,1.05,12.0,975.5
+1051,36780,"Oshkosh-Neenah, WI Metro Area",1,2013,1.05,12.0,976.25
+1052,36780,"Oshkosh-Neenah, WI Metro Area",1,2014,1.05,12.0,977.0
+1053,36780,"Oshkosh-Neenah, WI Metro Area",1,2015,1.05,12.0,978.0
+1054,36780,"Oshkosh-Neenah, WI Metro Area",1,2016,1.05,12.0,979.0
+1055,36780,"Oshkosh-Neenah, WI Metro Area",1,2017,1.05,12.0,980.0
+1056,36780,"Oshkosh-Neenah, WI Metro Area",1,2018,1.05,12.0,980.75
+1057,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2012,1.16,28.0,7678.0
+1058,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2013,1.16,29.0,7897.0
+1059,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2014,1.16,31.0,8161.0
+1060,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2015,1.16,32.0,8662.0
+1061,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2016,1.16,34.0,9170.0
+1062,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2017,1.16,34.0,9548.0
+1063,37100,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",0,2018,1.16,34.75,9894.75
+1064,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2012,1.09,20.5,10096.5
+1065,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2013,1.09,20.75,10191.75
+1066,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2014,1.09,21.0,10287.0
+1067,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2015,1.09,21.0,10412.0
+1068,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2016,1.09,22.0,10540.0
+1069,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2017,1.09,22.0,10668.0
+1070,37340,"Palm Bay-Melbourne-Titusville, FL Metro Area",1,2018,1.09,22.25,10763.25
+1071,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2012,1.17,40.0,8284.0
+1072,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2013,1.17,40.0,8478.0
+1073,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2014,1.17,41.0,8579.0
+1074,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2015,1.17,41.0,8870.0
+1075,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2016,1.17,42.0,9199.0
+1076,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2017,1.17,43.0,9520.0
+1077,37860,"Pensacola-Ferry Pass-Brent, FL Metro Area",0,2018,1.17,43.5,9755.25
+1078,37900,"Peoria, IL Metro Area",1,2012,1.065,13.0,3625.0
+1079,37900,"Peoria, IL Metro Area",1,2013,1.0625,13.0,3613.5
+1080,37900,"Peoria, IL Metro Area",1,2014,1.06,13.0,3602.0
+1081,37900,"Peoria, IL Metro Area",1,2015,1.05,13.0,3586.0
+1082,37900,"Peoria, IL Metro Area",1,2016,1.05,13.0,3571.0
+1083,37900,"Peoria, IL Metro Area",1,2017,1.05,13.0,3556.0
+1084,37900,"Peoria, IL Metro Area",1,2018,1.0475,13.0,3544.5
+1085,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2012,1.24,52.0,174990.0
+1086,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2013,1.24,54.0,179493.0
+1087,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2014,1.24,55.0,181757.0
+1088,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2015,1.24,58.0,186282.0
+1089,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2016,1.25,60.0,190385.0
+1090,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2017,1.25,62.0,194655.0
+1091,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",0,2018,1.2525,63.75,197879.5
+1092,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2012,1.28,53.0,145564.0
+1093,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2013,1.27,55.0,150010.0
+1094,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2014,1.27,57.0,152812.0
+1095,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2015,1.27,59.0,156520.0
+1096,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2016,1.27,61.0,160159.0
+1097,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2017,1.27,62.0,163247.0
+1098,38060,"Phoenix-Mesa-Glendale, AZ Metro Area",0,2018,1.27,63.25,165855.75
+1099,38300,"Pittsburgh, PA Metro Area",0,2012,1.18,41.0,45502.0
+1100,38300,"Pittsburgh, PA Metro Area",0,2013,1.19,43.0,46902.0
+1101,38300,"Pittsburgh, PA Metro Area",0,2014,1.19,44.0,47549.0
+1102,38300,"Pittsburgh, PA Metro Area",0,2015,1.19,45.0,48728.0
+1103,38300,"Pittsburgh, PA Metro Area",0,2016,1.19,46.0,50221.0
+1104,38300,"Pittsburgh, PA Metro Area",0,2017,1.19,46.0,51370.0
+1105,38300,"Pittsburgh, PA Metro Area",0,2018,1.19,46.5,52325.25
+1106,38340,"Pittsfield, MA Metro Area",1,2012,1.08,14.0,1165.5
+1107,38340,"Pittsfield, MA Metro Area",1,2013,1.08,14.0,1161.75
+1108,38340,"Pittsfield, MA Metro Area",1,2014,1.08,14.0,1158.0
+1109,38340,"Pittsfield, MA Metro Area",1,2015,1.08,14.0,1153.0
+1110,38340,"Pittsfield, MA Metro Area",1,2016,1.08,14.0,1148.0
+1111,38340,"Pittsfield, MA Metro Area",1,2017,1.08,14.0,1143.0
+1112,38340,"Pittsfield, MA Metro Area",1,2018,1.08,14.0,1139.25
+1113,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2012,1.11,26.5,5705.5
+1114,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2013,1.11,26.75,5730.25
+1115,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2014,1.11,27.0,5755.0
+1116,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2015,1.11,27.0,5788.0
+1117,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2016,1.11,27.0,5821.0
+1118,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2017,1.11,28.0,5854.0
+1119,38860,"Portland-South Portland-Biddeford, ME Metro Area",1,2018,1.11,28.25,5878.75
+1120,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2012,1.35,55.0,76716.0
+1121,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2013,1.35,58.0,79522.0
+1122,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2014,1.35,60.0,80615.0
+1123,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2015,1.36,62.0,83612.0
+1124,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2016,1.35,64.0,86454.0
+1125,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2017,1.35,66.0,88009.0
+1126,38900,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0,2018,1.35,67.5,89857.5
+1127,38940,"Port St. Lucie, FL Metro Area",1,2012,1.085,19.5,8244.5
+1128,38940,"Port St. Lucie, FL Metro Area",1,2013,1.0875000000000001,19.75,8354.25
+1129,38940,"Port St. Lucie, FL Metro Area",1,2014,1.09,20.0,8464.0
+1130,38940,"Port St. Lucie, FL Metro Area",1,2015,1.1,20.0,8608.0
+1131,38940,"Port St. Lucie, FL Metro Area",1,2016,1.1,21.0,8755.0
+1132,38940,"Port St. Lucie, FL Metro Area",1,2017,1.1,21.0,8903.0
+1133,38940,"Port St. Lucie, FL Metro Area",1,2018,1.1025,21.25,9012.75
+1134,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2012,1.18,43.0,31694.0
+1135,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2013,1.17,44.0,32483.0
+1136,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2014,1.17,44.0,33134.0
+1137,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2015,1.17,46.0,34355.0
+1138,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2016,1.17,47.0,35335.0
+1139,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2017,1.17,48.0,36273.0
+1140,39300,"Providence-New Bedford-Fall River, RI-MA Metro Area",0,2018,1.17,49.0,37057.75
+1141,39380,"Pueblo, CO Metro Area",1,2012,1.1,20.0,2971.5
+1142,39380,"Pueblo, CO Metro Area",1,2013,1.1,20.0,2983.75
+1143,39380,"Pueblo, CO Metro Area",1,2014,1.1,20.0,2996.0
+1144,39380,"Pueblo, CO Metro Area",1,2015,1.1,20.0,3012.0
+1145,39380,"Pueblo, CO Metro Area",1,2016,1.1,20.0,3029.0
+1146,39380,"Pueblo, CO Metro Area",1,2017,1.1,20.0,3045.0
+1147,39380,"Pueblo, CO Metro Area",1,2018,1.1,20.0,3057.25
+1148,39540,"Racine, WI Metro Area",1,2012,1.12,20.0,2924.5
+1149,39540,"Racine, WI Metro Area",1,2013,1.12,20.0,2917.75
+1150,39540,"Racine, WI Metro Area",1,2014,1.12,20.0,2911.0
+1151,39540,"Racine, WI Metro Area",1,2015,1.12,20.0,2902.0
+1152,39540,"Racine, WI Metro Area",1,2016,1.12,20.0,2893.0
+1153,39540,"Racine, WI Metro Area",1,2017,1.12,20.0,2884.0
+1154,39540,"Racine, WI Metro Area",1,2018,1.12,20.0,2877.25
+1155,39580,"Raleigh-Cary, NC Metro Area",0,2012,1.16,35.0,22446.0
+1156,39580,"Raleigh-Cary, NC Metro Area",0,2013,1.16,37.0,23775.0
+1157,39580,"Raleigh-Cary, NC Metro Area",0,2014,1.17,37.0,24789.0
+1158,39580,"Raleigh-Cary, NC Metro Area",0,2015,1.17,39.0,25692.0
+1159,39580,"Raleigh-Cary, NC Metro Area",0,2016,1.17,41.0,26577.0
+1160,39580,"Raleigh-Cary, NC Metro Area",0,2017,1.17,42.0,27243.0
+1161,39580,"Raleigh-Cary, NC Metro Area",0,2018,1.17,43.25,27856.5
+1162,39820,"Redding, CA Metro Area",1,2012,1.085,23.0,3047.0
+1163,39820,"Redding, CA Metro Area",1,2013,1.0875000000000001,23.0,3057.5
+1164,39820,"Redding, CA Metro Area",1,2014,1.09,23.0,3068.0
+1165,39820,"Redding, CA Metro Area",1,2015,1.09,23.0,3082.0
+1166,39820,"Redding, CA Metro Area",1,2016,1.1,23.0,3096.0
+1167,39820,"Redding, CA Metro Area",1,2017,1.1,23.0,3110.0
+1168,39820,"Redding, CA Metro Area",1,2018,1.1025,23.0,3120.5
+1169,39900,"Reno-Sparks, NV Metro Area",1,2012,1.13,24.5,10358.0
+1170,39900,"Reno-Sparks, NV Metro Area",1,2013,1.13,24.75,10457.5
+1171,39900,"Reno-Sparks, NV Metro Area",1,2014,1.13,25.0,10557.0
+1172,39900,"Reno-Sparks, NV Metro Area",1,2015,1.13,26.0,10688.0
+1173,39900,"Reno-Sparks, NV Metro Area",1,2016,1.13,26.0,10821.0
+1174,39900,"Reno-Sparks, NV Metro Area",1,2017,1.13,26.0,10955.0
+1175,39900,"Reno-Sparks, NV Metro Area",1,2018,1.13,26.25,11054.5
+1176,40060,"Richmond, VA Metro Area",0,2012,1.12,28.0,21100.0
+1177,40060,"Richmond, VA Metro Area",0,2013,1.13,28.0,21878.0
+1178,40060,"Richmond, VA Metro Area",0,2014,1.13,29.0,22416.0
+1179,40060,"Richmond, VA Metro Area",0,2015,1.12,31.0,23120.0
+1180,40060,"Richmond, VA Metro Area",0,2016,1.12,33.0,23678.0
+1181,40060,"Richmond, VA Metro Area",0,2017,1.12,35.0,24461.0
+1182,40060,"Richmond, VA Metro Area",0,2018,1.1175000000000002,36.5,24972.25
+1183,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2012,1.31,59.0,94868.0
+1184,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2013,1.32,60.0,98348.0
+1185,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2014,1.33,62.0,100804.0
+1186,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2015,1.33,66.0,103091.0
+1187,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2016,1.34,68.0,105419.0
+1188,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2017,1.34,70.0,107411.0
+1189,40140,"Riverside-San Bernardino-Ontario, CA Metro Area",0,2018,1.3425,72.0,109062.75
+1190,40220,"Roanoke, VA Metro Area",1,2012,1.1,25.0,5604.5
+1191,40220,"Roanoke, VA Metro Area",1,2013,1.1,25.0,5613.25
+1192,40220,"Roanoke, VA Metro Area",1,2014,1.1,25.0,5622.0
+1193,40220,"Roanoke, VA Metro Area",1,2015,1.1,25.0,5634.0
+1194,40220,"Roanoke, VA Metro Area",1,2016,1.1,25.0,5645.0
+1195,40220,"Roanoke, VA Metro Area",1,2017,1.1,25.0,5657.0
+1196,40220,"Roanoke, VA Metro Area",1,2018,1.1,25.0,5665.75
+1197,40340,"Rochester, MN Metro Area",1,2012,1.1,17.5,2190.0
+1198,40340,"Rochester, MN Metro Area",1,2013,1.1,17.75,2209.0
+1199,40340,"Rochester, MN Metro Area",1,2014,1.1,18.0,2228.0
+1200,40340,"Rochester, MN Metro Area",1,2015,1.1,19.0,2253.0
+1201,40340,"Rochester, MN Metro Area",1,2016,1.1,19.0,2278.0
+1202,40340,"Rochester, MN Metro Area",1,2017,1.1,19.0,2304.0
+1203,40340,"Rochester, MN Metro Area",1,2018,1.1,19.25,2323.0
+1204,40380,"Rochester, NY Metro Area",0,2012,1.17,36.0,17456.0
+1205,40380,"Rochester, NY Metro Area",0,2013,1.16,37.0,17743.0
+1206,40380,"Rochester, NY Metro Area",0,2014,1.16,38.0,18198.0
+1207,40380,"Rochester, NY Metro Area",0,2015,1.16,39.0,18857.0
+1208,40380,"Rochester, NY Metro Area",0,2016,1.16,40.0,19587.0
+1209,40380,"Rochester, NY Metro Area",0,2017,1.16,40.0,19886.0
+1210,40380,"Rochester, NY Metro Area",0,2018,1.16,40.5,20308.0
+1211,40420,"Rockford, IL Metro Area",1,2012,1.08,18.0,5761.5
+1212,40420,"Rockford, IL Metro Area",1,2013,1.08,18.0,5741.75
+1213,40420,"Rockford, IL Metro Area",1,2014,1.08,18.0,5722.0
+1214,40420,"Rockford, IL Metro Area",1,2015,1.08,18.0,5696.0
+1215,40420,"Rockford, IL Metro Area",1,2016,1.08,18.0,5669.0
+1216,40420,"Rockford, IL Metro Area",1,2017,1.08,18.0,5643.0
+1217,40420,"Rockford, IL Metro Area",1,2018,1.08,18.0,5623.25
+1218,40660,"Rome, GA Metro Area",1,2012,1.11,33.0,2655.5
+1219,40660,"Rome, GA Metro Area",1,2013,1.11,33.0,2654.25
+1220,40660,"Rome, GA Metro Area",1,2014,1.11,33.0,2653.0
+1221,40660,"Rome, GA Metro Area",1,2015,1.11,33.0,2652.0
+1222,40660,"Rome, GA Metro Area",1,2016,1.11,33.0,2650.0
+1223,40660,"Rome, GA Metro Area",1,2017,1.11,33.0,2648.0
+1224,40660,"Rome, GA Metro Area",1,2018,1.11,33.0,2646.75
+1225,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2012,1.25,50.0,65626.0
+1226,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2013,1.26,51.0,67797.0
+1227,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2014,1.26,53.0,69470.0
+1228,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2015,1.27,55.0,71738.0
+1229,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2016,1.27,57.0,73945.0
+1230,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2017,1.28,59.0,76437.0
+1231,40900,"Sacramento--Arden-Arcade--Roseville, CA Metro Area",0,2018,1.2850000000000001,60.5,78178.75
+1232,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2012,1.065,18.5,2303.0
+1233,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2013,1.0625,18.25,2285.0
+1234,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2014,1.06,18.0,2267.0
+1235,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2015,1.06,18.0,2243.0
+1236,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2016,1.06,18.0,2219.0
+1237,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2017,1.05,17.0,2195.0
+1238,40980,"Saginaw-Saginaw Township North, MI Metro Area",1,2018,1.0475,16.75,2177.0
+1239,41060,"St. Cloud, MN Metro Area",1,2012,1.08,17.0,1980.0
+1240,41060,"St. Cloud, MN Metro Area",1,2013,1.08,17.0,1987.5
+1241,41060,"St. Cloud, MN Metro Area",1,2014,1.08,17.0,1995.0
+1242,41060,"St. Cloud, MN Metro Area",1,2015,1.08,17.0,2005.0
+1243,41060,"St. Cloud, MN Metro Area",1,2016,1.08,17.0,2015.0
+1244,41060,"St. Cloud, MN Metro Area",1,2017,1.08,17.0,2025.0
+1245,41060,"St. Cloud, MN Metro Area",1,2018,1.08,17.0,2032.5
+1246,41180,"St. Louis, MO-IL Metro Area",0,2012,1.16,43.0,65347.0
+1247,41180,"St. Louis, MO-IL Metro Area",0,2013,1.15,44.0,66414.0
+1248,41180,"St. Louis, MO-IL Metro Area",0,2014,1.15,44.0,68106.0
+1249,41180,"St. Louis, MO-IL Metro Area",0,2015,1.15,45.0,69729.0
+1250,41180,"St. Louis, MO-IL Metro Area",0,2016,1.15,46.0,70712.0
+1251,41180,"St. Louis, MO-IL Metro Area",0,2017,1.15,46.0,71481.0
+1252,41180,"St. Louis, MO-IL Metro Area",0,2018,1.15,46.5,72324.75
+1253,41420,"Salem, OR Metro Area",0,2012,1.16,37.0,6157.0
+1254,41420,"Salem, OR Metro Area",0,2013,1.16,38.0,6348.0
+1255,41420,"Salem, OR Metro Area",0,2014,1.16,38.0,6525.0
+1256,41420,"Salem, OR Metro Area",0,2015,1.15,39.0,6695.0
+1257,41420,"Salem, OR Metro Area",0,2016,1.15,40.0,7005.0
+1258,41420,"Salem, OR Metro Area",0,2017,1.15,41.0,7131.0
+1259,41420,"Salem, OR Metro Area",0,2018,1.1475,41.75,7282.5
+1260,41500,"Salinas, CA Metro Area",1,2012,1.15,27.0,5286.5
+1261,41500,"Salinas, CA Metro Area",1,2013,1.15,27.0,5305.75
+1262,41500,"Salinas, CA Metro Area",1,2014,1.15,27.0,5325.0
+1263,41500,"Salinas, CA Metro Area",1,2015,1.15,27.0,5350.0
+1264,41500,"Salinas, CA Metro Area",1,2016,1.15,27.0,5376.0
+1265,41500,"Salinas, CA Metro Area",1,2017,1.15,27.0,5402.0
+1266,41500,"Salinas, CA Metro Area",1,2018,1.15,27.0,5421.25
+1267,41540,"Salisbury, MD Metro Area",1,2012,1.09,19.0,1926.5
+1268,41540,"Salisbury, MD Metro Area",1,2013,1.09,19.0,1938.75
+1269,41540,"Salisbury, MD Metro Area",1,2014,1.09,19.0,1951.0
+1270,41540,"Salisbury, MD Metro Area",1,2015,1.09,19.0,1968.0
+1271,41540,"Salisbury, MD Metro Area",1,2016,1.09,19.0,1984.0
+1272,41540,"Salisbury, MD Metro Area",1,2017,1.09,19.0,2000.0
+1273,41540,"Salisbury, MD Metro Area",1,2018,1.09,19.0,2012.25
+1274,41620,"Salt Lake City, UT Metro Area",0,2012,1.18,41.0,26183.0
+1275,41620,"Salt Lake City, UT Metro Area",0,2013,1.18,40.0,27056.0
+1276,41620,"Salt Lake City, UT Metro Area",0,2014,1.18,42.0,27822.0
+1277,41620,"Salt Lake City, UT Metro Area",0,2015,1.18,43.0,28428.0
+1278,41620,"Salt Lake City, UT Metro Area",0,2016,1.18,45.0,29234.0
+1279,41620,"Salt Lake City, UT Metro Area",0,2017,1.18,45.0,29739.0
+1280,41620,"Salt Lake City, UT Metro Area",0,2018,1.18,45.75,30218.25
+1281,41660,"San Angelo, TX Metro Area",1,2012,1.1,18.0,1898.0
+1282,41660,"San Angelo, TX Metro Area",1,2013,1.1,18.0,1896.0
+1283,41660,"San Angelo, TX Metro Area",1,2014,1.1,18.0,1894.0
+1284,41660,"San Angelo, TX Metro Area",1,2015,1.1,18.0,1891.0
+1285,41660,"San Angelo, TX Metro Area",1,2016,1.1,18.0,1889.0
+1286,41660,"San Angelo, TX Metro Area",1,2017,1.1,18.0,1886.0
+1287,41660,"San Angelo, TX Metro Area",1,2018,1.1,18.0,1884.0
+1288,41700,"San Antonio-New Braunfels, TX Metro Area",0,2012,1.24,44.0,60658.0
+1289,41700,"San Antonio-New Braunfels, TX Metro Area",0,2013,1.24,45.0,63697.0
+1290,41700,"San Antonio-New Braunfels, TX Metro Area",0,2014,1.24,47.0,65239.0
+1291,41700,"San Antonio-New Braunfels, TX Metro Area",0,2015,1.23,48.0,66862.0
+1292,41700,"San Antonio-New Braunfels, TX Metro Area",0,2016,1.23,50.0,68421.0
+1293,41700,"San Antonio-New Braunfels, TX Metro Area",0,2017,1.23,51.0,69982.0
+1294,41700,"San Antonio-New Braunfels, TX Metro Area",0,2018,1.2275,52.0,71167.75
+1295,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2012,1.32,57.0,126354.0
+1296,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2013,1.33,58.0,130398.0
+1297,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2014,1.34,62.0,134143.0
+1298,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2015,1.34,63.0,140073.0
+1299,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2016,1.35,64.0,145376.0
+1300,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2017,1.35,64.0,148503.0
+1301,41740,"San Diego-Carlsbad-San Marcos, CA Metro Area",0,2018,1.3525,64.5,152093.0
+1302,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2012,1.44,95.0,227441.0
+1303,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2013,1.46,97.0,233493.0
+1304,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2014,1.48,99.0,240496.0
+1305,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2015,1.49,101.0,245689.0
+1306,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2016,1.5,102.0,250205.0
+1307,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2017,1.5,103.0,253838.0
+1308,41860,"San Francisco-Oakland-Fremont, CA Metro Area",0,2018,1.505,104.0,257173.5
+1309,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2012,1.38,72.0,105662.0
+1310,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2013,1.39,73.0,111804.0
+1311,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2014,1.41,76.0,115256.0
+1312,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2015,1.43,78.0,119071.0
+1313,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2016,1.44,80.0,123596.0
+1314,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2017,1.45,81.0,126774.0
+1315,41940,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",0,2018,1.46,82.25,129653.5
+1316,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2012,1.22,44.5,9781.5
+1317,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2013,1.22,44.75,9836.75
+1318,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2014,1.22,45.0,9892.0
+1319,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2015,1.22,45.0,9965.0
+1320,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2016,1.22,46.0,10039.0
+1321,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2017,1.22,46.0,10113.0
+1322,42060,"Santa Barbara-Santa Maria-Goleta, CA Metro Area",1,2018,1.22,46.25,10168.25
+1323,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2012,1.22,40.5,10167.0
+1324,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2013,1.22,40.75,10240.5
+1325,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2014,1.22,41.0,10314.0
+1326,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2015,1.22,41.0,10411.0
+1327,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2016,1.22,42.0,10509.0
+1328,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2017,1.22,42.0,10608.0
+1329,42100,"Santa Cruz-Watsonville, CA Metro Area",1,2018,1.22,42.25,10681.5
+1330,42140,"Santa Fe, NM Metro Area",1,2012,1.1,28.0,2677.5
+1331,42140,"Santa Fe, NM Metro Area",1,2013,1.1,28.0,2677.75
+1332,42140,"Santa Fe, NM Metro Area",1,2014,1.1,28.0,2678.0
+1333,42140,"Santa Fe, NM Metro Area",1,2015,1.1,28.0,2678.0
+1334,42140,"Santa Fe, NM Metro Area",1,2016,1.1,28.0,2679.0
+1335,42140,"Santa Fe, NM Metro Area",1,2017,1.1,28.0,2679.0
+1336,42140,"Santa Fe, NM Metro Area",1,2018,1.1,28.0,2679.25
+1337,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2012,1.22,53.0,18291.5
+1338,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2013,1.22,53.0,18342.75
+1339,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2014,1.22,53.0,18394.0
+1340,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2015,1.22,53.0,18462.0
+1341,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2016,1.22,53.0,18530.0
+1342,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2017,1.22,53.0,18599.0
+1343,42220,"Santa Rosa-Petaluma, CA Metro Area",1,2018,1.22,53.0,18650.25
+1344,42340,"Savannah, GA Metro Area",1,2012,1.105,33.5,9506.5
+1345,42340,"Savannah, GA Metro Area",1,2013,1.1075000000000002,33.75,9592.25
+1346,42340,"Savannah, GA Metro Area",1,2014,1.11,34.0,9678.0
+1347,42340,"Savannah, GA Metro Area",1,2015,1.11,34.0,9791.0
+1348,42340,"Savannah, GA Metro Area",1,2016,1.12,34.0,9906.0
+1349,42340,"Savannah, GA Metro Area",1,2017,1.12,35.0,10021.0
+1350,42340,"Savannah, GA Metro Area",1,2018,1.1225,35.25,10106.75
+1351,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2012,1.06,19.0,7646.0
+1352,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2013,1.06,19.0,7649.5
+1353,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2014,1.06,19.0,7653.0
+1354,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2015,1.06,19.0,7658.0
+1355,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2016,1.06,19.0,7662.0
+1356,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2017,1.06,19.0,7667.0
+1357,42540,"Scranton--Wilkes-Barre, PA Metro Area",1,2018,1.06,19.0,7670.5
+1358,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2012,1.37,69.0,148850.0
+1359,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2013,1.38,71.0,155800.0
+1360,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2014,1.38,72.0,159201.0
+1361,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2015,1.37,74.0,162517.0
+1362,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2016,1.37,76.0,164744.0
+1363,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2017,1.37,78.0,167384.0
+1364,42660,"Seattle-Tacoma-Bellevue, WA Metro Area",0,2018,1.3675000000000002,79.5,169429.75
+1365,42680,"Sebastian-Vero Beach, FL Metro Area",1,2012,,,
+1366,42680,"Sebastian-Vero Beach, FL Metro Area",1,2013,,,
+1367,42680,"Sebastian-Vero Beach, FL Metro Area",1,2014,,,
+1368,42680,"Sebastian-Vero Beach, FL Metro Area",1,2015,,,
+1369,42680,"Sebastian-Vero Beach, FL Metro Area",1,2016,,,
+1370,42680,"Sebastian-Vero Beach, FL Metro Area",1,2017,1.09,15.0,2456.0
+1371,42680,"Sebastian-Vero Beach, FL Metro Area",1,2018,,,
+1372,43340,"Shreveport-Bossier City, LA Metro Area",1,2012,1.09,28.0,8673.5
+1373,43340,"Shreveport-Bossier City, LA Metro Area",1,2013,1.09,28.0,8674.25
+1374,43340,"Shreveport-Bossier City, LA Metro Area",1,2014,1.09,28.0,8675.0
+1375,43340,"Shreveport-Bossier City, LA Metro Area",1,2015,1.09,28.0,8676.0
+1376,43340,"Shreveport-Bossier City, LA Metro Area",1,2016,1.09,28.0,8677.0
+1377,43340,"Shreveport-Bossier City, LA Metro Area",1,2017,1.09,28.0,8678.0
+1378,43340,"Shreveport-Bossier City, LA Metro Area",1,2018,1.09,28.0,8678.75
+1379,43580,"Sioux City, IA-NE-SD Metro Area",1,2012,1.06,12.5,1532.5
+1380,43580,"Sioux City, IA-NE-SD Metro Area",1,2013,1.06,12.75,1535.25
+1381,43580,"Sioux City, IA-NE-SD Metro Area",1,2014,1.06,13.0,1538.0
+1382,43580,"Sioux City, IA-NE-SD Metro Area",1,2015,1.06,14.0,1541.0
+1383,43580,"Sioux City, IA-NE-SD Metro Area",1,2016,1.06,14.0,1545.0
+1384,43580,"Sioux City, IA-NE-SD Metro Area",1,2017,1.06,14.0,1549.0
+1385,43580,"Sioux City, IA-NE-SD Metro Area",1,2018,1.06,14.25,1551.75
+1386,43620,"Sioux Falls, SD Metro Area",1,2012,1.045,16.5,3055.0
+1387,43620,"Sioux Falls, SD Metro Area",1,2013,1.0475,16.75,3091.5
+1388,43620,"Sioux Falls, SD Metro Area",1,2014,1.05,17.0,3128.0
+1389,43620,"Sioux Falls, SD Metro Area",1,2015,1.05,18.0,3176.0
+1390,43620,"Sioux Falls, SD Metro Area",1,2016,1.05,18.0,3224.0
+1391,43620,"Sioux Falls, SD Metro Area",1,2017,1.06,18.0,3274.0
+1392,43620,"Sioux Falls, SD Metro Area",1,2018,1.0625,18.25,3310.5
+1393,44060,"Spokane, WA Metro Area",0,2012,1.17,40.0,11730.0
+1394,44060,"Spokane, WA Metro Area",0,2013,1.17,41.0,12066.0
+1395,44060,"Spokane, WA Metro Area",0,2014,1.16,42.0,12497.0
+1396,44060,"Spokane, WA Metro Area",0,2015,1.16,43.0,12896.0
+1397,44060,"Spokane, WA Metro Area",0,2016,1.16,44.0,13372.0
+1398,44060,"Spokane, WA Metro Area",0,2017,1.16,45.0,13900.0
+1399,44060,"Spokane, WA Metro Area",0,2018,1.16,45.75,14250.75
+1400,44100,"Springfield, IL Metro Area",1,2012,1.06,14.0,2469.5
+1401,44100,"Springfield, IL Metro Area",1,2013,1.06,14.0,2475.25
+1402,44100,"Springfield, IL Metro Area",1,2014,1.06,14.0,2481.0
+1403,44100,"Springfield, IL Metro Area",1,2015,1.06,14.0,2489.0
+1404,44100,"Springfield, IL Metro Area",1,2016,1.06,14.0,2496.0
+1405,44100,"Springfield, IL Metro Area",1,2017,1.06,14.0,2504.0
+1406,44100,"Springfield, IL Metro Area",1,2018,1.06,14.0,2509.75
+1407,44180,"Springfield, MO Metro Area",1,2012,1.1549999999999998,34.0,10135.0
+1408,44180,"Springfield, MO Metro Area",1,2013,1.1575,34.0,10198.5
+1409,44180,"Springfield, MO Metro Area",1,2014,1.16,34.0,10262.0
+1410,44180,"Springfield, MO Metro Area",1,2015,1.17,34.0,10346.0
+1411,44180,"Springfield, MO Metro Area",1,2016,1.17,34.0,10431.0
+1412,44180,"Springfield, MO Metro Area",1,2017,1.17,34.0,10516.0
+1413,44180,"Springfield, MO Metro Area",1,2018,1.1724999999999999,34.0,10579.5
+1414,44300,"State College, PA Metro Area",1,2012,1.06,13.0,1192.0
+1415,44300,"State College, PA Metro Area",1,2013,1.06,13.0,1202.0
+1416,44300,"State College, PA Metro Area",1,2014,1.06,13.0,1212.0
+1417,44300,"State College, PA Metro Area",1,2015,1.06,13.0,1225.0
+1418,44300,"State College, PA Metro Area",1,2016,1.06,13.0,1238.0
+1419,44300,"State College, PA Metro Area",1,2017,1.06,13.0,1252.0
+1420,44300,"State College, PA Metro Area",1,2018,1.06,13.0,1262.0
+1421,44700,"Stockton, CA Metro Area",0,2012,1.14,26.0,7820.0
+1422,44700,"Stockton, CA Metro Area",0,2013,1.14,27.0,7945.0
+1423,44700,"Stockton, CA Metro Area",0,2014,1.15,29.0,8218.0
+1424,44700,"Stockton, CA Metro Area",0,2015,1.15,30.0,8788.0
+1425,44700,"Stockton, CA Metro Area",0,2016,1.15,30.0,9288.0
+1426,44700,"Stockton, CA Metro Area",0,2017,1.15,32.0,9928.0
+1427,44700,"Stockton, CA Metro Area",0,2018,1.15,32.75,10355.5
+1428,44940,"Sumter, SC Metro Area",1,2012,1.1,18.0,1408.0
+1429,44940,"Sumter, SC Metro Area",1,2013,1.1,18.0,1407.0
+1430,44940,"Sumter, SC Metro Area",1,2014,1.1,18.0,1406.0
+1431,44940,"Sumter, SC Metro Area",1,2015,1.1,18.0,1405.0
+1432,44940,"Sumter, SC Metro Area",1,2016,1.1,18.0,1403.0
+1433,44940,"Sumter, SC Metro Area",1,2017,1.1,18.0,1402.0
+1434,44940,"Sumter, SC Metro Area",1,2018,1.1,18.0,1401.0
+1435,45060,"Syracuse, NY Metro Area",1,2012,1.06,18.0,7771.0
+1436,45060,"Syracuse, NY Metro Area",1,2013,1.06,18.0,7766.5
+1437,45060,"Syracuse, NY Metro Area",1,2014,1.06,18.0,7762.0
+1438,45060,"Syracuse, NY Metro Area",1,2015,1.06,18.0,7756.0
+1439,45060,"Syracuse, NY Metro Area",1,2016,1.06,18.0,7750.0
+1440,45060,"Syracuse, NY Metro Area",1,2017,1.06,18.0,7744.0
+1441,45060,"Syracuse, NY Metro Area",1,2018,1.06,18.0,7739.5
+1442,45220,"Tallahassee, FL Metro Area",1,2012,1.14,33.0,7066.5
+1443,45220,"Tallahassee, FL Metro Area",1,2013,1.14,33.0,7114.75
+1444,45220,"Tallahassee, FL Metro Area",1,2014,1.14,33.0,7163.0
+1445,45220,"Tallahassee, FL Metro Area",1,2015,1.14,33.0,7227.0
+1446,45220,"Tallahassee, FL Metro Area",1,2016,1.14,33.0,7291.0
+1447,45220,"Tallahassee, FL Metro Area",1,2017,1.14,33.0,7356.0
+1448,45220,"Tallahassee, FL Metro Area",1,2018,1.14,33.0,7404.25
+1449,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2012,1.21,44.0,76538.0
+1450,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2013,1.22,46.0,78796.0
+1451,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2014,1.22,47.0,80817.0
+1452,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2015,1.22,47.0,82008.0
+1453,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2016,1.22,48.0,84151.0
+1454,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2017,1.22,50.0,85860.0
+1455,45300,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0,2018,1.22,50.75,87120.75
+1456,45460,"Terre Haute, IN Metro Area",1,2012,1.06,17.0,1657.5
+1457,45460,"Terre Haute, IN Metro Area",1,2013,1.06,17.0,1657.25
+1458,45460,"Terre Haute, IN Metro Area",1,2014,1.06,17.0,1657.0
+1459,45460,"Terre Haute, IN Metro Area",1,2015,1.06,17.0,1657.0
+1460,45460,"Terre Haute, IN Metro Area",1,2016,1.06,17.0,1657.0
+1461,45460,"Terre Haute, IN Metro Area",1,2017,1.06,17.0,1656.0
+1462,45460,"Terre Haute, IN Metro Area",1,2018,1.06,17.0,1655.75
+1463,45780,"Toledo, OH Metro Area",0,2012,1.15,36.0,13281.0
+1464,45780,"Toledo, OH Metro Area",0,2013,1.14,36.0,13736.0
+1465,45780,"Toledo, OH Metro Area",0,2014,1.14,36.0,14252.0
+1466,45780,"Toledo, OH Metro Area",0,2015,1.14,37.0,14698.0
+1467,45780,"Toledo, OH Metro Area",0,2016,1.14,38.0,15063.0
+1468,45780,"Toledo, OH Metro Area",0,2017,1.14,40.0,15407.0
+1469,45780,"Toledo, OH Metro Area",0,2018,1.14,41.0,15695.75
+1470,45820,"Topeka, KS Metro Area",1,2012,1.08,21.0,3307.0
+1471,45820,"Topeka, KS Metro Area",1,2013,1.08,21.0,3307.5
+1472,45820,"Topeka, KS Metro Area",1,2014,1.08,21.0,3308.0
+1473,45820,"Topeka, KS Metro Area",1,2015,1.08,21.0,3309.0
+1474,45820,"Topeka, KS Metro Area",1,2016,1.08,21.0,3309.0
+1475,45820,"Topeka, KS Metro Area",1,2017,1.08,21.0,3310.0
+1476,45820,"Topeka, KS Metro Area",1,2018,1.08,21.0,3310.5
+1477,46060,"Tucson, AZ Metro Area",0,2012,1.2,44.0,28979.0
+1478,46060,"Tucson, AZ Metro Area",0,2013,1.2,46.0,29528.0
+1479,46060,"Tucson, AZ Metro Area",0,2014,1.2,47.0,30124.0
+1480,46060,"Tucson, AZ Metro Area",0,2015,1.21,49.0,30850.0
+1481,46060,"Tucson, AZ Metro Area",0,2016,1.21,50.0,31661.0
+1482,46060,"Tucson, AZ Metro Area",0,2017,1.21,52.0,32305.0
+1483,46060,"Tucson, AZ Metro Area",0,2018,1.2125,53.25,32850.25
+1484,46140,"Tulsa, OK Metro Area",0,2012,1.16,37.0,21355.0
+1485,46140,"Tulsa, OK Metro Area",0,2013,1.15,39.0,22583.0
+1486,46140,"Tulsa, OK Metro Area",0,2014,1.15,40.0,23270.0
+1487,46140,"Tulsa, OK Metro Area",0,2015,1.15,42.0,23868.0
+1488,46140,"Tulsa, OK Metro Area",0,2016,1.15,44.0,24618.0
+1489,46140,"Tulsa, OK Metro Area",0,2017,1.15,46.0,25228.0
+1490,46140,"Tulsa, OK Metro Area",0,2018,1.15,47.5,25717.5
+1491,46700,"Vallejo-Fairfield, CA Metro Area",1,2012,1.22,38.5,7802.5
+1492,46700,"Vallejo-Fairfield, CA Metro Area",1,2013,1.22,38.75,7868.25
+1493,46700,"Vallejo-Fairfield, CA Metro Area",1,2014,1.22,39.0,7934.0
+1494,46700,"Vallejo-Fairfield, CA Metro Area",1,2015,1.22,39.0,8021.0
+1495,46700,"Vallejo-Fairfield, CA Metro Area",1,2016,1.22,40.0,8108.0
+1496,46700,"Vallejo-Fairfield, CA Metro Area",1,2017,1.22,40.0,8197.0
+1497,46700,"Vallejo-Fairfield, CA Metro Area",1,2018,1.22,40.25,8262.75
+1498,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2012,1.18,39.0,36852.0
+1499,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2013,1.18,41.0,38055.0
+1500,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2014,1.17,43.0,39001.0
+1501,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2015,1.17,44.0,39492.0
+1502,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2016,1.17,46.0,40180.0
+1503,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2017,1.17,46.0,40510.0
+1504,47260,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",0,2018,1.17,46.75,40887.25
+1505,47300,"Visalia-Porterville, CA Metro Area",1,2012,1.1,17.0,4075.5
+1506,47300,"Visalia-Porterville, CA Metro Area",1,2013,1.1,17.0,4098.75
+1507,47300,"Visalia-Porterville, CA Metro Area",1,2014,1.1,17.0,4122.0
+1508,47300,"Visalia-Porterville, CA Metro Area",1,2015,1.1,17.0,4153.0
+1509,47300,"Visalia-Porterville, CA Metro Area",1,2016,1.1,17.0,4184.0
+1510,47300,"Visalia-Porterville, CA Metro Area",1,2017,1.1,17.0,4215.0
+1511,47300,"Visalia-Porterville, CA Metro Area",1,2018,1.1,17.0,4238.25
+1512,47380,"Waco, TX Metro Area",1,2012,1.0550000000000002,18.0,3252.5
+1513,47380,"Waco, TX Metro Area",1,2013,1.0575,18.0,3280.75
+1514,47380,"Waco, TX Metro Area",1,2014,1.06,18.0,3309.0
+1515,47380,"Waco, TX Metro Area",1,2015,1.06,18.0,3346.0
+1516,47380,"Waco, TX Metro Area",1,2016,1.06,18.0,3384.0
+1517,47380,"Waco, TX Metro Area",1,2017,1.07,18.0,3422.0
+1518,47380,"Waco, TX Metro Area",1,2018,1.0725,18.0,3450.25
+1519,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2012,1.34,90.0,219081.0
+1520,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2013,1.34,90.0,223912.0
+1521,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2014,1.34,92.0,228900.0
+1522,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2015,1.35,96.0,234531.0
+1523,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2016,1.35,99.0,242340.0
+1524,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2017,1.35,102.0,247811.0
+1525,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",0,2018,1.3525,104.5,252538.75
+1526,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2012,1.16,26.0,1918.0
+1527,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2013,1.16,26.0,1931.0
+1528,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2014,1.16,26.0,1944.0
+1529,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2015,1.16,26.0,1961.0
+1530,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2016,1.16,26.0,1979.0
+1531,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2017,1.16,26.0,1996.0
+1532,48300,"Wenatchee-East Wenatchee, WA Metro Area",1,2018,1.16,26.0,2009.0
+1533,48540,"Wheeling, WV-OH Metro Area",1,2012,1.04,26.0,2291.5
+1534,48540,"Wheeling, WV-OH Metro Area",1,2013,1.04,26.0,2278.75
+1535,48540,"Wheeling, WV-OH Metro Area",1,2014,1.04,26.0,2266.0
+1536,48540,"Wheeling, WV-OH Metro Area",1,2015,1.04,26.0,2249.0
+1537,48540,"Wheeling, WV-OH Metro Area",1,2016,1.04,26.0,2232.0
+1538,48540,"Wheeling, WV-OH Metro Area",1,2017,1.04,26.0,2215.0
+1539,48540,"Wheeling, WV-OH Metro Area",1,2018,1.04,26.0,2202.25
+1540,48620,"Wichita, KS Metro Area",0,2012,1.15,31.0,10495.0
+1541,48620,"Wichita, KS Metro Area",0,2013,1.14,32.0,10786.0
+1542,48620,"Wichita, KS Metro Area",0,2014,1.14,34.0,11171.0
+1543,48620,"Wichita, KS Metro Area",0,2015,1.14,34.0,11447.0
+1544,48620,"Wichita, KS Metro Area",0,2016,1.14,35.0,11747.0
+1545,48620,"Wichita, KS Metro Area",0,2017,1.14,36.0,12081.0
+1546,48620,"Wichita, KS Metro Area",0,2018,1.14,36.5,12308.5
+1547,48700,"Williamsport, PA Metro Area",1,2012,1.05,20.0,1076.0
+1548,48700,"Williamsport, PA Metro Area",1,2013,1.05,20.0,1075.5
+1549,48700,"Williamsport, PA Metro Area",1,2014,1.05,20.0,1075.0
+1550,48700,"Williamsport, PA Metro Area",1,2015,1.05,20.0,1074.0
+1551,48700,"Williamsport, PA Metro Area",1,2016,1.05,20.0,1073.0
+1552,48700,"Williamsport, PA Metro Area",1,2017,1.05,20.0,1073.0
+1553,48700,"Williamsport, PA Metro Area",1,2018,1.05,20.0,1072.5
+1554,48900,"Wilmington, NC Metro Area",1,2012,1.1150000000000002,25.0,6162.0
+1555,48900,"Wilmington, NC Metro Area",1,2013,1.1175000000000002,25.5,6254.0
+1556,48900,"Wilmington, NC Metro Area",1,2014,1.12,26.0,6346.0
+1557,48900,"Wilmington, NC Metro Area",1,2015,1.13,27.0,6466.0
+1558,48900,"Wilmington, NC Metro Area",1,2016,1.13,27.0,6589.0
+1559,48900,"Wilmington, NC Metro Area",1,2017,1.13,28.0,6714.0
+1560,48900,"Wilmington, NC Metro Area",1,2018,1.1324999999999998,28.5,6806.0
+1561,49180,"Winston-Salem, NC Metro Area",0,2012,1.11,21.0,6513.0
+1562,49180,"Winston-Salem, NC Metro Area",0,2013,1.11,21.0,6664.0
+1563,49180,"Winston-Salem, NC Metro Area",0,2014,1.11,22.0,6956.0
+1564,49180,"Winston-Salem, NC Metro Area",0,2015,1.11,24.0,7278.0
+1565,49180,"Winston-Salem, NC Metro Area",0,2016,1.11,26.0,7642.0
+1566,49180,"Winston-Salem, NC Metro Area",0,2017,1.11,27.0,7930.0
+1567,49180,"Winston-Salem, NC Metro Area",0,2018,1.11,28.25,8173.5
+1568,49340,"Worcester, MA Metro Area",0,2012,1.13,39.0,11411.0
+1569,49340,"Worcester, MA Metro Area",0,2013,1.14,40.0,12085.0
+1570,49340,"Worcester, MA Metro Area",0,2014,1.14,40.0,12463.0
+1571,49340,"Worcester, MA Metro Area",0,2015,1.14,41.0,12993.0
+1572,49340,"Worcester, MA Metro Area",0,2016,1.14,42.0,13655.0
+1573,49340,"Worcester, MA Metro Area",0,2017,1.14,43.0,14173.0
+1574,49340,"Worcester, MA Metro Area",0,2018,1.14,43.75,14600.5
+1575,49420,"Yakima, WA Metro Area",1,2012,1.085,18.0,2490.5
+1576,49420,"Yakima, WA Metro Area",1,2013,1.0875000000000001,18.0,2506.25
+1577,49420,"Yakima, WA Metro Area",1,2014,1.09,18.0,2522.0
+1578,49420,"Yakima, WA Metro Area",1,2015,1.1,18.0,2543.0
+1579,49420,"Yakima, WA Metro Area",1,2016,1.1,18.0,2564.0
+1580,49420,"Yakima, WA Metro Area",1,2017,1.1,18.0,2585.0
+1581,49420,"Yakima, WA Metro Area",1,2018,1.1025,18.0,2600.75
+1582,49620,"York-Hanover, PA Metro Area",1,2012,1.09,21.0,5117.5
+1583,49620,"York-Hanover, PA Metro Area",1,2013,1.09,21.0,5134.75
+1584,49620,"York-Hanover, PA Metro Area",1,2014,1.09,21.0,5152.0
+1585,49620,"York-Hanover, PA Metro Area",1,2015,1.09,21.0,5175.0
+1586,49620,"York-Hanover, PA Metro Area",1,2016,1.09,21.0,5198.0
+1587,49620,"York-Hanover, PA Metro Area",1,2017,1.09,21.0,5221.0
+1588,49620,"York-Hanover, PA Metro Area",1,2018,1.09,21.0,5238.25
+1589,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2012,1.05,18.0,7249.0
+1590,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2013,1.05,18.0,7217.0
+1591,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2014,1.05,18.0,7185.0
+1592,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2015,1.05,18.0,7142.0
+1593,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2016,1.05,18.0,7099.0
+1594,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2017,1.05,18.0,7057.0
+1595,49660,"Youngstown-Warren-Boardman, OH-PA Metro Area",1,2018,1.05,18.0,7025.0
+1596,49700,"Yuba City, CA Metro Area",1,2012,1.16,18.5,2451.5
+1597,49700,"Yuba City, CA Metro Area",1,2013,1.16,18.75,2470.75
+1598,49700,"Yuba City, CA Metro Area",1,2014,1.16,19.0,2490.0
+1599,49700,"Yuba City, CA Metro Area",1,2015,1.16,19.0,2515.0
+1600,49700,"Yuba City, CA Metro Area",1,2016,1.16,19.0,2541.0
+1601,49700,"Yuba City, CA Metro Area",1,2017,1.16,20.0,2567.0
+1602,49700,"Yuba City, CA Metro Area",1,2018,1.16,20.25,2586.25
+1603,49740,"Yuma, AZ Metro Area",1,2012,1.09,19.0,2645.0
+1604,49740,"Yuma, AZ Metro Area",1,2013,1.09,19.0,2653.0
+1605,49740,"Yuma, AZ Metro Area",1,2014,1.09,19.0,2661.0
+1606,49740,"Yuma, AZ Metro Area",1,2015,1.09,19.0,2671.0
+1607,49740,"Yuma, AZ Metro Area",1,2016,1.09,19.0,2682.0
+1608,49740,"Yuma, AZ Metro Area",1,2017,1.09,19.0,2693.0
+1609,49740,"Yuma, AZ Metro Area",1,2018,1.09,19.0,2701.0

@@ -115,7 +115,7 @@ def prepare_dataframe(df, i=None):
     # now make the copy for the condensed dataframe
     df_metro_summary = df_metro.copy().loc[:, col_name]
     # Drop columns
-    df_metro.drop(columns=['MAINTENANCE_WMATA_FAC', 'RESTRUCTURE_FAC','New_Reporter_FAC'], axis=1, inplace=True)
+    df_metro.drop(columns=['MAINTENANCE_WMATA_FAC', 'RESTRUCTURE_FAC', 'New_Reporter_FAC'], axis=1, inplace=True)
     # Delete the non required fields from the col_name
     # delete the non-essential columns
     # col_list = ['VRM_ADJ_BUS_log_FAC','VRM_ADJ_RAIL_log_FAC','FARE_per_UPT_cleaned_2018_BUS_log_FAC',
@@ -136,8 +136,9 @@ def prepare_dataframe(df, i=None):
     col_name.remove("New_Reporter_FAC")
 
     # # Create new columns
-    df_metro_summary['Service'] = df_metro_summary["VRM_ADJ_log_FAC"] + df_metro_summary["MAINTENANCE_WMATA_FAC"] + df_metro_summary["RESTRUCTURE_FAC"]
-    df_metro_summary['Land_Use'] = df_metro_summary["POP_EMP_log_FAC"] + df_metro_summary["VRM_ADJ_RAIL_log_FAC"]
+    df_metro_summary['Service'] = df_metro_summary["VRM_ADJ_log_FAC"] + df_metro_summary["MAINTENANCE_WMATA_FAC"] + \
+                                  df_metro_summary["RESTRUCTURE_FAC"]
+    df_metro_summary['Land_Use'] = df_metro_summary["POP_EMP_log_FAC"] + df_metro_summary["TSD_POP_EMP_PCT_FAC"]
     df_metro_summary['Income_and_Household_Characteristics'] = df_metro_summary["TOTAL_MED_INC_INDIV_2018_log_FAC"] + \
                                                                df_metro_summary["JTW_HOME_PCT_FAC"]
     df_metro_summary['New_Competing_Modes'] = df_metro_summary["YEARS_SINCE_TNC"] + \
@@ -247,9 +248,9 @@ def metro_area(metro, df, col_name):
                       # 'Network Restructure',
                       # 'New_Reporters',
                       'Unmeasurable variables']
-
+    fsize = (16.53, 11.69)
     prepare_chart(df_filter, file_name, chartcols, subplot_labels, cols_per_fig=3, rows_per_fig=4,
-                  chartsavefoldername='Metro_Area')
+                  chartsavefoldername='Metro_Area', fig_size=fsize)
     # print("Successfully created charts for " + str(metro))
     time.sleep(0.2)
 
@@ -271,7 +272,7 @@ def summary_metro_area(metro, df, sum_col_name):
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
     # Change the directory - Script Outputs\Est11_Outputs\Metro_Area_CSVs
-    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Metro_Area_Condensed_Summary_CSVs'
+    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Metro_Area_Summary_CSVs'
     # Check if the above directory path exists or not, if not then create it
     pathlib.Path(get_dir_path).mkdir(parents=True, exist_ok=True)
     os.chdir(str(get_dir_path))
@@ -283,20 +284,21 @@ def summary_metro_area(metro, df, sum_col_name):
                  'UPT_ADJ_Income_and_Household_Characteristics_cumsum',
                  'UPT_ADJ_GAS_PRICE_2018_log_FAC_cumsum',
                  'UPT_ADJ_New_Competing_Modes_cumsum']
-    subplot_labels = ['Service = VRM + Network Restructure + Major Maintenance',
-                      'Average Fares (2018$)',
+    subplot_labels = ['Service',
+                      'Average Fares',
                       'Land Use',
                       'Income & Household Characteristics',
-                      'Average Gas Price (2018$)',
+                      'Gas Price',
                       'New Competing Modes']
-
+    fsize = (11.69,16.53)
     prepare_chart(df_filter, file_name, chartcols, subplot_labels, cols_per_fig=2, rows_per_fig=3,
-                  chartsavefoldername='Metro_Area_Condensed_Charts')
+                  chartsavefoldername='Metro_Area_Summary', fig_size=fsize)
     # print("Successfully created charts for " + str(metro))
     time.sleep(0.2)
 
 
-def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_per_fig, chartsavefoldername):
+def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_per_fig, chartsavefoldername,
+                  fig_size):
     df.loc[:, 'Year'] = pd.to_datetime(df.loc[:, 'Year'].astype(str), format='%Y')
     df = df.set_index(pd.DatetimeIndex(df['Year']).year)
     modes = df['Mode'].unique()
@@ -310,7 +312,11 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
         transparency = 0.4
         num = 0
         # if df_fltr_mode.loc[0,'UPT_ADJ'] is not != 0:
-        fig, ax = plt.subplots(nrows=rows_per_fig, ncols=cols_per_fig, figsize=(22, 19), sharex=True, sharey=True,
+        if fig_size<(16.53,11.69):
+            subplot_figsize = (17, 12)
+        else:
+            subplot_figsize = (22, 19)
+        fig, ax = plt.subplots(nrows=rows_per_fig, ncols=cols_per_fig, figsize=subplot_figsize, sharex=True, sharey=True,
                                constrained_layout=False, squeeze=False)
         fig.subplots_adjust(bottom=0.15, left=0.2)
         # fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 19), constrained_layout=False, squeeze=False)
@@ -330,21 +336,15 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
             # df_b4_2012 = df_fltr_mode[~mask]
             df_aft_2006 = df_fltr_mode[mask]
 
-            strlabel = subplotlable
+            strlabel = ""
 
-            # if "Median Per Capita Income" in subplotlable:
-            #     strlabel = [:33]
-            # elif "Households with 0 Vehicles" in subplotlable:
-            #     strlabel = subplotlable[:31]
-            # else:
-            #     strlabel = subplotlable[:27]
+            if "Median Per Capita Income" in subplotlable:
+                strlabel = subplotlable[:33]
+            elif "Households with 0 Vehicles" in subplotlable:
+                strlabel = subplotlable[:31]
+            else:
+                strlabel = subplotlable[:27]
 
-            # df_aft_2006.groupby('Mode').plot(x='Year', y=str(chartcol),
-            #                                  label='Increased due to '
-            #                                        + str(strlabel),
-            #                                  ax=ax[row][col], legend=True,
-            #                                  color='white',
-            #                                  fontsize=12, linewidth=2.5)
             df_aft_2006.groupby('Mode').plot(x='Year', y='UPT_ADJ',
                                              label='Observed Ridership',
                                              ax=ax[row][col], legend=True,
@@ -362,12 +362,12 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
                                       where=df_aft_2006['UPT_ADJ'].values <= df_aft_2006[chartcol].values,
                                       facecolor='red', interpolate=True, alpha=transparency,
                                       label=('Decreases due to changes in ' + str(strlabel)))
-            ax[row][col].set_xlabel(xlabel="Year", fontsize=9)
-            ax[row][col].tick_params(labelsize=9)
-            ax[row][col].set_ylabel(ylabel="Annual Ridership (millions)", fontsize=9)
-            ax[row][col].tick_params(labelsize=9)
+            ax[row][col].set_xlabel(xlabel="Year", fontsize=10)
+            ax[row][col].tick_params(labelsize=9,pad=6)
+            ax[row][col].set_ylabel(ylabel="Annual Ridership (millions)", fontsize=10)
+            ax[row][col].tick_params(labelsize=9,pad=6)
             ax[row][col].legend(loc='best', fontsize=9)
-            ax[row][col].set_title(str(subplotlable), fontsize=11, loc='center', fontweight='bold')
+            ax[row][col].set_title(str(subplotlable), fontsize=12, loc='center', fontweight='bold')
             # y = 1.0, pad = -14,
             try:
                 ax[row][col].grid(True)
@@ -399,7 +399,7 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
     os.chdir(str(current_dir))
     # Axis title
     figlabel = ""
-    fig.set_size_inches(16.53, 11.69)
+    fig.set_size_inches(fig_size)
     fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
              fontsize=16)
     figname = ("UPT_FAC - " + str(file_name) + ".png")

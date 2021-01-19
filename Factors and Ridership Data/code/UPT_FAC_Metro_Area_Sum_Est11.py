@@ -155,8 +155,8 @@ def prepare_dataframe(df, i=None):
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
     get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs'
-    if get_dir_path.exists() and get_dir_path.is_dir():
-        shutil.rmtree(get_dir_path)
+    # if get_dir_path.exists() and get_dir_path.is_dir():
+    #     shutil.rmtree(get_dir_path)
     i = 0
     # Iterate for each unique metropolitan area and prepare charts
     for metro in tqdm(metroes):
@@ -290,7 +290,7 @@ def summary_metro_area(metro, df, sum_col_name):
                       'Income & Household Characteristics',
                       'Gas Price',
                       'New Competing Modes']
-    fsize = (11.69,16.53)
+    fsize = (11.69, 16.53)
     prepare_chart(df_filter, file_name, chartcols, subplot_labels, cols_per_fig=2, rows_per_fig=3,
                   chartsavefoldername='Metro_Area_Summary', fig_size=fsize)
     # print("Successfully created charts for " + str(metro))
@@ -299,24 +299,49 @@ def summary_metro_area(metro, df, sum_col_name):
 
 def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_per_fig, chartsavefoldername,
                   fig_size):
-    df.loc[:, 'Year'] = pd.to_datetime(df.loc[:, 'Year'].astype(str), format='%Y')
-    df = df.set_index(pd.DatetimeIndex(df['Year']).year)
+
+    # df.loc[:, 'Year'] = pd.to_datetime(df.loc[:, 'Year'].astype(str), format='%Y')
+    # df = df.set_index(pd.DatetimeIndex(df['Year']).year)
     modes = df['Mode'].unique()
     plt.style.use('seaborn-darkgrid')
     strMode = ""
     for mode in modes:
-
         df_fltr_mode = df[df.Mode == mode]
+        # introduce blank rows if the record start after 2006
+        start_year = df_fltr_mode['Year'].iloc[0]
+        int_start_year = int(start_year)
+        strCityName = df_fltr_mode['ID'].iloc[0]
+        int_Mode = df_fltr_mode['Mode'].iloc[0]
+        if int_start_year > 2006:
+            base_year=2006
+            inumber = int_start_year-base_year
+            for i in range(1,inumber+1,1):
+                num = int_start_year-i
+                new_row = pd.DataFrame({'ID':strCityName,'Year': num, 'Mode':int_Mode}, index=[0])
+                df_fltr_mode = pd.concat([new_row, df_fltr_mode]).reset_index(drop=True)
+
+            # df_fltr_mode.reindex(df_fltr_mode.index.tolist() + list(range(2006, (int_start_year))))
+            # x = df_fltr_mode.index.tolist()
+            # nyears = (int_start_year - 2006)
+            # missing = []
+            # for nyear in range(2006,int_start_year):
+            #     # missing.append(pd.to_datetime(nyear, format='%Y'))
+            #     missing.append(nyear)
+            # df_fltr_mode.reindex(df_fltr_mode.index.union(missing))
+            # # df_fltr_mode.reindex(df_fltr_mode.index.tolist() + list(range(20, 40)))
+        df_fltr_mode.loc[:, 'Year'] = pd.to_datetime(df_fltr_mode.loc[:, 'Year'].astype(str), format='%Y')
+        df_fltr_mode = df_fltr_mode.set_index(pd.DatetimeIndex(df_fltr_mode['Year']).year)
         col = 0
         row = 0
         transparency = 0.4
         num = 0
         # if df_fltr_mode.loc[0,'UPT_ADJ'] is not != 0:
-        if fig_size<(16.53,11.69):
+        if fig_size < (16.53, 11.69):
             subplot_figsize = (17, 12)
         else:
             subplot_figsize = (22, 19)
-        fig, ax = plt.subplots(nrows=rows_per_fig, ncols=cols_per_fig, figsize=subplot_figsize, sharex=True, sharey=True,
+        fig, ax = plt.subplots(nrows=rows_per_fig, ncols=cols_per_fig, figsize=subplot_figsize, sharex=True,
+                               sharey=True,
                                constrained_layout=False, squeeze=False)
         fig.subplots_adjust(bottom=0.15, left=0.2)
         # fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 19), constrained_layout=False, squeeze=False)
@@ -363,10 +388,10 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
                                       facecolor='red', interpolate=True, alpha=transparency,
                                       label=('Decreases due to changes in ' + str(strlabel)))
             ax[row][col].set_xlabel(xlabel="Year", fontsize=10)
-            ax[row][col].tick_params(labelsize=9,pad=6)
+            ax[row][col].tick_params(labelsize=9, pad=6)
             ax[row][col].set_ylabel(ylabel="Annual Ridership (millions)", fontsize=10)
-            ax[row][col].tick_params(labelsize=9,pad=6)
-            ax[row][col].legend(loc='best', fontsize=9)
+            ax[row][col].tick_params(labelsize=9, pad=6)
+            ax[row][col].legend(loc=3, fontsize=9)
             ax[row][col].set_title(str(subplotlable), fontsize=12, loc='center', fontweight='bold')
             # y = 1.0, pad = -14,
             try:

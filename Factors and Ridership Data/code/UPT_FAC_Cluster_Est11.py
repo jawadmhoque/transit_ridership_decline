@@ -92,6 +92,16 @@ def read_FACfile(file_name, file_path):
     except FileNotFoundError:
         print("File not found " + str(current_dir))
 
+def get_cluster_title(cluster_code):
+    if cluster_code==float(1):
+        cluster_title = 'High Op-Ex Group'
+    elif cluster_code==float(2):
+        cluster_title = 'Mid Op-Ex Group'
+    elif cluster_code==float(3):
+        cluster_title = 'Low Op-Ex Group'
+    else:
+        cluster_title = 'New York'
+    return cluster_title
 
 def prepare_dataframe(df, i=None):
     col_name = get_filteredcolumns()
@@ -106,9 +116,10 @@ def prepare_dataframe(df, i=None):
                                                     df_cluster["FARE_per_UPT_cleaned_2018_RAIL_log_FAC"]
     # df["YEARS_SINCE_TNC_BUS_FAC"] = df["YEARS_SINCE_TNC_BUS_HINY_FAC"] + df["YEARS_SINCE_TNC_BUS_MIDLOW_FAC"]
     # df['YEARS_SINCE_TNC_RAIL_FAC'] = df["YEARS_SINCE_TNC_RAIL_HINY_FAC"] + df["YEARS_SINCE_TNC_RAIL_MID_FAC"]
-    df_cluster['YEARS_SINCE_TNC'] = df_cluster["YEARS_SINCE_TNC_BUS_HINY_FAC"] + df_cluster[
-        "YEARS_SINCE_TNC_BUS_MIDLOW_FAC"] + \
-                                  df_cluster["YEARS_SINCE_TNC_RAIL_HINY_FAC"] + df_cluster["YEARS_SINCE_TNC_RAIL_MID_FAC"]
+    df_cluster['YEARS_SINCE_TNC'] = df_cluster["YEARS_SINCE_TNC_BUS_HINY_FAC"] + \
+                                    df_cluster["YEARS_SINCE_TNC_BUS_MIDLOW_FAC"] + \
+                                    df_cluster["YEARS_SINCE_TNC_RAIL_HINY_FAC"] + \
+                                    df_cluster["YEARS_SINCE_TNC_RAIL_MID_FAC"]
     # add them to the col_name list
     col_name.extend(["VRM_ADJ_log_FAC", "FARE_per_UPT_cleaned_2018_log_FAC",
                      "YEARS_SINCE_TNC"])
@@ -144,25 +155,45 @@ def prepare_dataframe(df, i=None):
 
     # get the unique metro names
     clusters = df_cluster['CLUSTER_APTA4'].unique()
+    modes = df_cluster['RAIL_FLAG'].unique()
 
     # Delete if the script output folder is already existing
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
-    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs'
-    if get_dir_path.exists() and get_dir_path.is_dir():
-        Cluster_Path = get_dir_path / 'Cluster_Area'
-        if Cluster_Path.exists() and Cluster_Path.is_dir():
-            shutil.rmtree(get_dir_path / 'Cluster_Area')
-            shutil.rmtree(get_dir_path / 'Cluster_Area_CSVs')
-            shutil.rmtree(get_dir_path / 'Cluster_Area_Summary_CSVs')
-            shutil.rmtree(get_dir_path / 'Cluster_Area_Summary')
+    # get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs'
+    # if get_dir_path.exists() and get_dir_path.is_dir():
+    #     Cluster_Path = get_dir_path / 'Cluster_Area'
+    #     if Cluster_Path.exists() and Cluster_Path.is_dir():
+    #         shutil.rmtree(get_dir_path / 'Cluster_Area')
+    #         shutil.rmtree(get_dir_path / 'Cluster_Area_CSVs')
+    #         shutil.rmtree(get_dir_path / 'Cluster_Area_Summary_CSVs')
+    #         shutil.rmtree(get_dir_path / 'Cluster_Area_Summary')
 
     i = 0
+    # get the unique metro names
+    clusters = df_cluster['CLUSTER_APTA4'].unique()
+
     # Iterate for each unique metropolitan area and prepare charts
     for cluster in tqdm(clusters):
-        cluster_area(cluster, df_cluster, col_name)
-        summary_cluster_area(cluster, df_cluster_summary, sum_col_name)
-        time.sleep(0.2)
+        df_by_cluster = df_cluster[df_cluster.CLUSTER_APTA4==cluster]
+        chart_code = df_by_cluster['CLUSTER_APTA4'].iloc[0]
+        cluster_chart = get_cluster_title(chart_code)
+        modes = df_by_cluster['RAIL_FLAG'].unique()
+        for mode in modes:
+            df_cluster_mode = df_by_cluster[df_by_cluster.RAIL_FLAG==mode]
+            cluster_area(cluster, df_cluster_mode, col_name,mode,cluster_chart)
+            time.sleep(0.2)
+    # get the unique metro names
+    clusters = df_cluster_summary['CLUSTER_APTA4'].unique()
+    for cluster in tqdm(clusters):
+        df_summ_by_cluster = df_cluster_summary[df_cluster_summary.CLUSTER_APTA4 == cluster]
+        chart_code = df_summ_by_cluster['CLUSTER_APTA4'].iloc[0]
+        cluster_chart = get_cluster_title(chart_code)
+        modes = df_summ_by_cluster['RAIL_FLAG'].unique()
+        for mode in modes:
+            df_summ_by_cluster_mode = df_summ_by_cluster[df_summ_by_cluster.RAIL_FLAG == mode]
+            summary_cluster_area(cluster, df_summ_by_cluster_mode, sum_col_name,mode,cluster_chart)
+            time.sleep(0.2)
     # print("Successfully created metro area based FAC Charts")
 
 
@@ -190,8 +221,15 @@ def get_filtered_summary_columns():
                 'New_Competing_Modes']
     return col_name
 
+def get_modestring(mode):
+    if mode == 0:
+        modeName="Bus"
+    else:
+        modeName="Rail"
+    return modeName
 
-def cluster_area(cluster, df, col_name):
+
+def cluster_area(cluster, df, col_name,mode,cluster_chart):
     file_name = str(cluster)
     df_filter = df.copy()[df.CLUSTER_APTA4 == cluster]
     start_year = get_startyear(df_filter)
@@ -212,7 +250,8 @@ def cluster_area(cluster, df, col_name):
     pathlib.Path(get_dir_path).mkdir(parents=True, exist_ok=True)
     os.chdir(str(get_dir_path))
     # export the metro file as CSV
-    df_filter.to_csv("Cluster_"+str(cluster) + ".csv")
+    strModeName = get_modestring(mode)
+    df_filter.to_csv("Cluster_"+str(cluster) + "-"+strModeName+ ".csv")
 
     chartcols = ['UPT_ADJ_VRM_ADJ_log_FAC_cumsum',
                  'UPT_ADJ_FARE_per_UPT_cleaned_2018_log_FAC_cumsum',
@@ -249,13 +288,12 @@ def cluster_area(cluster, df, col_name):
                       # 'New_Reporters',
                       'Unmeasurable variables']
     fsize = (16.53, 11.69)
-    prepare_chart(df_filter, file_name, chartcols, subplot_labels, cols_per_fig=3, rows_per_fig=4,
-                  chartsavefoldername='Cluster_Area', fig_size=fsize)
+    prepare_chart(df_filter, file_name, chartcols, subplot_labels, strModeName, cluster_chart, cols_per_fig=3, rows_per_fig=4, chartsavefoldername='Cluster_Area', fig_size=fsize)
     # print("Successfully created charts for " + str(metro))
     time.sleep(0.2)
 
 
-def summary_cluster_area(cluster, df, sum_col_name):
+def summary_cluster_area(cluster, df, sum_col_name,mode,cluster_chart):
     file_name = str(cluster)
     df_filter = df.copy()[df.CLUSTER_APTA4 == cluster]
     start_year = get_startyear(df_filter)
@@ -277,7 +315,8 @@ def summary_cluster_area(cluster, df, sum_col_name):
     pathlib.Path(get_dir_path).mkdir(parents=True, exist_ok=True)
     os.chdir(str(get_dir_path))
     # export the metro file as CSV
-    df_filter.to_csv("Cluster_"+str(cluster) + ".csv")
+    strModeName = get_modestring(mode)
+    df_filter.to_csv("Cluster_" + str(cluster) + "-" + strModeName + ".csv")
     chartcols = ['UPT_ADJ_Service_cumsum',
                  'UPT_ADJ_FARE_per_UPT_cleaned_2018_log_FAC_cumsum',
                  'UPT_ADJ_Land_Use_cumsum',
@@ -291,13 +330,13 @@ def summary_cluster_area(cluster, df, sum_col_name):
                       'Gas Price',
                       'New Competing Modes']
     fsize = (11.69, 16.53)
-    prepare_chart(df_filter, file_name, chartcols, subplot_labels, cols_per_fig=2, rows_per_fig=3,
+    prepare_chart(df_filter, file_name, chartcols, subplot_labels, strModeName,cluster_chart,cols_per_fig=2, rows_per_fig=3,
                   chartsavefoldername='Cluster_Area_Summary', fig_size=fsize)
     # print("Successfully created charts for " + str(metro))
     time.sleep(0.2)
 
 
-def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_per_fig, chartsavefoldername,
+def prepare_chart(df, file_name, chartcols, subplot_labels,strModeName,cluster_chart,cols_per_fig, rows_per_fig, chartsavefoldername,
                   fig_size):
     df.loc[:, 'Year'] = pd.to_datetime(df.loc[:, 'Year'].astype(str), format='%Y')
     df = df.set_index(pd.DatetimeIndex(df['Year']).year)
@@ -321,15 +360,20 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
         fig.subplots_adjust(bottom=0.15, left=0.2)
         # fig, ax = plt.subplots(nrows=4, ncols=3, figsize=(22, 19), constrained_layout=False, squeeze=False)
         if mode == 0:
-            # chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_RAIL_FAC_cumsum')
-            # subplot_labels.remove('Years Since Ride-hail Start on Rail')
             strMode = "Bus"
         else:
-            # chartcols.remove('UPT_ADJ_YEARS_SINCE_TNC_BUS_FAC_cumsum')
-            # subplot_labels.remove('Years Since Ride-hail Start on Bus')
             strMode = "Rail"
 
         for chartcol, subplotlable in zip(chartcols, subplot_labels):
+            # Check the first year and the last year
+            start_year = df_fltr_mode['Year'].iloc[0]
+            int_year = start_year.year
+            if int_year >2006:
+                no_of_rows = int_year - 2006
+                # df_fltr_modestart_year = str(Years[0]).reindex(df_fltr_mode.index.tolist() + list(range(0, no_of_rows)))
+
+                # introduce blanks rows for year 2006 until start_year
+
             # split the dataframe into two new dataframe. One where YR<=2012 and YR>=2012
             # This would ensure that we can generate between_fill function only for YR>=2012
             mask = df_fltr_mode['Year'].dt.year >= int(2006)
@@ -342,6 +386,8 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
                 strlabel = subplotlable[:33]
             elif "Households with 0 Vehicles" in subplotlable:
                 strlabel = subplotlable[:31]
+            elif "Income & Household Characteristics" in subplotlable:
+                strlabel = subplotlable
             else:
                 strlabel = subplotlable[:27]
 
@@ -366,13 +412,12 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
             ax[row][col].tick_params(labelsize=9, pad=6)
             ax[row][col].set_ylabel(ylabel="Annual Ridership (millions)", fontsize=10)
             ax[row][col].tick_params(labelsize=9, pad=6)
-            ax[row][col].legend(loc='best', fontsize=9)
+            ax[row][col].legend(loc=3, fontsize=9)
             ax[row][col].set_title(str(subplotlable), fontsize=12, loc='center', fontweight='bold')
             # y = 1.0, pad = -14,
             try:
                 ax[row][col].grid(True)
                 ax[row][col].margins(0.20)
-                # min_val = min(df_aft_2006[['UPT_ADJ', chartcol]].values.min(1))
                 max_val = max(df_aft_2006[['UPT_ADJ', chartcol]].values.max(1))
                 ax[row][col].set_ylim([0, max_val * 1.25])
             except ValueError:
@@ -402,8 +447,9 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
     fig.set_size_inches(fig_size)
     fig.text(0.02, 0.5, figlabel, ha='center', va='baseline', rotation='vertical',
              fontsize=16)
-    figname = ("UPT_FAC - " + str(file_name) + ".png")
-    fig.suptitle(str(file_name), fontsize=16, y=0.98, fontweight='bold', )
+    # (cluster_chart) + "-" + strMode
+    figname = ("UPT_FAC - " + str(file_name) +"-"+strModeName +".png")
+    fig.suptitle((cluster_chart) + "-" + strMode, fontsize=16, y=0.98, fontweight='bold', )
     make_space_above(ax, topmargin=1)
     # plt.suptitle((str(file_name) + " - " + strMode), fontsize=15)
     fig.savefig(figname)

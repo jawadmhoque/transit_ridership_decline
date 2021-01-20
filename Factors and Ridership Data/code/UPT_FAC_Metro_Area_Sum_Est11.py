@@ -159,10 +159,14 @@ def prepare_dataframe(df, i=None):
     #     shutil.rmtree(get_dir_path)
     i = 0
     # Iterate for each unique metropolitan area and prepare charts
+    mtr_names=[]
     for metro in tqdm(metroes):
+        # if metro in mtr_names:
         metro_area(metro, df_metro, col_name)
         summary_metro_area(metro, df_metro_summary, sum_col_name)
         time.sleep(0.2)
+        # else:
+        #     pass
     # print("Successfully created metro area based FAC Charts")
 
 
@@ -319,16 +323,6 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
                 num = int_start_year-i
                 new_row = pd.DataFrame({'ID':strCityName,'Year': num, 'Mode':int_Mode}, index=[0])
                 df_fltr_mode = pd.concat([new_row, df_fltr_mode]).reset_index(drop=True)
-
-            # df_fltr_mode.reindex(df_fltr_mode.index.tolist() + list(range(2006, (int_start_year))))
-            # x = df_fltr_mode.index.tolist()
-            # nyears = (int_start_year - 2006)
-            # missing = []
-            # for nyear in range(2006,int_start_year):
-            #     # missing.append(pd.to_datetime(nyear, format='%Y'))
-            #     missing.append(nyear)
-            # df_fltr_mode.reindex(df_fltr_mode.index.union(missing))
-            # # df_fltr_mode.reindex(df_fltr_mode.index.tolist() + list(range(20, 40)))
         df_fltr_mode.loc[:, 'Year'] = pd.to_datetime(df_fltr_mode.loc[:, 'Year'].astype(str), format='%Y')
         df_fltr_mode = df_fltr_mode.set_index(pd.DatetimeIndex(df_fltr_mode['Year']).year)
         col = 0
@@ -391,14 +385,16 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
             ax[row][col].tick_params(labelsize=9, pad=6)
             ax[row][col].set_ylabel(ylabel="Annual Ridership (millions)", fontsize=10)
             ax[row][col].tick_params(labelsize=9, pad=6)
-            ax[row][col].legend(loc=3, fontsize=9)
+            ax[row][col].legend(loc='best', fontsize=9)
             ax[row][col].set_title(str(subplotlable), fontsize=12, loc='center', fontweight='bold')
             # y = 1.0, pad = -14,
             try:
                 ax[row][col].grid(True)
                 ax[row][col].margins(0.20)
                 # min_val = min(df_aft_2006[['UPT_ADJ', chartcol]].values.min(1))
-                max_val = max(df_aft_2006[['UPT_ADJ', chartcol]].values.max(1))
+                # max_val = max(df_aft_2006[['UPT_ADJ', chartcol]].values.max(1))
+                # max_val = max(df_aft_2006[['UPT_ADJ', chartcol]].values.max(1))np.nanmax
+                max_val=np.nanmax(df_aft_2006[['UPT_ADJ', chartcol]])
                 ax[row][col].set_ylim([0, max_val * 1.25])
             except ValueError:
                 pass
@@ -433,6 +429,7 @@ def prepare_chart(df, file_name, chartcols, subplot_labels, cols_per_fig, rows_p
     # plt.suptitle((str(file_name) + " - " + strMode), fontsize=15)
     fig.savefig(figname)
     plt.close(fig)
+    plt.show()
     # print("Successfully created")
 
 

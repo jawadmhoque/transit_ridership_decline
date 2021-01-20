@@ -245,7 +245,7 @@ def cluster_area(cluster, df, col_name,mode,cluster_chart):
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
     # Change the directory - Script Outputs\Est11_Outputs\Metro_Area_CSVs
-    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Cluster_Area_CSVs'
+    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Set 2' / 'Cluster_Area_CSVs'
     # Check if the above directory path exists or not, if not then create it
     pathlib.Path(get_dir_path).mkdir(parents=True, exist_ok=True)
     os.chdir(str(get_dir_path))
@@ -310,7 +310,7 @@ def summary_cluster_area(cluster, df, sum_col_name,mode,cluster_chart):
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
     # Change the directory - Script Outputs\Est11_Outputs\Metro_Area_CSVs
-    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Cluster_Area_Summary_CSVs'
+    get_dir_path = current_dir.parents[0] / 'Script Outputs' / 'Est11_Outputs' / 'Set 2' / 'Cluster_Area_Summary_CSVs'
     # Check if the above directory path exists or not, if not then create it
     pathlib.Path(get_dir_path).mkdir(parents=True, exist_ok=True)
     os.chdir(str(get_dir_path))
@@ -419,10 +419,9 @@ def prepare_chart(df, file_name, chartcols, subplot_labels,strModeName,cluster_c
                 ax[row][col].grid(True)
                 ax[row][col].margins(0.20)
                 # max_val = max(df_aft_2006[['UPT_ADJ', chartcol]].values.max(1))
-                # ax[row][col].set_ylim([0, max_val * 1.25])
-                # min_val = np.nanmin(df_aft_2006[['UPT_ADJ', chartcol]])
+                min_val = np.nanmin(df_aft_2006[['UPT_ADJ', chartcol]])
                 max_val = np.nanmax(df_aft_2006[['UPT_ADJ', chartcol]])
-                ax[row][col].set_ylim([0, max_val * 1.25])
+                ax[row][col].set_ylim([min_val*0.5, max_val * 1.25])
             except ValueError:
                 pass
             if row >= (rows_per_fig - 1):
@@ -440,7 +439,7 @@ def prepare_chart(df, file_name, chartcols, subplot_labels,strModeName,cluster_c
     # Change the directory to ..\Script Outputs
     current_dir = current_dir.parents[0] / 'Script Outputs'
     os.chdir(str(current_dir))
-    outputdirectory = "Est11_Outputs/" + chartsavefoldername
+    outputdirectory = "Est11_Outputs/Set 2/" + chartsavefoldername
     p = pathlib.Path(outputdirectory)
     p.mkdir(parents=True, exist_ok=True)
     current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory

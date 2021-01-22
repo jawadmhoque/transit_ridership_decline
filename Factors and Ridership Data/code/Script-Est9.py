@@ -592,7 +592,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile, pct_change_v
         current_dir = current_dir.parents[0] / 'Script Outputs'
         os.chdir(str(current_dir))
         print("Current set directory: ", current_dir)
-        outputdirectory = "Est7_Outputs"
+        outputdirectory = "Est11_Outputs/PCT_UPT_Change_Clusterwise"
         p = pathlib.Path(outputdirectory)
         p.mkdir(parents=True, exist_ok=True)
         current_dir = current_dir.parents[0] / 'Script Outputs' / outputdirectory
@@ -602,7 +602,7 @@ def get_clusterwise_UPTs(_df, _filename, _chart_name, _clusterfile, pct_change_v
         figlabel = ""
         fig.text(0.02, 0.4, ("Percent Change in Ridership from " + str(b)), ha='center', va='baseline',
                  rotation='vertical', fontsize=20)
-        figname = ("Est7 - Percent Change in Ridership from " + b + ".png")
+        figname = ("Percent Change in Ridership from " + b + ".png")
         figcounter += 1
         figlabel = ""
         fig.savefig(figname)
@@ -789,7 +789,7 @@ def create_clusterwise_pct(_filename, _clusterfile, _pct_change_value):
     try:
         # get the absolute path of the script and then check if the csv file exists or not
         current_dir = pathlib.Path(__file__).parent.absolute()
-        current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est7'
+        current_dir = current_dir.parents[0] / 'Model Estimation' / 'Est11'
         os.chdir(str(current_dir))
         try:
             if (current_dir / filename).is_file():
@@ -1092,16 +1092,16 @@ def create_subclusterwise_pct(_filename, _clusterfile, _subcluster):
 def main():
     # get the UPT_FAC files created according to the base year
     # base year 2002
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2002, 2018)
     # # # # # # # # # base year 2012
-    create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
+    # create_upt_fac_cluster_file("FAC_totals_APTA4_CLUSTERS.csv", "CLUSTER_APTA4", 2012, 2018)
     # # # # # # # # get absolute charts
-    get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
+    # get_cluster_file_raw("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4")
     # # #  # get pct change in core cluster
-    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "2002")
-    create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "2012")
+    # create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2002.csv", "CLUSTER_APTA4", "2002")
+    create_clusterwise_pct("FAC_APTA4_CLUSTERS_11-19.csv", "CLUSTER_APTA4", "2012")
     # create_clusterwise_pct("UPT_FAC_totals_APTA4_CLUSTERS_b2012.csv", "CLUSTER_APTA4", "2012")
-    create_subclusterwise_pct("ridership_cluster.csv", "CLUSTER_APTA4", "APTA4_SUBCLUSTER")
+    # create_subclusterwise_pct("ridership_cluster.csv", "CLUSTER_APTA4", "APTA4_SUBCLUSTER")
 
 
 if __name__ == "__main__":

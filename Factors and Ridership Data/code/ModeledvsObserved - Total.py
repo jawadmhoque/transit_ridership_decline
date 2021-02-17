@@ -49,26 +49,6 @@ def get_endyear(df):
     return end_year
 
 
-def get_cumsumfields(df, col_name):
-    df = df.copy()
-    cum_col = []
-    for col in col_name:
-        if col not in ["Year", "RAIL_FLAG", "CLUSTER_APTA4", "UPT_ADJ"]:
-            df[str(col) + '_cumsum'] = df[col]
-            cum_col.append(str(col) + '_cumsum')
-    # for each cluster_id get the cumulative addition starting from 2002-->2018
-    for col in cum_col:
-        df[col] = df[col].cumsum()
-    # convert the million values to smaller units
-    for col in cum_col:
-        df[col] = df[col] / 100000000
-    df['UPT_ADJ'] = df['UPT_ADJ'] / 100000000
-    # # create a new column which is diff between UPT_ADJ - CUMSUM colmn
-    # for col in cum_col:
-    #     df['UPT_ADJ_' + str(col)] = df['UPT_ADJ'] - df[col]
-    return df
-
-
 def read_FACfile(file_name, file_path):
     # get the absolute path of the directory of the current script
     # Check file in Path = Factors and Ridership Data\code
@@ -112,81 +92,25 @@ def prepare_dataframe(df, mode):
     # replace the null values with 0
     df_cluster = check_nullvalues(df_cluster, col_name)
 
-    # merge fields "BUS" and "RAIL"
-    df_cluster["VRM_ADJ_log_FAC"] = df_cluster["VRM_ADJ_BUS_log_FAC"] + df_cluster["VRM_ADJ_RAIL_log_FAC"]
-    df_cluster["FARE_per_UPT_cleaned_2018_log_FAC"] = df_cluster["FARE_per_UPT_cleaned_2018_BUS_log_FAC"] + \
-                                                      df_cluster["FARE_per_UPT_cleaned_2018_RAIL_log_FAC"]
-    df_cluster['YEARS_SINCE_TNC'] = df_cluster["YEARS_SINCE_TNC_BUS_HINY_FAC"] + \
-                                    df_cluster["YEARS_SINCE_TNC_BUS_MIDLOW_FAC"] + \
-                                    df_cluster["YEARS_SINCE_TNC_RAIL_HINY_FAC"] + \
-                                    df_cluster["YEARS_SINCE_TNC_RAIL_MID_FAC"]
-
-    # add them to the col_name list
-    col_name.extend(["VRM_ADJ_log_FAC", "FARE_per_UPT_cleaned_2018_log_FAC",
-                     "YEARS_SINCE_TNC"])
-
-    # now make the copy for the condensed dataframe
-    df_cluster_summary = df_cluster.copy().loc[:, col_name]
-
-    # # Drop columns
-    # df_cluster.drop(columns=['MAINTENANCE_WMATA_FAC', 'RESTRUCTURE_FAC', 'New_Reporter_FAC'], axis=1, inplace=True)
-    #
-    # # Delete the non required fields from the col_name
-    # col_name.remove("VRM_ADJ_BUS_log_FAC")
-    # col_name.remove("VRM_ADJ_RAIL_log_FAC")
-    # col_name.remove("FARE_per_UPT_cleaned_2018_BUS_log_FAC")
-    # col_name.remove("FARE_per_UPT_cleaned_2018_RAIL_log_FAC")
-    # col_name.remove("YEARS_SINCE_TNC_BUS_HINY_FAC")
-    # col_name.remove("YEARS_SINCE_TNC_BUS_MIDLOW_FAC")
-    # col_name.remove("YEARS_SINCE_TNC_RAIL_HINY_FAC")
-    # col_name.remove("YEARS_SINCE_TNC_RAIL_MID_FAC")
-    # col_name.remove("MAINTENANCE_WMATA_FAC")
-    # col_name.remove("RESTRUCTURE_FAC")
-    # col_name.remove("New_Reporter_FAC")
-    #
-    # # # Create new columns
-    # df_cluster_summary['Service'] = df_cluster_summary["VRM_ADJ_log_FAC"] + df_cluster_summary[
-    #     "MAINTENANCE_WMATA_FAC"] + \
-    #                                 df_cluster_summary["RESTRUCTURE_FAC"]
-    # df_cluster_summary['Land_Use'] = df_cluster_summary["POP_EMP_log_FAC"] + df_cluster_summary["TSD_POP_EMP_PCT_FAC"]
-    # df_cluster_summary['Income_and_Household_Characteristics'] = df_cluster_summary[
-    #                                                                  "TOTAL_MED_INC_INDIV_2018_log_FAC"] + \
-    #                                                              df_cluster_summary["JTW_HOME_PCT_FAC"]
-    # df_cluster_summary['New_Competing_Modes'] = df_cluster_summary["YEARS_SINCE_TNC"] + \
-    #                                             df_cluster_summary["BIKE_SHARE_FAC"] + \
-    #                                             df_cluster_summary["scooter_flag_FAC"]
-    #
-    # # summarised colcharts
-    # sum_col_name = get_filtered_summary_columns()
-    df_cluster_summary = df_cluster_summary.copy().loc[:, col_name]
-
     # Prepare the charts
-    summary_cluster_area(df_cluster_summary, col_name, mode)
+    summary_cluster_area(df_cluster, col_name, mode)
 
 
 def get_filteredcolumns():
-    # returns only those columns whose charts need be created
-    col_name = ["Year", "RAIL_FLAG", 'UPT_ADJ',
-                # "UPT_ADJ", "CLUSTER_APTA4",
-                'VRM_ADJ_BUS_log_FAC', 'VRM_ADJ_RAIL_log_FAC',
-                'FARE_per_UPT_cleaned_2018_BUS_log_FAC', 'FARE_per_UPT_cleaned_2018_RAIL_log_FAC',
-                'POP_EMP_log_FAC', 'TSD_POP_EMP_PCT_FAC',
-                'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
-                'JTW_HOME_PCT_FAC',
-                'YEARS_SINCE_TNC_BUS_HINY_FAC', 'YEARS_SINCE_TNC_BUS_MIDLOW_FAC',
-                'YEARS_SINCE_TNC_RAIL_HINY_FAC', 'YEARS_SINCE_TNC_RAIL_MID_FAC',
-                'BIKE_SHARE_FAC', 'scooter_flag_FAC', 'Unknown_FAC',
-                'MAINTENANCE_WMATA_FAC', 'RESTRUCTURE_FAC', 'New_Reporter_FAC']
-    return col_name
+    # col_name = ["Year", "RAIL_FLAG", 'UPT_ADJ',
+    #             # "UPT_ADJ", "CLUSTER_APTA4", 'Unknown_FAC',
+    #             'VRM_ADJ_BUS_log_FAC', 'VRM_ADJ_RAIL_log_FAC',
+    #             'FARE_per_UPT_cleaned_2018_BUS_log_FAC', 'FARE_per_UPT_cleaned_2018_RAIL_log_FAC',
+    #             'POP_EMP_log_FAC', 'TSD_POP_EMP_PCT_FAC',
+    #             'GAS_PRICE_2018_log_FAC', 'TOTAL_MED_INC_INDIV_2018_log_FAC', 'PCT_HH_NO_VEH_FAC',
+    #             'JTW_HOME_PCT_FAC',
+    #             'YEARS_SINCE_TNC_BUS_HINY_FAC', 'YEARS_SINCE_TNC_BUS_MIDLOW_FAC',
+    #             'YEARS_SINCE_TNC_RAIL_HINY_FAC', 'YEARS_SINCE_TNC_RAIL_MID_FAC',
+    #             'BIKE_SHARE_FAC', 'scooter_flag_FAC',  'Known_FAC',
+    #             'MAINTENANCE_WMATA_FAC', 'RESTRUCTURE_FAC', 'New_Reporter_FAC']
 
-
-def get_filtered_summary_columns():
     # returns only those columns whose charts need be created
-    col_name = ["Year", "RAIL_FLAG", 'UPT_ADJ',
-                # "CLUSTER_APTA4",
-                'Service', 'Land_Use', 'FARE_per_UPT_cleaned_2018_log_FAC',
-                'Income_and_Household_Characteristics', 'GAS_PRICE_2018_log_FAC',
-                'New_Competing_Modes']
+    col_name = ["Year", "RAIL_FLAG", 'UPT_ADJ', 'Known_FAC', 'New_Reporter_FAC']
     return col_name
 
 
@@ -198,20 +122,50 @@ def get_modestring(mode):
     return modeName
 
 
-def summary_cluster_area(df, sum_col_name, mode):
+def get_pivot(df, base_year,sum_col_name):
+    df = df.reset_index(drop=True).copy()
+    col = "Pivot_4m_" + base_year
+    df[col] = 0
+
+    # get the index of the row corresponding to the base_year
+    itr = df.index[df['Year'] == int(base_year)].to_list()
+    # Set the value of the Pivot_base_year column at "itr" index-th row equal to UPT_Adj
+    df.at[itr[0], col] = df["UPT_ADJ"].iloc[itr[0]]
+
     start_year = get_startyear(df)
+
+    end =(int(df.index[df['Year'] == int(start_year)].to_list()[0])) - 1
+
+    for i in range(itr[0] - 1, (int(df.index[df['Year'] == int(start_year)].to_list()[0])) - 1,-1):
+        df.at[i, col] = df[col].iloc[(i+1)] - df["Known_FAC"].iloc[(i+1)] - df["New_Reporter_FAC"].iloc[(i+1)]
+
     end_year = get_endyear(df)
 
+    for i in range(itr[0] + 1, (int(df.index[df['Year'] == int(end_year)].to_list()[0])+1)):
+        df.at[i, col] = df[col].iloc[i - 1] + df["Known_FAC"].iloc[i] + df["New_Reporter_FAC"].iloc[i]
+
+    # sum_col_name.append("Total")
+    sum_col_name.append(col)
+
+    # convert the readings into 100 millions
+    for col in sum_col_name:
+        if col not in ["Year", "RAIL_FLAG", "CLUSTER_APTA4"]:
+            df[col] = df[col] / 100000000
+
+    return df
+
+
+def summary_cluster_area(df, sum_col_name, mode):
     # sum all the interested columns
     df["Total"] = 0
     for col in sum_col_name:
         if col not in ["Year", "RAIL_FLAG", "CLUSTER_APTA4", "UPT_ADJ"]:
             df["Total"] += df[col]
 
-    # only keep total column.
-    sum_col_name = ["Year", "RAIL_FLAG", "CLUSTER_APTA4", "UPT_ADJ", 'Total']
+    sum_col_name.append("Total")
 
-    df = get_cumsumfields(df, sum_col_name)
+    df = get_pivot(df, '2012',sum_col_name)
+
     df.rename(columns={'RAIL_FLAG': 'Mode'}, inplace=True)
     # Check file in Path = Factors and Ridership Data\code
     current_dir = pathlib.Path(__file__).parent.absolute()
@@ -223,7 +177,7 @@ def summary_cluster_area(df, sum_col_name, mode):
     # export the metro file as CSV
     strModeName = get_modestring(mode)
     df.to_csv("Total - Modeled vs Observed" + "-" + strModeName + ".csv")
-    chartcols = ['Total_cumsum']
+    chartcols = ['Pivot_4m_2012']
     subplot_labels = ['Modeled Ridership']
     fsize = (8.3, 5.8)  # A5 page = 5.8 x 8.3 inch
     prepare_chart(df, chartcols, subplot_labels, strModeName, cols_per_fig=1, rows_per_fig=1,
@@ -295,23 +249,12 @@ def prepare_chart(df, chartcols, subplot_labels, strModeName, cols_per_fig, rows
                                              color='black',
                                              fontsize=12, linewidth=2.5)
 
-            df_aft_2006.groupby('Mode').plot(x='Year', y='Total_cumsum',
-                                             label='Modelled Ridership',
+            df_aft_2006.groupby('Mode').plot(x='Year', y='Pivot_4m_2012',
+                                             label='Modeled Ridership',
                                              ax=ax[row][col], legend=True,
                                              color='blue',
                                              fontsize=12, linewidth=2.5)
 
-            # Paint the area
-            # ax[row][col].fill_between(df_aft_2006['Year'].values, df_aft_2006[chartcol].values,
-            #                           df_aft_2006['UPT_ADJ'].values,
-            #                           where=df_aft_2006['UPT_ADJ'].values > df_aft_2006[chartcol].values,
-            #                           facecolor='green', interpolate=True, alpha=transparency,
-            #                           label=('Increases due to changes in ' + str(strlabel)))
-            # ax[row][col].fill_between(df_aft_2006['Year'].values, df_aft_2006[chartcol].values,
-            #                           df_aft_2006['UPT_ADJ'].values,
-            #                           where=df_aft_2006['UPT_ADJ'].values <= df_aft_2006[chartcol].values,
-            #                           facecolor='red', interpolate=True, alpha=transparency,
-            #                           label=('Decreases due to changes in ' + str(strlabel)))
             ax[row][col].set_xlabel(xlabel="Year", fontsize=10)
             ax[row][col].tick_params(labelsize=9, pad=6)
             ax[row][col].set_ylabel(ylabel="Annual Ridership (100 millions)", fontsize=10)

@@ -1,0 +1,1730 @@
+ID,Year,CBSA,CLUSTER_APTA,CLUSTER_APTA_EXTENDED,TSD_POP_EMP_PCT,CLUSTER_APTA4,RAIL_FLAG,BUS_FLAG
+"Akron, OH Metro Area-Bus",2012,10420,24,24,0.1843419617368618,2.0,0,1
+"Akron, OH Metro Area-Bus",2013,10420,24,24,0.18248468222181863,2.0,0,1
+"Akron, OH Metro Area-Bus",2014,10420,24,24,0.18362181992385468,2.0,0,1
+"Akron, OH Metro Area-Bus",2015,10420,24,24,0.18590903948410453,2.0,0,1
+"Akron, OH Metro Area-Bus",2016,10420,24,24,0.18452288242886686,2.0,0,1
+"Akron, OH Metro Area-Bus",2017,10420,24,24,0.1841788438562632,2.0,0,1
+"Akron, OH Metro Area-Bus",2018,10420,24,24,0.18486222316260997,2.0,0,1
+"Albany, GA Metro Area-Bus",2012,10500,34,34,0.04975193197956436,3.0,0,1
+"Albany, GA Metro Area-Bus",2013,10500,34,34,0.04799585999247272,3.0,0,1
+"Albany, GA Metro Area-Bus",2014,10500,34,34,0.042368823323572204,3.0,0,1
+"Albany, GA Metro Area-Bus",2015,10500,34,34,0.04409708166194384,3.0,0,1
+"Albany, GA Metro Area-Bus",2016,10500,34,34,0.04507177293160994,3.0,0,1
+"Albany, GA Metro Area-Bus",2017,10500,34,34,0.04204383997426434,3.0,0,1
+"Albany, GA Metro Area-Bus",2018,10500,34,34,0.0437286354467381,3.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2012,10580,23,23,0.29494732414386626,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2013,10580,23,23,0.300199412737504,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2014,10580,23,23,0.28546952231975925,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2015,10580,23,23,0.28970642130481256,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2016,10580,23,23,0.28971124265573667,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2017,10580,23,23,0.28532782989483785,2.0,0,1
+"Albany-Schenectady-Troy, NY Metro Area-Bus",2018,10580,23,23,0.28823526216292583,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2012,10740,22,22,0.36940586173262285,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2013,10740,22,22,0.36760216850312655,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2014,10740,22,22,0.36775897031487637,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2015,10740,22,22,0.3618971121760834,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2016,10740,22,22,0.3599057233891436,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2017,10740,22,22,0.35669031530344397,2.0,0,1
+"Albuquerque, NM Metro Area-Bus",2018,10740,22,22,0.35947926714231854,2.0,0,1
+"Albuquerque, NM Metro Area-Rail",2012,10740,22,22,0.36940586173262285,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2013,10740,22,22,0.36760216850312655,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2014,10740,22,22,0.36775897031487637,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2015,10740,22,22,0.3618971121760834,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2016,10740,22,22,0.3599057233891436,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2017,10740,22,22,0.35669031530344397,2.0,1,0
+"Albuquerque, NM Metro Area-Rail",2018,10740,22,22,0.35947926714231854,2.0,1,0
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2012,10900,22,22,0.234493614501948,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2013,10900,22,22,0.23009571512554705,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2014,10900,22,22,0.23230298422986007,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2015,10900,22,22,0.23596697562970548,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2016,10900,22,22,0.23688808148479115,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2017,10900,22,22,0.23518126820405974,2.0,0,1
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area-Bus",2018,10900,22,22,0.2360088216885313,2.0,0,1
+"Altoona, PA Metro Area-Bus",2012,11020,32,32,0.23809781383817896,3.0,0,1
+"Altoona, PA Metro Area-Bus",2013,11020,32,32,0.24056548662226895,3.0,0,1
+"Altoona, PA Metro Area-Bus",2014,11020,32,32,0.22476104190260476,3.0,0,1
+"Altoona, PA Metro Area-Bus",2015,11020,32,32,0.20732207051986515,3.0,0,1
+"Altoona, PA Metro Area-Bus",2016,11020,32,32,0.22155540940480106,3.0,0,1
+"Altoona, PA Metro Area-Bus",2017,11020,32,32,0.22104806414579248,3.0,0,1
+"Altoona, PA Metro Area-Bus",2018,11020,32,32,0.21671710339478373,3.0,0,1
+"Ames, IA Metro Area-Bus",2012,11180,31,31,0.15928688411373548,3.0,0,1
+"Ames, IA Metro Area-Bus",2013,11180,31,31,0.1598313567408619,3.0,0,1
+"Ames, IA Metro Area-Bus",2014,11180,31,31,0.143986912920587,3.0,0,1
+"Ames, IA Metro Area-Bus",2015,11180,31,31,0.14138872381518347,3.0,0,1
+"Ames, IA Metro Area-Bus",2016,11180,31,31,0.1415358744394619,3.0,0,1
+"Ames, IA Metro Area-Bus",2017,11180,31,31,0.14544896592768933,3.0,0,1
+"Ames, IA Metro Area-Bus",2018,11180,31,31,0.1386217948717949,3.0,0,1
+"Anchorage, AK Metro Area-Bus",2012,11260,24,24,0.4612692595406125,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2013,11260,24,24,0.4595221933316459,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2014,11260,24,24,0.4586465089796888,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2015,11260,24,24,0.4614368842668186,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2016,11260,24,24,0.4495424671739466,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2017,11260,24,24,,2.0,0,1
+"Anchorage, AK Metro Area-Bus",2018,11260,24,24,0.4810453672987096,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2012,11460,23,23,0.35523304006398604,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2013,11460,23,23,0.3524682151130754,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2014,11460,23,23,0.38299716944841566,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2015,11460,23,23,0.3759603104708884,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2016,11460,23,23,0.37529668267373184,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2017,11460,23,23,0.36537509423771536,2.0,0,1
+"Ann Arbor, MI Metro Area-Bus",2018,11460,23,23,0.37222224815937033,2.0,0,1
+"Appleton, WI Metro Area-Bus",2012,11540,34,34,0.11866092003072459,3.0,0,1
+"Appleton, WI Metro Area-Bus",2013,11540,34,34,0.11962724197357504,3.0,0,1
+"Appleton, WI Metro Area-Bus",2014,11540,34,34,0.11962366698233623,3.0,0,1
+"Appleton, WI Metro Area-Bus",2015,11540,34,34,0.1264826757331204,3.0,0,1
+"Appleton, WI Metro Area-Bus",2016,11540,34,34,0.12261492920574914,3.0,0,1
+"Appleton, WI Metro Area-Bus",2017,11540,34,34,0.12074849344832066,3.0,0,1
+"Appleton, WI Metro Area-Bus",2018,11540,34,34,0.12325761743476214,3.0,0,1
+"Asheville, NC Metro Area-Bus",2012,11700,33,33,0.057835007886870966,3.0,0,1
+"Asheville, NC Metro Area-Bus",2013,11700,33,33,0.06465294268903242,3.0,0,1
+"Asheville, NC Metro Area-Bus",2014,11700,33,33,0.06679754413435446,3.0,0,1
+"Asheville, NC Metro Area-Bus",2015,11700,33,33,0.0699824220874773,3.0,0,1
+"Asheville, NC Metro Area-Bus",2016,11700,33,33,0.07007369721161161,3.0,0,1
+"Asheville, NC Metro Area-Bus",2017,11700,33,33,0.07160433533069106,3.0,0,1
+"Asheville, NC Metro Area-Bus",2018,11700,33,33,0.07054221928411075,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2012,12020,33,33,0.23805312124444686,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2013,12020,33,33,0.23594849717079383,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2014,12020,33,33,0.23142336897567023,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2015,12020,33,33,0.2136091631017049,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2016,12020,33,33,0.20311730627777339,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2017,12020,33,33,0.19516823809380365,3.0,0,1
+"Athens-Clarke County, GA Metro Area-Bus",2018,12020,33,33,0.20383827167549828,3.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2012,12060,10,14,0.2002069737679648,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2013,12060,10,14,0.2015969443691069,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2014,12060,10,14,0.2019950484075175,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2015,12060,10,14,0.20939341002149453,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2016,12060,10,14,0.2081056879716402,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2017,12060,10,14,0.20873527845179618,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Bus",2018,12060,10,14,0.2087366314597813,1.0,0,1
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2012,12060,10,14,0.2002069737679648,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2013,12060,10,14,0.2015969443691069,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2014,12060,10,14,0.2019950484075175,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2015,12060,10,14,0.20939341002149453,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2016,12060,10,14,0.2081056879716402,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2017,12060,10,14,0.20873527845179618,1.0,1,0
+"Atlanta-Sandy Springs-Marietta, GA Metro Area-Rail",2018,12060,10,14,0.2087366314597813,1.0,1,0
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2012,12260,34,34,0.08109259123283648,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2013,12260,34,34,0.09120802055230748,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2014,12260,34,34,0.09549976147145608,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2015,12260,34,34,0.09866567376851391,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2016,12260,34,34,0.09018006852810381,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2017,12260,34,34,0.08754698798361732,3.0,0,1
+"Augusta-Richmond County, GA-SC Metro Area-Bus",2018,12260,34,34,0.09195854739428161,3.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2012,12420,23,23,0.3701460882755111,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2013,12420,23,23,0.36721540404952674,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2014,12420,23,23,0.36243829362412444,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2015,12420,23,23,0.36407606228564876,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2016,12420,23,23,0.3576926781395857,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2017,12420,23,23,0.3522745540525121,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Bus",2018,12420,23,23,0.35789538675594573,2.0,0,1
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2012,12420,23,23,0.3701460882755111,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2013,12420,23,23,0.36721540404952674,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2014,12420,23,23,0.36243829362412444,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2015,12420,23,23,0.36407606228564876,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2016,12420,23,23,0.3576926781395857,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2017,12420,23,23,0.3522745540525121,2.0,1,0
+"Austin-Round Rock-San Marcos, TX Metro Area-Rail",2018,12420,23,23,0.35789538675594573,2.0,1,0
+"Bakersfield-Delano, CA Metro Area-Bus",2012,12540,34,34,0.3094352255521825,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2013,12540,34,34,0.3056185221358912,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2014,12540,34,34,0.2942548981886277,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2015,12540,34,34,0.29256782780983576,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2016,12540,34,34,0.29199469842994624,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2017,12540,34,34,0.2943261015080521,3.0,0,1
+"Bakersfield-Delano, CA Metro Area-Bus",2018,12540,34,34,0.29296808265251,3.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2012,12580,10,14,0.41222180105052253,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2013,12580,10,14,0.4096860880966782,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2014,12580,10,14,0.4034316693599804,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2015,12580,10,14,0.4029726725069871,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2016,12580,10,14,0.39692719505143403,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2017,12580,10,14,0.3967271326967176,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Bus",2018,12580,10,14,0.39881048277433995,1.0,0,1
+"Baltimore-Towson, MD Metro Area-Rail",2012,12580,10,14,0.41222180105052253,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2013,12580,10,14,0.4096860880966782,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2014,12580,10,14,0.4034316693599804,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2015,12580,10,14,0.4029726725069871,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2016,12580,10,14,0.39692719505143403,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2017,12580,10,14,0.3967271326967176,1.0,1,0
+"Baltimore-Towson, MD Metro Area-Rail",2018,12580,10,14,0.39881048277433995,1.0,1,0
+"Baton Rouge, LA Metro Area-Bus",2012,12940,34,34,0.1582173000712288,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2013,12940,34,34,0.15402321816952044,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2014,12940,34,34,0.1579522995046146,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2015,12940,34,34,0.16209569867669946,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2016,12940,34,34,0.15703811581699553,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2017,12940,34,34,0.155166118069285,3.0,0,1
+"Baton Rouge, LA Metro Area-Bus",2018,12940,34,34,0.1580821766348366,3.0,0,1
+"Bay City, MI Metro Area-Bus",2012,13020,34,34,0.07256726741080215,3.0,0,1
+"Bay City, MI Metro Area-Bus",2013,13020,34,34,0.0706835360732573,3.0,0,1
+"Bay City, MI Metro Area-Bus",2014,13020,34,34,0.07486092715231787,3.0,0,1
+"Bay City, MI Metro Area-Bus",2015,13020,34,34,0.0669599095136358,3.0,0,1
+"Bay City, MI Metro Area-Bus",2016,13020,34,34,0.06991094945440864,3.0,0,1
+"Bay City, MI Metro Area-Bus",2017,13020,34,34,0.06951810154243288,3.0,0,1
+"Bay City, MI Metro Area-Bus",2018,13020,34,34,0.0687739616781486,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2012,13140,34,34,0.08749102151196084,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2013,13140,34,34,0.0883238386364689,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2014,13140,34,34,0.08567108043659487,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2015,13140,34,34,0.08210880609787523,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2016,13140,34,34,0.0878227988972355,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2017,13140,34,34,0.09000177655956551,3.0,0,1
+"Beaumont-Port Arthur, TX Metro Area-Bus",2018,13140,34,34,0.08663141850253793,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2012,13380,33,33,0.253817620965686,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2013,13380,33,33,0.2592902278674922,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2014,13380,33,33,0.2509323189371253,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2015,13380,33,33,0.25258157164275263,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2016,13380,33,33,0.2543308293729879,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2017,13380,33,33,0.2518205877774126,3.0,0,1
+"Bellingham, WA Metro Area-Bus",2018,13380,33,33,0.25290505821901654,3.0,0,1
+"Billings, MT Metro Area-Bus",2012,13740,32,32,0.1922372443197481,3.0,0,1
+"Billings, MT Metro Area-Bus",2013,13740,32,32,0.1919208740491385,3.0,0,1
+"Billings, MT Metro Area-Bus",2014,13740,32,32,0.19026059677016863,3.0,0,1
+"Billings, MT Metro Area-Bus",2015,13740,32,32,0.18601091517805957,3.0,0,1
+"Billings, MT Metro Area-Bus",2016,13740,32,32,0.18512925590142307,3.0,0,1
+"Billings, MT Metro Area-Bus",2017,13740,32,32,0.18293411335205229,3.0,0,1
+"Billings, MT Metro Area-Bus",2018,13740,32,32,0.1846789239287434,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2012,13780,31,31,0.18932031866791071,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2013,13780,31,31,0.19076574255384932,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2014,13780,31,31,0.21306270387821674,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2015,13780,31,31,0.21620216918037932,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2016,13780,31,31,0.1960553602682708,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2017,13780,31,31,0.19508204751408278,3.0,0,1
+"Binghamton, NY Metro Area-Bus",2018,13780,31,31,0.20244383413035413,3.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2012,13820,24,24,0.17053656801049566,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2013,13820,24,24,0.17069780617683078,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2014,13820,24,24,0.1701871855376041,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2015,13820,24,24,0.17067503020245317,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2016,13820,24,24,0.17145826043621634,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2017,13820,24,24,0.17142353435480365,2.0,0,1
+"Birmingham-Hoover, AL Metro Area-Bus",2018,13820,24,24,0.17118826131964432,2.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2012,13980,33,33,0.10378609978165039,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2013,13980,33,33,0.10015759923827035,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2014,13980,33,33,0.09371270040969064,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2015,13980,33,33,0.093353424528524,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2016,13980,33,33,0.09244213619859898,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2017,13980,33,33,0.09269296474607859,3.0,0,1
+"Blacksburg-Christiansburg-Radford, VA Metro Area-Bus",2018,13980,33,33,0.09282781560209967,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2012,14020,31,31,0.28253772376519104,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2013,14020,31,31,0.28171833705233507,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2014,14020,31,31,0.2898475825495138,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2015,14020,31,31,0.27600584826988683,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2016,14020,31,31,0.27914332533058955,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2017,14020,31,31,0.27474877219493765,3.0,0,1
+"Bloomington, IN Metro Area-Bus",2018,14020,31,31,0.2766302466244425,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2012,14060,31,31,0.3458923935424189,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2013,14060,31,31,0.34130416501483646,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2014,14060,31,31,0.3645925412714719,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2015,14060,31,31,0.36247948908642325,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2016,14060,31,31,0.36150982246537294,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2017,14060,31,31,0.37729156127291563,3.0,0,1
+"Bloomington-Normal, IL Metro Area-Bus",2018,14060,31,31,0.3670512524575549,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2012,14260,32,32,0.23206219140666037,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2013,14260,32,32,0.23044910213180683,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2014,14260,32,32,0.2250789971856128,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2015,14260,32,32,0.23016058119741428,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2016,14260,32,32,0.22487011971284893,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2017,14260,32,32,0.2192806351132102,3.0,0,1
+"Boise City-Nampa, ID Metro Area-Bus",2018,14260,32,32,0.22462358411416825,3.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2012,14460,10,11,0.04430076384143916,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2013,14460,10,11,0.04492508719112747,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2014,14460,10,11,0.04551602253341352,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2015,14460,10,11,0.04661806106980437,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2016,14460,10,11,0.04721026025088935,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2017,14460,10,11,0.04723391683285324,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Bus",2018,14460,10,11,0.047022373434905645,1.0,0,1
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2012,14460,10,11,0.04430076384143916,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2013,14460,10,11,0.04492508719112747,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2014,14460,10,11,0.04551602253341352,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2015,14460,10,11,0.04661806106980437,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2016,14460,10,11,0.04721026025088935,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2017,14460,10,11,0.04723391683285324,1.0,1,0
+"Boston-Cambridge-Quincy, MA-NH Metro Area-Rail",2018,14460,10,11,0.047022373434905645,1.0,1,0
+"Bremerton-Silverdale, WA Metro Area-Bus",2012,14740,23,23,0.09087184249882202,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2013,14740,23,23,0.0992083497976591,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2014,14740,23,23,0.10054681618258905,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2015,14740,23,23,0.10384309040223019,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2016,14740,23,23,0.10265736962179879,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2017,14740,23,23,0.10084805789000134,2.0,0,1
+"Bremerton-Silverdale, WA Metro Area-Bus",2018,14740,23,23,0.10240005182298133,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2012,14860,21,21,0.4064071487111175,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2013,14860,21,21,0.4059102286811344,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2014,14860,21,21,0.40407720266541025,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2015,14860,21,21,0.40780786082458853,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2016,14860,21,21,0.40941977270121466,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2017,14860,21,21,0.40935546785017735,2.0,0,1
+"Bridgeport-Stamford-Norwalk, CT Metro Area-Bus",2018,14860,21,21,0.4088420979685112,2.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2012,15180,32,32,0.2819154140266978,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2013,15180,32,32,0.2811882625824917,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2014,15180,32,32,0.27444273287422977,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2015,15180,32,32,0.27671551403794714,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2016,15180,32,32,0.27443509340346006,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2017,15180,32,32,0.27729342594460615,3.0,0,1
+"Brownsville-Harlingen, TX Metro Area-Bus",2018,15180,32,32,0.27612508517402173,3.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2012,15380,21,21,0.3481710754336917,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2013,15380,21,21,0.3506285385369391,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2014,15380,21,21,0.35195679631487053,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2015,15380,21,21,0.3450567486915845,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2016,15380,21,21,0.3446647171151558,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2017,15380,21,21,0.3457363647296719,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Bus",2018,15380,21,21,0.3451268254330447,2.0,0,1
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2012,15380,21,21,0.3481710754336917,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2013,15380,21,21,0.3506285385369391,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2014,15380,21,21,0.35195679631487053,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2015,15380,21,21,0.3450567486915845,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2016,15380,21,21,0.3446647171151558,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2017,15380,21,21,0.3457363647296719,2.0,1,0
+"Buffalo-Niagara Falls, NY Metro Area-Rail",2018,15380,21,21,0.3451268254330447,2.0,1,0
+"Burlington-South Burlington, VT Metro Area-Bus",2012,15540,31,31,0.20280977336522907,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2013,15540,31,31,0.20719252350102496,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2014,15540,31,31,0.20701518990784518,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2015,15540,31,31,0.214721095069748,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2016,15540,31,31,0.21723754496893055,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2017,15540,31,31,0.21670212304085443,3.0,0,1
+"Burlington-South Burlington, VT Metro Area-Bus",2018,15540,31,31,0.2162201761397513,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2012,15940,31,31,0.10825136809623682,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2013,15940,31,31,0.111249831484054,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2014,15940,31,31,0.11254796201235004,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2015,15940,31,31,0.11050834126155616,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2016,15940,31,31,0.11187956288167501,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2017,15940,31,31,0.11235679680820747,3.0,0,1
+"Canton-Massillon, OH Metro Area-Bus",2018,15940,31,31,0.11158609802186237,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2012,15980,32,32,0.10820795500514185,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2013,15980,32,32,0.10740115718418515,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2014,15980,32,32,0.102710609830863,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2015,15980,32,32,0.09995655425079059,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2016,15980,32,32,0.09908883376260617,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2017,15980,32,32,0.09962871047547514,3.0,0,1
+"Cape Coral-Fort Myers, FL Metro Area-Bus",2018,15980,32,32,0.099543559093141,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2012,16300,34,34,0.18345735338060914,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2013,16300,34,34,0.18153580483593032,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2014,16300,34,34,0.18364061413133118,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2015,16300,34,34,0.18080003403494965,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2016,16300,34,34,0.18207144096085295,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2017,16300,34,34,0.18412718475917617,3.0,0,1
+"Cedar Rapids, IA Metro Area-Bus",2018,16300,34,34,0.18233856383980712,3.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2012,16580,21,21,0.33301283536444093,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2013,16580,21,21,0.33647677071001647,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2014,16580,21,21,0.32567173293526935,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2015,16580,21,21,0.32617210157937476,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2016,16580,21,21,0.32188542050029556,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2017,16580,21,21,0.32167777517276797,2.0,0,1
+"Champaign-Urbana, IL Metro Area-Bus",2018,16580,21,21,0.3232548095726205,2.0,0,1
+"Charleston, WV Metro Area-Bus",2012,16620,33,33,0.19180019594829492,3.0,0,1
+"Charleston, WV Metro Area-Bus",2013,16620,33,33,0.1967586516055296,3.0,0,1
+"Charleston, WV Metro Area-Bus",2014,16620,33,33,0.19778608727164906,3.0,0,1
+"Charleston, WV Metro Area-Bus",2015,16620,33,33,0.20160222485108856,3.0,0,1
+"Charleston, WV Metro Area-Bus",2016,16620,33,33,0.20224519940915806,3.0,0,1
+"Charleston, WV Metro Area-Bus",2017,16620,33,33,0.20120393152154709,3.0,0,1
+"Charleston, WV Metro Area-Bus",2018,16620,33,33,0.20168662615608682,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2012,16700,32,32,0.12223080048046062,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2013,16700,32,32,0.12477212742184879,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2014,16700,32,32,0.11720173676581454,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2015,16700,32,32,0.1169414115921327,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2016,16700,32,32,0.11434873139507981,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2017,16700,32,32,0.11215888220786245,3.0,0,1
+"Charleston-North Charleston-Summerville, SC Metro Area-Bus",2018,16700,32,32,0.11442782986936745,3.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2012,16740,24,24,0.11824780976220275,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2013,16740,24,24,0.11812113578736937,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2014,16740,24,24,0.1191611828895445,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2015,16740,24,24,0.12027349699698701,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2016,16740,24,24,0.11772099383090341,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2017,16740,24,24,0.11938109105065658,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Bus",2018,16740,24,24,0.11911103485764205,2.0,0,1
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2012,16740,24,24,0.11824780976220275,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2013,16740,24,24,0.11812113578736937,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2014,16740,24,24,0.1191611828895445,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2015,16740,24,24,0.12027349699698701,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2016,16740,24,24,0.11772099383090341,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2017,16740,24,24,0.11938109105065658,2.0,1,0
+"Charlotte-Gastonia-Rock Hill, NC-SC Metro Area-Rail",2018,16740,24,24,0.11911103485764205,2.0,1,0
+"Chattanooga, TN-GA Metro Area-Bus",2012,16860,33,33,0.1215332633083122,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2013,16860,33,33,0.11757954903461001,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2014,16860,33,33,0.12056424581005587,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2015,16860,33,33,0.11719017858348069,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2016,16860,33,33,0.12090634865689977,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2017,16860,33,33,0.12392286990829043,3.0,0,1
+"Chattanooga, TN-GA Metro Area-Bus",2018,16860,33,33,0.12071115065660365,3.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2012,16980,10,11,0.5050516151664995,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2013,16980,10,11,0.5049346554269729,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2014,16980,10,11,0.5062040175698054,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2015,16980,10,11,0.5047991688495319,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2016,16980,10,11,0.505309370122282,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2017,16980,10,11,0.504972792225221,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Bus",2018,16980,10,11,0.5049914851519327,1.0,0,1
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2012,16980,10,11,0.5050516151664995,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2013,16980,10,11,0.5049346554269729,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2014,16980,10,11,0.5062040175698054,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2015,16980,10,11,0.5047991688495319,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2016,16980,10,11,0.505309370122282,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2017,16980,10,11,0.504972792225221,1.0,1,0
+"Chicago-Joliet-Naperville, IL-IN-WI Metro Area-Rail",2018,16980,10,11,0.5049914851519327,1.0,1,0
+"Chico, CA Metro Area-Bus",2012,17020,31,31,0.20559232743482372,3.0,0,1
+"Chico, CA Metro Area-Bus",2013,17020,31,31,0.22249917600527358,3.0,0,1
+"Chico, CA Metro Area-Bus",2014,17020,31,31,0.22757303671937817,3.0,0,1
+"Chico, CA Metro Area-Bus",2015,17020,31,31,0.22948432082694264,3.0,0,1
+"Chico, CA Metro Area-Bus",2016,17020,31,31,0.2279162089283931,3.0,0,1
+"Chico, CA Metro Area-Bus",2017,17020,31,31,0.2284471621738007,3.0,0,1
+"Chico, CA Metro Area-Bus",2018,17020,31,31,0.22860592213183353,3.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2012,17140,24,24,0.23091303757970424,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2013,17140,24,24,0.2307530700997736,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2014,17140,24,24,0.23174641723139247,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2015,17140,24,24,0.23209629968403064,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2016,17140,24,24,0.23170811909601818,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2017,17140,24,24,0.22964071959130056,2.0,0,1
+"Cincinnati-Middletown, OH-KY-IN Metro Area-Bus",2018,17140,24,24,0.23113413155481505,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2012,17460,21,21,0.3031167340550411,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2013,17460,21,21,0.3041851673180865,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2014,17460,21,21,0.30364767856220626,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2015,17460,21,21,0.304023765012246,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2016,17460,21,21,0.30587395073869805,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2017,17460,21,21,0.3043222009867284,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Bus",2018,17460,21,21,0.3047279733206534,2.0,0,1
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2012,17460,21,21,0.3031167340550411,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2013,17460,21,21,0.3041851673180865,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2014,17460,21,21,0.30364767856220626,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2015,17460,21,21,0.304023765012246,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2016,17460,21,21,0.30587395073869805,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2017,17460,21,21,0.3043222009867284,2.0,1,0
+"Cleveland-Elyria-Mentor, OH Metro Area-Rail",2018,17460,21,21,0.3047279733206534,2.0,1,0
+"Colorado Springs, CO Metro Area-Bus",2012,17820,32,32,0.22475829998918567,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2013,17820,32,32,0.21716633852707518,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2014,17820,32,32,0.21732783909777167,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2015,17820,32,32,0.2190496711586247,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2016,17820,32,32,0.214732656651882,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2017,17820,32,32,0.21564419850986885,3.0,0,1
+"Colorado Springs, CO Metro Area-Bus",2018,17820,32,32,0.216426352688351,3.0,0,1
+"Columbia, MO Metro Area-Bus",2012,17860,33,33,0.13523156010988135,3.0,0,1
+"Columbia, MO Metro Area-Bus",2013,17860,33,33,0.1317221492925825,3.0,0,1
+"Columbia, MO Metro Area-Bus",2014,17860,33,33,0.13384210266994412,3.0,0,1
+"Columbia, MO Metro Area-Bus",2015,17860,33,33,0.13623635727240907,3.0,0,1
+"Columbia, MO Metro Area-Bus",2016,17860,33,33,0.134580557703102,3.0,0,1
+"Columbia, MO Metro Area-Bus",2017,17860,33,33,0.1355812432763094,3.0,0,1
+"Columbia, MO Metro Area-Bus",2018,17860,33,33,0.13546582580294722,3.0,0,1
+"Columbia, SC Metro Area-Bus",2012,17900,33,33,0.1569212854934307,3.0,0,1
+"Columbia, SC Metro Area-Bus",2013,17900,33,33,0.15202219693081312,3.0,0,1
+"Columbia, SC Metro Area-Bus",2014,17900,33,33,0.14373690752475077,3.0,0,1
+"Columbia, SC Metro Area-Bus",2015,17900,33,33,0.12886351217983202,3.0,0,1
+"Columbia, SC Metro Area-Bus",2016,17900,33,33,0.1401365119697083,3.0,0,1
+"Columbia, SC Metro Area-Bus",2017,17900,33,33,0.12872054949654102,3.0,0,1
+"Columbia, SC Metro Area-Bus",2018,17900,33,33,0.13258281656095317,3.0,0,1
+"Columbus, OH Metro Area-Bus",2012,18140,24,24,0.3162022393541145,2.0,0,1
+"Columbus, OH Metro Area-Bus",2013,18140,24,24,0.3143087382657775,2.0,0,1
+"Columbus, OH Metro Area-Bus",2014,18140,24,24,0.3141328233309036,2.0,0,1
+"Columbus, OH Metro Area-Bus",2015,18140,24,24,0.31658479772228626,2.0,0,1
+"Columbus, OH Metro Area-Bus",2016,18140,24,24,0.31567104254805955,2.0,0,1
+"Columbus, OH Metro Area-Bus",2017,18140,24,24,0.31419619591008296,2.0,0,1
+"Columbus, OH Metro Area-Bus",2018,18140,24,24,0.31546793352709857,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2012,18580,24,24,0.3686750524988242,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2013,18580,24,24,0.3643902807561995,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2014,18580,24,24,0.35065305358351456,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2015,18580,24,24,0.35269881094306177,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2016,18580,24,24,0.35411767411640915,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2017,18580,24,24,0.35524375633582156,2.0,0,1
+"Corpus Christi, TX Metro Area-Bus",2018,18580,24,24,0.35397385927659913,2.0,0,1
+"Corvallis, OR Metro Area-Bus",2012,18700,31,31,0.32697547683923706,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2013,18700,31,31,0.32762011801067714,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2014,18700,31,31,0.3282723279648609,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2015,18700,31,31,0.27276899390063364,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2016,18700,31,31,0.32999687206756334,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2017,18700,31,31,0.3275262252909108,3.0,0,1
+"Corvallis, OR Metro Area-Bus",2018,18700,31,31,0.31125116842972295,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2012,18880,32,32,0.0894514192139738,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2013,18880,32,32,0.08566148549440535,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2014,18880,32,32,0.08783804048987753,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2015,18880,32,32,0.093106849095615,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2016,18880,32,32,0.09184723530690629,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2017,18880,32,32,0.09085656904686576,3.0,0,1
+"Crestview-Fort Walton Beach-Destin, FL Metro Area-Bus",2018,18880,32,32,0.09186678803799199,3.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2012,19100,10,14,0.37514844176812445,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2013,19100,10,14,0.3737761427614597,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2014,19100,10,14,0.37244157309001413,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2015,19100,10,14,0.3727208688328568,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2016,19100,10,14,0.3715296809111419,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2017,19100,10,14,0.3675803775100855,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Bus",2018,19100,10,14,0.370561104591586,1.0,0,1
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2012,19100,10,14,0.37514844176812445,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2013,19100,10,14,0.3737761427614597,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2014,19100,10,14,0.37244157309001413,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2015,19100,10,14,0.3727208688328568,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2016,19100,10,14,0.3715296809111419,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2017,19100,10,14,0.3675803775100855,1.0,1,0
+"Dallas-Fort Worth-Arlington, TX Metro Area-Rail",2018,19100,10,14,0.370561104591586,1.0,1,0
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2012,19340,31,31,0.16526584843530523,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2013,19340,31,31,0.1629086986424513,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2014,19340,31,31,0.15917386071864423,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2015,19340,31,31,0.16490940529093376,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2016,19340,31,31,0.1583131197072216,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2017,19340,31,31,0.15737784583740655,3.0,0,1
+"Davenport-Moline-Rock Island, IA-IL Metro Area-Bus",2018,19340,31,31,0.1602078526943885,3.0,0,1
+"Dayton, OH Metro Area-Bus",2012,19380,24,24,0.14258868940298128,2.0,0,1
+"Dayton, OH Metro Area-Bus",2013,19380,24,24,0.14210868552739458,2.0,0,1
+"Dayton, OH Metro Area-Bus",2014,19380,24,24,0.13989008688678772,2.0,0,1
+"Dayton, OH Metro Area-Bus",2015,19380,24,24,0.14192344009778535,2.0,0,1
+"Dayton, OH Metro Area-Bus",2016,19380,24,24,0.1423188095492988,2.0,0,1
+"Dayton, OH Metro Area-Bus",2017,19380,24,24,0.13991554815711785,2.0,0,1
+"Dayton, OH Metro Area-Bus",2018,19380,24,24,0.14138006536212727,2.0,0,1
+"Decatur, IL Metro Area-Bus",2012,19500,33,33,0.24495238889004647,3.0,0,1
+"Decatur, IL Metro Area-Bus",2013,19500,33,33,0.21590961177063758,3.0,0,1
+"Decatur, IL Metro Area-Bus",2014,19500,33,33,0.2572230786170447,3.0,0,1
+"Decatur, IL Metro Area-Bus",2015,19500,33,33,0.2529512213230381,3.0,0,1
+"Decatur, IL Metro Area-Bus",2016,19500,33,33,0.25051742432997487,3.0,0,1
+"Decatur, IL Metro Area-Bus",2017,19500,33,33,0.24602980438875474,3.0,0,1
+"Decatur, IL Metro Area-Bus",2018,19500,33,33,0.24983861238398608,3.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2012,19660,24,24,0.08821794691756776,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2013,19660,24,24,0.08671641300417475,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2014,19660,24,24,0.07896710755954282,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2015,19660,24,24,0.07902078376436954,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2016,19660,24,24,0.0783461436522661,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2017,19660,24,24,0.07699948766938791,2.0,0,1
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area-Bus",2018,19660,24,24,0.0780887286958368,2.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2012,19740,10,14,0.4899202169051695,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2013,19740,10,14,0.4888525383019079,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2014,19740,10,14,0.4900650809855329,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2015,19740,10,14,0.49226239278650896,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2016,19740,10,14,0.4918872501878663,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2017,19740,10,14,0.48579908348545336,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Bus",2018,19740,10,14,0.4899399094420498,1.0,0,1
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2012,19740,10,14,0.4899202169051695,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2013,19740,10,14,0.4888525383019079,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2014,19740,10,14,0.4900650809855329,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2015,19740,10,14,0.49226239278650896,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2016,19740,10,14,0.4918872501878663,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2017,19740,10,14,0.48579908348545336,1.0,1,0
+"Denver-Aurora-Broomfield, CO Metro Area-Rail",2018,19740,10,14,0.4899399094420498,1.0,1,0
+"Des Moines-West Des Moines, IA Metro Area-Bus",2012,19780,31,31,0.21222602524649878,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2013,19780,31,31,0.21024715476077296,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2014,19780,31,31,0.20854175606213823,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2015,19780,31,31,0.20670727067321482,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2016,19780,31,31,0.20713551670127642,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2017,19780,31,31,0.2026725339570835,3.0,0,1
+"Des Moines-West Des Moines, IA Metro Area-Bus",2018,19780,31,31,0.20548217621919573,3.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2012,19820,22,22,0.28505465229297283,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2013,19820,22,22,0.28390405927308726,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2014,19820,22,22,0.2812443694581976,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2015,19820,22,22,0.27950862835718177,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2016,19820,22,22,0.27943169534058987,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2017,19820,22,22,0.27786929273913197,2.0,0,1
+"Detroit-Warren-Livonia, MI Metro Area-Bus",2018,19820,22,22,0.2789159671794153,2.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2012,20260,33,33,0.23272561289064578,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2013,20260,33,33,0.2338150063674403,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2014,20260,33,33,0.23680149117819324,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2015,20260,33,33,0.2342407357679914,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2016,20260,33,33,0.2390797655605366,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2017,20260,33,33,0.24340403955040987,3.0,0,1
+"Duluth, MN-WI Metro Area-Bus",2018,20260,33,33,0.23882246445671104,3.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2012,20500,23,23,0.15426457706152144,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2013,20500,23,23,0.16334527541424093,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2014,20500,23,23,0.16485176650887295,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2015,20500,23,23,0.16471583544685936,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2016,20500,23,23,0.15941047301044026,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2017,20500,23,23,0.16301916605105474,2.0,0,1
+"Durham-Chapel Hill, NC Metro Area-Bus",2018,20500,23,23,0.16232943690252885,2.0,0,1
+"Eau Claire, WI Metro Area-Bus",2012,20740,33,33,0.13656352707001104,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2013,20740,33,33,0.13866574222838515,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2014,20740,33,33,0.13871711083048002,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2015,20740,33,33,0.13771453551358645,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2016,20740,33,33,0.1335995780272775,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2017,20740,33,33,0.13066235009573718,3.0,0,1
+"Eau Claire, WI Metro Area-Bus",2018,20740,33,33,0.13398450387823335,3.0,0,1
+"El Centro, CA Metro Area-Bus",2012,20940,31,31,0.25657630564977063,3.0,0,1
+"El Centro, CA Metro Area-Bus",2013,20940,31,31,0.25546826102711073,3.0,0,1
+"El Centro, CA Metro Area-Bus",2014,20940,31,31,0.25817476155308683,3.0,0,1
+"El Centro, CA Metro Area-Bus",2015,20940,31,31,0.26059930898640576,3.0,0,1
+"El Centro, CA Metro Area-Bus",2016,20940,31,31,0.2617771779493855,3.0,0,1
+"El Centro, CA Metro Area-Bus",2017,20940,31,31,0.26157392983986544,3.0,0,1
+"El Centro, CA Metro Area-Bus",2018,20940,31,31,0.26132152195163305,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2012,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2013,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2014,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2015,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2016,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2017,21060,34,34,,3.0,0,1
+"Elizabethtown, KY Metro Area-Bus",2018,21060,34,34,,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2012,21140,34,34,0.062338950960092746,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2013,21140,34,34,0.060019568423768335,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2014,21140,34,34,0.06166161936286593,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2015,21140,34,34,0.061647125558671356,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2016,21140,34,34,0.061065568283746936,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2017,21140,34,34,0.05878166808995161,3.0,0,1
+"Elkhart-Goshen, IN Metro Area-Bus",2018,21140,34,34,0.06046899831589934,3.0,0,1
+"El Paso, TX Metro Area-Bus",2012,21340,22,22,0.5840493173229517,2.0,0,1
+"El Paso, TX Metro Area-Bus",2013,21340,22,22,0.5788657976973268,2.0,0,1
+"El Paso, TX Metro Area-Bus",2014,21340,22,22,0.5707767593423116,2.0,0,1
+"El Paso, TX Metro Area-Bus",2015,21340,22,22,0.5662913944940013,2.0,0,1
+"El Paso, TX Metro Area-Bus",2016,21340,22,22,0.5629150267594583,2.0,0,1
+"El Paso, TX Metro Area-Bus",2017,21340,22,22,0.5614128678409124,2.0,0,1
+"El Paso, TX Metro Area-Bus",2018,21340,22,22,0.5634734534668342,2.0,0,1
+"Erie, PA Metro Area-Bus",2012,21500,31,31,0.2651271336377576,3.0,0,1
+"Erie, PA Metro Area-Bus",2013,21500,31,31,0.2663788106618728,3.0,0,1
+"Erie, PA Metro Area-Bus",2014,21500,31,31,0.268569099404982,3.0,0,1
+"Erie, PA Metro Area-Bus",2015,21500,31,31,0.2657836919122829,3.0,0,1
+"Erie, PA Metro Area-Bus",2016,21500,31,31,0.2690377228568821,3.0,0,1
+"Erie, PA Metro Area-Bus",2017,21500,31,31,0.2691893016963264,3.0,0,1
+"Erie, PA Metro Area-Bus",2018,21500,31,31,0.2679701749481743,3.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2012,21660,23,23,0.2764763848547144,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2013,21660,23,23,0.2877473511577221,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2014,21660,23,23,0.2839822500140205,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2015,21660,23,23,0.2742189726876543,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2016,21660,23,23,0.28410414696072084,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2017,21660,23,23,0.2827618402326388,2.0,0,1
+"Eugene-Springfield, OR Metro Area-Bus",2018,21660,23,23,0.2804005277929134,2.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2012,21780,34,34,0.19685095931833496,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2013,21780,34,34,0.1975165881996641,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2014,21780,34,34,0.1919520440961062,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2015,21780,34,34,0.19516508838064822,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2016,21780,34,34,0.1955171608685501,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2017,21780,34,34,0.19233088586120978,3.0,0,1
+"Evansville, IN-KY Metro Area-Bus",2018,21780,34,34,0.19433051480368055,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2012,22020,31,31,0.2999844554216035,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2013,22020,31,31,0.3010522930849916,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2014,22020,31,31,0.29453585704874036,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2015,22020,31,31,0.28759927606499713,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2016,22020,31,31,0.2823907888966933,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2017,22020,31,31,0.2780300961801002,3.0,0,1
+"Fargo, ND-MN Metro Area-Bus",2018,22020,31,31,0.2826403569981397,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2012,22180,34,34,0.04101055724111421,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2013,22180,34,34,0.041290398013714175,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2014,22180,34,34,0.039805092306636466,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2015,22180,34,34,0.04127398582949152,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2016,22180,34,34,0.042463611609834306,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2017,22180,34,34,0.04044135789269371,3.0,0,1
+"Fayetteville, NC Metro Area-Bus",2018,22180,34,34,0.041391800974460706,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2012,22380,33,33,0.10670420412978181,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2013,22380,33,33,0.11086085587291464,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2014,22380,33,33,0.10585975923930863,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2015,22380,33,33,0.10299676921182033,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2016,22380,33,33,0.10039274812002084,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2017,22380,33,33,0.10093997208003723,3.0,0,1
+"Flagstaff, AZ Metro Area-Bus",2018,22380,33,33,0.10139502383269695,3.0,0,1
+"Flint, MI Metro Area-Bus",2012,22420,33,33,0.09424774961718448,3.0,0,1
+"Flint, MI Metro Area-Bus",2013,22420,33,33,0.0956464589715594,3.0,0,1
+"Flint, MI Metro Area-Bus",2014,22420,33,33,0.08412683907520789,3.0,0,1
+"Flint, MI Metro Area-Bus",2015,22420,33,33,0.08801742166300834,3.0,0,1
+"Flint, MI Metro Area-Bus",2016,22420,33,33,0.08745251116770342,3.0,0,1
+"Flint, MI Metro Area-Bus",2017,22420,33,33,0.08793951081716078,3.0,0,1
+"Flint, MI Metro Area-Bus",2018,22420,33,33,0.08780471568286499,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2012,22660,31,31,0.1964366243177259,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2013,22660,31,31,0.1929594596636497,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2014,22660,31,31,0.20064982109589852,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2015,22660,31,31,0.20930609597924774,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2016,22660,31,31,0.19154097309173784,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2017,22660,31,31,0.19037264702258658,3.0,0,1
+"Fort Collins-Loveland, CO Metro Area-Bus",2018,22660,31,31,0.19688740528942736,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2012,23060,32,32,0.15606914376445147,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2013,23060,32,32,0.1489335691407428,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2014,23060,32,32,0.1528293547917666,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2015,23060,32,32,0.15328377513293182,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2016,23060,32,32,0.15235636060323654,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2017,23060,32,32,0.15131918239796568,3.0,0,1
+"Fort Wayne, IN Metro Area-Bus",2018,23060,32,32,0.15231223690377393,3.0,0,1
+"Fresno, CA Metro Area-Bus",2012,23420,22,22,0.4019642348099865,2.0,0,1
+"Fresno, CA Metro Area-Bus",2013,23420,22,22,0.40323629337264993,2.0,0,1
+"Fresno, CA Metro Area-Bus",2014,23420,22,22,0.41298553044256014,2.0,0,1
+"Fresno, CA Metro Area-Bus",2015,23420,22,22,0.4115537773960115,2.0,0,1
+"Fresno, CA Metro Area-Bus",2016,23420,22,22,0.40546626323000445,2.0,0,1
+"Fresno, CA Metro Area-Bus",2017,23420,22,22,0.4059888851860497,2.0,0,1
+"Fresno, CA Metro Area-Bus",2018,23420,22,22,0.40760126993416507,2.0,0,1
+"Gainesville, FL Metro Area-Bus",2012,23540,31,31,0.2839426854035781,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2013,23540,31,31,0.2836525544083215,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2014,23540,31,31,0.28918015201924124,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2015,23540,31,31,0.2194883717175631,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2016,23540,31,31,0.2880085653104925,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2017,23540,31,31,0.286509239056979,3.0,0,1
+"Gainesville, FL Metro Area-Bus",2018,23540,31,31,0.26509473684210527,3.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2012,24340,23,23,0.1844626982509946,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2013,24340,23,23,0.18389577484581318,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2014,24340,23,23,0.18070821813396434,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2015,24340,23,23,0.1837437151095698,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2016,24340,23,23,0.18282668135487395,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2017,24340,23,23,0.17426427192383095,2.0,0,1
+"Grand Rapids-Wyoming, MI Metro Area-Bus",2018,24340,23,23,0.18018129438247513,2.0,0,1
+"Great Falls, MT Metro Area-Bus",2012,24500,32,32,0.23418655615021094,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2013,24500,32,32,0.2335869258946182,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2014,24500,32,32,0.22776115443008121,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2015,24500,32,32,0.23607449980553996,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2016,24500,32,32,0.22284757699079286,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2017,24500,32,32,0.22692961479731483,3.0,0,1
+"Great Falls, MT Metro Area-Bus",2018,24500,32,32,0.2286208470463881,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2012,24580,32,32,0.15727845097604962,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2013,24580,32,32,0.15416981921152859,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2014,24580,32,32,0.1545243619489559,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2015,24580,32,32,0.15769368290126307,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2016,24580,32,32,0.15680809114579414,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2017,24580,32,32,0.157954413563438,3.0,0,1
+"Green Bay, WI Metro Area-Bus",2018,24580,32,32,0.15742857917521488,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2012,24660,33,33,0.07648857923867901,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2013,24660,33,33,0.0759389777182243,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2014,24660,33,33,0.06954598260014686,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2015,24660,33,33,0.06871537339058366,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2016,24660,33,33,0.06804635007151247,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2017,24660,33,33,0.0686104294389019,3.0,0,1
+"Greensboro-High Point, NC Metro Area-Bus",2018,24660,33,33,0.06845614147261561,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2012,25060,34,34,0.018158877030650333,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2013,25060,34,34,0.017787338533989516,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2014,25060,34,34,0.018072001201841003,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2015,25060,34,34,0.016731112938410203,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2016,25060,34,34,0.019340136260817094,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2017,25060,34,34,0.019127008184298272,3.0,0,1
+"Gulfport-Biloxi, MS Metro Area-Bus",2018,25060,34,34,0.018398746092799942,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2012,25260,31,31,0.16897595550414687,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2013,25260,31,31,0.169143916208406,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2014,25260,31,31,0.14560539644859155,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2015,25260,31,31,0.16782565296955582,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2016,25260,31,31,0.15847366148531952,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2017,25260,31,31,0.15511945392491466,3.0,0,1
+"Hanford-Corcoran, CA Metro Area-Bus",2018,25260,31,31,0.16038544284345446,3.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2012,25420,24,24,0.1618813329570852,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2013,25420,24,24,0.1575720159571026,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2014,25420,24,24,0.16129502422897668,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2015,25420,24,24,0.16085685878702058,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2016,25420,24,24,0.16505774065925158,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2017,25420,24,24,0.16248262272070832,2.0,0,1
+"Harrisburg-Carlisle, PA Metro Area-Bus",2018,25420,24,24,0.1627932941460955,2.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2012,25500,31,31,0.10429844024240818,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2013,25500,31,31,0.10284471190311477,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2014,25500,31,31,0.11002835015332225,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2015,25500,31,31,0.11491644823066842,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2016,25500,31,31,0.10796163751560253,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2017,25500,31,31,0.11041532441818439,3.0,0,1
+"Harrisonburg, VA Metro Area-Bus",2018,25500,31,31,0.11105081716036773,3.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2012,25540,23,23,0.23755504747504988,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2013,25540,23,23,0.23922518280000463,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2014,25540,23,23,0.23288241346450803,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2015,25540,23,23,0.2374163199431664,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2016,25540,23,23,0.23517434502726936,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2017,25540,23,23,0.23627711484430255,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Bus",2018,25540,23,23,0.23627296125557462,2.0,0,1
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2012,25540,23,23,0.23755504747504988,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2013,25540,23,23,0.23922518280000463,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2014,25540,23,23,0.23288241346450803,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2015,25540,23,23,0.2374163199431664,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2016,25540,23,23,0.23517434502726936,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2017,25540,23,23,0.23627711484430255,2.0,1,0
+"Hartford-West Hartford-East Hartford, CT Metro Area-Rail",2018,25540,23,23,0.23627296125557462,2.0,1,0
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2012,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2013,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2014,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2015,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2016,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2017,25860,34,34,,3.0,0,1
+"Hickory-Lenoir-Morganton, NC Metro Area-Bus",2018,25860,34,34,,3.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2012,26420,10,14,0.4071770939653736,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2013,26420,10,14,0.4061833198329711,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2014,26420,10,14,0.40353225969935336,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2015,26420,10,14,0.40354088629018847,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2016,26420,10,14,0.3972833047170752,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2017,26420,10,14,0.3937229254463063,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Bus",2018,26420,10,14,0.3981565898707306,1.0,0,1
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2012,26420,10,14,0.4071770939653736,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2013,26420,10,14,0.4061833198329711,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2014,26420,10,14,0.40353225969935336,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2015,26420,10,14,0.40354088629018847,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2016,26420,10,14,0.3972833047170752,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2017,26420,10,14,0.3937229254463063,1.0,1,0
+"Houston-Sugar Land-Baytown, TX Metro Area-Rail",2018,26420,10,14,0.3981565898707306,1.0,1,0
+"Huntsville, AL Metro Area-Bus",2012,26620,34,34,0.06715633326132354,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2013,26620,34,34,0.06836587977073899,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2014,26620,34,34,0.06857262745646549,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2015,26620,34,34,0.07016941672591757,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2016,26620,34,34,0.07206195922713575,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2017,26620,34,34,0.07185285427987025,3.0,0,1
+"Huntsville, AL Metro Area-Bus",2018,26620,34,34,0.0713788797559648,3.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2012,26900,24,24,0.19581235592337595,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2013,26900,24,24,0.19420643795300277,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2014,26900,24,24,0.18916683708293386,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2015,26900,24,24,0.20114656147263418,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2016,26900,24,24,0.19755262574119706,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2017,26900,24,24,0.19537777970457873,2.0,0,1
+"Indianapolis-Carmel, IN Metro Area-Bus",2018,26900,24,24,0.1979833786707222,2.0,0,1
+"Iowa City, IA Metro Area-Bus",2012,26980,31,31,0.365495582420493,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2013,26980,31,31,0.3647942662233928,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2014,26980,31,31,0.3646204398416522,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2015,26980,31,31,0.3674122525258424,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2016,26980,31,31,0.3633102741480912,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2017,26980,31,31,0.36075219130824115,3.0,0,1
+"Iowa City, IA Metro Area-Bus",2018,26980,31,31,0.3638066952451114,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2012,27060,31,31,0.1897913860268686,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2013,27060,31,31,0.196571290595195,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2014,27060,31,31,0.19051915680723638,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2015,27060,31,31,0.1921209408037467,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2016,27060,31,31,0.1831649905823521,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2017,27060,31,31,0.18491663869307373,3.0,0,1
+"Ithaca, NY Metro Area-Bus",2018,27060,31,31,0.18666985939522732,3.0,0,1
+"Jackson, MI Metro Area-Bus",2012,27100,34,34,0.2480665603310773,3.0,0,1
+"Jackson, MI Metro Area-Bus",2013,27100,34,34,0.25572743632336653,3.0,0,1
+"Jackson, MI Metro Area-Bus",2014,27100,34,34,0.2559516616314199,3.0,0,1
+"Jackson, MI Metro Area-Bus",2015,27100,34,34,0.23779395061209035,3.0,0,1
+"Jackson, MI Metro Area-Bus",2016,27100,34,34,0.24268479747937483,3.0,0,1
+"Jackson, MI Metro Area-Bus",2017,27100,34,34,0.23733926151201612,3.0,0,1
+"Jackson, MI Metro Area-Bus",2018,27100,34,34,0.239277708730969,3.0,0,1
+"Jackson, MS Metro Area-Bus",2012,27140,34,34,0.13575888025829114,3.0,0,1
+"Jackson, MS Metro Area-Bus",2013,27140,34,34,0.1322717022004107,3.0,0,1
+"Jackson, MS Metro Area-Bus",2014,27140,34,34,0.1317269857270135,3.0,0,1
+"Jackson, MS Metro Area-Bus",2015,27140,34,34,0.1274844914642943,3.0,0,1
+"Jackson, MS Metro Area-Bus",2016,27140,34,34,0.12414596805520646,3.0,0,1
+"Jackson, MS Metro Area-Bus",2017,27140,34,34,0.12096175004608085,3.0,0,1
+"Jackson, MS Metro Area-Bus",2018,27140,34,34,0.12418410467898781,3.0,0,1
+"Jackson, TN Metro Area-Bus",2012,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2013,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2014,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2015,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2016,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2017,27180,34,34,,3.0,0,1
+"Jackson, TN Metro Area-Bus",2018,27180,34,34,,3.0,0,1
+"Jacksonville, FL Metro Area-Bus",2012,27260,24,24,0.17994801994891468,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2013,27260,24,24,0.18116249963617312,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2014,27260,24,24,0.18063254255493966,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2015,27260,24,24,0.17901913717404622,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2016,27260,24,24,0.17774096735632325,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2017,27260,24,24,0.17418673840168122,2.0,0,1
+"Jacksonville, FL Metro Area-Bus",2018,27260,24,24,0.1768917258272946,2.0,0,1
+"Johnstown, PA Metro Area-Bus",2012,27780,33,33,0.13377929440652872,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2013,27780,33,33,0.13554479375376238,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2014,27780,33,33,0.1170543263905773,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2015,27780,33,33,0.1175009360987059,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2016,27780,33,33,0.11832142229782827,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2017,27780,33,33,0.11731343007842449,3.0,0,1
+"Johnstown, PA Metro Area-Bus",2018,27780,33,33,0.11771095094763391,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2012,28020,33,33,0.15797888301264018,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2013,28020,33,33,0.15948803033894288,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2014,28020,33,33,0.15399004183873563,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2015,28020,33,33,0.1509225203888027,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2016,28020,33,33,0.14819137520467537,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2017,28020,33,33,0.1293677537989178,3.0,0,1
+"Kalamazoo-Portage, MI Metro Area-Bus",2018,28020,33,33,0.1427367377998864,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2012,28100,33,33,0.13313943392950164,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2013,28100,33,33,0.13760625600812243,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2014,28100,33,33,0.1381630605478974,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2015,28100,33,33,0.14238935136456904,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2016,28100,33,33,0.1380959372443736,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2017,28100,33,33,0.1348657531907628,3.0,0,1
+"Kankakee-Bradley, IL Metro Area-Bus",2018,28100,33,33,0.13845317019931405,3.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2012,28140,24,24,0.21427248023715414,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2013,28140,24,24,0.21497401131839597,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2014,28140,24,24,0.20933765552952252,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2015,28140,24,24,0.2098604479895703,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2016,28140,24,24,0.21167412193869264,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2017,28140,24,24,0.20933014527092023,2.0,0,1
+"Kansas City, MO-KS Metro Area-Bus",2018,28140,24,24,0.21027361083488474,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2012,28420,24,24,0.25195555682282605,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2013,28420,24,24,0.2608601563749612,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2014,28420,24,24,0.2527387224347874,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2015,28420,24,24,0.25306517199692274,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2016,28420,24,24,0.2579154857544697,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2017,28420,24,24,0.2614354334824718,2.0,0,1
+"Kennewick-Pasco-Richland, WA Metro Area-Bus",2018,28420,24,24,0.25753102176841813,2.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2012,28660,32,32,0.10262103505843072,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2013,28660,32,32,0.10431907334004231,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2014,28660,32,32,0.101064194434251,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2015,28660,32,32,0.09533487513724391,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2016,28660,32,32,0.09306063714158871,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2017,28660,32,32,0.09479552495436332,3.0,0,1
+"Killeen-Temple-Fort Hood, TX Metro Area-Bus",2018,28660,32,32,0.0943784777392729,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2012,28940,34,34,0.09613691121464091,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2013,28940,34,34,0.0967932040649121,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2014,28940,34,34,0.09391302371757634,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2015,28940,34,34,0.09356548614726767,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2016,28940,34,34,0.09044704066446922,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2017,28940,34,34,0.0901103672203895,3.0,0,1
+"Knoxville, TN Metro Area-Bus",2018,28940,34,34,0.09134996666949684,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2012,29100,31,31,0.11627228051964902,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2013,29100,31,31,0.11101138264452695,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2014,29100,31,31,0.11232340301078064,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2015,29100,31,31,0.11544404910017354,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2016,29100,31,31,0.11386937982065592,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2017,29100,31,31,0.12143311296833945,3.0,0,1
+"La Crosse, WI-MN Metro Area-Bus",2018,29100,31,31,0.11695567097224105,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2012,29140,31,31,0.24568495915850483,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2013,29140,31,31,0.2411236291292373,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2014,29140,31,31,0.2424456337349925,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2015,29140,31,31,0.24554275965024525,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2016,29140,31,31,0.23823994935106046,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2017,29140,31,31,0.23468575557952726,3.0,0,1
+"Lafayette, IN Metro Area-Bus",2018,29140,31,31,0.23945633077846587,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2012,29180,34,34,0.10798917293233083,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2013,29180,34,34,0.10724042081896078,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2014,29180,34,34,0.1037608141280774,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2015,29180,34,34,0.10852572742600135,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2016,29180,34,34,0.1118790573678748,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2017,29180,34,34,0.11754366243242415,3.0,0,1
+"Lafayette, LA Metro Area-Bus",2018,29180,34,34,0.11254815400606295,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2012,29460,34,34,0.11249111637380028,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2013,29460,34,34,0.11039615265780954,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2014,29460,34,34,0.1040621213790065,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2015,29460,34,34,0.10161196259172704,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2016,29460,34,34,0.09947802742074387,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2017,29460,34,34,0.09799890079909533,3.0,0,1
+"Lakeland-Winter Haven, FL Metro Area-Bus",2018,29460,34,34,0.09965806955180777,3.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2012,29620,23,23,0.24805476150799247,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2013,29620,23,23,0.25212523498195005,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2014,29620,23,23,0.2430258795648502,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2015,29620,23,23,0.23829806713928708,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2016,29620,23,23,0.17847156184105445,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2017,29620,23,23,0.21578931393478282,2.0,0,1
+"Lansing-East Lansing, MI Metro Area-Bus",2018,29620,23,23,0.2113703071077491,2.0,0,1
+"Laredo, TX Metro Area-Bus",2012,29700,31,31,0.4448559837493417,3.0,0,1
+"Laredo, TX Metro Area-Bus",2013,29700,31,31,0.43955626344762067,3.0,0,1
+"Laredo, TX Metro Area-Bus",2014,29700,31,31,0.44383283483796615,3.0,0,1
+"Laredo, TX Metro Area-Bus",2015,29700,31,31,0.4358500907267184,3.0,0,1
+"Laredo, TX Metro Area-Bus",2016,29700,31,31,0.41532207235598134,3.0,0,1
+"Laredo, TX Metro Area-Bus",2017,29700,31,31,0.412485332081671,3.0,0,1
+"Laredo, TX Metro Area-Bus",2018,29700,31,31,0.42113517078784146,3.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2012,29820,21,21,0.6628728289738882,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2013,29820,21,21,0.660871481004445,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2014,29820,21,21,0.6568596213777385,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2015,29820,21,21,0.6551544794679118,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2016,29820,21,21,0.6517952248928067,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2017,29820,21,21,0.6489215325794825,2.0,0,1
+"Las Vegas-Paradise, NV Metro Area-Bus",2018,29820,21,21,0.651900434704808,2.0,0,1
+"Lebanon, PA Metro Area-Bus",2012,30140,32,32,0.19920530047830862,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2013,30140,32,32,0.19911516973426732,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2014,30140,32,32,0.1565030027964975,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2015,30140,32,32,0.16050290419822072,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2016,30140,32,32,0.17121559118056492,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2017,30140,32,32,0.16901609634595985,3.0,0,1
+"Lebanon, PA Metro Area-Bus",2018,30140,32,32,0.16696471041587635,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2012,30460,31,31,0.2861536448108886,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2013,30460,31,31,0.2838597482772863,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2014,30460,31,31,0.2894014382001639,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2015,30460,31,31,0.27727294071051023,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2016,30460,31,31,0.2613621388495098,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2017,30460,31,31,0.25884128894764885,3.0,0,1
+"Lexington-Fayette, KY Metro Area-Bus",2018,30460,31,31,0.26571355874816427,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2012,30700,31,31,0.36814257511633025,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2013,30700,31,31,0.3655883861668749,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2014,30700,31,31,0.36653833226388,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2015,30700,31,31,0.3678877027622074,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2016,30700,31,31,0.367744419009894,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2017,30700,31,31,0.3676388060748483,3.0,0,1
+"Lincoln, NE Metro Area-Bus",2018,30700,31,31,0.3677562252895545,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2012,30780,34,34,0.16629153558242674,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2013,30780,34,34,0.1662399916303002,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2014,30780,34,34,0.1650125050193978,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2015,30780,34,34,0.1626552848807052,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2016,30780,34,34,0.15962097792086632,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2017,30780,34,34,0.16252018849138902,3.0,0,1
+"Little Rock-North Little Rock-Conway, AR Metro Area-Bus",2018,30780,34,34,0.1615981833558313,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2012,30860,31,31,0.20409099150020796,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2013,30860,31,31,0.2018784209653342,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2014,30860,31,31,0.1963082914423096,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2015,30860,31,31,0.20180207726191274,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2016,30860,31,31,0.194828550130451,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2017,30860,31,31,0.1959216494100215,3.0,0,1
+"Logan, UT-ID Metro Area-Bus",2018,30860,31,31,0.19746543564568167,3.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2012,31100,10,12,0.856087473898281,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2013,31100,10,12,0.8567557536435345,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2014,31100,10,12,0.855994476309217,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2015,31100,10,12,0.8571478354876106,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2016,31100,10,12,0.8578059491956047,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2017,31100,10,12,0.8571444070172777,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Bus",2018,31100,10,12,0.8573165433905954,1.0,0,1
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2012,31100,10,12,0.856087473898281,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2013,31100,10,12,0.8567557536435345,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2014,31100,10,12,0.855994476309217,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2015,31100,10,12,0.8571478354876106,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2016,31100,10,12,0.8578059491956047,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2017,31100,10,12,0.8571444070172777,1.0,1,0
+"Los Angeles-Long Beach-Santa Ana, CA Metro Area-Rail",2018,31100,10,12,0.8573165433905954,1.0,1,0
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2012,31140,24,24,0.26276764451610507,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2013,31140,24,24,0.2634177028081525,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2014,31140,24,24,0.2650479140295559,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2015,31140,24,24,0.2635642215744986,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2016,31140,24,24,0.2574693843382397,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2017,31140,24,24,0.2532785290242728,2.0,0,1
+"Louisville/Jefferson County, KY-IN Metro Area-Bus",2018,31140,24,24,0.2580357531031685,2.0,0,1
+"Lubbock, TX Metro Area-Bus",2012,31180,31,31,0.37039424334603627,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2013,31180,31,31,0.3662442776048343,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2014,31180,31,31,0.3594124335805365,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2015,31180,31,31,0.3552808871402956,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2016,31180,31,31,0.35213632282058605,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2017,31180,31,31,0.3458414714923827,3.0,0,1
+"Lubbock, TX Metro Area-Bus",2018,31180,31,31,0.3510472065511599,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2012,31340,33,33,0.041497104914519765,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2013,31340,33,33,0.039168834759255325,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2014,31340,33,33,0.039019554387965005,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2015,31340,33,33,0.0404315974897081,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2016,31340,33,33,0.040499667438597516,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2017,31340,33,33,0.03953805398716065,3.0,0,1
+"Lynchburg, VA Metro Area-Bus",2018,31340,33,33,0.04015457915613921,3.0,0,1
+"Madison, WI Metro Area-Bus",2012,31540,21,21,0.2534870152677701,2.0,0,1
+"Madison, WI Metro Area-Bus",2013,31540,21,21,0.24910032143855398,2.0,0,1
+"Madison, WI Metro Area-Bus",2014,31540,21,21,0.24877358380898132,2.0,0,1
+"Madison, WI Metro Area-Bus",2015,31540,21,21,0.2548264871233045,2.0,0,1
+"Madison, WI Metro Area-Bus",2016,31540,21,21,0.24519374582547374,2.0,0,1
+"Madison, WI Metro Area-Bus",2017,31540,21,21,0.24183734156800887,2.0,0,1
+"Madison, WI Metro Area-Bus",2018,31540,21,21,0.2470645416049005,2.0,0,1
+"Medford, OR Metro Area-Bus",2012,32780,32,32,0.28761317011969756,3.0,0,1
+"Medford, OR Metro Area-Bus",2013,32780,32,32,0.28666810816477634,3.0,0,1
+"Medford, OR Metro Area-Bus",2014,32780,32,32,0.2902803450400493,3.0,0,1
+"Medford, OR Metro Area-Bus",2015,32780,32,32,0.28583100488973157,3.0,0,1
+"Medford, OR Metro Area-Bus",2016,32780,32,32,0.2864467284793598,3.0,0,1
+"Medford, OR Metro Area-Bus",2017,32780,32,32,0.281280163741874,3.0,0,1
+"Medford, OR Metro Area-Bus",2018,32780,32,32,0.28446932521481366,3.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2012,32820,24,24,0.20779023188991694,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2013,32820,24,24,0.20697799527410923,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2014,32820,24,24,0.2045096690852769,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2015,32820,24,24,0.19486815267679755,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2016,32820,24,24,0.19311046934408177,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2017,32820,24,24,0.19416664771423314,2.0,0,1
+"Memphis, TN-MS-AR Metro Area-Bus",2018,32820,24,24,0.19404352631090108,2.0,0,1
+"Merced, CA Metro Area-Bus",2012,32900,32,32,0.18513548317134995,3.0,0,1
+"Merced, CA Metro Area-Bus",2013,32900,32,32,0.18122838228388896,3.0,0,1
+"Merced, CA Metro Area-Bus",2014,32900,32,32,0.1745845801235118,3.0,0,1
+"Merced, CA Metro Area-Bus",2015,32900,32,32,0.17229558864849676,3.0,0,1
+"Merced, CA Metro Area-Bus",2016,32900,32,32,0.17172637967638626,3.0,0,1
+"Merced, CA Metro Area-Bus",2017,32900,32,32,0.1657937999060592,3.0,0,1
+"Merced, CA Metro Area-Bus",2018,32900,32,32,0.16987753837861536,3.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2012,33100,10,12,0.6404113640473914,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2013,33100,10,12,0.6376530478350756,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2014,33100,10,12,0.6335448244860774,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2015,33100,10,12,0.6334173696036977,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2016,33100,10,12,0.6322265733374812,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2017,33100,10,12,0.6294767268365928,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Bus",2018,33100,10,12,0.6316371296538319,1.0,0,1
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2012,33100,10,12,0.6404113640473914,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2013,33100,10,12,0.6376530478350756,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2014,33100,10,12,0.6335448244860774,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2015,33100,10,12,0.6334173696036977,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2016,33100,10,12,0.6322265733374812,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2017,33100,10,12,0.6294767268365928,1.0,1,0
+"Miami-Fort Lauderdale-Pompano Beach, FL Metro Area-Rail",2018,33100,10,12,0.6316371296538319,1.0,1,0
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2012,33340,21,21,0.35718750687541173,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2013,33340,21,21,0.35747930511833975,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2014,33340,21,21,0.366354014513116,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2015,33340,21,21,0.3713170819167765,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2016,33340,21,21,0.36974199911274386,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2017,33340,21,21,0.3671916626338764,2.0,0,1
+"Milwaukee-Waukesha-West Allis, WI Metro Area-Bus",2018,33340,21,21,0.36938505501207464,2.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2012,33460,10,14,0.3392899819573339,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2013,33460,10,14,0.33784426927346545,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2014,33460,10,14,0.3412739176229089,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2015,33460,10,14,0.33734834113233,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2016,33460,10,14,0.3369118294937558,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2017,33460,10,14,0.33565008324350776,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Bus",2018,33460,10,14,0.3366268260194446,1.0,0,1
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2012,33460,10,14,0.3392899819573339,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2013,33460,10,14,0.33784426927346545,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2014,33460,10,14,0.3412739176229089,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2015,33460,10,14,0.33734834113233,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2016,33460,10,14,0.3369118294937558,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2017,33460,10,14,0.33565008324350776,1.0,1,0
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area-Rail",2018,33460,10,14,0.3366268260194446,1.0,1,0
+"Missoula, MT Metro Area-Bus",2012,33540,31,31,0.30607678417209705,3.0,0,1
+"Missoula, MT Metro Area-Bus",2013,33540,31,31,0.29915822124247715,3.0,0,1
+"Missoula, MT Metro Area-Bus",2014,33540,31,31,0.286993459771513,3.0,0,1
+"Missoula, MT Metro Area-Bus",2015,33540,31,31,0.3144085111082479,3.0,0,1
+"Missoula, MT Metro Area-Bus",2016,33540,31,31,0.3108582223821518,3.0,0,1
+"Missoula, MT Metro Area-Bus",2017,33540,31,31,0.30587176364695295,3.0,0,1
+"Missoula, MT Metro Area-Bus",2018,33540,31,31,0.3103199855916432,3.0,0,1
+"Mobile, AL Metro Area-Bus",2012,33660,34,34,0.1625900586387496,3.0,0,1
+"Mobile, AL Metro Area-Bus",2013,33660,34,34,0.16566513114052828,3.0,0,1
+"Mobile, AL Metro Area-Bus",2014,33660,34,34,0.16148968386453555,3.0,0,1
+"Mobile, AL Metro Area-Bus",2015,33660,34,34,0.16514850122962801,3.0,0,1
+"Mobile, AL Metro Area-Bus",2016,33660,34,34,0.16236826924429812,3.0,0,1
+"Mobile, AL Metro Area-Bus",2017,33660,34,34,0.16393734374779304,3.0,0,1
+"Mobile, AL Metro Area-Bus",2018,33660,34,34,0.16379441486471805,3.0,0,1
+"Modesto, CA Metro Area-Bus",2012,33700,32,32,0.4305180090348008,3.0,0,1
+"Modesto, CA Metro Area-Bus",2013,33700,32,32,0.42543895780721364,3.0,0,1
+"Modesto, CA Metro Area-Bus",2014,33700,32,32,0.4318308306853792,3.0,0,1
+"Modesto, CA Metro Area-Bus",2015,33700,32,32,0.4296462263522604,3.0,0,1
+"Modesto, CA Metro Area-Bus",2016,33700,32,32,0.42654612327833435,3.0,0,1
+"Modesto, CA Metro Area-Bus",2017,33700,32,32,0.4274395047833427,3.0,0,1
+"Modesto, CA Metro Area-Bus",2018,33700,32,32,0.4278527079236373,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2012,33860,34,34,0.1050806675092766,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2013,33860,34,34,0.10362696023813879,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2014,33860,34,34,0.09569346282434882,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2015,33860,34,34,0.10173082681316964,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2016,33860,34,34,0.10068449259236824,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2017,33860,34,34,0.10103292344307814,3.0,0,1
+"Montgomery, AL Metro Area-Bus",2018,33860,34,34,0.10114525020298279,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2012,34580,33,33,0.1127448865107448,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2013,34580,33,33,0.11349888570518943,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2014,34580,33,33,0.11594112898217723,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2015,34580,33,33,0.11538461538461539,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2016,34580,33,33,0.11509551680085564,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2017,34580,33,33,0.11694087553049241,3.0,0,1
+"Mount Vernon-Anacortes, WA Metro Area-Bus",2018,34580,33,33,0.11569954071806016,3.0,0,1
+"Muncie, IN Metro Area-Bus",2012,34620,31,31,0.1756525459991442,3.0,0,1
+"Muncie, IN Metro Area-Bus",2013,34620,31,31,0.17757073137435583,3.0,0,1
+"Muncie, IN Metro Area-Bus",2014,34620,31,31,0.17676878233118656,3.0,0,1
+"Muncie, IN Metro Area-Bus",2015,34620,31,31,0.18351446021196335,3.0,0,1
+"Muncie, IN Metro Area-Bus",2016,34620,31,31,0.18425292862430867,3.0,0,1
+"Muncie, IN Metro Area-Bus",2017,34620,31,31,0.18544498505443677,3.0,0,1
+"Muncie, IN Metro Area-Bus",2018,34620,31,31,0.1844124876187682,3.0,0,1
+"Napa, CA Metro Area-Bus",2012,34900,31,31,0.3334177335380038,3.0,0,1
+"Napa, CA Metro Area-Bus",2013,34900,31,31,0.336606411695126,3.0,0,1
+"Napa, CA Metro Area-Bus",2014,34900,31,31,0.325183834172891,3.0,0,1
+"Napa, CA Metro Area-Bus",2015,34900,31,31,0.3277140022675737,3.0,0,1
+"Napa, CA Metro Area-Bus",2016,34900,31,31,0.32915242675873013,3.0,0,1
+"Napa, CA Metro Area-Bus",2017,34900,31,31,0.32700961057719014,3.0,0,1
+"Napa, CA Metro Area-Bus",2018,34900,31,31,0.3279593840441981,3.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2012,34980,24,24,0.20528741432073846,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2013,34980,24,24,0.20156589799897048,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2014,34980,24,24,0.19984040189704108,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2015,34980,24,24,0.19727213445213462,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2016,34980,24,24,0.19577069610231732,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2017,34980,24,24,0.18776127305029378,2.0,0,1
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area-Bus",2018,34980,24,24,0.19350188046124073,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2012,35300,21,21,0.29209757573956024,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2013,35300,21,21,0.297965707643127,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2014,35300,21,21,0.29674798339473524,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2015,35300,21,21,0.30169920533957195,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2016,35300,21,21,0.2774704001348093,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2017,35300,21,21,0.2997562128282669,2.0,0,1
+"New Haven-Milford, CT Metro Area-Bus",2018,35300,21,21,0.29309892646464525,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2012,35380,21,21,0.47361549352649474,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2013,35380,21,21,0.4741944588873208,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2014,35380,21,21,0.47686004525540415,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2015,35380,21,21,0.4791476662648767,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2016,35380,21,21,0.47922413817312454,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2017,35380,21,21,0.47288423883086295,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Bus",2018,35380,21,21,0.47697293874819563,2.0,0,1
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2012,35380,21,21,0.47361549352649474,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2013,35380,21,21,0.4741944588873208,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2014,35380,21,21,0.47686004525540415,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2015,35380,21,21,0.4791476662648767,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2016,35380,21,21,0.47922413817312454,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2017,35380,21,21,0.47288423883086295,2.0,1,0
+"New Orleans-Metairie-Kenner, LA Metro Area-Rail",2018,35380,21,21,0.47697293874819563,2.0,1,0
+"Niles-Benton Harbor, MI Metro Area-Bus",2012,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2013,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2014,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2015,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2016,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2017,35660,34,34,,3.0,0,1
+"Niles-Benton Harbor, MI Metro Area-Bus",2018,35660,34,34,,3.0,0,1
+"Ocala, FL Metro Area-Bus",2012,36100,34,34,0.0950316842165953,3.0,0,1
+"Ocala, FL Metro Area-Bus",2013,36100,34,34,0.09436268190303318,3.0,0,1
+"Ocala, FL Metro Area-Bus",2014,36100,34,34,0.09329751983130836,3.0,0,1
+"Ocala, FL Metro Area-Bus",2015,36100,34,34,0.09976693302891933,3.0,0,1
+"Ocala, FL Metro Area-Bus",2016,36100,34,34,0.1007106552287206,3.0,0,1
+"Ocala, FL Metro Area-Bus",2017,36100,34,34,0.09972441601905183,3.0,0,1
+"Ocala, FL Metro Area-Bus",2018,36100,34,34,0.10006837543658637,3.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2012,36420,24,24,0.25193167991490045,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2013,36420,24,24,0.25003147256797403,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2014,36420,24,24,0.24854779444083053,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2015,36420,24,24,0.2459684383138146,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2016,36420,24,24,0.2350819691895397,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2017,36420,24,24,0.2298868399174668,2.0,0,1
+"Oklahoma City, OK Metro Area-Bus",2018,36420,24,24,0.2370017355840556,2.0,0,1
+"Olympia, WA Metro Area-Bus",2012,36500,23,23,0.2230079721581482,2.0,0,1
+"Olympia, WA Metro Area-Bus",2013,36500,23,23,0.22567893603445527,2.0,0,1
+"Olympia, WA Metro Area-Bus",2014,36500,23,23,0.22683395770153217,2.0,0,1
+"Olympia, WA Metro Area-Bus",2015,36500,23,23,0.23609472326647093,2.0,0,1
+"Olympia, WA Metro Area-Bus",2016,36500,23,23,0.22731205645143213,2.0,0,1
+"Olympia, WA Metro Area-Bus",2017,36500,23,23,0.22961863389290313,2.0,0,1
+"Olympia, WA Metro Area-Bus",2018,36500,23,23,0.23226179012556977,2.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2012,36540,32,32,0.31107176090520205,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2013,36540,32,32,0.30712912482874877,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2014,36540,32,32,0.3005588301323672,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2015,36540,32,32,0.30811963044510643,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2016,36540,32,32,0.3049874306890013,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2017,36540,32,32,0.3049828849102486,3.0,0,1
+"Omaha-Council Bluffs, NE-IA Metro Area-Bus",2018,36540,32,32,0.3060148640440965,3.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2012,36740,24,24,0.22270678768249663,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2013,36740,24,24,0.21942468497835155,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2014,36740,24,24,0.21752708764576226,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2015,36740,24,24,0.23098051473281292,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2016,36740,24,24,0.21798578634520496,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2017,36740,24,24,0.21612553340814497,2.0,0,1
+"Orlando-Kissimmee-Sanford, FL Metro Area-Bus",2018,36740,24,24,0.22146165602711518,2.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2012,36780,32,32,0.2091171181457483,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2013,36780,32,32,0.2156066317586535,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2014,36780,32,32,0.21097107176184607,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2015,36780,32,32,0.21929570506158746,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2016,36780,32,32,0.2160818486818066,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2017,36780,32,32,0.21676190268478332,3.0,0,1
+"Oshkosh-Neenah, WI Metro Area-Bus",2018,36780,32,32,0.21736055439429314,3.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2012,37100,22,22,0.44942442528109644,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2013,37100,22,22,0.45217940447287436,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2014,37100,22,22,0.45067890154251794,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2015,37100,22,22,0.45782874653850014,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2016,37100,22,22,0.45683440226740374,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2017,37100,22,22,0.4576951418684723,2.0,0,1
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area-Bus",2018,37100,22,22,0.4554306689919968,2.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2012,37340,32,32,0.04401509621507447,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2013,37340,32,32,0.042490629359003995,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2014,37340,32,32,0.034516777791585615,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2015,37340,32,32,0.033996505996564966,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2016,37340,32,32,0.03401456200769808,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2017,37340,32,32,0.034496265975644244,3.0,0,1
+"Palm Bay-Melbourne-Titusville, FL Metro Area-Bus",2018,37340,32,32,0.034171749784990844,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2012,37860,34,34,0.15994646094548565,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2013,37860,34,34,0.16578329850450052,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2014,37860,34,34,0.16058352484405555,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2015,37860,34,34,0.15604326247238717,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2016,37860,34,34,0.15370205889758637,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2017,37860,34,34,0.15379120907978425,3.0,0,1
+"Pensacola-Ferry Pass-Brent, FL Metro Area-Bus",2018,37860,34,34,0.1544518862277919,3.0,0,1
+"Peoria, IL Metro Area-Bus",2012,37900,33,33,0.13518770254836648,3.0,0,1
+"Peoria, IL Metro Area-Bus",2013,37900,33,33,0.1380599543984362,3.0,0,1
+"Peoria, IL Metro Area-Bus",2014,37900,33,33,0.13390869049360443,3.0,0,1
+"Peoria, IL Metro Area-Bus",2015,37900,33,33,0.1278667178787309,3.0,0,1
+"Peoria, IL Metro Area-Bus",2016,37900,33,33,0.1297847714057376,3.0,0,1
+"Peoria, IL Metro Area-Bus",2017,37900,33,33,0.1481380019317559,3.0,0,1
+"Peoria, IL Metro Area-Bus",2018,37900,33,33,0.13512992445941296,3.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2012,37980,10,11,0.3919836346869749,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2013,37980,10,11,0.3966451405572452,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2014,37980,10,11,0.3985412840177783,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2015,37980,10,11,0.40058707087739875,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2016,37980,10,11,0.4008590358742421,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2017,37980,10,11,0.40074351959551513,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Bus",2018,37980,10,11,0.4007206644317952,1.0,0,1
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2012,37980,10,11,0.3919836346869749,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2013,37980,10,11,0.3966451405572452,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2014,37980,10,11,0.3985412840177783,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2015,37980,10,11,0.40058707087739875,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2016,37980,10,11,0.4008590358742421,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2017,37980,10,11,0.40074351959551513,1.0,1,0
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area-Rail",2018,37980,10,11,0.4007206644317952,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2012,38060,10,14,0.4506223850393342,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2013,38060,10,14,0.44918913955578144,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2014,38060,10,14,0.4473556369806595,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2015,38060,10,14,0.4475047029646361,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2016,38060,10,14,0.4413847415050762,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2017,38060,10,14,0.43876503798738714,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Bus",2018,38060,10,14,0.4424721660507979,1.0,0,1
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2012,38060,10,14,0.4506223850393342,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2013,38060,10,14,0.44918913955578144,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2014,38060,10,14,0.4473556369806595,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2015,38060,10,14,0.4475047029646361,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2016,38060,10,14,0.4413847415050762,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2017,38060,10,14,0.43876503798738714,1.0,1,0
+"Phoenix-Mesa-Glendale, AZ Metro Area-Rail",2018,38060,10,14,0.4424721660507979,1.0,1,0
+"Pittsburgh, PA Metro Area-Bus",2012,38300,10,14,0.28700594909226385,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2013,38300,10,14,0.2882049822679387,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2014,38300,10,14,0.2839528487835064,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2015,38300,10,14,0.28402768280168356,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2016,38300,10,14,0.28386182274009186,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2017,38300,10,14,0.28440582841237394,1.0,0,1
+"Pittsburgh, PA Metro Area-Bus",2018,38300,10,14,0.2840942193012991,1.0,0,1
+"Pittsburgh, PA Metro Area-Rail",2012,38300,10,14,0.28700594909226385,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2013,38300,10,14,0.2882049822679387,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2014,38300,10,14,0.2839528487835064,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2015,38300,10,14,0.28402768280168356,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2016,38300,10,14,0.28386182274009186,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2017,38300,10,14,0.28440582841237394,1.0,1,0
+"Pittsburgh, PA Metro Area-Rail",2018,38300,10,14,0.2840942193012991,1.0,1,0
+"Pittsfield, MA Metro Area-Bus",2012,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2013,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2014,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2015,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2016,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2017,38340,34,34,,3.0,0,1
+"Pittsfield, MA Metro Area-Bus",2018,38340,34,34,,3.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2012,38860,23,23,0.13962557537161996,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2013,38860,23,23,0.14107779805052847,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2014,38860,23,23,0.14198562372350865,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2015,38860,23,23,0.135422230252538,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2016,38860,23,23,0.14332918358561472,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2017,38860,23,23,0.14182367908195695,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Bus",2018,38860,23,23,0.1402118921608452,2.0,0,1
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2012,38860,23,23,0.13962557537161996,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2013,38860,23,23,0.14107779805052847,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2014,38860,23,23,0.14198562372350865,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2015,38860,23,23,0.135422230252538,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2016,38860,23,23,0.14332918358561472,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2017,38860,23,23,0.14182367908195695,2.0,1,0
+"Portland-South Portland-Biddeford, ME Metro Area-Rail",2018,38860,23,23,0.1402118921608452,2.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2012,38900,10,13,0.4895791412581791,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2013,38900,10,13,0.48692469726870796,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2014,38900,10,13,0.4883644725413572,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2015,38900,10,13,0.489992094211409,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2016,38900,10,13,0.48876091357726265,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2017,38900,10,13,0.4862309992821529,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Bus",2018,38900,10,13,0.48829611476800444,1.0,0,1
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2012,38900,10,13,0.4895791412581791,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2013,38900,10,13,0.48692469726870796,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2014,38900,10,13,0.4883644725413572,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2015,38900,10,13,0.489992094211409,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2016,38900,10,13,0.48876091357726265,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2017,38900,10,13,0.4862309992821529,1.0,1,0
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area-Rail",2018,38900,10,13,0.48829611476800444,1.0,1,0
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2012,39300,22,22,0.3937187168921594,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2013,39300,22,22,0.39339768500193534,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2014,39300,22,22,0.39269144829080593,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2015,39300,22,22,0.39543723012530135,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2016,39300,22,22,0.3972445932211525,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2017,39300,22,22,0.3970095462967382,2.0,0,1
+"Providence-New Bedford-Fall River, RI-MA Metro Area-Bus",2018,39300,22,22,0.3965276513082014,2.0,0,1
+"Pueblo, CO Metro Area-Bus",2012,39380,32,32,0.21731361951132352,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2013,39380,32,32,0.2161169177865255,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2014,39380,32,32,0.213590692755156,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2015,39380,32,32,0.20990690470922613,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2016,39380,32,32,0.20915241685741215,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2017,39380,32,32,0.2059967558262712,3.0,0,1
+"Pueblo, CO Metro Area-Bus",2018,39380,32,32,0.20833310002295768,3.0,0,1
+"Racine, WI Metro Area-Bus",2012,39540,31,31,0.2223904704219665,3.0,0,1
+"Racine, WI Metro Area-Bus",2013,39540,31,31,0.22302025453657548,3.0,0,1
+"Racine, WI Metro Area-Bus",2014,39540,31,31,0.2224237427864798,3.0,0,1
+"Racine, WI Metro Area-Bus",2015,39540,31,31,0.22967989637184769,3.0,0,1
+"Racine, WI Metro Area-Bus",2016,39540,31,31,0.2284666685913907,3.0,0,1
+"Racine, WI Metro Area-Bus",2017,39540,31,31,0.2257966319755554,3.0,0,1
+"Racine, WI Metro Area-Bus",2018,39540,31,31,0.2278724224320679,3.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2012,39580,24,24,0.21456045827194484,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2013,39580,24,24,0.19353767437197444,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2014,39580,24,24,0.19417419107821585,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2015,39580,24,24,0.1863012490527581,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2016,39580,24,24,0.18086329935051906,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2017,39580,24,24,0.18329957159562274,2.0,0,1
+"Raleigh-Cary, NC Metro Area-Bus",2018,39580,24,24,0.18345592830380816,2.0,0,1
+"Redding, CA Metro Area-Bus",2012,39820,34,34,0.05013240799926948,3.0,0,1
+"Redding, CA Metro Area-Bus",2013,39820,34,34,0.04857500223353882,3.0,0,1
+"Redding, CA Metro Area-Bus",2014,39820,34,34,0.045894344699125574,3.0,0,1
+"Redding, CA Metro Area-Bus",2015,39820,34,34,0.04638917388097035,3.0,0,1
+"Redding, CA Metro Area-Bus",2016,39820,34,34,0.04661631940173674,3.0,0,1
+"Redding, CA Metro Area-Bus",2017,39820,34,34,0.04496443951455044,3.0,0,1
+"Redding, CA Metro Area-Bus",2018,39820,34,34,0.0459837019790454,3.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2012,39900,21,21,0.3732814133964445,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2013,39900,21,21,0.36875136300855366,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2014,39900,21,21,0.3721038273226808,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2015,39900,21,21,0.36809267185617234,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2016,39900,21,21,0.36700948057781874,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2017,39900,21,21,0.3641446243656776,2.0,0,1
+"Reno-Sparks, NV Metro Area-Bus",2018,39900,21,21,0.36624229132780783,2.0,0,1
+"Richmond, VA Metro Area-Bus",2012,40060,24,24,0.23387431933681585,2.0,0,1
+"Richmond, VA Metro Area-Bus",2013,40060,24,24,0.2300036109887818,2.0,0,1
+"Richmond, VA Metro Area-Bus",2014,40060,24,24,0.22500141532982332,2.0,0,1
+"Richmond, VA Metro Area-Bus",2015,40060,24,24,0.2289181926129617,2.0,0,1
+"Richmond, VA Metro Area-Bus",2016,40060,24,24,0.2284538014800619,2.0,0,1
+"Richmond, VA Metro Area-Bus",2017,40060,24,24,0.2279118351532511,2.0,0,1
+"Richmond, VA Metro Area-Bus",2018,40060,24,24,0.2284209053124699,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2012,40140,22,22,0.39368381722046075,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2013,40140,22,22,0.3928301978897732,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2014,40140,22,22,0.38790875158792054,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2015,40140,22,22,0.38990442577898043,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2016,40140,22,22,0.38646568178255297,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2017,40140,22,22,0.38309247127761137,2.0,0,1
+"Riverside-San Bernardino-Ontario, CA Metro Area-Bus",2018,40140,22,22,0.3864023701381293,2.0,0,1
+"Roanoke, VA Metro Area-Bus",2012,40220,33,33,0.055653122635366994,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2013,40220,33,33,0.05671650105494781,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2014,40220,33,33,0.05667808160126357,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2015,40220,33,33,0.0815621458776706,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2016,40220,33,33,0.08269561063853573,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2017,40220,33,33,0.08708398234241832,3.0,0,1
+"Roanoke, VA Metro Area-Bus",2018,40220,33,33,0.08379074449427944,3.0,0,1
+"Rochester, MN Metro Area-Bus",2012,40340,33,33,0.22481423479606488,3.0,0,1
+"Rochester, MN Metro Area-Bus",2013,40340,33,33,0.22907078676309445,3.0,0,1
+"Rochester, MN Metro Area-Bus",2014,40340,33,33,0.22758076219247847,3.0,0,1
+"Rochester, MN Metro Area-Bus",2015,40340,33,33,0.22567841484431506,3.0,0,1
+"Rochester, MN Metro Area-Bus",2016,40340,33,33,0.2348376120574956,3.0,0,1
+"Rochester, MN Metro Area-Bus",2017,40340,33,33,0.23814967098114553,3.0,0,1
+"Rochester, MN Metro Area-Bus",2018,40340,33,33,0.23295052913034128,3.0,0,1
+"Rochester, NY Metro Area-Bus",2012,40380,33,33,0.223406492736976,3.0,0,1
+"Rochester, NY Metro Area-Bus",2013,40380,33,33,0.2231315108432156,3.0,0,1
+"Rochester, NY Metro Area-Bus",2014,40380,33,33,0.22180300078435342,3.0,0,1
+"Rochester, NY Metro Area-Bus",2015,40380,33,33,0.2272711483398423,3.0,0,1
+"Rochester, NY Metro Area-Bus",2016,40380,33,33,0.23030668293423884,3.0,0,1
+"Rochester, NY Metro Area-Bus",2017,40380,33,33,0.23086761821779694,3.0,0,1
+"Rochester, NY Metro Area-Bus",2018,40380,33,33,0.2293945994902284,3.0,0,1
+"Rockford, IL Metro Area-Bus",2012,40420,32,32,0.1403966341957334,3.0,0,1
+"Rockford, IL Metro Area-Bus",2013,40420,32,32,0.12911824212212797,3.0,0,1
+"Rockford, IL Metro Area-Bus",2014,40420,32,32,0.1406184237322653,3.0,0,1
+"Rockford, IL Metro Area-Bus",2015,40420,32,32,0.12393448074012241,3.0,0,1
+"Rockford, IL Metro Area-Bus",2016,40420,32,32,0.1355641615232563,3.0,0,1
+"Rockford, IL Metro Area-Bus",2017,40420,32,32,0.1337881391258375,3.0,0,1
+"Rockford, IL Metro Area-Bus",2018,40420,32,32,0.13115944660299936,3.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2012,40900,22,22,0.4924369155893391,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2013,40900,22,22,0.48829860676199605,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2014,40900,22,22,0.48422268338488356,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2015,40900,22,22,0.4812089937093677,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2016,40900,22,22,0.4764249595706909,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2017,40900,22,22,0.47589160891162735,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Bus",2018,40900,22,22,0.47775491977412793,2.0,0,1
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2012,40900,22,22,0.4924369155893391,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2013,40900,22,22,0.48829860676199605,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2014,40900,22,22,0.48422268338488356,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2015,40900,22,22,0.4812089937093677,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2016,40900,22,22,0.4764249595706909,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2017,40900,22,22,0.47589160891162735,2.0,1,0
+"Sacramento--Arden-Arcade--Roseville, CA Metro Area-Rail",2018,40900,22,22,0.47775491977412793,2.0,1,0
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2012,40980,34,34,0.041292062676599024,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2013,40980,34,34,0.04015210315881474,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2014,40980,34,34,0.037371649772004065,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2015,40980,34,34,0.04174313112254129,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2016,40980,34,34,0.04003688965993151,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2017,40980,34,34,0.03383021326637638,3.0,0,1
+"Saginaw-Saginaw Township North, MI Metro Area-Bus",2018,40980,34,34,0.03851192820811425,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2012,41060,33,33,0.15040539162816655,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2013,41060,33,33,0.15050890314903745,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2014,41060,33,33,0.1519169445223479,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2015,41060,33,33,0.15576885327588724,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2016,41060,33,33,0.15409470973643133,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2017,41060,33,33,0.1416101015238356,3.0,0,1
+"St. Cloud, MN Metro Area-Bus",2018,41060,33,33,0.15042071732925164,3.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2012,41180,23,23,0.23663506274073304,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2013,41180,23,23,0.2373536468406076,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2014,41180,23,23,0.23321679669176598,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2015,41180,23,23,0.23476162386193047,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2016,41180,23,23,0.23061651559382193,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2017,41180,23,23,0.2258731861596885,2.0,0,1
+"St. Louis, MO-IL Metro Area-Bus",2018,41180,23,23,0.23036942284757056,2.0,0,1
+"St. Louis, MO-IL Metro Area-Rail",2012,41180,23,23,0.23663506274073304,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2013,41180,23,23,0.2373536468406076,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2014,41180,23,23,0.23321679669176598,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2015,41180,23,23,0.23476162386193047,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2016,41180,23,23,0.23061651559382193,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2017,41180,23,23,0.2258731861596885,2.0,1,0
+"St. Louis, MO-IL Metro Area-Rail",2018,41180,23,23,0.23036942284757056,2.0,1,0
+"Salem, OR Metro Area-Bus",2012,41420,24,24,0.2793077946045704,2.0,0,1
+"Salem, OR Metro Area-Bus",2013,41420,24,24,0.2764539492709064,2.0,0,1
+"Salem, OR Metro Area-Bus",2014,41420,24,24,0.2754436216740416,2.0,0,1
+"Salem, OR Metro Area-Bus",2015,41420,24,24,0.2732052795364309,2.0,0,1
+"Salem, OR Metro Area-Bus",2016,41420,24,24,0.27168621864864706,2.0,0,1
+"Salem, OR Metro Area-Bus",2017,41420,24,24,0.27072282921054663,2.0,0,1
+"Salem, OR Metro Area-Bus",2018,41420,24,24,0.2718423182424145,2.0,0,1
+"Salinas, CA Metro Area-Bus",2012,41500,22,22,0.36953226910619225,2.0,0,1
+"Salinas, CA Metro Area-Bus",2013,41500,22,22,0.3701651742356228,2.0,0,1
+"Salinas, CA Metro Area-Bus",2014,41500,22,22,0.3704771728124076,2.0,0,1
+"Salinas, CA Metro Area-Bus",2015,41500,22,22,0.3787042732568658,2.0,0,1
+"Salinas, CA Metro Area-Bus",2016,41500,22,22,0.3742761371201009,2.0,0,1
+"Salinas, CA Metro Area-Bus",2017,41500,22,22,0.37816445904731033,2.0,0,1
+"Salinas, CA Metro Area-Bus",2018,41500,22,22,0.37586062319033603,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2012,41620,21,21,0.5074211382715136,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2013,41620,21,21,0.5021799966742045,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2014,41620,21,21,0.49871832540490146,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2015,41620,21,21,0.4985524832713878,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2016,41620,21,21,0.49173517533479066,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2017,41620,21,21,0.48801332481031306,2.0,0,1
+"Salt Lake City, UT Metro Area-Bus",2018,41620,21,21,0.49266835152266897,2.0,0,1
+"Salt Lake City, UT Metro Area-Rail",2012,41620,21,21,0.5074211382715136,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2013,41620,21,21,0.5021799966742045,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2014,41620,21,21,0.49871832540490146,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2015,41620,21,21,0.4985524832713878,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2016,41620,21,21,0.49173517533479066,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2017,41620,21,21,0.48801332481031306,2.0,1,0
+"Salt Lake City, UT Metro Area-Rail",2018,41620,21,21,0.49266835152266897,2.0,1,0
+"San Angelo, TX Metro Area-Bus",2012,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2013,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2014,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2015,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2016,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2017,41660,32,32,,3.0,0,1
+"San Angelo, TX Metro Area-Bus",2018,41660,32,32,,3.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2012,41700,23,23,0.37127295357174134,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2013,41700,23,23,0.365501890405909,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2014,41700,23,23,0.36030530943582756,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2015,41700,23,23,0.3589670154545374,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2016,41700,23,23,0.35737249308635294,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2017,41700,23,23,0.35321468398233763,2.0,0,1
+"San Antonio-New Braunfels, TX Metro Area-Bus",2018,41700,23,23,0.3564682601839608,2.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2012,41740,10,12,0.6257988419386024,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2013,41740,10,12,0.6243112044082918,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2014,41740,10,12,0.6168940052294888,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2015,41740,10,12,0.6160835162169633,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2016,41740,10,12,0.6154219942395525,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2017,41740,10,12,0.6131964038472713,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Bus",2018,41740,10,12,0.6148706480590839,1.0,0,1
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2012,41740,10,12,0.6257988419386024,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2013,41740,10,12,0.6243112044082918,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2014,41740,10,12,0.6168940052294888,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2015,41740,10,12,0.6160835162169633,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2016,41740,10,12,0.6154219942395525,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2017,41740,10,12,0.6131964038472713,1.0,1,0
+"San Diego-Carlsbad-San Marcos, CA Metro Area-Rail",2018,41740,10,12,0.6148706480590839,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2012,41860,10,11,0.7101501460800135,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2013,41860,10,11,0.7104790718626046,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2014,41860,10,11,0.7104851256634106,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2015,41860,10,11,0.709780141657113,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2016,41860,10,11,0.7105755411522944,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2017,41860,10,11,0.709201512327086,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Bus",2018,41860,10,11,0.7097885027976037,1.0,0,1
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2012,41860,10,11,0.7101501460800135,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2013,41860,10,11,0.7104790718626046,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2014,41860,10,11,0.7104851256634106,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2015,41860,10,11,0.709780141657113,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2016,41860,10,11,0.7105755411522944,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2017,41860,10,11,0.709201512327086,1.0,1,0
+"San Francisco-Oakland-Fremont, CA Metro Area-Rail",2018,41860,10,11,0.7097885027976037,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2012,41940,10,11,0.8285992932294785,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2013,41940,10,11,0.8175994871459235,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2014,41940,10,11,0.8188992751239678,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2015,41940,10,11,0.8311620199224228,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2016,41940,10,11,0.8259733179398371,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2017,41940,10,11,0.8212165710578265,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Bus",2018,41940,10,11,0.8260303230645004,1.0,0,1
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2012,41940,10,11,0.8285992932294785,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2013,41940,10,11,0.8175994871459235,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2014,41940,10,11,0.8188992751239678,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2015,41940,10,11,0.8311620199224228,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2016,41940,10,11,0.8259733179398371,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2017,41940,10,11,0.8212165710578265,1.0,1,0
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area-Rail",2018,41940,10,11,0.8260303230645004,1.0,1,0
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2012,42100,21,21,0.4737188182787793,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2013,42100,21,21,0.4734509733309325,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2014,42100,21,21,0.4734678806370429,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2015,42100,21,21,0.47740083898273344,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2016,42100,21,21,0.46863966193110734,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2017,42100,21,21,0.47166978495368767,2.0,0,1
+"Santa Cruz-Watsonville, CA Metro Area-Bus",2018,42100,21,21,0.4723456018224756,2.0,0,1
+"Santa Fe, NM Metro Area-Bus",2012,42140,33,33,0.23040528149642397,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2013,42140,33,33,0.22326855123674913,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2014,42140,33,33,0.22211475353207363,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2015,42140,33,33,0.22003177534333176,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2016,42140,33,33,0.21433346814463877,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2017,42140,33,33,0.21379609686586354,3.0,0,1
+"Santa Fe, NM Metro Area-Bus",2018,42140,33,33,0.216037613863647,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2012,42220,31,31,0.29071911493546404,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2013,42220,31,31,0.2920065469579496,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2014,42220,31,31,0.2922483563581891,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2015,42220,31,31,0.29980469713259883,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2016,42220,31,31,0.29737728683682635,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2017,42220,31,31,0.29757171663369353,3.0,0,1
+"Santa Rosa-Petaluma, CA Metro Area-Bus",2018,42220,31,31,0.29818763506552814,3.0,0,1
+"Savannah, GA Metro Area-Bus",2012,42340,33,33,0.21943424477498288,3.0,0,1
+"Savannah, GA Metro Area-Bus",2013,42340,33,33,0.23130382338915537,3.0,0,1
+"Savannah, GA Metro Area-Bus",2014,42340,33,33,0.21610825487667532,3.0,0,1
+"Savannah, GA Metro Area-Bus",2015,42340,33,33,0.2159473488462347,3.0,0,1
+"Savannah, GA Metro Area-Bus",2016,42340,33,33,0.215118231843023,3.0,0,1
+"Savannah, GA Metro Area-Bus",2017,42340,33,33,0.20955963985601747,3.0,0,1
+"Savannah, GA Metro Area-Bus",2018,42340,33,33,0.2134967344057189,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2012,42540,32,32,0.25744545010703423,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2013,42540,32,32,0.2580314558792336,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2014,42540,32,32,0.24517930300281268,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2015,42540,32,32,0.24470697969956662,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2016,42540,32,32,0.24667121677779438,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2017,42540,32,32,0.24685991116337322,3.0,0,1
+"Scranton--Wilkes-Barre, PA Metro Area-Bus",2018,42540,32,32,0.2460840034203436,3.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2012,42660,10,13,0.49814405085469127,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2013,42660,10,13,0.49709483717660585,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2014,42660,10,13,0.49855208754906893,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2015,42660,10,13,0.49915043397213926,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2016,42660,10,13,0.4989468208381433,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2017,42660,10,13,0.500093195592131,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Bus",2018,42660,10,13,0.49938242728078863,1.0,0,1
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2012,42660,10,13,0.49814405085469127,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2013,42660,10,13,0.49709483717660585,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2014,42660,10,13,0.49855208754906893,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2015,42660,10,13,0.49915043397213926,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2016,42660,10,13,0.4989468208381433,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2017,42660,10,13,0.500093195592131,1.0,1,0
+"Seattle-Tacoma-Bellevue, WA Metro Area-Rail",2018,42660,10,13,0.49938242728078863,1.0,1,0
+"Shreveport-Bossier City, LA Metro Area-Bus",2012,43340,33,33,0.14228213109343757,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2013,43340,33,33,0.15893231911572903,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2014,43340,33,33,0.13312352020286966,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2015,43340,33,33,0.13422518144199658,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2016,43340,33,33,0.14553200685364986,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2017,43340,33,33,0.14434225807464138,3.0,0,1
+"Shreveport-Bossier City, LA Metro Area-Bus",2018,43340,33,33,0.1414519567127101,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2012,43580,31,31,0.15949053201082056,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2013,43580,31,31,0.15869070857901835,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2014,43580,31,31,0.1442801572064692,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2015,43580,31,31,0.1538620608161336,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2016,43580,31,31,0.15113403450698126,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2017,43580,31,31,0.1446596004891969,3.0,0,1
+"Sioux City, IA-NE-SD Metro Area-Bus",2018,43580,31,31,0.14995405032395343,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2012,43620,32,32,0.3130192745577361,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2013,43620,32,32,0.32485035505818494,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2014,43620,32,32,0.3187150827927282,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2015,43620,32,32,0.3149634460632199,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2016,43620,32,32,0.31457668076292394,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2017,43620,32,32,,3.0,0,1
+"Sioux Falls, SD Metro Area-Bus",2018,43620,32,32,0.33822688590518757,3.0,0,1
+"Spokane, WA Metro Area-Bus",2012,44060,23,23,0.2866413664111966,2.0,0,1
+"Spokane, WA Metro Area-Bus",2013,44060,23,23,0.28715900989056736,2.0,0,1
+"Spokane, WA Metro Area-Bus",2014,44060,23,23,0.26865700169152995,2.0,0,1
+"Spokane, WA Metro Area-Bus",2015,44060,23,23,0.27741381459577,2.0,0,1
+"Spokane, WA Metro Area-Bus",2016,44060,23,23,0.2772779552996699,2.0,0,1
+"Spokane, WA Metro Area-Bus",2017,44060,23,23,0.2753692541099168,2.0,0,1
+"Spokane, WA Metro Area-Bus",2018,44060,23,23,0.2766644656471071,2.0,0,1
+"Springfield, IL Metro Area-Bus",2012,44100,33,33,0.29218896042068854,3.0,0,1
+"Springfield, IL Metro Area-Bus",2013,44100,33,33,0.2852995103240385,3.0,0,1
+"Springfield, IL Metro Area-Bus",2014,44100,33,33,0.2934818683622135,3.0,0,1
+"Springfield, IL Metro Area-Bus",2015,44100,33,33,0.2879361039943601,3.0,0,1
+"Springfield, IL Metro Area-Bus",2016,44100,33,33,0.2836017876960917,3.0,0,1
+"Springfield, IL Metro Area-Bus",2017,44100,33,33,0.2779896318425446,3.0,0,1
+"Springfield, IL Metro Area-Bus",2018,44100,33,33,0.2832137435285263,3.0,0,1
+"Springfield, MO Metro Area-Bus",2012,44180,33,33,0.17387459959695245,3.0,0,1
+"Springfield, MO Metro Area-Bus",2013,44180,33,33,0.169662445321755,3.0,0,1
+"Springfield, MO Metro Area-Bus",2014,44180,33,33,0.1704674072521484,3.0,0,1
+"Springfield, MO Metro Area-Bus",2015,44180,33,33,0.15772265264055726,3.0,0,1
+"Springfield, MO Metro Area-Bus",2016,44180,33,33,0.16975238384298252,3.0,0,1
+"Springfield, MO Metro Area-Bus",2017,44180,33,33,0.17071987597829621,3.0,0,1
+"Springfield, MO Metro Area-Bus",2018,44180,33,33,0.16609290701898372,3.0,0,1
+"State College, PA Metro Area-Bus",2012,44300,31,31,0.15258764892636467,3.0,0,1
+"State College, PA Metro Area-Bus",2013,44300,31,31,0.14943757752020873,3.0,0,1
+"State College, PA Metro Area-Bus",2014,44300,31,31,0.12386956036311482,3.0,0,1
+"State College, PA Metro Area-Bus",2015,44300,31,31,0.12675276752767528,3.0,0,1
+"State College, PA Metro Area-Bus",2016,44300,31,31,0.2614621133038392,3.0,0,1
+"State College, PA Metro Area-Bus",2017,44300,31,31,0.26690724186008363,3.0,0,1
+"State College, PA Metro Area-Bus",2018,44300,31,31,0.21890889596321347,3.0,0,1
+"Stockton, CA Metro Area-Bus",2012,44700,22,22,0.4728703758657055,2.0,0,1
+"Stockton, CA Metro Area-Bus",2013,44700,22,22,0.46999013398402056,2.0,0,1
+"Stockton, CA Metro Area-Bus",2014,44700,22,22,0.4698072087885996,2.0,0,1
+"Stockton, CA Metro Area-Bus",2015,44700,22,22,0.46487351801795435,2.0,0,1
+"Stockton, CA Metro Area-Bus",2016,44700,22,22,0.4619746349096303,2.0,0,1
+"Stockton, CA Metro Area-Bus",2017,44700,22,22,0.4591661757968453,2.0,0,1
+"Stockton, CA Metro Area-Bus",2018,44700,22,22,0.461932052213014,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2012,45060,23,23,0.22929464513292655,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2013,45060,23,23,0.23127189248782393,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2014,45060,23,23,0.23524645991470164,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2015,45060,23,23,0.2363719542786783,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2016,45060,23,23,0.2339672457979585,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2017,45060,23,23,0.23345141949048448,2.0,0,1
+"Syracuse, NY Metro Area-Bus",2018,45060,23,23,0.23458485734567372,2.0,0,1
+"Tallahassee, FL Metro Area-Bus",2012,45220,31,31,0.2880161325699171,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2013,45220,31,31,0.2872577856903269,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2014,45220,31,31,0.28782176211041643,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2015,45220,31,31,0.288295835699237,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2016,45220,31,31,0.2899442782746003,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2017,45220,31,31,0.28989102243795656,3.0,0,1
+"Tallahassee, FL Metro Area-Bus",2018,45220,31,31,0.28927909685475783,3.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2012,45300,24,24,0.31153172169795207,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2013,45300,24,24,0.314989608040245,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2014,45300,24,24,0.31093783402317865,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2015,45300,24,24,0.31382761649823965,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2016,45300,24,24,0.31317147677354595,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2017,45300,24,24,0.3111282916387302,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Bus",2018,45300,24,24,0.31258405112276094,2.0,0,1
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2012,45300,24,24,0.31153172169795207,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2013,45300,24,24,0.314989608040245,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2014,45300,24,24,0.31093783402317865,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2015,45300,24,24,0.31382761649823965,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2016,45300,24,24,0.31317147677354595,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2017,45300,24,24,0.3111282916387302,2.0,1,0
+"Tampa-St. Petersburg-Clearwater, FL Metro Area-Rail",2018,45300,24,24,0.31258405112276094,2.0,1,0
+"Terre Haute, IN Metro Area-Bus",2012,45460,34,34,0.09745296609868781,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2013,45460,34,34,0.1016055906898842,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2014,45460,34,34,0.10311512930389088,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2015,45460,34,34,0.0999985693029644,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2016,45460,34,34,0.10260077560749992,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2017,45460,34,34,0.10553890098701886,3.0,0,1
+"Terre Haute, IN Metro Area-Bus",2018,45460,34,34,0.10272356750117957,3.0,0,1
+"Toledo, OH Metro Area-Bus",2012,45780,32,32,0.17162340049141828,3.0,0,1
+"Toledo, OH Metro Area-Bus",2013,45780,32,32,0.1727569230225302,3.0,0,1
+"Toledo, OH Metro Area-Bus",2014,45780,32,32,0.17186260572829065,3.0,0,1
+"Toledo, OH Metro Area-Bus",2015,45780,32,32,0.1687462300732443,3.0,0,1
+"Toledo, OH Metro Area-Bus",2016,45780,32,32,0.1685288345095419,3.0,0,1
+"Toledo, OH Metro Area-Bus",2017,45780,32,32,0.16690688278241145,3.0,0,1
+"Toledo, OH Metro Area-Bus",2018,45780,32,32,0.1680464267731789,3.0,0,1
+"Topeka, KS Metro Area-Bus",2012,45820,33,33,0.19854957757367153,3.0,0,1
+"Topeka, KS Metro Area-Bus",2013,45820,33,33,0.19830423847917744,3.0,0,1
+"Topeka, KS Metro Area-Bus",2014,45820,33,33,0.2100153156109835,3.0,0,1
+"Topeka, KS Metro Area-Bus",2015,45820,33,33,0.2064478892570021,3.0,0,1
+"Topeka, KS Metro Area-Bus",2016,45820,33,33,0.20402188219072603,3.0,0,1
+"Topeka, KS Metro Area-Bus",2017,45820,33,33,0.20538902323386765,3.0,0,1
+"Topeka, KS Metro Area-Bus",2018,45820,33,33,0.20527996625642114,3.0,0,1
+"Tucson, AZ Metro Area-Bus",2012,46060,23,23,0.3434627448328978,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2013,46060,23,23,0.3353789179762887,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2014,46060,23,23,0.34889914747452316,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2015,46060,23,23,0.34759919034719666,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2016,46060,23,23,0.3357324265835417,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2017,46060,23,23,0.33384449750859224,2.0,0,1
+"Tucson, AZ Metro Area-Bus",2018,46060,23,23,0.33896772870634423,2.0,0,1
+"Tulsa, OK Metro Area-Bus",2012,46140,32,32,0.21965111035287438,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2013,46140,32,32,0.2180966498665876,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2014,46140,32,32,0.21394116094131377,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2015,46140,32,32,0.2135409462085668,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2016,46140,32,32,0.2084459648669624,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2017,46140,32,32,0.20429737268000414,3.0,0,1
+"Tulsa, OK Metro Area-Bus",2018,46140,32,32,0.2087805045099207,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2012,46700,32,32,0.42919185868323534,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2013,46700,32,32,0.43076235854675404,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2014,46700,32,32,0.4259208776049792,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2015,46700,32,32,0.40570154764113214,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2016,46700,32,32,0.40814326364193565,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2017,46700,32,32,0.40911293809691024,3.0,0,1
+"Vallejo-Fairfield, CA Metro Area-Bus",2018,46700,32,32,0.40767967149852097,3.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2012,47260,22,22,0.37882645034267615,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2013,47260,22,22,0.37461719089511414,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2014,47260,22,22,0.3736436824395834,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2015,47260,22,22,0.37537576909078924,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2016,47260,22,22,0.37260946703569653,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2017,47260,22,22,0.3726725284338842,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Bus",2018,47260,22,22,0.3735028167731356,2.0,0,1
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2012,47260,22,22,0.37882645034267615,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2013,47260,22,22,0.37461719089511414,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2014,47260,22,22,0.3736436824395834,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2015,47260,22,22,0.37537576909078924,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2016,47260,22,22,0.37260946703569653,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2017,47260,22,22,0.3726725284338842,2.0,1,0
+"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area-Rail",2018,47260,22,22,0.3735028167731356,2.0,1,0
+"Visalia-Porterville, CA Metro Area-Bus",2012,47300,31,31,0.2941055105223771,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2013,47300,31,31,0.2947261239269844,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2014,47300,31,31,0.29623597002991087,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2015,47300,31,31,0.2970479884135732,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2016,47300,31,31,0.300245929046189,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2017,47300,31,31,0.3012700453787307,3.0,0,1
+"Visalia-Porterville, CA Metro Area-Bus",2018,47300,31,31,0.29955449424314,3.0,0,1
+"Waco, TX Metro Area-Bus",2012,47380,34,34,0.17760930148931708,3.0,0,1
+"Waco, TX Metro Area-Bus",2013,47380,34,34,0.17588564929794462,3.0,0,1
+"Waco, TX Metro Area-Bus",2014,47380,34,34,0.1756574349744876,3.0,0,1
+"Waco, TX Metro Area-Bus",2015,47380,34,34,0.1778144911663565,3.0,0,1
+"Waco, TX Metro Area-Bus",2016,47380,34,34,0.17433417342142907,3.0,0,1
+"Waco, TX Metro Area-Bus",2017,47380,34,34,0.1735485529862392,3.0,0,1
+"Waco, TX Metro Area-Bus",2018,47380,34,34,0.17520029761094627,3.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2012,47900,10,11,0.5327521602634463,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2013,47900,10,11,0.5321916692536801,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2014,47900,10,11,0.5291644754280156,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2015,47900,10,11,0.5310673937714675,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2016,47900,10,11,0.5299770178427579,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2017,47900,10,11,0.5270936941385325,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Bus",2018,47900,10,11,0.5293434255203039,1.0,0,1
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2012,47900,10,11,0.5327521602634463,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2013,47900,10,11,0.5321916692536801,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2014,47900,10,11,0.5291644754280156,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2015,47900,10,11,0.5310673937714675,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2016,47900,10,11,0.5299770178427579,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2017,47900,10,11,0.5270936941385325,1.0,1,0
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area-Rail",2018,47900,10,11,0.5293434255203039,1.0,1,0
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2012,48300,33,33,0.08573163997791275,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2013,48300,33,33,0.08705621380656307,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2014,48300,33,33,0.08947634420801832,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2015,48300,33,33,0.08703940257443255,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2016,48300,33,33,0.08677307266409562,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2017,48300,33,33,0.09205056578760476,3.0,0,1
+"Wenatchee-East Wenatchee, WA Metro Area-Bus",2018,48300,33,33,0.08864547257401538,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2012,48540,34,34,0.23750247770069374,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2013,48540,34,34,0.2323950173705137,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2014,48540,34,34,0.22767544882256938,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2015,48540,34,34,0.2338965494918107,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2016,48540,34,34,0.2419827793031749,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2017,48540,34,34,0.23863923839957393,3.0,0,1
+"Wheeling, WV-OH Metro Area-Bus",2018,48540,34,34,0.23813147084436542,3.0,0,1
+"Wichita, KS Metro Area-Bus",2012,48620,32,32,0.14327423312441986,3.0,0,1
+"Wichita, KS Metro Area-Bus",2013,48620,32,32,0.14183172525183832,3.0,0,1
+"Wichita, KS Metro Area-Bus",2014,48620,32,32,0.13917563755280776,3.0,0,1
+"Wichita, KS Metro Area-Bus",2015,48620,32,32,0.1396402405326228,3.0,0,1
+"Wichita, KS Metro Area-Bus",2016,48620,32,32,0.1398887521603397,3.0,0,1
+"Wichita, KS Metro Area-Bus",2017,48620,32,32,0.1401549610003286,3.0,0,1
+"Wichita, KS Metro Area-Bus",2018,48620,32,32,0.13989478117383894,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2012,48700,33,33,0.18807534343577398,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2013,48700,33,33,0.17895437696886585,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2014,48700,33,33,0.19374650494610385,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2015,48700,33,33,0.1945269757021567,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2016,48700,33,33,0.19668083939103004,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2017,48700,33,33,0.19771105505442624,3.0,0,1
+"Williamsport, PA Metro Area-Bus",2018,48700,33,33,0.19629427580563455,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2012,49180,33,33,0.09612644528360649,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2013,49180,33,33,0.09381541352440594,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2014,49180,33,33,0.10084588043262703,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2015,49180,33,33,0.09749503204679671,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2016,49180,33,33,0.07772543060709024,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2017,49180,33,33,0.07545430222215795,3.0,0,1
+"Winston-Salem, NC Metro Area-Bus",2018,49180,33,33,0.08344541870931546,3.0,0,1
+"Worcester, MA Metro Area-Bus",2012,49340,24,24,0.11211637395777896,2.0,0,1
+"Worcester, MA Metro Area-Bus",2013,49340,24,24,0.11439611009811583,2.0,0,1
+"Worcester, MA Metro Area-Bus",2014,49340,24,24,0.10686101871779821,2.0,0,1
+"Worcester, MA Metro Area-Bus",2015,49340,24,24,0.11684021701085054,2.0,0,1
+"Worcester, MA Metro Area-Bus",2016,49340,24,24,0.11715756640367823,2.0,0,1
+"Worcester, MA Metro Area-Bus",2017,49340,24,24,0.1160334313166323,2.0,0,1
+"Worcester, MA Metro Area-Bus",2018,49340,24,24,0.11667980628449151,2.0,0,1
+"York-Hanover, PA Metro Area-Bus",2012,49620,32,32,0.17044248493795636,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2013,49620,32,32,0.17097138653143804,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2014,49620,32,32,0.17502770652013858,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2015,49620,32,32,0.17709378747407373,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2016,49620,32,32,0.17803991874634345,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2017,49620,32,32,0.1775003483765652,3.0,0,1
+"York-Hanover, PA Metro Area-Bus",2018,49620,32,32,0.17754821342194363,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2012,49660,34,34,0.04171465389701211,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2013,49660,34,34,0.04069703245171453,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2014,49660,34,34,0.04036424464755003,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2015,49660,34,34,0.04011979672217876,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2016,49660,34,34,0.037266160898803795,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2017,49660,34,34,0.03782504297525171,3.0,0,1
+"Youngstown-Warren-Boardman, OH-PA Metro Area-Bus",2018,49660,34,34,0.038406772329099635,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2012,49700,31,31,0.15893820677678774,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2013,49700,31,31,0.16262616067823982,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2014,49700,31,31,0.16386616953309663,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2015,49700,31,31,0.1618385589358773,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2016,49700,31,31,0.16103968958907952,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2017,49700,31,31,0.15716865884317624,3.0,0,1
+"Yuba City, CA Metro Area-Bus",2018,49700,31,31,0.15996528059647433,3.0,0,1
